@@ -1,0 +1,14 @@
+<h2>Ask HN</h2>
+
+<ol {{bind-attr start=start}}>
+  {{#each item in items}}
+  <li class="item">
+    {{#if item.tag}} <span class="tag">{{item.tag}}</span> {{/if}}
+    <span class="title">{{item.title}}</span>
+  </li>
+  {{/each}}
+</ol>
+
+{{#if prev}} {{link-to "Prev" (query-params page=prev.id) rel="prev"}} {{/if}}
+
+{{#if next}} {{link-to "Next" (query-params page=next.id) rel="next"}} {{/if}}

@@ -1,10 +1,11 @@
 import Ember from "ember";
 import DS from "ember-data";
 import extract from "hn-reader/extractors/index-page";
+import config from "hn-reader/config/environment";
 
 export default DS.RESTAdapter.extend({
-  proxy: "https://cors-anywhere.herokuapp.com",
-  host: "https://news.ycombinator.com",
+  proxy: config.APP.CORS_PROXY,
+  host: config.APP.HACKERNEWS_HOST,
   path: Ember.required,
   param: "p",
 
@@ -42,7 +43,7 @@ export default DS.RESTAdapter.extend({
 
       xhr.onload = function() {
         if (xhr.status === 200) {
-          resolve(extract(type, id, xhr.response));
+          resolve(extract(type.typeKey, id, xhr.response));
         } else {
           reject(xhr.statusText);
         }

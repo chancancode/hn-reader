@@ -13,24 +13,17 @@ moduleFor("adapter:index/jobs", "JobsIndexAdapter", {
 
   teardown: function() {
     server.shutdown();
-  },
-
-  subject: function(options, factory) {
-    return factory.create({
-      proxy: null,
-      host: null
-    });
   }
 });
 
 test("Finding a page that exists", function() {
-  return this.subject().find(null, "index/jobs", 1).then(function(json) {
+  return this.subject().find(null, { typeKey: "index/jobs" }, 1).then(function(json) {
     deepEqual( json, fixtures["1.json"] );
   });
 });
 
 test("Finding a page that does not exist", function() {
-  return this.subject().find(null, "index/jobs", "zomg").catch(function(reason) {
+  return this.subject().find(null, { typeKey: "index/jobs" }, "zomg").catch(function(reason) {
     equal( reason, "Not Found" );
   });
 });
