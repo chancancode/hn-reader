@@ -1,0 +1,326 @@
+{
+  "meta": {
+    "next": null
+  },
+  "stories": [
+    {
+      "comments": 25,
+      "id": "8667638",
+      "points": 34,
+      "source": "github.com",
+      "submitted": "3 days ago",
+      "submitter": "shime",
+      "tag": "Show HN",
+      "title": "Livedown – realtime Markdown previews for Vim, Emacs and Sublime",
+      "url": "https://github.com/shime/livedown"
+    },
+    {
+      "comments": 0,
+      "id": "8643497",
+      "points": 127,
+      "source": "marvina.com",
+      "submitted": "9 days ago",
+      "submitter": "dpieri",
+      "tag": "Show HN",
+      "title": "Premium Medical Marijuana Subscription – SF Only",
+      "url": "https://marvina.com"
+    },
+    {
+      "comments": 0,
+      "id": "8621644",
+      "points": 15,
+      "source": "shenanigans.github.io",
+      "submitted": "13 days ago",
+      "submitter": "hoveringGoats",
+      "tag": "Show HN",
+      "title": "Doczar – explicit doc generation for many languages",
+      "url": "http://shenanigans.github.io/node-doczar/docs/property/doczar/spare/README/index.html"
+    },
+    {
+      "comments": 0,
+      "id": "4786205",
+      "points": 72,
+      "source": "joshuawise.com",
+      "submitted": "746 days ago",
+      "submitter": "jwise0",
+      "tag": "Show HN",
+      "title": "HoRNDIS - an Android USB tethering driver for Mac OS X",
+      "url": "http://joshuawise.com/horndis"
+    },
+    {
+      "comments": 0,
+      "id": "8657454",
+      "points": 166,
+      "source": "serratus.github.io",
+      "submitted": "5 days ago",
+      "submitter": "serratus",
+      "tag": "Show HN",
+      "title": "QuaggaJS, a barcode scanner written in JavaScript",
+      "url": "http://serratus.github.io/quaggaJS/"
+    },
+    {
+      "comments": 1,
+      "id": "8667528",
+      "points": 7,
+      "source": "github.com",
+      "submitted": "3 days ago",
+      "submitter": "Nedomas",
+      "tag": "Show HN",
+      "title": "Zapata – An Automated RSpec Test Writer",
+      "url": "http://www.github.com/Nedomas/zapata"
+    },
+    {
+      "comments": 0,
+      "id": "8660641",
+      "points": 8,
+      "source": "ohmygiraffe.com",
+      "submitted": "5 days ago",
+      "submitter": "kneeko",
+      "tag": "Show HN",
+      "title": "oh my giraffe – An iOS and Android game I made to learn programming",
+      "url": "http://www.ohmygiraffe.com"
+    },
+    {
+      "comments": 0,
+      "id": "8669220",
+      "points": 6,
+      "source": "github.com",
+      "submitted": "3 days ago",
+      "submitter": "sequoiar007",
+      "tag": "Show HN",
+      "title": "Secure WebSocket Over NACL",
+      "url": "https://github.com/InstantWebP2P/sws"
+    },
+    {
+      "comments": 0,
+      "id": "8662620",
+      "points": 68,
+      "source": "taskulu.com",
+      "submitted": "4 days ago",
+      "submitter": "seansh",
+      "tag": "Show HN",
+      "title": "Taskulu, Next-gen role based project management platform",
+      "url": "https://taskulu.com"
+    },
+    {
+      "comments": 4,
+      "id": "8669122",
+      "points": 12,
+      "source": "getsandbox.com",
+      "submitted": "3 days ago",
+      "submitter": "drewstewart",
+      "tag": "Show HN",
+      "title": "Sandbox – instantly mock REST and SOAP web services",
+      "url": "https://getsandbox.com"
+    },
+    {
+      "comments": 4,
+      "id": "8668154",
+      "points": 3,
+      "source": "netboard.me",
+      "submitted": "3 days ago",
+      "submitter": "netboardme",
+      "tag": "Show HN",
+      "title": "netboard.me - Combine all your content into a beautiful single webpage",
+      "url": "http://netboard.me"
+    },
+    {
+      "comments": 2,
+      "id": "8666211",
+      "points": 6,
+      "source": "parseapp.com",
+      "submitted": "4 days ago",
+      "submitter": "yocannabis",
+      "tag": "Show HN",
+      "title": "YoCannabis – Yo to see nearest dispensary",
+      "url": "http://yocannabis.parseapp.com/"
+    },
+    {
+      "comments": 0,
+      "id": "8666050",
+      "points": 3,
+      "source": "snaptofame.com",
+      "submitted": "4 days ago",
+      "submitter": "dsdowni",
+      "tag": "Show HN",
+      "title": "Snap to Fame uses Snapchat to give you 10 seconds of fame",
+      "url": "http://snaptofame.com"
+    },
+    {
+      "comments": 0,
+      "id": "8670608",
+      "points": 0,
+      "source": "github.com",
+      "submitted": "2 days ago",
+      "submitter": "mif",
+      "tag": "Show HN",
+      "title": "Pystable – a simple static blog engine written in Python",
+      "url": "https://github.com/mkrapp/pystable"
+    },
+    {
+      "comments": 0,
+      "id": "8670987",
+      "points": 3,
+      "source": "tindddle.com",
+      "submitted": "2 days ago",
+      "submitter": "buttscicles",
+      "tag": "Show HN",
+      "title": "Tindddle – Tinder for Dribbble shots",
+      "url": "https://tindddle.com/"
+    },
+    {
+      "comments": 0,
+      "id": "8671260",
+      "points": 0,
+      "source": "produktfang.de",
+      "submitted": "2 days ago",
+      "submitter": "ledil",
+      "tag": "Show HN",
+      "title": "App discovery with Twitter (stream)",
+      "url": "http://produktfang.de/en/realtime"
+    },
+    {
+      "comments": 1,
+      "id": "8671306",
+      "points": 3,
+      "source": "reep.io",
+      "submitted": "2 days ago",
+      "submitter": "korve",
+      "tag": "Show HN",
+      "title": "Reep.io – p2p filesharing in your Browserr",
+      "url": "https://reep.io"
+    },
+    {
+      "comments": 0,
+      "id": "8672994",
+      "points": 2,
+      "source": null,
+      "submitted": "2 days ago",
+      "submitter": "Rofty",
+      "tag": "Show HN",
+      "title": "Morbid Motivation – Chrome Extension, Looking for JavaScript Feedback",
+      "url": "https://news.ycombinator.com/item?id=8672994"
+    },
+    {
+      "comments": 1,
+      "id": "8673090",
+      "points": 3,
+      "source": "mystacki.com",
+      "submitted": "2 days ago",
+      "submitter": "harshbhasin",
+      "tag": "Show HN",
+      "title": "MyStacki.com – Publish a collection of posts as a stack",
+      "url": "http://mystacki.com"
+    },
+    {
+      "comments": 4,
+      "id": "8673137",
+      "points": 3,
+      "source": "t0.io",
+      "submitted": "2 days ago",
+      "submitter": "wenbin",
+      "tag": "Show HN",
+      "title": "T0 – A simple (and yet another) URL shortener",
+      "url": "https://t0.io"
+    },
+    {
+      "comments": 0,
+      "id": "8674281",
+      "points": 2,
+      "source": "github.com",
+      "submitted": "1 day ago",
+      "submitter": "Garee",
+      "tag": "Show HN",
+      "title": "PyTodoist – A Python Wrapper for the Todoist API",
+      "url": "https://github.com/Garee/pytodoist"
+    },
+    {
+      "comments": 0,
+      "id": "8674588",
+      "points": 2,
+      "source": "jasymchat.com",
+      "submitted": "1 day ago",
+      "submitter": "Edmond",
+      "tag": "Show HN",
+      "title": "Host CAS based chatrooms with Jasymchat",
+      "url": "http://jasymchat.com/?roomId=ayxphmf161t7pedamaoeekx4-1417285927513&roomLabel=HN%20Demo"
+    },
+    {
+      "comments": 9,
+      "id": "8676099",
+      "points": 4,
+      "source": "insaana.com",
+      "submitted": "1 day ago",
+      "submitter": "throwawaynov29",
+      "tag": "Show HN",
+      "title": "Software is eating real estate commissions",
+      "url": "http://www.insaana.com"
+    },
+    {
+      "comments": 0,
+      "id": "8677970",
+      "points": 2,
+      "source": "github.com",
+      "submitted": "14 hours ago",
+      "submitter": "LukeB42",
+      "tag": "Show HN",
+      "title": "Psyrcd, a pure-python IRCd with scriptable modes",
+      "url": "https://github.com/LukeB42/psyrcd"
+    },
+    {
+      "comments": 2,
+      "id": "8678170",
+      "points": 5,
+      "source": "ziteboard.com",
+      "submitted": "13 hours ago",
+      "submitter": "RichardZite",
+      "tag": "Show HN",
+      "title": "World's 1st Material Design Web App",
+      "url": "http://app.ziteboard.com"
+    },
+    {
+      "comments": 0,
+      "id": "8676446",
+      "points": 2,
+      "source": "brianvallelunga.me",
+      "submitted": "1 day ago",
+      "submitter": "bvallelunga",
+      "tag": "Show HN",
+      "title": "The Spark",
+      "url": "http://brianvallelunga.me/the-spark"
+    },
+    {
+      "comments": 3,
+      "id": "8679049",
+      "points": 0,
+      "source": null,
+      "submitted": "9 hours ago",
+      "submitter": "javierluraschi",
+      "tag": "Show HN",
+      "title": "Our first Kickstarter",
+      "url": "https://news.ycombinator.com/item?id=8679049"
+    },
+    {
+      "comments": 0,
+      "id": "8679457",
+      "points": 0,
+      "source": "madworld.tv",
+      "submitted": "7 hours ago",
+      "submitter": "marpi",
+      "tag": "Show HN",
+      "title": "Vine and Instagram video hashtag aggregator",
+      "url": "http://madworld.tv/catattack"
+    },
+    {
+      "comments": 0,
+      "id": "8679094",
+      "points": 5,
+      "source": "github.com",
+      "submitted": "9 hours ago",
+      "submitter": "nicolagreco",
+      "tag": "Show HN",
+      "title": "Poem in GitHub commits (w/ code and viz)",
+      "url": "https://github.com/nicola/flowers-poem/commits/poem"
+    }
+  ]
+}

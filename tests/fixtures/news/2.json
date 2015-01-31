@@ -1,0 +1,337 @@
+{
+  "meta": {
+    "next": "3"
+  },
+  "stories": [
+    {
+      "comments": 44,
+      "id": "8677048",
+      "points": 131,
+      "source": "phoronix.com",
+      "submitted": "18 hours ago",
+      "submitter": "harshreality",
+      "tag": null,
+      "title": "Nasty Lockup Issue Still Being Investigated for Linux 3.18",
+      "url": "http://www.phoronix.com/scan.php?page=news_item&px=MTg1MDc"
+    },
+    {
+      "comments": 0,
+      "id": "8678989",
+      "points": 6,
+      "source": "arunsplace.com",
+      "submitted": "9 hours ago",
+      "submitter": "r0h1n",
+      "tag": null,
+      "title": "The Moore-Andreessen Disruptive-Creation Loop",
+      "url": "http://arunsplace.com/2014/09/22/the-moore-andreessen-feedback-loop/"
+    },
+    {
+      "comments": 0,
+      "id": "8680293",
+      "points": 11,
+      "source": "24pullrequests.com",
+      "submitted": "10 minutes ago",
+      "submitter": "andrewnez",
+      "tag": null,
+      "title": "24 Pull Requests",
+      "url": "http://24pullrequests.com/?year=2014"
+    },
+    {
+      "comments": 0,
+      "id": "8679881",
+      "points": 5,
+      "source": "nytimes.com",
+      "submitted": "3 hours ago",
+      "submitter": "edward",
+      "tag": null,
+      "title": "Working the Land and the Data",
+      "url": "http://www.nytimes.com/2014/12/01/business/working-the-land-and-the-data.html"
+    },
+    {
+      "comments": 53,
+      "id": "8677350",
+      "points": 105,
+      "source": "purl.org",
+      "submitted": "17 hours ago",
+      "submitter": "siteshwar",
+      "tag": null,
+      "title": "Alan Kay on the Meaning of “Object-Oriented Programming” (2003)",
+      "url": "http://www.purl.org/stefan_ram/pub/doc_kay_oop_en"
+    },
+    {
+      "comments": 15,
+      "id": "8678642",
+      "points": 53,
+      "source": "saikoa.com",
+      "submitted": "11 hours ago",
+      "submitter": "ismavis",
+      "tag": null,
+      "title": "The Upcoming Jack and Jill Compilers in Android",
+      "url": "https://www.saikoa.com/blog/the_upcoming_jack_and_jill_compilers_in_android"
+    },
+    {
+      "comments": 0,
+      "id": "8679303",
+      "points": 5,
+      "source": "scottaaronson.com",
+      "submitted": "7 hours ago",
+      "submitter": "ca98am79",
+      "tag": null,
+      "title": "PostBQP Postscripts: A Confession of Mathematical Errors",
+      "url": "http://www.scottaaronson.com/blog/?p=2072"
+    },
+    {
+      "comments": 15,
+      "id": "8677946",
+      "points": 68,
+      "source": "arstechnica.com",
+      "submitted": "14 hours ago",
+      "submitter": "necubi",
+      "tag": null,
+      "title": "Firefly Space Systems charges full-speed toward low Earth orbit",
+      "url": "http://arstechnica.com/science/2014/11/firefly-space-systems-charges-full-speed-toward-low-earth-orbit/"
+    },
+    {
+      "comments": 22,
+      "id": "8677399",
+      "points": 94,
+      "source": "zeekat.nl",
+      "submitted": "16 hours ago",
+      "submitter": "pmoriarty",
+      "tag": null,
+      "title": "Making Emacs Work for Me",
+      "url": "http://zeekat.nl/articles/making-emacs-work-for-me.html"
+    },
+    {
+      "comments": 12,
+      "id": "8679109",
+      "points": 26,
+      "source": "t-t-travails.blogspot.com",
+      "submitted": "8 hours ago",
+      "submitter": "luu",
+      "tag": null,
+      "title": "Left-leaning red-black trees are hard to implement (2008)",
+      "url": "http://t-t-travails.blogspot.com/2008/04/left-leaning-red-black-trees-are-hard.html"
+    },
+    {
+      "comments": 2,
+      "id": "8679659",
+      "points": 12,
+      "source": "technologyreview.com",
+      "submitted": "5 hours ago",
+      "submitter": "xenophon",
+      "tag": null,
+      "title": "The Search for Exceptional Genomes",
+      "url": "http://www.technologyreview.com/featuredstory/532421/the-search-for-exceptional-genomes/"
+    },
+    {
+      "comments": 0,
+      "id": "8679575",
+      "points": 4,
+      "source": "burgerbecky.livejournal.com",
+      "submitted": "5 hours ago",
+      "submitter": "luu",
+      "tag": null,
+      "title": "Printing the contents of a C macro",
+      "url": "http://burgerbecky.livejournal.com/59928.html"
+    },
+    {
+      "comments": 1,
+      "id": "8679816",
+      "points": 3,
+      "source": "contentmine.org",
+      "submitted": "3 hours ago",
+      "submitter": "jcr",
+      "tag": null,
+      "title": "ContentMine uses machines to liberate facts from scientific literature",
+      "url": "http://contentmine.org/"
+    },
+    {
+      "comments": 20,
+      "id": "8678217",
+      "points": 55,
+      "source": "escobar5.github.io",
+      "submitted": "12 hours ago",
+      "submitter": "geekrax",
+      "tag": null,
+      "title": "ASCII Cam",
+      "url": "http://escobar5.github.io/asciicam/"
+    },
+    {
+      "comments": 0,
+      "id": "8679364",
+      "points": 5,
+      "source": "twibright.com",
+      "submitted": "7 hours ago",
+      "submitter": "pmoriarty",
+      "tag": null,
+      "title": "OptAr: archive data to paper",
+      "url": "http://ronja.twibright.com/optar/"
+    },
+    {
+      "comments": 0,
+      "id": "8679371",
+      "points": 7,
+      "source": "sakura.ne.jp",
+      "submitted": "7 hours ago",
+      "submitter": "wslh",
+      "tag": null,
+      "title": "The Early History of Smalltalk (1993)",
+      "url": "http://propella.sakura.ne.jp/earlyHistoryST/EarlyHistoryST.html"
+    },
+    {
+      "comments": 0,
+      "id": "8679640",
+      "points": 4,
+      "source": "eddelbuettel.com",
+      "submitted": "5 hours ago",
+      "submitter": "nkurz",
+      "tag": null,
+      "title": "Introduction to High-Performance Computing with R (2010) [pdf]",
+      "url": "http://dirk.eddelbuettel.com/papers/useR2010hpcTutorialHandout.pdf"
+    },
+    {
+      "comments": 11,
+      "id": "8677262",
+      "points": 52,
+      "source": "johnmunsch.com",
+      "submitted": "17 hours ago",
+      "submitter": "JohnMunsch",
+      "tag": null,
+      "title": "A Different Eulogy for RadioShack",
+      "url": "http://johnmunsch.com/2014/11/30/a-very-different-eulogy-for-radioshack/"
+    },
+    {
+      "comments": 6,
+      "id": "8677662",
+      "points": 70,
+      "source": "devopsbookmarks.com",
+      "submitted": "15 hours ago",
+      "submitter": "johnwards",
+      "tag": null,
+      "title": "Discover tools and frameworks in the DevOps landscape",
+      "url": "http://www.devopsbookmarks.com/"
+    },
+    {
+      "comments": 79,
+      "id": "8678847",
+      "points": 147,
+      "source": "venturebeat.com",
+      "submitted": "10 hours ago",
+      "submitter": "mandeepj",
+      "tag": null,
+      "title": "Eric Schmidt's book is wrong about how Google works",
+      "url": "http://venturebeat.com/2014/11/30/why-eric-schmidt-doesnt-know-how-google-works/"
+    },
+    {
+      "comments": 23,
+      "id": "8677124",
+      "points": 47,
+      "source": "mlauter.github.io",
+      "submitted": "18 hours ago",
+      "submitter": "luu",
+      "tag": null,
+      "title": "How to Make Your Own Smart AC",
+      "url": "https://mlauter.github.io/how-to-make-your-own-smart-ac/"
+    },
+    {
+      "comments": 11,
+      "id": "8677721",
+      "points": 52,
+      "source": "2ality.com",
+      "submitted": "15 hours ago",
+      "submitter": "codecurve",
+      "tag": null,
+      "title": "Fake Operator Overloading in JavaScript (2011)",
+      "url": "http://www.2ality.com/2011/12/fake-operator-overloading.html"
+    },
+    {
+      "comments": 270,
+      "id": "8677556",
+      "points": 334,
+      "source": "teamten.com",
+      "submitted": "16 hours ago",
+      "submitter": "cousin_it",
+      "tag": null,
+      "title": "Java for Everything",
+      "url": "http://www.teamten.com/lawrence/writings/java-for-everything.html"
+    },
+    {
+      "comments": 17,
+      "id": "8676982",
+      "points": 76,
+      "source": "bowdoin.edu",
+      "submitted": "19 hours ago",
+      "submitter": "mattrepl",
+      "tag": null,
+      "title": "Bumper-Sticker Computer Science (1985) [pdf]",
+      "url": "http://www.bowdoin.edu/~ltoma/teaching/cs340/spring05/coursestuff/Bentley_BumperSticker.pdf"
+    },
+    {
+      "comments": 16,
+      "id": "8679672",
+      "points": 29,
+      "source": "harvard.edu",
+      "submitted": "5 hours ago",
+      "submitter": "GuiA",
+      "tag": null,
+      "title": "Bacteriophage phi X174 DNA a message from extraterrestrial intelligence? (1979)",
+      "url": "http://adsabs.harvard.edu/abs/1979Icar...38..148Y"
+    },
+    {
+      "comments": 48,
+      "id": "8676379",
+      "points": 106,
+      "source": "eagleman.com",
+      "submitted": "1 day ago",
+      "submitter": "ColinWright",
+      "tag": null,
+      "title": "Time perception, just like vision, is a construction of the brain",
+      "url": "http://eagleman.com/blog/item/6-brain-time"
+    },
+    {
+      "comments": 116,
+      "id": "8675730",
+      "points": 522,
+      "source": "vimeo.com",
+      "submitted": "1 day ago",
+      "submitter": "Thevet",
+      "tag": null,
+      "title": "Wanderers: a short film of humanity's expansion into the Solar System [video]",
+      "url": "http://vimeo.com/108650530"
+    },
+    {
+      "comments": 1,
+      "id": "8678667",
+      "points": 12,
+      "source": "jukt-micronics.com",
+      "submitted": "11 hours ago",
+      "submitter": "luu",
+      "tag": null,
+      "title": "NET Binary Modification Walkthrough (2013)",
+      "url": "http://jukt-micronics.com/2013/10/30/net-binary-modification-walkthrough/"
+    },
+    {
+      "comments": 1,
+      "id": "8679847",
+      "points": 18,
+      "source": "coinjar.com",
+      "submitted": "3 hours ago",
+      "submitter": "nreece",
+      "tag": null,
+      "title": "CoinJar relocates to UK to avoid Australian Bitcoin sales tax",
+      "url": "https://support.coinjar.com/hc/en-us/articles/202504025-UK-Relocation"
+    },
+    {
+      "comments": 44,
+      "id": "8676140",
+      "points": 371,
+      "source": null,
+      "submitted": "1 day ago",
+      "submitter": "milesf",
+      "tag": "Discuss",
+      "title": "Ezra Zygmuntowicz has died",
+      "url": "https://news.ycombinator.com/item?id=8676140"
+    }
+  ]
+}

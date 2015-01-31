@@ -1,0 +1,337 @@
+{
+  "meta": {
+    "next": "4"
+  },
+  "stories": [
+    {
+      "comments": 0,
+      "id": "8679719",
+      "points": 6,
+      "source": "nih.gov",
+      "submitted": "4 hours ago",
+      "submitter": "remotorboater",
+      "tag": null,
+      "title": "New Vaccine Developed to Prevent Lyme Disease",
+      "url": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4237411/"
+    },
+    {
+      "comments": 2,
+      "id": "8677337",
+      "points": 21,
+      "source": "wsj.com",
+      "submitted": "17 hours ago",
+      "submitter": "softdev12",
+      "tag": null,
+      "title": "Fee-Based Libraries Were Like Netflix for Books, 200 Years Ago",
+      "url": "http://online.wsj.com/articles/fee-based-libraries-were-like-netflix-for-books-200-years-ago-1417027488"
+    },
+    {
+      "comments": 32,
+      "id": "8677160",
+      "points": 119,
+      "source": "antipope.org",
+      "submitted": "18 hours ago",
+      "submitter": "AndrewDucker",
+      "tag": null,
+      "title": "An age-old question",
+      "url": "http://www.antipope.org/charlie/blog-static/2014/11/symptoms-of-ageing.html"
+    },
+    {
+      "comments": 6,
+      "id": "8677938",
+      "points": 27,
+      "source": "sorting-algorithms.com",
+      "submitted": "14 hours ago",
+      "submitter": "bpierre",
+      "tag": null,
+      "title": "Sorting Algorithm Animations",
+      "url": "http://www.sorting-algorithms.com"
+    },
+    {
+      "comments": 12,
+      "id": "8676247",
+      "points": 94,
+      "source": "swampdragon.net",
+      "submitted": "1 day ago",
+      "submitter": "ilearner",
+      "tag": null,
+      "title": "SwampDragon – Build real-time apps with Django",
+      "url": "http://swampdragon.net/"
+    },
+    {
+      "comments": 29,
+      "id": "8675932",
+      "points": 118,
+      "source": "nytimes.com",
+      "submitted": "1 day ago",
+      "submitter": "gkop",
+      "tag": null,
+      "title": "Can Mushrooms Treat Depression?",
+      "url": "http://www.nytimes.com/2014/11/30/opinion/sunday/can-mushrooms-treat-depression.html"
+    },
+    {
+      "comments": 238,
+      "id": "8675952",
+      "points": 350,
+      "source": "mattcutts.com",
+      "submitted": "1 day ago",
+      "submitter": "sethbannon",
+      "tag": null,
+      "title": "Hard-won lessons about money and investing",
+      "url": "https://www.mattcutts.com/blog/make-money-investing-tips/"
+    },
+    {
+      "comments": 48,
+      "id": "8676901",
+      "points": 53,
+      "source": "nytimes.com",
+      "submitted": "20 hours ago",
+      "submitter": "jack_axel",
+      "tag": null,
+      "title": "A Soaring Emblem of New York, and Its Upside-Down Priorities",
+      "url": "http://www.nytimes.com/2014/11/30/nyregion/is-one-world-trade-center-rises-in-lower-manhattan-a-design-success.html?hp&action=click&pgtype=Homepage&module=photo-spot-region&region=top-news&WT.nav=top-news&_r=0"
+    },
+    {
+      "comments": 57,
+      "id": "8676476",
+      "points": 222,
+      "source": "coolwanglu.github.io",
+      "submitted": "1 day ago",
+      "submitter": "DrinkWater",
+      "tag": null,
+      "title": "Vim.js – JavaScript port of Vim",
+      "url": "http://coolwanglu.github.io/vim.js/experimental/vim.html"
+    },
+    {
+      "comments": 2,
+      "id": "8677944",
+      "points": 21,
+      "source": "nytimes.com",
+      "submitted": "14 hours ago",
+      "submitter": "luu",
+      "tag": null,
+      "title": "Discovering How Greeks Computed in 100 B.C (2008)",
+      "url": "http://www.nytimes.com/2008/07/31/science/31computer.html"
+    },
+    {
+      "comments": 62,
+      "id": "8676373",
+      "points": 238,
+      "source": "slideshare.net",
+      "submitted": "1 day ago",
+      "submitter": "ique",
+      "tag": null,
+      "title": "Functional Programming Patterns",
+      "url": "http://www.slideshare.net/ScottWlaschin/fp-patterns-buildstufflt"
+    },
+    {
+      "comments": 45,
+      "id": "8680033",
+      "points": 48,
+      "source": "rachelandrew.co.uk",
+      "submitted": "1 hour ago",
+      "submitter": "rachelandrew",
+      "tag": null,
+      "title": "EU VAT rules make EU startups uncompetitive in a global market",
+      "url": "http://rachelandrew.co.uk/archives/2014/11/30/how-the-eu-vat-rules-make-eu-startups-and-digital-businesses-uncompetitive-in-a-global-market/"
+    },
+    {
+      "comments": 49,
+      "id": "8677151",
+      "points": 54,
+      "source": "drive.google.com",
+      "submitted": "18 hours ago",
+      "submitter": "dredmorbius",
+      "tag": null,
+      "title": "How Fragile Is Our Intellect?",
+      "url": "https://drive.google.com/file/d/0B3c4TxciNeJZN0I0NzAzVU0zeDQ/view"
+    },
+    {
+      "comments": 1,
+      "id": "8677984",
+      "points": 20,
+      "source": "open-std.org",
+      "submitted": "14 hours ago",
+      "submitter": "adamnemecek",
+      "tag": null,
+      "title": "Use Cases for Thread-Local Storage",
+      "url": "http://www.open-std.org/JTC1/SC22/WG21/docs/papers/2014/n4324.html"
+    },
+    {
+      "comments": 9,
+      "id": "8677488",
+      "points": 19,
+      "source": "memfinity.org",
+      "submitted": "16 hours ago",
+      "submitter": "kohlmeier",
+      "tag": "Show HN",
+      "title": "Memfinity.org – Social, spaced-repetition web service",
+      "url": "http://memfinity.org"
+    },
+    {
+      "comments": 49,
+      "id": "8675280",
+      "points": 129,
+      "source": "johnmyleswhite.com",
+      "submitted": "1 day ago",
+      "submitter": "benhamner",
+      "tag": null,
+      "title": "What's wrong with statistics in Julia?",
+      "url": "http://www.johnmyleswhite.com/notebook/2014/11/29/whats-wrong-with-statistics-in-julia/"
+    },
+    {
+      "comments": 1,
+      "id": "8678232",
+      "points": 17,
+      "source": "github.com",
+      "submitted": "12 hours ago",
+      "submitter": "nkurz",
+      "tag": null,
+      "title": "Ispc: A SPMD Compiler for High-Performance CPU Programming (2012) [pdf]",
+      "url": "https://cloud.github.com/downloads/ispc/ispc/ispc_inpar_2012.pdf"
+    },
+    {
+      "comments": 0,
+      "id": "8676492",
+      "points": 54,
+      "source": "github.com",
+      "submitted": "1 day ago",
+      "submitter": "masolino",
+      "tag": null,
+      "title": "Display the available key bindings automatically and dynamically in Emacs",
+      "url": "https://github.com/kai2nenobu/guide-key"
+    },
+    {
+      "comments": 0,
+      "id": "8679505",
+      "points": 4,
+      "source": "nytimes.com",
+      "submitted": "6 hours ago",
+      "submitter": "igonvalue",
+      "tag": null,
+      "title": "Long After an ’80s Scare, Suspicion of Power Lines Prevails",
+      "url": "http://www.nytimes.com/2014/12/01/health/long-after-an-80s-scare-suspicion-of-power-lines-prevails.html"
+    },
+    {
+      "comments": 0,
+      "id": "8679286",
+      "points": 8,
+      "source": "stackoverflow.com",
+      "submitted": "7 hours ago",
+      "submitter": "pmoriarty",
+      "tag": null,
+      "title": "ElasticSearch, Sphinx, Lucene, Solr, Xapian. Which Fits for Which Usage?",
+      "url": "http://stackoverflow.com/questions/2271600/elasticsearch-sphinx-lucene-solr-xapian-which-fits-for-which-usage"
+    },
+    {
+      "comments": 15,
+      "id": "8675425",
+      "points": 91,
+      "source": "sasheldon.com",
+      "submitted": "1 day ago",
+      "submitter": "adamnemecek",
+      "tag": null,
+      "title": "Interoperating Between Objective-C and Rust",
+      "url": "http://sasheldon.com/blog/2014/11/28/interoperating-between-objective-c-and-rust/"
+    },
+    {
+      "comments": 11,
+      "id": "8676392",
+      "points": 53,
+      "source": "ocks.org",
+      "submitted": "1 day ago",
+      "submitter": "anodes",
+      "tag": null,
+      "title": "Graph of SICP chapters",
+      "url": "http://bl.ocks.org/anonymous/4edbc373e2fc5b63ad0d"
+    },
+    {
+      "comments": 0,
+      "id": "8678521",
+      "points": 12,
+      "source": "cmu.edu",
+      "submitted": "11 hours ago",
+      "submitter": "erjiang",
+      "tag": null,
+      "title": "AEG: Automatic Exploit Generation on Source Code (2011)",
+      "url": "http://security.ece.cmu.edu/aeg/"
+    },
+    {
+      "comments": 0,
+      "id": "8677338",
+      "points": 15,
+      "source": "sphinxsearch.com",
+      "submitted": "17 hours ago",
+      "submitter": "pmoriarty",
+      "tag": null,
+      "title": "Sphinx Text Processing Pipeline",
+      "url": "http://sphinxsearch.com/blog/2014/11/26/sphinx-text-processing-pipeline/"
+    },
+    {
+      "comments": null,
+      "id": "job-0",
+      "points": null,
+      "source": "angel.co",
+      "submitted": "11 hours ago",
+      "submitter": null,
+      "tag": "Job",
+      "title": "Chariot (YC W15) Is Hiring Python, iOS, COO",
+      "url": "https://angel.co/chariot/jobs"
+    },
+    {
+      "comments": 1,
+      "id": "8676988",
+      "points": 12,
+      "source": "polychordapp.com",
+      "submitted": "19 hours ago",
+      "submitter": "rfreytag",
+      "tag": null,
+      "title": "Polychord",
+      "url": "http://polychordapp.com/videos.html"
+    },
+    {
+      "comments": 8,
+      "id": "8679239",
+      "points": 13,
+      "source": null,
+      "submitted": "7 hours ago",
+      "submitter": "ericmsimons",
+      "tag": "Ask HN",
+      "title": "A company wants me to do professional training, how much do I charge?",
+      "url": "https://news.ycombinator.com/item?id=8679239"
+    },
+    {
+      "comments": 0,
+      "id": "8678606",
+      "points": 6,
+      "source": "ancient-origins.net",
+      "submitted": "11 hours ago",
+      "submitter": "diodorus",
+      "tag": null,
+      "title": "Archaeologists reveal new secrets of ancient tomb at Amphipolis",
+      "url": "http://www.ancient-origins.net/news-history-archaeology/amphipolis-press-conference-secrets-020119#sthash.r1TbpZ5V.dpuf"
+    },
+    {
+      "comments": 13,
+      "id": "8675511",
+      "points": 76,
+      "source": "okmij.org",
+      "submitted": "1 day ago",
+      "submitter": "luu",
+      "tag": null,
+      "title": "An argument against call/cc (2012)",
+      "url": "http://okmij.org/ftp/continuations/against-callcc.html"
+    },
+    {
+      "comments": 15,
+      "id": "8675445",
+      "points": 84,
+      "source": "gitbook.com",
+      "submitted": "1 day ago",
+      "submitter": "friendcode",
+      "tag": "Show HN",
+      "title": "GitBook WebEditor",
+      "url": "https://www.gitbook.com/blog/releases/webeditor"
+    }
+  ]
+}
