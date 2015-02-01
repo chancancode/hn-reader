@@ -4,14 +4,12 @@ import fixtures from "../../fixtures";
 import toDOM from "../../helpers/dom-parser";
 
 module("Stories extractor", {
-  setup: function() {
-    resetGuid();
-  }
+  setup() { resetGuid(); }
 });
 
 function testPage(type, page) {
-  var html = fixtures[type][page + ".html"];
-  var json = fixtures[type][page + ".json"];
+  var html = fixtures[type][`${page}.html`];
+  var json = fixtures[type][`${page}.json`];
 
   test("It should work with /" + type + "/" + page, function() {
     deepEqual( parse(toDOM(html)), json );

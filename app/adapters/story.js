@@ -3,35 +3,28 @@ import DS from 'ember-data';
 
 export default DS.Adapter.extend({
 
-  findAll: function(store, type) {
-    return this.findQuery(store, type);
-  },
+  findAll(store, type) { this.findQuery(store, type); },
 
-  findQuery: function(store, type, query) {
-    var url = this.urlForQuery(query || {});
-
-    return new Ember.RSVP.Promise(function(resolve, reject) {
+  findQuery(store, type, query = {}) {
+    return new Ember.RSVP.Promise( (resolve, reject) => {
 
       var xhr = new XMLHttpRequest();
-      xhr.open("GET", url, true);
+
+      xhr.open("GET", this.urlForQuery(query), true);
       xhr.responseType = "document";
 
-      xhr.onload = function() {
-        Ember.run(null, resolve, xhr.response);
-      };
-
-      xhr.onerror = function() {
-        Ember.run(null, reject, xhr.response);
-      };
+      xhr.onload  = () => Ember.run(null, resolve, xhr.response);
+      xhr.onerror = () => Ember.run(null, reject, xhr.response);
 
       xhr.send();
+
     });
   },
 
-  urlForQuery: function(query) {
-    var url,
-        filter = query.filter || "latest",
-        page   = query.page;
+  urlForQuery({ filter, page }) {
+    var url;
+
+    filter = filter || "latest";
 
     switch (filter) {
       case "front-page":
@@ -59,9 +52,9 @@ export default DS.Adapter.extend({
     }
 
     if (page && filter === "latest") {
-      url += "?next=" + encodeURIComponent(page);
+      url += `?next=${ encodeURIComponent(page) }`;
     } else if (page) {
-      url += "?p=" + encodeURIComponent(page);
+      url += `?p=${ encodeURIComponent(page) }`;
     }
 
     return url;

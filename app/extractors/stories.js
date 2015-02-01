@@ -9,11 +9,11 @@ export function resetGuid() {
 }
 
 function toId(id) {
-  return "" + id;
+  return `${id}`;
 }
 
 function toArray(arr) {
-  return [].map.call(arr, function(item) { return item; });
+  return [].map.call(arr, item => item);
 }
 
 function toInt(val) {
@@ -36,20 +36,20 @@ function parseTitle(title) {
 }
 
 export default function(doc) {
-  var payload = {
-    meta: {},
-    stories: []
-  };
+  var meta = {},
+      stories = [],
+      payload = { meta, stories };
+
 
   try {
-    payload.meta.next = toId( toInt( $("tr:last-child a:contains(More)", doc).attr("href").split("=")[1] ) );
+    meta.next = toId( toInt( $("tr:last-child a:contains(More)", doc).attr("href").split("=")[1] ) );
   } catch(e) {
-    payload.meta.next = null;
+    meta.next = null;
   }
 
   var rows = toArray( $("table table:eq(1) tr:has(.title, .subtext):not(:last-child)", doc) );
 
-  rows.reduce(function(story, row) {
+  rows.reduce( (story, row) => {
     var $row = $(".title, .subtext", row);
 
     if (!story) {
@@ -65,7 +65,7 @@ export default function(doc) {
       if (story.url.indexOf("item?id=") === 0) {
         story.id  = toId( toInt( story.url.slice(8) ) );
         story.tag = story.tag || "Discuss";
-        story.url = "https://news.ycombinator.com/" + story.url;
+        story.url = `https://news.ycombinator.com/${story.url}`;
       }
 
       story.source = $row.find(".comhead").text().replace(/[\(\)\s]/g, "");
@@ -84,11 +84,11 @@ export default function(doc) {
         story.submitted = $row.text().match(/[0-9]+ \w+ ago/)[0];
         story.comments = toInt( $row.find("a:contains(comment)").text() );
 
-        payload.stories.push(story);
+        stories.push(story);
       } else {
         if (!story.id) {
           // Some jobs do not have a (visible) ID, so we have to generate one
-          story.id = "job-" + (guid++);
+          story.id = `job-${guid++}`;
         }
 
         story.tag = "Job";
@@ -97,7 +97,7 @@ export default function(doc) {
         story.submitted = $row.text().match(/[0-9]+ \w+ ago/)[0];
         story.comments = null;
 
-        payload.stories.push(story);
+        stories.push(story);
       }
     }
   }, undefined);

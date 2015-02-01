@@ -14,19 +14,16 @@ FakeXMLHttpRequest.prototype._setResponseBody = function(body) {
   _super.call(this, body);
 };
 
-export default function(prefix) {
-
-  prefix = prefix || "";
-
+export default function(prefix = "") {
   return new Pretender(function() {
 
     var server = this;
 
-    ["news", "show", "ask", "jobs"].forEach(function(type) {
+    ["news", "show", "ask", "jobs"].forEach( type => {
 
-      server.get("/" + type , function(request) {
+      server.get(`/${type}` , request => {
         var page = request.queryParams.p || "1";
-        var html = fixtures[type][page + ".html"];
+        var html = fixtures[type][`${page}.html`];
 
         if (html) {
           return [ 200, {"content-type": "text/html"}, html ];
@@ -37,9 +34,9 @@ export default function(prefix) {
 
     });
 
-    server.get("/newest", function(request) {
+    server.get("/newest", request => {
       var page = request.queryParams.next || "newest";
-      var html = fixtures["newest"][page + ".html"];
+      var html = fixtures["newest"][`${page}.html`];
 
       if (html) {
         return [ 200, {"content-type": "text/html"}, html ];

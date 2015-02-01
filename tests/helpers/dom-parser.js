@@ -1,6 +1,10 @@
 /* global DOMParser: false */
 
-var canUseDomParser = (function() {
+function check(condition) {
+  return condition() === true;
+}
+
+var canUseDomParser = check( () => {
   try {
     var html   = "<html><head><title>It works!</title></head><body></body></html>",
         parser = new DOMParser(),
@@ -10,16 +14,14 @@ var canUseDomParser = (function() {
   } catch(e) {
     return false;
   }
-})();
+});
 
 var parse;
 
 if (canUseDomParser) {
-  parse = function(html) {
-    return new DOMParser().parseFromString(html, "text/html");
-  };
+  parse = html => new DOMParser().parseFromString(html, "text/html");
 } else {
-  parse = function(html) {
+  parse = html => {
     var iframe = document.createElement("iframe");
 
     iframe.src   = "about:blank";
@@ -44,17 +46,15 @@ if (canUseDomParser) {
 // https://github.com/ariya/phantomjs/issues/11323
 // https://github.com/ariya/phantomjs/issues/11906
 
-var needHeadTagWorkAround = (function() {
-  var html = "<html><head><meta name=\"referrer\" content=\"origin\"><link rel=\"stylesheet\" type=\"text/css\" href=\"news.css?BtneZCpVoHEQRJYJXD1G\"><link rel=\"shortcut icon\" href=\"favicon.ico\"><link rel=\"alternate\" type=\"application/rss+xml\" title=\"RSS\" href=\"rss\"><script type=\"text/javascript\">\nfunction byId(id) {\n  return document.getElementById(id);\n}\n\nfunction vote(node) {\n  var v = node.id.split(/_/);   // {'up', '123'}\n  var item = v[1];\n\n  // hide arrows\n  byId('up_'   + item).style.visibility = 'hidden';\n  byId('down_' + item).style.visibility = 'hidden';\n\n  // ping server\n  var ping = new Image();\n  ping.src = node.href;\n\n  return false; // cancel browser nav\n} </script><title>It works!</title></head><body></body></html>";
+var needHeadTagWorkAround = check( () => {
+  var html = `<html><head><meta name="referrer" content="origin"><link rel="stylesheet" type="text/css" href="news.css?BtneZCpVoHEQRJYJXD1G"><link rel="shortcut icon" href="favicon.ico"><link rel="alternate" type="application/rss+xml" title="RSS" href="rss"><script type="text/javascript">\nfunction byId(id) {\n  return document.getElementById(id);\n}\n\nfunction vote(node) {\n  var v = node.id.split(/_/);   // {'up', '123'}\n  var item = v[1];\n\n  // hide arrows\n  byId('up_'   + item).style.visibility = 'hidden';\n  byId('down_' + item).style.visibility = 'hidden';\n\n  // ping server\n  var ping = new Image();\n  ping.src = node.href;\n\n  return false; // cancel browser nav\n} </script><title>It works!</title></head><body></body></html>`;
   return parse(html).title !== "It works!";
-})();
+});
 
 if (needHeadTagWorkAround) {
-  var _parse = parse;
+  let _parse = parse;
 
-  parse = function(html) {
-    return _parse(html.replace(/<head[\s\S]+?<\/head>/g, ''));
-  };
+  parse = html => _parse(html.replace(/<head[\s\S]+?<\/head>/g, ''));
 }
 
 export default parse;
