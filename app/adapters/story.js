@@ -1,5 +1,6 @@
 import Ember from 'ember';
 import DS from 'ember-data';
+import { isError } from "hn-reader/extractors/stories";
 
 export default DS.Adapter.extend({
 
@@ -13,8 +14,15 @@ export default DS.Adapter.extend({
       xhr.open("GET", this.urlForQuery(query), true);
       xhr.responseType = "document";
 
-      xhr.onload  = () => Ember.run(null, resolve, xhr.response);
-      xhr.onerror = () => Ember.run(null, reject, xhr.response);
+      xhr.onload = () => {
+        if (isError(xhr.response)) {
+          Ember.run(null, reject, "Not found");
+        } else {
+          Ember.run(null, resolve, xhr.response);
+        }
+      };
+
+      xhr.onerror = () => Ember.run(null, reject, xhr.statusText);
 
       xhr.send();
 

@@ -164,3 +164,8 @@ test('finding the jobs stories (first/last page)', function() {
     })
   ]);
 });
+
+test('finding an non-existent page', function() {
+  return this.store().find('story', { filter: 'show-hn', page: 99 })
+    .then( () => ok(false, "This should not pass"), reason => equal(reason, "Not found") );
+});

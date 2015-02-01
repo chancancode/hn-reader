@@ -35,6 +35,10 @@ function parseTitle(title) {
   return tag ? title.slice(tag.length + 2) : title;
 }
 
+export function isError(doc) {
+  return $("table table:eq(1) tr", doc).length === 0;
+}
+
 export default function(doc) {
   var meta = {},
       stories = [],
