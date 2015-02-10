@@ -1,0 +1,98 @@
+.nav-menu {
+  position: relative;
+  cursor: pointer;
+
+  a {
+    @include transition(opacity 0.25s ease);
+
+    position: absolute;
+    left: -9999px;
+    opacity: 0;
+
+    font-weight: 500;
+  }
+
+  a.active {
+    position: static;
+    opacity: 1;
+  }
+
+  a.active:after {
+    position: relative;
+    bottom: 0.6em;
+    left: 0.3em;
+
+    content: $el-var-caret-down;
+    font-size: 7px;
+    opacity: 0.5;
+
+    // Copied from Elusive
+
+    font-family: 'Elusive-Icons';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  &:hover > a.active:after {
+    opacity: 0.8;
+  }
+
+  .nav-menu-overlay {
+    @include position(absolute, 0 0 0 0);
+  }
+
+  .nav-menu-backdrop {
+    @include transition(all 0.15s ease);
+
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    z-index: -1;
+    background: transparent;
+
+    max-width: 240px;
+  }
+
+  &.expanded {
+    margin-top: em(7);
+    max-width: 240px;
+
+    a {
+      display: block;
+      position: static;
+
+      padding: em(7) em(14);
+
+      font-size: 0.9em;
+      color: $dark-gray;
+      opacity: 1;
+    }
+
+    a.active {
+      color: $orange;
+    }
+
+    a.active:after {
+      content: none;
+    }
+
+    .nav-menu-overlay {
+      display: none;
+    }
+
+    .nav-menu-backdrop {
+      background: $faded;
+      width: 100%;
+      height: 100%;
+      box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+    }
+  }
+}

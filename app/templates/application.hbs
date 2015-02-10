@@ -1,3 +1,29 @@
-<h2 id="title">Welcome to Ember.js</h2>
+<div class="app-bar">
+  <div class="left">
+    {{#nav-menu}}
+      {{#link-to "stories" (query-params filter="front-page")}}
+        Front Page
+      {{/link-to}}
 
-{{outlet}}
+      {{#link-to "stories" (query-params filter="latest")}}
+        Latest Submissions
+      {{/link-to}}
+
+      {{#link-to "stories" (query-params filter="show-hn")}}
+        Show HN
+      {{/link-to}}
+
+      {{#link-to "stories" (query-params filter="ask-hn")}}
+        Ask HN
+      {{/link-to}}
+
+      {{#link-to "stories" (query-params filter="jobs")}}
+        Jobs
+      {{/link-to}}
+    {{/nav-menu}}
+  </div>
+</div>
+
+<div class="app-content">
+  {{outlet}}
+</div>

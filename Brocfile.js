@@ -17,4 +17,9 @@ var app = new EmberApp();
 // please specify an object with the list of modules as keys
 // along with the exports of each module as its value.
 
+app.import("bower_components/elusive-iconfont/fonts/Elusive-Icons.eot", { destDir: "fonts" });
+app.import("bower_components/elusive-iconfont/fonts/Elusive-Icons.svg", { destDir: "fonts" });
+app.import("bower_components/elusive-iconfont/fonts/Elusive-Icons.ttf", { destDir: "fonts" });
+app.import("bower_components/elusive-iconfont/fonts/Elusive-Icons.woff", { destDir: "fonts" });
+
 module.exports = app.toTree();

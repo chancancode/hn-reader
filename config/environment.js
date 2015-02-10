@@ -18,7 +18,10 @@ module.exports = function(environment) {
       // when it is created
     },
 
-    contentSecurityPolicy: {}
+    contentSecurityPolicy: {
+      "font-src":  "'self' http://fonts.gstatic.com",
+      "style-src": "'self' http://fonts.googleapis.com"
+    }
   };
 
   if (environment === 'development') {

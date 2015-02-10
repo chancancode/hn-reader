@@ -6,6 +6,14 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+
+  this.resource("stories", function() {
+    this.resource("stories.show", { path: "/:story_id" }, function () {
+      this.route("preview");
+      this.route("comments");
+    });
+  });
+
 });
 
 export default Router;

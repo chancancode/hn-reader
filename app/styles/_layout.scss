@@ -1,0 +1,77 @@
+.app-bar {
+  @include position(absolute, 0px 0px null 0px);
+  height: $app-bar-height;
+
+  background-color: $orange;
+  color: white;
+
+  font-size: em(20);
+  line-height: $app-bar-height;
+
+  z-index: 2;
+
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+
+  .left {
+    width: $sidebar-width;
+    padding: 0px em(14);
+  }
+
+  a {
+    color: white;
+  }
+}
+
+.app-content {
+  @include position(absolute, $app-bar-height 0px 0px 0px);
+
+  overflow: hidden;
+}
+
+.sidebar {
+  @include position(absolute, 0px 0px 0px 0px);
+
+  overflow-x: hidden;
+  overflow-y: auto;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+
+  background: darken($faded, 5%);
+
+  @include media(max-width $large-screen) {
+    z-index: 0;
+  }
+
+  @include media($large-screen) {
+    width: $sidebar-width;
+  }
+}
+
+.main {
+  @include position(absolute, 0px 0px 0px 105%);
+
+  background: $faded;
+  overflow: hidden;
+
+  @include media(max-width $large-screen) {
+    @include transition(left 0.5s ease);
+
+    z-index: 1;
+    box-shadow: -3px 0px 2px rgba(0, 0, 0, 0.1);
+
+    &.active {
+      left: 0;
+    }
+  }
+
+  @include media($large-screen) {
+    z-index: 0;
+    box-shadow: -1px 0px 2px rgba(0, 0, 0, 0.1);
+    left: $sidebar-width;
+  }
+
+  .hn-logo {
+    color: rgba($light-gray, 0.5);
+    border-color: rgba($light-gray, 0.5);
+  }
+}

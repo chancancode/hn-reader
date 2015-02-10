@@ -13,6 +13,9 @@
     "ember-qunit": "0.1.8",
     "ember-qunit-notifications": "0.0.5",
     "qunit": "~1.17.1",
-    "pretender": "0.1.0"
+    "pretender": "0.1.0",
+    "bourbon": "~4.1.1",
+    "neat": "~1.7.1",
+    "elusive-iconfont": "chancancode/elusive-iconfont#sass-variable-default"
   }
 }

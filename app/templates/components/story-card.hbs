@@ -1,0 +1,36 @@
+<h3>{{link-to story.title "stories.show" story class="story-link"}}</h3>
+
+{{#if story.source}}
+  <div class="source">
+    <a {{bind-attr href=story.url}} target="_blank" class="source-link">{{story.source}}</a>
+  </div>
+{{/if}}
+
+{{#if story.preview}}
+  <p>
+    Thanks for Phil Kast for writing this bookmarklet for submitting links to
+    News.YC. When you click on the bookmarklet, it will submit the page you're on.
+    To install, drag this link to your browser toolbar:
+  </p>
+{{/if}}
+
+<div class="metadata">
+  <span class="left">
+    <span class="submitted">{{story.submitted}}</span>
+
+    {{#if story.submitter}}
+      <span class="submitter"> by {{story.submitter}}</span>
+    {{/if}}
+  </span>
+
+
+  <span class="right">
+    {{#if story.hasPoints}}
+      <span class="points">{{story.points}} points</span>
+    {{/if}}
+
+    {{#if story.hasComments}}
+      <span class="comments">{{#link-to "stories.show.comments" story}}{{story.comments}} comments{{/link-to}}</span>
+    {{/if}}
+  </span>
+</div>

@@ -40,23 +40,23 @@ export default DS.Adapter.extend({
 
     switch (filter) {
       case "front-page":
-        url = "/news";
+        url = "news";
         break;
 
       case "latest":
-        url = "/newest";
+        url = "newest";
         break;
 
       case "show-hn":
-        url = "/show";
+        url = "show";
         break;
 
       case "ask-hn":
-        url = "/ask";
+        url = "ask";
         break;
 
       case "jobs":
-        url = "/jobs";
+        url = "jobs";
         break;
 
       default:
@@ -81,6 +81,10 @@ export default DS.Adapter.extend({
 
     if (this.host) {
       parts.push( this.host.replace(/\/$/, "") );
+    }
+
+    if (!parts.length) {
+      parts.push("");
     }
 
     parts.push(path);

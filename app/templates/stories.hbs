@@ -1,0 +1,11 @@
+<div class="sidebar">
+  <ol class="stories">
+    {{#each story in controller}}
+      {{story-card tagName="li" story=story}}
+    {{/each}}
+  </ol>
+</div>
+
+<div class="main">
+  {{outlet}}
+</div>
