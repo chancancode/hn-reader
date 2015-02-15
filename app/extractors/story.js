@@ -80,7 +80,7 @@ function extractStory(row1, row2) {
 
   // A link on Hacker News usually look like this:
   //
-  //   <a href="...">Show HN: A Unixy approach to WebSockets</a> <span class="comhead"> (websocketd.com)</span>
+  //   <a href="...">Show HN: A Unixy approach to WebSockets</a> <span class="sitebit comhead"> (websocketd.com)</span>
   //
   // We want to extract:
   //
@@ -109,7 +109,7 @@ function extractStory(row1, row2) {
     story.url = `https://news.ycombinator.com/${story.url}`;
   }
 
-  var source = $(".title .comhead", row1).text().trim();
+  var source = $(".title .sitebit", row1).text().trim();
 
   if (source) {
     story.source = extractSource(source);
@@ -118,9 +118,9 @@ function extractStory(row1, row2) {
   // The second row looks something like this:
   //
   //  <td class="subtext">
-  //    <span>155 points</span>
+  //    <span class="score" id="...">155 points</span>
   //    by <a href="...">joewalnes</a>
-  //    3 hours ago |
+  //    <a href="...">3 hours ago</a> |
   //    <a href="...">30 comments</a>
   //  </td>
   //
@@ -132,9 +132,10 @@ function extractStory(row1, row2) {
   //   4. The submission time
   //
   // Everything besides jobs has all of these properties, so if we couldn't find
-  // any of these, set the tag to "Job" and move on.
+  // any of these, set the tag to "Job" and move on. For jobs, the "3 hours ago"
+  // is not linked, so we have to be careful with the selectors.
 
-  var $points    = $(".subtext span:first-child", row2),
+  var $points    = $(".subtext .score", row2),
       $comments  = $(".subtext a:last-of-type", row2),
       $submitter = $(".subtext a:eq(0)", row2),
       submitted = $(".subtext", row2).text().trim();
@@ -158,12 +159,12 @@ export function extractArray(doc) {
       payload = { meta, stories };
 
   try {
-    meta.next = $("tr:last-child a:contains(More)", doc).attr("href").split(/=|&/)[1];
+    meta.next = $("#hnmain tr:last-child a:contains(More)", doc).attr("href").split(/=|&/)[1];
   } catch(e) {
     meta.next = null;
   }
 
-  var rows = toArray( $("table table:eq(1) tr:has(.title):not(:last-child)", doc) );
+  var rows = toArray( $("#hnmain table:eq(1) tr:has(.title):not(:last-child)", doc) );
 
   rows.forEach( row => {
     stories.push( extractStory(row, row.nextElementSibling) );
