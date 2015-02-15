@@ -1,10 +1,10 @@
 import DS from 'ember-data';
-import extractStories from "hn-reader/extractors/stories";
+import { extractArray as parseArray } from "hn-reader/extractors/story";
 
 export default DS.RESTSerializer.extend({
 
   extractArray(store, type, payload) {
-    payload = extractStories(payload);
+    payload = parseArray(payload);
 
     this.extractMeta(store, type, payload);
 

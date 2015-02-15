@@ -1,7 +1,7 @@
 import Ember from 'ember';
 import DS from 'ember-data';
 import config from 'hn-reader/config/environment';
-import { isError } from 'hn-reader/extractors/stories';
+import { isError } from 'hn-reader/extractors/story';
 
 export default DS.Adapter.extend({
 
