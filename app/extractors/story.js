@@ -37,7 +37,8 @@ function extractTag(title) {
 
 function extractTitle(title) {
   var tag = extractTag(title);
-  return tag ? title.slice(tag.length + 2) : title;
+  title = tag ? title.slice(tag.length + 2) : title;
+  return title.replace(/\s+/g, " ").trim();
 }
 
 function extractSource(source) {

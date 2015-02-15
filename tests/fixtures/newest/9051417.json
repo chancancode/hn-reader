@@ -1,0 +1,337 @@
+{
+  "meta": {
+    "next": "9051106"
+  },
+  "stories": [
+    {
+      "comments": 2,
+      "id": "9051417",
+      "points": 1,
+      "source": null,
+      "submitted": "8 hours ago",
+      "submitter": "michaelmcmillan",
+      "tag": "Discuss",
+      "title": "Why I think iBeacons will flop",
+      "url": "https://news.ycombinator.com/item?id=9051417"
+    },
+    {
+      "comments": 0,
+      "id": "9051383",
+      "points": 3,
+      "source": "scodub.com",
+      "submitted": "8 hours ago",
+      "submitter": "turtleofdeath",
+      "tag": null,
+      "title": "I Also Suffer from Information Paralysis",
+      "url": "http://scodub.com/2015/02/14/information-paralysis/"
+    },
+    {
+      "comments": 14,
+      "id": "9051373",
+      "points": 30,
+      "source": "amibeingtracked.com",
+      "submitted": "8 hours ago",
+      "submitter": "MilnerRoute",
+      "tag": null,
+      "title": "Am I Being Tracked",
+      "url": "http://amibeingtracked.com"
+    },
+    {
+      "comments": 0,
+      "id": "9051361",
+      "points": 1,
+      "source": "gizmodo.com",
+      "submitted": "8 hours ago",
+      "submitter": "jlturner",
+      "tag": null,
+      "title": "Informer says Apple's car will be self driving",
+      "url": "http://gizmodo.com/apple-might-really-seriously-be-working-on-a-car-1685754028"
+    },
+    {
+      "comments": 0,
+      "id": "9051332",
+      "points": 1,
+      "source": "ibtimes.co.uk",
+      "submitted": "8 hours ago",
+      "submitter": "philDunphy",
+      "tag": null,
+      "title": "Android Wear smartwatches used by less than 0.1% of Android smartphone owners",
+      "url": "http://www.ibtimes.co.uk/android-wear-smartwatches-used-by-less-0-1-android-smartphone-owners-1487834"
+    },
+    {
+      "comments": 0,
+      "id": "9051311",
+      "points": 1,
+      "source": "pocoo.org",
+      "submitted": "9 hours ago",
+      "submitter": "rachbelaid",
+      "tag": null,
+      "title": "Platter - Python build/deployment tool",
+      "url": "http://platter.pocoo.org/"
+    },
+    {
+      "comments": 0,
+      "id": "9051295",
+      "points": 1,
+      "source": "politico.com",
+      "submitted": "9 hours ago",
+      "submitter": "sethbannon",
+      "tag": null,
+      "title": "The Obamization of Uber",
+      "url": "http://www.politico.com/magazine/story/2015/02/obama-uber-115166.html"
+    },
+    {
+      "comments": 0,
+      "id": "9051294",
+      "points": 2,
+      "source": "arstechnica.com",
+      "submitted": "9 hours ago",
+      "submitter": "minimaxir",
+      "tag": null,
+      "title": "On Kickstarter, Everyone Is Peter Molyneux",
+      "url": "http://arstechnica.com/gaming/2015/02/on-kickstarter-everyone-is-peter-molyneux/"
+    },
+    {
+      "comments": 0,
+      "id": "9051290",
+      "points": 1,
+      "source": "newyorker.com",
+      "submitted": "9 hours ago",
+      "submitter": "zafka",
+      "tag": null,
+      "title": "The trip treatment",
+      "url": "http://www.newyorker.com/magazine/2015/02/09/trip-treatment"
+    },
+    {
+      "comments": 0,
+      "id": "9051288",
+      "points": 28,
+      "source": "theguardian.com",
+      "submitted": "9 hours ago",
+      "submitter": "Thevet",
+      "tag": null,
+      "title": "350 years of publishing from the world's oldest science journal in pictures",
+      "url": "http://www.theguardian.com/higher-education-network/gallery/2015/feb/12/philosophical-transactions-of-the-royal-society-350-years-of-science-publishing-in-pictures"
+    },
+    {
+      "comments": 0,
+      "id": "9051285",
+      "points": 1,
+      "source": "tugberkugurlu.com",
+      "submitted": "9 hours ago",
+      "submitter": "tugberk",
+      "tag": null,
+      "title": "Software Applications Should Work Like Restaurants",
+      "url": "http://www.tugberkugurlu.com/archive/software-applications-should-work-like-restaurants"
+    },
+    {
+      "comments": 7,
+      "id": "9051271",
+      "points": 32,
+      "source": "bbc.co.uk",
+      "submitted": "9 hours ago",
+      "submitter": "lewispb",
+      "tag": null,
+      "title": "Zane Lowe to join Apple",
+      "url": "http://www.bbc.co.uk/newsbeat/31470124"
+    },
+    {
+      "comments": 1,
+      "id": "9051270",
+      "points": 1,
+      "source": "arhack.net",
+      "submitted": "9 hours ago",
+      "submitter": "rosive",
+      "tag": null,
+      "title": "Microsoft researchers say the newest deep learning system beat humans and Google",
+      "url": "http://www.arhack.net/vb/redirect-to/?redirect=http://goo.gl/Kjvdbb"
+    },
+    {
+      "comments": 0,
+      "id": "9051253",
+      "points": 2,
+      "source": "resobscura.blogspot.com",
+      "submitted": "9 hours ago",
+      "submitter": "benbreen",
+      "tag": null,
+      "title": "Happy Lupercalia (2011)",
+      "url": "http://resobscura.blogspot.com/2011/02/happy-lupercalia.html"
+    },
+    {
+      "comments": 0,
+      "id": "9051247",
+      "points": 1,
+      "source": "kernel.org",
+      "submitted": "9 hours ago",
+      "submitter": "zyngaro",
+      "tag": null,
+      "title": "Memory Barriers",
+      "url": "https://www.kernel.org/doc/Documentation/memory-barriers.txt"
+    },
+    {
+      "comments": 49,
+      "id": "9051246",
+      "points": 473,
+      "source": "imgur.com",
+      "submitted": "9 hours ago",
+      "submitter": "bane",
+      "tag": null,
+      "title": "Now, I can see wifi signals",
+      "url": "https://imgur.com/gallery/jdNA6"
+    },
+    {
+      "comments": 0,
+      "id": "9051244",
+      "points": 1,
+      "source": "marketplace.org",
+      "submitted": "9 hours ago",
+      "submitter": "reuven",
+      "tag": null,
+      "title": "Chinese have their own Internet censorship song",
+      "url": "http://www.marketplace.org/topics/world/final-note/chinese-have-their-own-internet-censorship-song"
+    },
+    {
+      "comments": 0,
+      "id": "9051241",
+      "points": 1,
+      "source": "theincrediblecompany.com",
+      "submitted": "9 hours ago",
+      "submitter": "ndr",
+      "tag": null,
+      "title": "Alcazar – A Sudoku without numbers",
+      "url": "http://www.theincrediblecompany.com/alcazar-1/"
+    },
+    {
+      "comments": 0,
+      "id": "9051219",
+      "points": 1,
+      "source": "pbl.io",
+      "submitted": "9 hours ago",
+      "submitter": "hutt",
+      "tag": null,
+      "title": "Pebble Firmware 2.9 was released",
+      "url": "http://pbl.io/f"
+    },
+    {
+      "comments": 0,
+      "id": "9051209",
+      "points": 1,
+      "source": "youtube.com",
+      "submitted": "9 hours ago",
+      "submitter": "meatcompute",
+      "tag": null,
+      "title": "A Gentle Intro to Unit Testing in Clojure",
+      "url": "https://www.youtube.com/watch?v=pEIeJOZCu_A"
+    },
+    {
+      "comments": 1,
+      "id": "9051199",
+      "points": 1,
+      "source": "omnomnomify.com",
+      "submitted": "9 hours ago",
+      "submitter": "getdavidhiggins",
+      "tag": null,
+      "title": "OmNomNomify It Cookie Monster Bookmarklet",
+      "url": "http://www.omnomnomify.com/"
+    },
+    {
+      "comments": 3,
+      "id": "9051193",
+      "points": 1,
+      "source": null,
+      "submitted": "9 hours ago",
+      "submitter": "mwcampbell",
+      "tag": "Ask HN",
+      "title": "Which stick computers are the most hackable?",
+      "url": "https://news.ycombinator.com/item?id=9051193"
+    },
+    {
+      "comments": 0,
+      "id": "9051189",
+      "points": 5,
+      "source": "writemom.net",
+      "submitted": "9 hours ago",
+      "submitter": "cmikec",
+      "tag": "Show HN",
+      "title": "I made this to stay in better touch with my mom during Y Combinator",
+      "url": "http://www.writemom.net"
+    },
+    {
+      "comments": 0,
+      "id": "9051176",
+      "points": 2,
+      "source": "skynews.com.au",
+      "submitted": "9 hours ago",
+      "submitter": "juliangamble",
+      "tag": null,
+      "title": "Report says over 100 banks hit by cyberattack",
+      "url": "http://www.skynews.com.au/business/business/world/2015/02/15/report-says-over-100-banks-hit-by-cyberattack.html"
+    },
+    {
+      "comments": 0,
+      "id": "9051174",
+      "points": 1,
+      "source": "thinkinghard.com",
+      "submitted": "9 hours ago",
+      "submitter": "pjdorrell",
+      "tag": null,
+      "title": "The Personal Software Quality Questionnaire",
+      "url": "http://thinkinghard.com/blog/ThePersonalSoftwareQualityQuestionnaire.html"
+    },
+    {
+      "comments": 0,
+      "id": "9051160",
+      "points": 1,
+      "source": "reactos.org",
+      "submitted": "9 hours ago",
+      "submitter": "jeditobe",
+      "tag": null,
+      "title": "How do security issues happen in programms?",
+      "url": "https://reactos.org/ru/node/932"
+    },
+    {
+      "comments": 1,
+      "id": "9051144",
+      "points": 1,
+      "source": "elementary.io",
+      "submitted": "9 hours ago",
+      "submitter": "fortytw2",
+      "tag": null,
+      "title": "Elementary OS switches to a .io domain",
+      "url": "https://elementary.io/"
+    },
+    {
+      "comments": 0,
+      "id": "9051126",
+      "points": 1,
+      "source": "medium.com",
+      "submitted": "10 hours ago",
+      "submitter": "guiambros",
+      "tag": null,
+      "title": "The Voice of David Carr",
+      "url": "https://medium.com/five-hundred-words/the-voice-of-david-carr-1b72577839ed"
+    },
+    {
+      "comments": 0,
+      "id": "9051121",
+      "points": 1,
+      "source": "symmetrymagazine.org",
+      "submitted": "10 hours ago",
+      "submitter": "dnetesn",
+      "tag": null,
+      "title": "The Large Hadron Collider gears up for restart",
+      "url": "http://www.symmetrymagazine.org/article/february-2015/whats-new-for-lhc-run-ii"
+    },
+    {
+      "comments": 0,
+      "id": "9051110",
+      "points": 2,
+      "source": "testdroid.com",
+      "submitted": "10 hours ago",
+      "submitter": "kallesverige",
+      "tag": null,
+      "title": "License Fees vs. Total Cost of Ownership",
+      "url": "http://testdroid.com/mgmt/the-efficiency-and-costs-license-fees-vs-the-total-cost-of-ownership"
+    }
+  ]
+}

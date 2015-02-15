@@ -7,31 +7,28 @@ module("Story extractor", {
   setup() { resetGuid(); }
 });
 
-function testMany(type, page) {
+function testIndexPage(type, page) {
   var html = fixtures[type][`${page}.html`];
   var json = fixtures[type][`${page}.json`];
 
-  test(`It should work with /${type}/${page}/`, function() {
+  test(`It should work with ${type}/${page}`, function() {
     deepEqual( extractArray(toDOM(html)), json );
   });
 }
 
-testMany("news", 1);
-testMany("news", 2);
-testMany("news", 3);
+function testIndex(type) {
+  for (let file in fixtures[type]) {
+    if (file.indexOf(".json") > 0) {
+      testIndexPage( type, file.replace(".json", "") );
+    }
+  }
+}
 
-testMany("newest", "newest");
-testMany("newest", 8680063);
-testMany("newest", 8680227);
-
-testMany("show", 1);
-testMany("show", 2);
-
-testMany("ask", 1);
-testMany("ask", 2);
-testMany("ask", 5);
-
-testMany("jobs", 1);
+testIndex("news");
+testIndex("newest");
+testIndex("show");
+testIndex("ask");
+testIndex("jobs");
 
 test("isError should return true for category error page (e.g. /ask?p=999)", function() {
   strictEqual( isError(toDOM(fixtures["not-found.html"])), true );

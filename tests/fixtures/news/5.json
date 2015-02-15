@@ -1,0 +1,337 @@
+{
+  "meta": {
+    "next": "6"
+  },
+  "stories": [
+    {
+      "comments": 13,
+      "id": "9044539",
+      "points": 50,
+      "source": "akka.io",
+      "submitted": "1 day ago",
+      "submitter": "kushti",
+      "tag": null,
+      "title": "Circuit Breaker Design Pattern",
+      "url": "http://doc.akka.io/docs/akka/snapshot/common/circuitbreaker.html"
+    },
+    {
+      "comments": 12,
+      "id": "9048909",
+      "points": 94,
+      "source": "nostarch.com",
+      "submitted": "1 day ago",
+      "submitter": "bootload",
+      "tag": null,
+      "title": "An open letter from bunnie, author of Hacking the Xbox (2013)",
+      "url": "http://www.nostarch.com/xboxfree"
+    },
+    {
+      "comments": 1,
+      "id": "9051626",
+      "points": 3,
+      "source": "youtube.com",
+      "submitted": "6 hours ago",
+      "submitter": "sgy",
+      "tag": null,
+      "title": "Creativity in Mathematics: Inquiry-Based Learning and the Moore Method",
+      "url": "http://www.youtube.com/watch?v=f6t6WiWYdgY"
+    },
+    {
+      "comments": 105,
+      "id": "9049988",
+      "points": 95,
+      "source": "nytimes.com",
+      "submitted": "17 hours ago",
+      "submitter": "gk1",
+      "tag": null,
+      "title": "A Russian TV Insider Describes a Modern Propaganda Machine",
+      "url": "http://www.nytimes.com/2015/02/14/world/europe/russian-tv-insider-says-putin-is-running-the-show-in-ukraine.html"
+    },
+    {
+      "comments": 8,
+      "id": "9047298",
+      "points": 34,
+      "source": null,
+      "submitted": "1 day ago",
+      "submitter": "mhandley",
+      "tag": "Ask HN",
+      "title": "What's the oldest server on the Internet?",
+      "url": "https://news.ycombinator.com/item?id=9047298"
+    },
+    {
+      "comments": 52,
+      "id": "9049218",
+      "points": 52,
+      "source": null,
+      "submitted": "23 hours ago",
+      "submitter": "sassypants",
+      "tag": "Ask HN",
+      "title": "Best practices for OS X dev environments",
+      "url": "https://news.ycombinator.com/item?id=9049218"
+    },
+    {
+      "comments": 0,
+      "id": "9026025",
+      "points": 480,
+      "source": "crockpotveggies.com",
+      "submitted": "5 days ago",
+      "submitter": "signa11",
+      "tag": null,
+      "title": "Automating Tinder with Eigenfaces",
+      "url": "http://crockpotveggies.com/2015/02/09/automating-tinder-with-eigenfaces.html"
+    },
+    {
+      "comments": 0,
+      "id": "9049533",
+      "points": 5,
+      "source": "vwh.net",
+      "submitted": "20 hours ago",
+      "submitter": "666_howitzer",
+      "tag": null,
+      "title": "Theoretical Applied Science (1994)",
+      "url": "http://szabo.best.vwh.net/thappsci.html"
+    },
+    {
+      "comments": 20,
+      "id": "9041877",
+      "points": 30,
+      "source": "lemery.io",
+      "submitted": "2 days ago",
+      "submitter": "darkpicnic",
+      "tag": null,
+      "title": "Why I use Fastmail.com",
+      "url": "http://lemery.io/review-fastmail"
+    },
+    {
+      "comments": null,
+      "id": "job-0",
+      "points": null,
+      "source": "grnh.se",
+      "submitted": "19 hours ago",
+      "submitter": null,
+      "tag": "Job",
+      "title": "Position for a DevOps Eng who loves to code",
+      "url": "http://grnh.se/ap68t5"
+    },
+    {
+      "comments": 7,
+      "id": "9043295",
+      "points": 55,
+      "source": "colorpipe.org",
+      "submitted": "2 days ago",
+      "submitter": "ctrijueque",
+      "tag": null,
+      "title": "Colour Science for Python",
+      "url": "http://www.colorpipe.org/colour-science-for-python/"
+    },
+    {
+      "comments": 4,
+      "id": "9034690",
+      "points": 53,
+      "source": "youtube.com",
+      "submitted": "3 days ago",
+      "submitter": "engineerguy",
+      "tag": null,
+      "title": "Titanic: Engineering Facts [video]",
+      "url": "https://www.youtube.com/watch?v=fHmgF4ibmuk"
+    },
+    {
+      "comments": 47,
+      "id": "9040423",
+      "points": 85,
+      "source": "portalplatform.net",
+      "submitted": "2 days ago",
+      "submitter": "staunch",
+      "tag": "Show HN",
+      "title": "Portal - Run apps on your own easy to use cloud server",
+      "url": "https://portalplatform.net/"
+    },
+    {
+      "comments": 0,
+      "id": "9034319",
+      "points": 147,
+      "source": "geoffralston.com",
+      "submitted": "3 days ago",
+      "submitter": "katm",
+      "tag": null,
+      "title": "Startup Priorities",
+      "url": "http://blog.geoffralston.com/startup-priorities"
+    },
+    {
+      "comments": 0,
+      "id": "9044214",
+      "points": 11,
+      "source": "videlalvaro.github.io",
+      "submitted": "1 day ago",
+      "submitter": "old_sound",
+      "tag": null,
+      "title": "Programming Myths Are the Root of All Evil",
+      "url": "http://videlalvaro.github.io/2015/02/programming-myths.html"
+    },
+    {
+      "comments": 2,
+      "id": "9050405",
+      "points": 8,
+      "source": "github.com",
+      "submitted": "14 hours ago",
+      "submitter": "AdamN",
+      "tag": null,
+      "title": "One more reason financial companies like Chase are ripe for attack",
+      "url": "https://gist.github.com/adamn/95e472dc14be709fd11f"
+    },
+    {
+      "comments": 4,
+      "id": "9050431",
+      "points": 3,
+      "source": null,
+      "submitted": "14 hours ago",
+      "submitter": "bartmcpherson",
+      "tag": "Ask HN",
+      "title": "Taking over after contractors jump ship",
+      "url": "https://news.ycombinator.com/item?id=9050431"
+    },
+    {
+      "comments": 1,
+      "id": "9050993",
+      "points": 4,
+      "source": "nih.gov",
+      "submitted": "10 hours ago",
+      "submitter": "lettergram",
+      "tag": null,
+      "title": "Drinking dark roast coffee decreases the level of spontaneous DNA strand breaks",
+      "url": "http://www.ncbi.nlm.nih.gov/pubmed/24740588"
+    },
+    {
+      "comments": null,
+      "id": "job-1",
+      "points": null,
+      "source": "lever.co",
+      "submitted": "22 hours ago",
+      "submitter": null,
+      "tag": "Job",
+      "title": "Aptible (YC S14) Is Hiring Devops Platform Engineers",
+      "url": "https://jobs.lever.co/aptible/e14de4f6-9fb1-426d-8003-82b91f72d1f9?lever-source=HackerNews"
+    },
+    {
+      "comments": 6,
+      "id": "9050279",
+      "points": 4,
+      "source": null,
+      "submitted": "15 hours ago",
+      "submitter": "CoreSet",
+      "tag": "Ask HN",
+      "title": "What are some good open-source language/textual analysis tools?",
+      "url": "https://news.ycombinator.com/item?id=9050279"
+    },
+    {
+      "comments": 0,
+      "id": "9050396",
+      "points": 4,
+      "source": "medium.com",
+      "submitted": "14 hours ago",
+      "submitter": "prtndr",
+      "tag": null,
+      "title": "Why my team uses npm instead of bower",
+      "url": "https://medium.com/@nickheiner/why-my-team-uses-npm-instead-of-bower-eecfe1b9afcb"
+    },
+    {
+      "comments": 3,
+      "id": "9050091",
+      "points": 3,
+      "source": null,
+      "submitted": "16 hours ago",
+      "submitter": "joeperks",
+      "tag": "Ask HN",
+      "title": "Career at Intersection of Econ/CS?",
+      "url": "https://news.ycombinator.com/item?id=9050091"
+    },
+    {
+      "comments": 4,
+      "id": "9051592",
+      "points": 4,
+      "source": null,
+      "submitted": "7 hours ago",
+      "submitter": "MichaelCrawford",
+      "tag": "Ask HN",
+      "title": "Why Can't I Sign Up with Medium Other Than Through Facebook or Twitter?",
+      "url": "https://news.ycombinator.com/item?id=9051592"
+    },
+    {
+      "comments": 0,
+      "id": "9050228",
+      "points": 4,
+      "source": "eurogamer.net",
+      "submitted": "15 hours ago",
+      "submitter": "Logmix",
+      "tag": null,
+      "title": "Requiem for a dreamer – the god-damned tragedy of Peter Molyneux",
+      "url": "http://www.eurogamer.net/articles/2015-02-14-rich-stanton-on-requiem-for-a-dreamer"
+    },
+    {
+      "comments": 1,
+      "id": "9050931",
+      "points": 29,
+      "source": "fullstackacademy.com",
+      "submitted": "11 hours ago",
+      "submitter": "dy",
+      "tag": null,
+      "title": "Improve Your Valentine's Day with JavaScript",
+      "url": "http://blog.fullstackacademy.com/post/76605703216/valentines-day-with-javascript"
+    },
+    {
+      "comments": 1,
+      "id": "9047952",
+      "points": 3,
+      "source": "pinterest.com",
+      "submitted": "1 day ago",
+      "submitter": "dannieb",
+      "tag": null,
+      "title": "How Pinterest uses holdout groups to drive sustainable growth",
+      "url": "http://engineering.pinterest.com/post/110916490389/how-holdout-groups-drive-sustainable-growth"
+    },
+    {
+      "comments": 48,
+      "id": "9040023",
+      "points": 50,
+      "source": "aeon.co",
+      "submitted": "2 days ago",
+      "submitter": "Nowyouknow",
+      "tag": null,
+      "title": "The Importance of Anxiety",
+      "url": "http://aeon.co/magazine/psychology/why-anxiety-is-the-secret-of-feeling-good/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+AeonMagazineEssays+%28Aeon+Magazine+Essays%29"
+    },
+    {
+      "comments": 2,
+      "id": "9047943",
+      "points": 5,
+      "source": "techcrunch.com",
+      "submitted": "1 day ago",
+      "submitter": "prateekj",
+      "tag": null,
+      "title": "Apple Has Hundreds Working on an Electric Car Design",
+      "url": "http://techcrunch.com/2015/02/13/apple-car/"
+    },
+    {
+      "comments": 18,
+      "id": "9045239",
+      "points": 10,
+      "source": null,
+      "submitted": "1 day ago",
+      "submitter": "techsin",
+      "tag": "Discuss",
+      "title": "Self Taught Web Dev -What Should I Do?",
+      "url": "https://news.ycombinator.com/item?id=9045239"
+    },
+    {
+      "comments": 15,
+      "id": "9038968",
+      "points": 70,
+      "source": "truveris.github.io",
+      "submitted": "2 days ago",
+      "submitter": "tamentis",
+      "tag": null,
+      "title": "Locust – Testing framework simulating the burstiness of an end user",
+      "url": "http://truveris.github.io/articles/locust/"
+    }
+  ]
+}
