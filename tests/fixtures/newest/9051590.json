@@ -1,0 +1,337 @@
+{
+  "meta": {
+    "next": "9051246"
+  },
+  "stories": [
+    {
+      "comments": 0,
+      "id": "9051590",
+      "points": 1,
+      "source": "reuters.com",
+      "submitted": "7 hours ago",
+      "submitter": "avinassh",
+      "tag": null,
+      "title": "Apple studies self-driving car, auto industry source says",
+      "url": "http://www.reuters.com/article/2015/02/14/us-apple-autos-idUSKBN0LI0IJ20150214"
+    },
+    {
+      "comments": 0,
+      "id": "9051574",
+      "points": 2,
+      "source": "powercircuits.net",
+      "submitted": "7 hours ago",
+      "submitter": "powercircuits",
+      "tag": null,
+      "title": "The Early History of Rectifying Devices",
+      "url": "http://powercircuits.net/the-history-of-rectifying-devices/"
+    },
+    {
+      "comments": 0,
+      "id": "9051563",
+      "points": 1,
+      "source": "medium.com",
+      "submitted": "7 hours ago",
+      "submitter": "larkinrichards",
+      "tag": null,
+      "title": "Why the Company’s Success Should Be Your Focus",
+      "url": "https://medium.com/inside/why-the-companys-success-should-be-your-focus-52066952f1ec"
+    },
+    {
+      "comments": 15,
+      "id": "9051562",
+      "points": 33,
+      "source": "volatileread.com",
+      "submitted": "7 hours ago",
+      "submitter": "bursurk",
+      "tag": null,
+      "title": "C# 6 exception filters and how they are more than syntactic sugar",
+      "url": "http://volatileread.com/Wiki/Index?id=1087"
+    },
+    {
+      "comments": 0,
+      "id": "9051560",
+      "points": 1,
+      "source": null,
+      "submitted": "7 hours ago",
+      "submitter": "jaddison",
+      "tag": "Discuss",
+      "title": "Anyone use slack.com for personal use (ie. replace WhatsApp)?",
+      "url": "https://news.ycombinator.com/item?id=9051560"
+    },
+    {
+      "comments": 0,
+      "id": "9051555",
+      "points": 1,
+      "source": "opensourceecology.org",
+      "submitted": "7 hours ago",
+      "submitter": "ph0rque",
+      "tag": null,
+      "title": "Open Source Ecology 4 Year Review",
+      "url": "http://opensourceecology.org/ose-4-year-review/"
+    },
+    {
+      "comments": 0,
+      "id": "9051547",
+      "points": 1,
+      "source": "space.com",
+      "submitted": "7 hours ago",
+      "submitter": "mpc",
+      "tag": null,
+      "title": "Mars One Candidates Speak Out",
+      "url": "http://www.space.com/28550-mars-one-candidates-documentary-video.html"
+    },
+    {
+      "comments": 11,
+      "id": "9051540",
+      "points": 71,
+      "source": "businessinsider.in",
+      "submitted": "8 hours ago",
+      "submitter": "akbarnama",
+      "tag": null,
+      "title": "Passion Is Overrated",
+      "url": "http://www.businessinsider.in/Dilbert-creator-Scott-Adams-illustrates-why-goals-are-for-losers-and-passion-is-overrated/Dilbert-creator-Scott-Adams-illustrates-why-goals-are-for-losers-and-passion-is-overrated/slideshow/46246132.cms"
+    },
+    {
+      "comments": 0,
+      "id": "9051533",
+      "points": 1,
+      "source": "haiderm.com",
+      "submitted": "8 hours ago",
+      "submitter": "hastalavista",
+      "tag": null,
+      "title": "Facebook Vulnerability Got Bug Bounty and Hall of Fame",
+      "url": "https://haiderm.com/facebook-html-injection-vulnerability-bug-bounty/"
+    },
+    {
+      "comments": 0,
+      "id": "9051530",
+      "points": 5,
+      "source": "github.com",
+      "submitted": "8 hours ago",
+      "submitter": "jingweno",
+      "tag": null,
+      "title": "GitHub CLI `hub` 2.2.0 is released",
+      "url": "https://github.com/github/hub/releases/tag/v2.2.0"
+    },
+    {
+      "comments": 0,
+      "id": "9051526",
+      "points": 1,
+      "source": "technologyreview.com",
+      "submitted": "8 hours ago",
+      "submitter": "jonbaer",
+      "tag": null,
+      "title": "Human Face Recognition Found in Neural Network Based on Monkey Brains",
+      "url": "http://www.technologyreview.com/view/535176/human-face-recognition-found-in-neural-network-based-on-monkey-brains/"
+    },
+    {
+      "comments": 0,
+      "id": "9051469",
+      "points": 2,
+      "source": "sfgate.com",
+      "submitted": "8 hours ago",
+      "submitter": "aceperry",
+      "tag": null,
+      "title": "Does the gig economy exploit workers?",
+      "url": "http://www.sfgate.com/business/article/Growing-voices-say-gig-workers-need-protections-6079992.php"
+    },
+    {
+      "comments": 0,
+      "id": "9051453",
+      "points": 2,
+      "source": "newsrule.com",
+      "submitted": "8 hours ago",
+      "submitter": "lettergram",
+      "tag": null,
+      "title": "Scientists Create Contact Lens That Magnifies at Blink of an Eye",
+      "url": "http://newsrule.com/scientists-create-contact-lens-magnifies-blink-eye/"
+    },
+    {
+      "comments": 0,
+      "id": "9051426",
+      "points": 2,
+      "source": "parveenkaler.com",
+      "submitted": "8 hours ago",
+      "submitter": "pkaler",
+      "tag": null,
+      "title": "Learn Swift Now",
+      "url": "http://parveenkaler.com/posts/learn-swift-now/"
+    },
+    {
+      "comments": 0,
+      "id": "9051425",
+      "points": 1,
+      "source": "hackerhmb.tumblr.com",
+      "submitted": "8 hours ago",
+      "submitter": "scottcha",
+      "tag": null,
+      "title": "Thoughts on Working Without Suffering",
+      "url": "http://hackerhmb.tumblr.com/post/108807106705/thoughtsonsuffering"
+    },
+    {
+      "comments": 2,
+      "id": "9051417",
+      "points": 1,
+      "source": null,
+      "submitted": "8 hours ago",
+      "submitter": "michaelmcmillan",
+      "tag": "Discuss",
+      "title": "Why I think iBeacons will flop",
+      "url": "https://news.ycombinator.com/item?id=9051417"
+    },
+    {
+      "comments": 0,
+      "id": "9051383",
+      "points": 3,
+      "source": "scodub.com",
+      "submitted": "9 hours ago",
+      "submitter": "turtleofdeath",
+      "tag": null,
+      "title": "I Also Suffer from Information Paralysis",
+      "url": "http://scodub.com/2015/02/14/information-paralysis/"
+    },
+    {
+      "comments": 15,
+      "id": "9051373",
+      "points": 30,
+      "source": "amibeingtracked.com",
+      "submitted": "9 hours ago",
+      "submitter": "MilnerRoute",
+      "tag": null,
+      "title": "Am I Being Tracked",
+      "url": "http://amibeingtracked.com"
+    },
+    {
+      "comments": 0,
+      "id": "9051361",
+      "points": 1,
+      "source": "gizmodo.com",
+      "submitted": "9 hours ago",
+      "submitter": "jlturner",
+      "tag": null,
+      "title": "Informer says Apple's car will be self driving",
+      "url": "http://gizmodo.com/apple-might-really-seriously-be-working-on-a-car-1685754028"
+    },
+    {
+      "comments": 0,
+      "id": "9051332",
+      "points": 1,
+      "source": "ibtimes.co.uk",
+      "submitted": "9 hours ago",
+      "submitter": "philDunphy",
+      "tag": null,
+      "title": "Android Wear smartwatches used by less than 0.1% of Android smartphone owners",
+      "url": "http://www.ibtimes.co.uk/android-wear-smartwatches-used-by-less-0-1-android-smartphone-owners-1487834"
+    },
+    {
+      "comments": 0,
+      "id": "9051311",
+      "points": 1,
+      "source": "pocoo.org",
+      "submitted": "9 hours ago",
+      "submitter": "rachbelaid",
+      "tag": null,
+      "title": "Platter - Python build/deployment tool",
+      "url": "http://platter.pocoo.org/"
+    },
+    {
+      "comments": 0,
+      "id": "9051295",
+      "points": 1,
+      "source": "politico.com",
+      "submitted": "9 hours ago",
+      "submitter": "sethbannon",
+      "tag": null,
+      "title": "The Obamization of Uber",
+      "url": "http://www.politico.com/magazine/story/2015/02/obama-uber-115166.html"
+    },
+    {
+      "comments": 0,
+      "id": "9051294",
+      "points": 2,
+      "source": "arstechnica.com",
+      "submitted": "9 hours ago",
+      "submitter": "minimaxir",
+      "tag": null,
+      "title": "On Kickstarter, Everyone Is Peter Molyneux",
+      "url": "http://arstechnica.com/gaming/2015/02/on-kickstarter-everyone-is-peter-molyneux/"
+    },
+    {
+      "comments": 0,
+      "id": "9051290",
+      "points": 1,
+      "source": "newyorker.com",
+      "submitted": "9 hours ago",
+      "submitter": "zafka",
+      "tag": null,
+      "title": "The trip treatment",
+      "url": "http://www.newyorker.com/magazine/2015/02/09/trip-treatment"
+    },
+    {
+      "comments": 0,
+      "id": "9051288",
+      "points": 28,
+      "source": "theguardian.com",
+      "submitted": "9 hours ago",
+      "submitter": "Thevet",
+      "tag": null,
+      "title": "350 years of publishing from the world's oldest science journal in pictures",
+      "url": "http://www.theguardian.com/higher-education-network/gallery/2015/feb/12/philosophical-transactions-of-the-royal-society-350-years-of-science-publishing-in-pictures"
+    },
+    {
+      "comments": 0,
+      "id": "9051285",
+      "points": 1,
+      "source": "tugberkugurlu.com",
+      "submitted": "9 hours ago",
+      "submitter": "tugberk",
+      "tag": null,
+      "title": "Software Applications Should Work Like Restaurants",
+      "url": "http://www.tugberkugurlu.com/archive/software-applications-should-work-like-restaurants"
+    },
+    {
+      "comments": 7,
+      "id": "9051271",
+      "points": 32,
+      "source": "bbc.co.uk",
+      "submitted": "9 hours ago",
+      "submitter": "lewispb",
+      "tag": null,
+      "title": "Zane Lowe to join Apple",
+      "url": "http://www.bbc.co.uk/newsbeat/31470124"
+    },
+    {
+      "comments": 1,
+      "id": "9051270",
+      "points": 1,
+      "source": "arhack.net",
+      "submitted": "9 hours ago",
+      "submitter": "rosive",
+      "tag": null,
+      "title": "Microsoft researchers say the newest deep learning system beat humans and Google",
+      "url": "http://www.arhack.net/vb/redirect-to/?redirect=http://goo.gl/Kjvdbb"
+    },
+    {
+      "comments": 0,
+      "id": "9051253",
+      "points": 2,
+      "source": "resobscura.blogspot.com",
+      "submitted": "9 hours ago",
+      "submitter": "benbreen",
+      "tag": null,
+      "title": "Happy Lupercalia (2011)",
+      "url": "http://resobscura.blogspot.com/2011/02/happy-lupercalia.html"
+    },
+    {
+      "comments": 0,
+      "id": "9051247",
+      "points": 1,
+      "source": "kernel.org",
+      "submitted": "9 hours ago",
+      "submitter": "zyngaro",
+      "tag": null,
+      "title": "Memory Barriers",
+      "url": "https://www.kernel.org/doc/Documentation/memory-barriers.txt"
+    }
+  ]
+}

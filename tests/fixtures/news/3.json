@@ -4,6 +4,61 @@
   },
   "stories": [
     {
+      "comments": 166,
+      "id": "9042282",
+      "points": 549,
+      "source": "slate.com",
+      "submitted": "2 days ago",
+      "submitter": "tokenadult",
+      "tag": null,
+      "title": "The FDA buries evidence of fraud in medical trials. My students and I dug it up",
+      "url": "http://www.slate.com/articles/health_and_science/science/2015/02/fda_inspections_fraud_fabrication_and_scientific_misconduct_are_hidden_from.single.html"
+    },
+    {
+      "comments": 2,
+      "id": "9051870",
+      "points": 7,
+      "source": "artofmanliness.com",
+      "submitted": "4 hours ago",
+      "submitter": "JMill",
+      "tag": null,
+      "title": "How to Develop the Situational Awareness of Jason Bourne",
+      "url": "http://www.artofmanliness.com/2015/02/05/how-to-develop-the-situational-awareness-of-jason-bourne/"
+    },
+    {
+      "comments": 18,
+      "id": "9049233",
+      "points": 85,
+      "source": "linux-bg.org",
+      "submitted": "1 day ago",
+      "submitter": "eterps",
+      "tag": null,
+      "title": "Minimal Linux Live",
+      "url": "http://minimal.linux-bg.org/"
+    },
+    {
+      "comments": 2,
+      "id": "9049844",
+      "points": 15,
+      "source": "arxiv.org",
+      "submitted": "18 hours ago",
+      "submitter": "tim_sw",
+      "tag": null,
+      "title": "Show, Attend and Tell: Neural Image Caption Generation with Visual Attention [pdf]",
+      "url": "http://arxiv.org/pdf/1502.03044.pdf"
+    },
+    {
+      "comments": 58,
+      "id": "9046829",
+      "points": 216,
+      "source": "coreos.com",
+      "submitted": "1 day ago",
+      "submitter": "thousandx",
+      "tag": null,
+      "title": "App Container and Docker",
+      "url": "https://coreos.com/blog/app-container-and-docker/"
+    },
+    {
       "comments": 0,
       "id": "9049874",
       "points": 14,
@@ -13,17 +68,6 @@
       "tag": null,
       "title": "What the Frog's Eye Tells the Frog's Brain [pdf]",
       "url": "http://hearingbrain.org/docs/letvin_ieee_1959.pdf"
-    },
-    {
-      "comments": 0,
-      "id": "9049972",
-      "points": 10,
-      "source": "nytimes.com",
-      "submitted": "17 hours ago",
-      "submitter": "tomek_zemla",
-      "tag": null,
-      "title": "Digitizing the Humanities",
-      "url": "http://www.nytimes.com/2015/02/14/opinion/digitizing-the-humanities.html"
     },
     {
       "comments": 35,
@@ -38,14 +82,14 @@
     },
     {
       "comments": 0,
-      "id": "9050943",
-      "points": 6,
-      "source": "flafla2.github.io",
-      "submitted": "11 hours ago",
-      "submitter": "rcsorensen",
+      "id": "9049972",
+      "points": 10,
+      "source": "nytimes.com",
+      "submitted": "17 hours ago",
+      "submitter": "tomek_zemla",
       "tag": null,
-      "title": "Bunnyhopping from the Programmer's Perspective",
-      "url": "http://flafla2.github.io/2015/02/14/bunnyhop.html"
+      "title": "Digitizing the Humanities",
+      "url": "http://www.nytimes.com/2015/02/14/opinion/digitizing-the-humanities.html"
     },
     {
       "comments": 67,
@@ -59,6 +103,17 @@
       "url": "http://littlebox.cabmaddux.com"
     },
     {
+      "comments": 0,
+      "id": "9050943",
+      "points": 6,
+      "source": "flafla2.github.io",
+      "submitted": "11 hours ago",
+      "submitter": "rcsorensen",
+      "tag": null,
+      "title": "Bunnyhopping from the Programmer's Perspective",
+      "url": "http://flafla2.github.io/2015/02/14/bunnyhop.html"
+    },
+    {
       "comments": 97,
       "id": "9040090",
       "points": 504,
@@ -70,15 +125,15 @@
       "url": "http://www.7xter.com/2015/02/how-i-hacked-your-facebook-photos.html"
     },
     {
-      "comments": 1,
-      "id": "9049781",
-      "points": 11,
-      "source": "bu.edu",
-      "submitted": "18 hours ago",
-      "submitter": "samclemens",
-      "tag": null,
-      "title": "David Carr: Journalism Is Still Serious, Just Different",
-      "url": "http://www.bu.edu/today/2014/david-carr-journalism-is-still-serious-just-different/"
+      "comments": null,
+      "id": "job-0",
+      "points": null,
+      "source": "greenhouse.io",
+      "submitted": "9 hours ago",
+      "submitter": null,
+      "tag": "Job",
+      "title": "Email Marketing Manager",
+      "url": "https://boards.greenhouse.io/quartzy/jobs/37639?gh_jid=37639#application_form"
     },
     {
       "comments": 33,
@@ -92,15 +147,15 @@
       "url": "https://github.com/dasdom/BreakOutToRefresh"
     },
     {
-      "comments": null,
-      "id": "job-0",
-      "points": null,
-      "source": "greenhouse.io",
-      "submitted": "8 hours ago",
-      "submitter": null,
-      "tag": "Job",
-      "title": "Email Marketing Manager",
-      "url": "https://boards.greenhouse.io/quartzy/jobs/37639?gh_jid=37639#application_form"
+      "comments": 1,
+      "id": "9049781",
+      "points": 11,
+      "source": "bu.edu",
+      "submitted": "19 hours ago",
+      "submitter": "samclemens",
+      "tag": null,
+      "title": "David Carr: Journalism Is Still Serious, Just Different",
+      "url": "http://www.bu.edu/today/2014/david-carr-journalism-is-still-serious-just-different/"
     },
     {
       "comments": 38,
@@ -158,17 +213,6 @@
       "url": "http://www.newyorker.com/magazine/2015/02/02/pursuit-beauty"
     },
     {
-      "comments": 0,
-      "id": "9049700",
-      "points": 8,
-      "source": "lwn.net",
-      "submitted": "19 hours ago",
-      "submitter": "perlgeek",
-      "tag": null,
-      "title": "Scalar typing in the PHP world",
-      "url": "http://lwn.net/SubscriberLink/633203/40c7d412a07bc317/"
-    },
-    {
       "comments": 13,
       "id": "9044330",
       "points": 158,
@@ -178,6 +222,17 @@
       "tag": null,
       "title": "How to Write a New Git Protocol",
       "url": "https://rovaughn.github.io/2015-2-9.html"
+    },
+    {
+      "comments": 0,
+      "id": "9049700",
+      "points": 8,
+      "source": "lwn.net",
+      "submitted": "19 hours ago",
+      "submitter": "perlgeek",
+      "tag": null,
+      "title": "Scalar typing in the PHP world",
+      "url": "http://lwn.net/SubscriberLink/633203/40c7d412a07bc317/"
     },
     {
       "comments": 84,
@@ -277,61 +332,6 @@
       "tag": null,
       "title": "React.js in Real Life at Codecademy",
       "url": "http://www.infoq.com/articles/reactjs-codecademy?utm_source=hacker%20news&utm_medium=link&utm_campaign=react_js_article"
-    },
-    {
-      "comments": 0,
-      "id": "9051861",
-      "points": 5,
-      "source": "jsfiddle.net",
-      "submitted": "3 hours ago",
-      "submitter": "pauldw",
-      "tag": null,
-      "title": "Manual Base64 Decoder",
-      "url": "https://jsfiddle.net/yqsequLm/4/embedded/result/"
-    },
-    {
-      "comments": 0,
-      "id": "9050618",
-      "points": 6,
-      "source": "slideshare.net",
-      "submitted": "13 hours ago",
-      "submitter": "sonnyp",
-      "tag": null,
-      "title": "ECMAScript 6 from an Attacker's Perspective",
-      "url": "http://www.slideshare.net/x00mario/es6-en"
-    },
-    {
-      "comments": 1,
-      "id": "9049864",
-      "points": 7,
-      "source": "godbolt.org",
-      "submitted": "18 hours ago",
-      "submitter": "mattgodbolt",
-      "tag": null,
-      "title": "Nibble sort competition winner on GCC Explorer",
-      "url": "http://url.godbolt.org/nibble-sort"
-    },
-    {
-      "comments": 44,
-      "id": "9042858",
-      "points": 237,
-      "source": "nytimes.com",
-      "submitted": "2 days ago",
-      "submitter": "sethbannon",
-      "tag": null,
-      "title": "David Carr Dies at 58",
-      "url": "http://nytimes.com/2015/02/13/business/media/david-carr-media-equation-columnist-for-the-times-is-dead-at-58.html"
-    },
-    {
-      "comments": 94,
-      "id": "9043594",
-      "points": 158,
-      "source": "noctua-software.com",
-      "submitted": "1 day ago",
-      "submitter": "guillaumec",
-      "tag": null,
-      "title": "C99 tricks",
-      "url": "http://blog.noctua-software.com/c-tricks.html"
     }
   ]
 }

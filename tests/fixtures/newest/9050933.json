@@ -1,0 +1,337 @@
+{
+  "meta": {
+    "next": "9050709"
+  },
+  "stories": [
+    {
+      "comments": 6,
+      "id": "9050933",
+      "points": 4,
+      "source": "medium.com",
+      "submitted": "11 hours ago",
+      "submitter": "mahringer_a",
+      "tag": null,
+      "title": "What Startups can learn from an 85 year old Sushi Chef",
+      "url": "https://medium.com/startup-battles/what-startups-can-learn-from-a-sushi-chef-9a160a99d778"
+    },
+    {
+      "comments": 1,
+      "id": "9050931",
+      "points": 29,
+      "source": "fullstackacademy.com",
+      "submitted": "12 hours ago",
+      "submitter": "dy",
+      "tag": null,
+      "title": "Improve Your Valentine's Day with JavaScript",
+      "url": "http://blog.fullstackacademy.com/post/76605703216/valentines-day-with-javascript"
+    },
+    {
+      "comments": 0,
+      "id": "9050921",
+      "points": 1,
+      "source": "bloomberg.com",
+      "submitted": "12 hours ago",
+      "submitter": "tim_sw",
+      "tag": null,
+      "title": "FAA: Small Drones Will Provide Significant Benefits",
+      "url": "http://www.bloomberg.com/news/articles/2015-02-14/small-drones-to-provide-significant-benefits-faa-says"
+    },
+    {
+      "comments": 0,
+      "id": "9050917",
+      "points": 1,
+      "source": "youtube.com",
+      "submitted": "12 hours ago",
+      "submitter": "dkarapetyan",
+      "tag": null,
+      "title": "Confessions of a Converted Lecturer: Eric Mazur",
+      "url": "https://www.youtube.com/watch?v=WwslBPj8GgI"
+    },
+    {
+      "comments": 0,
+      "id": "9050913",
+      "points": 1,
+      "source": "figure.ink",
+      "submitted": "12 hours ago",
+      "submitter": "jemmons",
+      "tag": null,
+      "title": "Custom Switch Matchers in Swift",
+      "url": "http://www.figure.ink/blog/2015/2/14/custom-switch-matchers-in-swift"
+    },
+    {
+      "comments": 0,
+      "id": "9050899",
+      "points": 1,
+      "source": "davidbrin.blogspot.com",
+      "submitted": "12 hours ago",
+      "submitter": "omnibrain",
+      "tag": null,
+      "title": "Privacy will not go away – but it will evolve",
+      "url": "http://davidbrin.blogspot.com/2015/02/privacy-will-not-go-away-but-it-will.html"
+    },
+    {
+      "comments": 0,
+      "id": "9050895",
+      "points": 14,
+      "source": "firstlook.org",
+      "submitted": "12 hours ago",
+      "submitter": "rkrzr",
+      "tag": null,
+      "title": "U.S. Drops to 49th in World Press Freedom Rankings",
+      "url": "https://firstlook.org/theintercept/2015/02/12/u-s-drops-49th-world-press-freedom-rankings-second-lowest-ever/"
+    },
+    {
+      "comments": 1,
+      "id": "9050855",
+      "points": 3,
+      "source": null,
+      "submitted": "12 hours ago",
+      "submitter": "codecurve",
+      "tag": "Discuss",
+      "title": "Poll: What is your personality type?",
+      "url": "https://news.ycombinator.com/item?id=9050855"
+    },
+    {
+      "comments": 0,
+      "id": "9050848",
+      "points": 1,
+      "source": "spiegel.de",
+      "submitted": "12 hours ago",
+      "submitter": "sergeant3",
+      "tag": null,
+      "title": "A Safety Net for Global Capitalism: Inside Munich Re, the World's Risk Center",
+      "url": "http://www.spiegel.de/international/world/a-safety-net-for-global-capitalism-inside-munich-re-the-world-s-risk-center-a-715053.html"
+    },
+    {
+      "comments": 0,
+      "id": "9050830",
+      "points": 2,
+      "source": "kickstarter.com",
+      "submitted": "12 hours ago",
+      "submitter": "jccooper",
+      "tag": null,
+      "title": "Project Earendel Kickstarter for Open Source Rocket",
+      "url": "https://www.kickstarter.com/projects/2050946430/project-earendel/"
+    },
+    {
+      "comments": 0,
+      "id": "9050822",
+      "points": 1,
+      "source": "thenewstack.io",
+      "submitted": "12 hours ago",
+      "submitter": "koolhead17",
+      "tag": null,
+      "title": "The Geek’s Love for Heavy Metal",
+      "url": "http://thenewstack.io/geeks-love-heavy-meta"
+    },
+    {
+      "comments": 0,
+      "id": "9050815",
+      "points": 1,
+      "source": "mit.edu",
+      "submitted": "12 hours ago",
+      "submitter": "bsilvereagle",
+      "tag": null,
+      "title": "Democratizing Innovation",
+      "url": "http://web.mit.edu/evhippel/www/democ1.htm"
+    },
+    {
+      "comments": 0,
+      "id": "9050806",
+      "points": 1,
+      "source": "thecrimson.com",
+      "submitted": "12 hours ago",
+      "submitter": "flippyhead",
+      "tag": null,
+      "title": "Hundreds Register for New Facebook Website",
+      "url": "http://www.thecrimson.com/article/2004/2/9/hundreds-register-for-new-facebook-website/"
+    },
+    {
+      "comments": 0,
+      "id": "9050796",
+      "points": 1,
+      "source": null,
+      "submitted": "12 hours ago",
+      "submitter": "AndriusSutas",
+      "tag": "Ask HN",
+      "title": "Best way of approaching social groups?",
+      "url": "https://news.ycombinator.com/item?id=9050796"
+    },
+    {
+      "comments": 207,
+      "id": "9050793",
+      "points": 165,
+      "source": "golang.org",
+      "submitted": "12 hours ago",
+      "submitter": "xkarga00",
+      "tag": null,
+      "title": "The State of Go",
+      "url": "https://talks.golang.org/2015/state-of-go.slide#1"
+    },
+    {
+      "comments": 0,
+      "id": "9050789",
+      "points": 1,
+      "source": "marynaaleksandrova.com",
+      "submitted": "12 hours ago",
+      "submitter": "podviaznikov",
+      "tag": "Show HN",
+      "title": "Create your own animated Valentine's card",
+      "url": "http://labs.marynaaleksandrova.com/valentine-card/create.html"
+    },
+    {
+      "comments": 0,
+      "id": "9050788",
+      "points": 3,
+      "source": "futureboy.us",
+      "submitted": "12 hours ago",
+      "submitter": "Stevo11",
+      "tag": null,
+      "title": "GPG Tutorial by Alan Eliasen",
+      "url": "https://futureboy.us/pgp.html"
+    },
+    {
+      "comments": 0,
+      "id": "9050779",
+      "points": 1,
+      "source": "wander.li",
+      "submitted": "13 hours ago",
+      "submitter": "Ereid",
+      "tag": null,
+      "title": "Find the cheapest flights and accommodation in a single search",
+      "url": "http://www.wander.li/"
+    },
+    {
+      "comments": 0,
+      "id": "9050776",
+      "points": 2,
+      "source": "rainforestqa.com",
+      "submitted": "13 hours ago",
+      "submitter": "mjhea0",
+      "tag": null,
+      "title": "Docker in Action – Development to Delivery",
+      "url": "https://blog.rainforestqa.com/2014-12-08-docker-in-action-from-deployment-to-delivery-part-2-continuous-integration/?utm_source=blog%20read%20next%20tab"
+    },
+    {
+      "comments": 0,
+      "id": "9050774",
+      "points": 1,
+      "source": "github.com",
+      "submitted": "13 hours ago",
+      "submitter": "33a",
+      "tag": "Show HN",
+      "title": "Level sets in any dimension",
+      "url": "https://github.com/mikolalysenko/surface-nets"
+    },
+    {
+      "comments": 0,
+      "id": "9050767",
+      "points": 2,
+      "source": "taosecurity.blogspot.com",
+      "submitted": "13 hours ago",
+      "submitter": "wglb",
+      "tag": null,
+      "title": "Focus on the Threat: Bank Heists",
+      "url": "http://taosecurity.blogspot.com/2015/02/focus-on-threat-bank-heists.html"
+    },
+    {
+      "comments": 0,
+      "id": "9050762",
+      "points": 3,
+      "source": "sourceware.org",
+      "submitted": "13 hours ago",
+      "submitter": "emaste",
+      "tag": null,
+      "title": "Is LLDB a threat to GDB's success?",
+      "url": "https://sourceware.org/ml/gdb/2015-02/msg00022.html"
+    },
+    {
+      "comments": 0,
+      "id": "9050761",
+      "points": 2,
+      "source": "googlewebmastercentral.blogspot.com",
+      "submitted": "13 hours ago",
+      "submitter": "shdon",
+      "tag": null,
+      "title": "Crawling and indexing of locale-adaptive pages",
+      "url": "http://googlewebmastercentral.blogspot.com/2015/01/crawling-and-indexing-of-locale.html"
+    },
+    {
+      "comments": 0,
+      "id": "9050759",
+      "points": 1,
+      "source": "littlebigdetails.com",
+      "submitted": "13 hours ago",
+      "submitter": "tbrock",
+      "tag": null,
+      "title": "Little Big Details: Daily UX Inspiration",
+      "url": "http://littlebigdetails.com/"
+    },
+    {
+      "comments": 0,
+      "id": "9050747",
+      "points": 2,
+      "source": null,
+      "submitted": "13 hours ago",
+      "submitter": "echo272",
+      "tag": "Discuss",
+      "title": "If you were starting from scratch as a software engineer, what would you do?",
+      "url": "https://news.ycombinator.com/item?id=9050747"
+    },
+    {
+      "comments": 0,
+      "id": "9050743",
+      "points": 2,
+      "source": "sfhac.org",
+      "submitted": "13 hours ago",
+      "submitter": "needacig",
+      "tag": null,
+      "title": "Mission District Supervisor Campos proposes market-rate housing moratorium",
+      "url": "http://www.sfhac.org/take-action-stop-mission-housing-moratorium/"
+    },
+    {
+      "comments": 0,
+      "id": "9050739",
+      "points": 1,
+      "source": "youtube.com",
+      "submitted": "13 hours ago",
+      "submitter": "JoulinRouge",
+      "tag": null,
+      "title": "Where's the Money in Free Software?",
+      "url": "https://www.youtube.com/watch?v=O2tvsY3yUqY"
+    },
+    {
+      "comments": 0,
+      "id": "9050731",
+      "points": 5,
+      "source": "gettwototango.com",
+      "submitted": "13 hours ago",
+      "submitter": "maz29",
+      "tag": "Show HN",
+      "title": "Two to Tango – Social Dating (NYC Only)",
+      "url": "http://gettwototango.com"
+    },
+    {
+      "comments": 0,
+      "id": "9050721",
+      "points": 3,
+      "source": "twitter.com",
+      "submitted": "13 hours ago",
+      "submitter": "cezarywojcik",
+      "tag": "Show HN",
+      "title": "A quick Twitter bot that posts “creative” commits",
+      "url": "https://twitter.com/creativecommits"
+    },
+    {
+      "comments": 0,
+      "id": "9050715",
+      "points": 1,
+      "source": "slatestarcodex.com",
+      "submitted": "13 hours ago",
+      "submitter": "api",
+      "tag": null,
+      "title": "The Control Group Is Out of Control",
+      "url": "http://slatestarcodex.com/2014/04/28/the-control-group-is-out-of-control/"
+    }
+  ]
+}

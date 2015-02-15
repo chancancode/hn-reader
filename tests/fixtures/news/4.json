@@ -4,6 +4,39 @@
   },
   "stories": [
     {
+      "comments": 44,
+      "id": "9042858",
+      "points": 237,
+      "source": "nytimes.com",
+      "submitted": "2 days ago",
+      "submitter": "sethbannon",
+      "tag": null,
+      "title": "David Carr Dies at 58",
+      "url": "http://nytimes.com/2015/02/13/business/media/david-carr-media-equation-columnist-for-the-times-is-dead-at-58.html"
+    },
+    {
+      "comments": 88,
+      "id": "9038873",
+      "points": 342,
+      "source": "0hn0.com",
+      "submitted": "2 days ago",
+      "submitter": "m0rph3v5",
+      "tag": null,
+      "title": "0h n0 – A new game from the makers of 0h h1",
+      "url": "http://0hn0.com/"
+    },
+    {
+      "comments": 94,
+      "id": "9043594",
+      "points": 158,
+      "source": "noctua-software.com",
+      "submitted": "2 days ago",
+      "submitter": "guillaumec",
+      "tag": null,
+      "title": "C99 tricks",
+      "url": "http://blog.noctua-software.com/c-tricks.html"
+    },
+    {
       "comments": null,
       "id": "job-0",
       "points": null,
@@ -26,15 +59,26 @@
       "url": "http://weirdthings.com/2010/12/a-brief-history-of-the-congolese-space-program/"
     },
     {
-      "comments": 88,
-      "id": "9038873",
-      "points": 342,
-      "source": "0hn0.com",
-      "submitted": "2 days ago",
-      "submitter": "m0rph3v5",
+      "comments": 1,
+      "id": "9049864",
+      "points": 7,
+      "source": "godbolt.org",
+      "submitted": "18 hours ago",
+      "submitter": "mattgodbolt",
       "tag": null,
-      "title": "0h n0 – A new game from the makers of 0h h1",
-      "url": "http://0hn0.com/"
+      "title": "Nibble sort competition winner on GCC Explorer",
+      "url": "http://url.godbolt.org/nibble-sort"
+    },
+    {
+      "comments": 0,
+      "id": "9050618",
+      "points": 6,
+      "source": "slideshare.net",
+      "submitted": "14 hours ago",
+      "submitter": "sonnyp",
+      "tag": null,
+      "title": "ECMAScript 6 from an Attacker's Perspective",
+      "url": "http://www.slideshare.net/x00mario/es6-en"
     },
     {
       "comments": 5,
@@ -70,6 +114,17 @@
       "url": "https://www.olark.com/customers/olark-the-first-three-years"
     },
     {
+      "comments": 0,
+      "id": "9051861",
+      "points": 5,
+      "source": "jsfiddle.net",
+      "submitted": "4 hours ago",
+      "submitter": "pauldw",
+      "tag": null,
+      "title": "Manual Base64 Decoder",
+      "url": "https://jsfiddle.net/yqsequLm/4/embedded/result/"
+    },
+    {
       "comments": 39,
       "id": "9044327",
       "points": 91,
@@ -79,17 +134,6 @@
       "tag": null,
       "title": "How I Taught My Computer to Write Its Own Music",
       "url": "http://nautil.us/issue/21/information/how-i-taught-my-computer-to-write-its-own-music"
-    },
-    {
-      "comments": 183,
-      "id": "9048110",
-      "points": 278,
-      "source": "plus.google.com",
-      "submitted": "1 day ago",
-      "submitter": "somerandomness",
-      "tag": null,
-      "title": "Nest Protect is a terrible buggy product",
-      "url": "https://plus.google.com/115863474911002159675/posts/bpUvi6BBubm"
     },
     {
       "comments": 141,
@@ -103,6 +147,17 @@
       "url": "http://www.bbc.co.uk/news/science-environment-31450389"
     },
     {
+      "comments": 183,
+      "id": "9048110",
+      "points": 278,
+      "source": "plus.google.com",
+      "submitted": "1 day ago",
+      "submitter": "somerandomness",
+      "tag": null,
+      "title": "Nest Protect is a terrible buggy product",
+      "url": "https://plus.google.com/115863474911002159675/posts/bpUvi6BBubm"
+    },
+    {
       "comments": 19,
       "id": "9044945",
       "points": 102,
@@ -114,6 +169,17 @@
       "url": "http://www.bunniestudios.com/blog/?p=918"
     },
     {
+      "comments": 0,
+      "id": "9050895",
+      "points": 14,
+      "source": "firstlook.org",
+      "submitted": "12 hours ago",
+      "submitter": "rkrzr",
+      "tag": null,
+      "title": "U.S. Drops to 49th in World Press Freedom Rankings",
+      "url": "https://firstlook.org/theintercept/2015/02/12/u-s-drops-49th-world-press-freedom-rankings-second-lowest-ever/"
+    },
+    {
       "comments": 6,
       "id": "9044233",
       "points": 26,
@@ -123,39 +189,6 @@
       "tag": null,
       "title": "Generalists and specialists: thoughts on hiring",
       "url": "http://www.nczonline.net/blog/2014/07/15/generalists-and-specialists-thoughts-on-hiring/"
-    },
-    {
-      "comments": 6,
-      "id": "9050054",
-      "points": 18,
-      "source": "synaptia.net",
-      "submitted": "16 hours ago",
-      "submitter": "captainmuon",
-      "tag": null,
-      "title": "Despicable SPI",
-      "url": "http://aruiz.synaptia.net/siliconisland/2015/02/despicable-spi.html"
-    },
-    {
-      "comments": 0,
-      "id": "9050895",
-      "points": 13,
-      "source": "firstlook.org",
-      "submitted": "11 hours ago",
-      "submitter": "rkrzr",
-      "tag": null,
-      "title": "U.S. Drops to 49th in World Press Freedom Rankings",
-      "url": "https://firstlook.org/theintercept/2015/02/12/u-s-drops-49th-world-press-freedom-rankings-second-lowest-ever/"
-    },
-    {
-      "comments": 0,
-      "id": "9050762",
-      "points": 3,
-      "source": "sourceware.org",
-      "submitted": "12 hours ago",
-      "submitter": "emaste",
-      "tag": null,
-      "title": "Is LLDB a threat to GDB's success?",
-      "url": "https://sourceware.org/ml/gdb/2015-02/msg00022.html"
     },
     {
       "comments": 8,
@@ -191,15 +224,15 @@
       "url": "http://www.stopusinglinkedin.com"
     },
     {
-      "comments": 42,
-      "id": "9049592",
-      "points": 51,
-      "source": "elementaryos.org",
-      "submitted": "20 hours ago",
-      "submitter": "bndr",
+      "comments": 6,
+      "id": "9050054",
+      "points": 18,
+      "source": "synaptia.net",
+      "submitted": "17 hours ago",
+      "submitter": "captainmuon",
       "tag": null,
-      "title": "Elementary OS Freya Beta 2",
-      "url": "http://blog.elementaryos.org/post/110481021076/freya-beta-2-is-here"
+      "title": "Despicable SPI",
+      "url": "http://aruiz.synaptia.net/siliconisland/2015/02/despicable-spi.html"
     },
     {
       "comments": 8,
@@ -213,59 +246,26 @@
       "url": "https://github.com/JohnEarnest/ok"
     },
     {
-      "comments": 4,
-      "id": "9051602",
-      "points": 3,
-      "source": null,
-      "submitted": "6 hours ago",
-      "submitter": "andrewstuart",
-      "tag": "Ask HN",
-      "title": "Possible to buy new double sided double density disk drive and floppies?",
-      "url": "https://news.ycombinator.com/item?id=9051602"
+      "comments": 42,
+      "id": "9049592",
+      "points": 51,
+      "source": "elementaryos.org",
+      "submitted": "20 hours ago",
+      "submitter": "bndr",
+      "tag": null,
+      "title": "Elementary OS Freya Beta 2",
+      "url": "http://blog.elementaryos.org/post/110481021076/freya-beta-2-is-here"
     },
     {
       "comments": 0,
-      "id": "9050707",
+      "id": "9050762",
       "points": 3,
-      "source": "hammerlab.org",
-      "submitted": "12 hours ago",
-      "submitter": "ihodes",
+      "source": "sourceware.org",
+      "submitted": "13 hours ago",
+      "submitter": "emaste",
       "tag": null,
-      "title": "Testing React Web Apps with Mocha",
-      "url": "http://www.hammerlab.org/2015/02/14/testing-react-web-apps-with-mocha/"
-    },
-    {
-      "comments": 5,
-      "id": "9051005",
-      "points": 10,
-      "source": "theregister.co.uk",
-      "submitted": "10 hours ago",
-      "submitter": "stephenc_c_",
-      "tag": null,
-      "title": "Why the Apple phone will fail, and fail badly (2006)",
-      "url": "http://www.theregister.co.uk/2006/12/23/iphone_will_fail/"
-    },
-    {
-      "comments": 6,
-      "id": "9045315",
-      "points": 24,
-      "source": "bravenewgeek.com",
-      "submitted": "1 day ago",
-      "submitter": "tylertreat",
-      "tag": null,
-      "title": "Stream Processing and Probabilistic Methods: Data at Scale",
-      "url": "http://www.bravenewgeek.com/stream-processing-and-probabilistic-methods/"
-    },
-    {
-      "comments": null,
-      "id": "job-1",
-      "points": null,
-      "source": "swiftype.com",
-      "submitted": "15 hours ago",
-      "submitter": null,
-      "tag": "Job",
-      "title": "DevOps and Ruby Engineers – Swiftype Is Hiring",
-      "url": "https://swiftype.com/jobs"
+      "title": "Is LLDB a threat to GDB's success?",
+      "url": "https://sourceware.org/ml/gdb/2015-02/msg00022.html"
     },
     {
       "comments": 177,
@@ -279,59 +279,59 @@
       "url": "https://medium.com/@AndrewR_Physics/enoughs-enough-6c56afe36d00"
     },
     {
-      "comments": 2,
-      "id": "9050979",
-      "points": 11,
-      "source": "salon.com",
-      "submitted": "11 hours ago",
-      "submitter": "simonk",
-      "tag": null,
-      "title": "Amazon is killing your mailman",
-      "url": "http://www.salon.com/2015/02/13/amazon_is_killing_your_mailman_why_its_new_sunday_service_is_a_labor_travesty_partner/"
+      "comments": null,
+      "id": "job-1",
+      "points": null,
+      "source": "swiftype.com",
+      "submitted": "16 hours ago",
+      "submitter": null,
+      "tag": "Job",
+      "title": "DevOps and Ruby Engineers – Swiftype Is Hiring",
+      "url": "https://swiftype.com/jobs"
     },
     {
-      "comments": 18,
-      "id": "9045352",
-      "points": 71,
-      "source": "github.com",
+      "comments": 6,
+      "id": "9045315",
+      "points": 24,
+      "source": "bravenewgeek.com",
       "submitted": "1 day ago",
-      "submitter": "ndrake",
+      "submitter": "tylertreat",
       "tag": null,
-      "title": "Another Game Boy emulator for your terminal",
-      "url": "https://github.com/dobyrch/termboy-go"
-    },
-    {
-      "comments": 10,
-      "id": "9045354",
-      "points": 69,
-      "source": "pepijndevos.nl",
-      "submitted": "1 day ago",
-      "submitter": "luu",
-      "tag": null,
-      "title": "Catch 'em All: Using an Arduino to Trade Pokemon",
-      "url": "http://pepijndevos.nl/2015/02/13/catch-em-all.html"
-    },
-    {
-      "comments": 25,
-      "id": "9044637",
-      "points": 59,
-      "source": "npr.org",
-      "submitted": "1 day ago",
-      "submitter": "rbanffy",
-      "tag": null,
-      "title": "With Porches and Parks, a Texas Community Aims for Urban Utopia",
-      "url": "http://www.npr.org/2015/02/12/385474414/with-porches-and-parks-a-texas-community-aims-for-urban-utopia"
+      "title": "Stream Processing and Probabilistic Methods: Data at Scale",
+      "url": "http://www.bravenewgeek.com/stream-processing-and-probabilistic-methods/"
     },
     {
       "comments": 0,
-      "id": "9050290",
+      "id": "9050707",
       "points": 3,
-      "source": "bbc.com",
-      "submitted": "15 hours ago",
-      "submitter": "alok-g",
+      "source": "hammerlab.org",
+      "submitted": "13 hours ago",
+      "submitter": "ihodes",
       "tag": null,
-      "title": "Bringing the dead back to life (2014)",
-      "url": "http://www.bbc.com/future/story/20140704-i-bring-the-dead-back-to-life"
+      "title": "Testing React Web Apps with Mocha",
+      "url": "http://www.hammerlab.org/2015/02/14/testing-react-web-apps-with-mocha/"
+    },
+    {
+      "comments": 5,
+      "id": "9051005",
+      "points": 10,
+      "source": "theregister.co.uk",
+      "submitted": "11 hours ago",
+      "submitter": "stephenc_c_",
+      "tag": null,
+      "title": "Why the Apple phone will fail, and fail badly (2006)",
+      "url": "http://www.theregister.co.uk/2006/12/23/iphone_will_fail/"
+    },
+    {
+      "comments": 4,
+      "id": "9051602",
+      "points": 3,
+      "source": null,
+      "submitted": "7 hours ago",
+      "submitter": "andrewstuart",
+      "tag": "Ask HN",
+      "title": "Possible to buy new double sided double density disk drive and floppies?",
+      "url": "https://news.ycombinator.com/item?id=9051602"
     }
   ]
 }

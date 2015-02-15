@@ -1,6 +1,7 @@
 import Ember from "ember";
 import Server from "../../helpers/hacker-news-server";
 import fixtures from "../../fixtures";
+import { resetGuid } from "hn-reader/extractors/story";
 import {
   moduleForModel,
   test
@@ -11,21 +12,37 @@ var server;
 moduleForModel('story', 'Story', {
   needs: ['adapter:story', 'serializer:story'],
 
-  setup() { server = new Server(); },
+  setup() {
+    resetGuid();
+    server = new Server();
+  },
 
-  teardown() { server.shutdown(); }
+  teardown() {
+    server.shutdown();
+  }
 });
 
 function itemsDeepEqual(actual, expected) {
-  actual = actual.map(
-    item => ({ title: item.get('title'), url: item.get('url') })
-  );
-
-  expected = expected.map(
-    item => ({ title: item.title, url: item.url })
-  );
-
+  actual = actual.map( item => item.toJSON({ includeId: true }) );
   deepEqual(actual, expected);
+}
+
+function findSingle(id) {
+  var item = fixtures.item[`${id}.json`];
+
+  test(`finding a single story (ID=${id})`, function() {
+    var promise = Ember.run( () => this.store().find('story', id) );
+
+    return promise.then( result => {
+      deepEqual(result.toJSON({ includeId: true }), item.story);
+    });
+  });
+}
+
+for (let item in fixtures.item) {
+  if (item.indexOf('.json') > 0) {
+    findSingle( item.replace('.json', '') );
+  }
 }
 
 test('finding the latest front page stories', function() {

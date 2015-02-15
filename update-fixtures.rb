@@ -13,6 +13,8 @@ end
 
 Capybara.default_driver = :chrome
 
+$items = []
+
 def exec(comment, command)
   puts comment if comment
   print "  Executing `#{command}`... "
@@ -51,6 +53,10 @@ def download_page(section, page = nil)
   if page
     filename = page.split('=')[1].to_i.to_s
   else
+    parsed.css("a[href^='item?id=']").each do |link|
+      $items << link['href'].gsub('item?id=', '').to_i
+    end
+
     if section == "newest"
       filename = "newest"
     else
@@ -93,6 +99,26 @@ def download_section(section)
   end
 end
 
+def download_item(item)
+  raw, _ = fetch_page nil, "item?id=#{item}"
+
+  print "  Saving tests/fixtures/item/#{item}.html... "
+
+  File.open("tests/fixtures/item/#{item}.html", "w+") do |f|
+    f.print raw
+  end
+
+  puts "DONE"
+
+  print "  Creating a stub for tests/fixtures/item/#{item}.json... "
+
+  File.open("tests/fixtures/item/#{item}.json", "w+") do |f|
+    f.print %{"<STUB `tests/fixtures/item/#{item}.json`>"}
+  end
+
+  puts "DONE"
+end
+
 exec "Removing existing fixtures...", "rm -rf tests/fixtures/*"
 
 download_section "news"
@@ -101,10 +127,24 @@ download_section "show"
 download_section "ask"
 download_section "jobs"
 
-puts "Downloading fixtures for not-found page..."
+puts "Downloading fixtures for filter not-found page..."
 
 File.open("tests/fixtures/not-found.html", "w+") do |f|
   raw, _ = fetch_page(nil, "ask?p=9999")
+  f.print raw
+end
+
+exec "Downloading item fixtures...", "mkdir tests/fixtures/item"
+
+$items.uniq!
+$items.sort!
+$items.each &method(:download_item)
+
+puts "Downloading fixtures for item not-found page..."
+
+File.open("tests/fixtures/item/not-found.html", "w+") do |f|
+  raw, _ = fetch_page(nil, "item?id=99999999")
+  f.print raw
 end
 
 puts "Populating JSON fixtures from test results..."
@@ -129,12 +169,21 @@ page.all(:css, ".test-diff pre").each do |el|
   end
 end
 
+page.all(:css, ".test-message").each do |el|
+  if file = el.text[/<ERROR `(.+)`>/, 1]
+    exec "WARNING: removing dead item `#{file}`", "rm #{file}"
+  end
+end
+
 page.visit "http://localhost:4200/tests/index.html?nocontainer&nojshint&module=Story%20extractor"
+
+sleep 1
 
 failed = page.all(:css, ".fail").count
 
 if failed > 0
-  puts "WARNING: found #{failed} tests!"
+  puts "WARNING: found #{failed} failing tests!"
+  gets
 end
 
 puts "All done!"

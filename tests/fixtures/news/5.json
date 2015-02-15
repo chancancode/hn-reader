@@ -4,6 +4,50 @@
   },
   "stories": [
     {
+      "comments": 2,
+      "id": "9050979",
+      "points": 11,
+      "source": "salon.com",
+      "submitted": "11 hours ago",
+      "submitter": "simonk",
+      "tag": null,
+      "title": "Amazon is killing your mailman",
+      "url": "http://www.salon.com/2015/02/13/amazon_is_killing_your_mailman_why_its_new_sunday_service_is_a_labor_travesty_partner/"
+    },
+    {
+      "comments": 18,
+      "id": "9045352",
+      "points": 71,
+      "source": "github.com",
+      "submitted": "1 day ago",
+      "submitter": "ndrake",
+      "tag": null,
+      "title": "Another Game Boy emulator for your terminal",
+      "url": "https://github.com/dobyrch/termboy-go"
+    },
+    {
+      "comments": 11,
+      "id": "9045354",
+      "points": 70,
+      "source": "pepijndevos.nl",
+      "submitted": "1 day ago",
+      "submitter": "luu",
+      "tag": null,
+      "title": "Catch 'em All: Using an Arduino to Trade Pokemon",
+      "url": "http://pepijndevos.nl/2015/02/13/catch-em-all.html"
+    },
+    {
+      "comments": 25,
+      "id": "9044637",
+      "points": 59,
+      "source": "npr.org",
+      "submitted": "1 day ago",
+      "submitter": "rbanffy",
+      "tag": null,
+      "title": "With Porches and Parks, a Texas Community Aims for Urban Utopia",
+      "url": "http://www.npr.org/2015/02/12/385474414/with-porches-and-parks-a-texas-community-aims-for-urban-utopia"
+    },
+    {
       "comments": 13,
       "id": "9044539",
       "points": 50,
@@ -15,7 +59,29 @@
       "url": "http://doc.akka.io/docs/akka/snapshot/common/circuitbreaker.html"
     },
     {
-      "comments": 12,
+      "comments": 0,
+      "id": "9050290",
+      "points": 3,
+      "source": "bbc.com",
+      "submitted": "15 hours ago",
+      "submitter": "alok-g",
+      "tag": null,
+      "title": "Bringing the dead back to life (2014)",
+      "url": "http://www.bbc.com/future/story/20140704-i-bring-the-dead-back-to-life"
+    },
+    {
+      "comments": 624,
+      "id": "9045305",
+      "points": 1149,
+      "source": "gizmodo.com",
+      "submitted": "1 day ago",
+      "submitter": "sagivo",
+      "tag": null,
+      "title": "Fuck It, I'm Going Back to Firefox",
+      "url": "http://gizmodo.com/fuck-it-im-going-back-to-firefox-1685425815"
+    },
+    {
+      "comments": 14,
       "id": "9048909",
       "points": 94,
       "source": "nostarch.com",
@@ -24,17 +90,6 @@
       "tag": null,
       "title": "An open letter from bunnie, author of Hacking the Xbox (2013)",
       "url": "http://www.nostarch.com/xboxfree"
-    },
-    {
-      "comments": 1,
-      "id": "9051626",
-      "points": 3,
-      "source": "youtube.com",
-      "submitted": "6 hours ago",
-      "submitter": "sgy",
-      "tag": null,
-      "title": "Creativity in Mathematics: Inquiry-Based Learning and the Moore Method",
-      "url": "http://www.youtube.com/watch?v=f6t6WiWYdgY"
     },
     {
       "comments": 105,
@@ -46,6 +101,17 @@
       "tag": null,
       "title": "A Russian TV Insider Describes a Modern Propaganda Machine",
       "url": "http://www.nytimes.com/2015/02/14/world/europe/russian-tv-insider-says-putin-is-running-the-show-in-ukraine.html"
+    },
+    {
+      "comments": 1,
+      "id": "9051626",
+      "points": 3,
+      "source": "youtube.com",
+      "submitted": "7 hours ago",
+      "submitter": "sgy",
+      "tag": null,
+      "title": "Creativity in Mathematics: Inquiry-Based Learning and the Moore Method",
+      "url": "http://www.youtube.com/watch?v=f6t6WiWYdgY"
     },
     {
       "comments": 8,
@@ -63,14 +129,14 @@
       "id": "9049218",
       "points": 52,
       "source": null,
-      "submitted": "23 hours ago",
+      "submitted": "1 day ago",
       "submitter": "sassypants",
       "tag": "Ask HN",
       "title": "Best practices for OS X dev environments",
       "url": "https://news.ycombinator.com/item?id=9049218"
     },
     {
-      "comments": 0,
+      "comments": 171,
       "id": "9026025",
       "points": 480,
       "source": "crockpotveggies.com",
@@ -85,7 +151,7 @@
       "id": "9049533",
       "points": 5,
       "source": "vwh.net",
-      "submitted": "20 hours ago",
+      "submitted": "21 hours ago",
       "submitter": "666_howitzer",
       "tag": null,
       "title": "Theoretical Applied Science (1994)",
@@ -147,7 +213,7 @@
       "url": "https://portalplatform.net/"
     },
     {
-      "comments": 0,
+      "comments": 35,
       "id": "9034319",
       "points": 147,
       "source": "geoffralston.com",
@@ -173,7 +239,7 @@
       "id": "9050405",
       "points": 8,
       "source": "github.com",
-      "submitted": "14 hours ago",
+      "submitted": "15 hours ago",
       "submitter": "AdamN",
       "tag": null,
       "title": "One more reason financial companies like Chase are ripe for attack",
@@ -184,7 +250,7 @@
       "id": "9050431",
       "points": 3,
       "source": null,
-      "submitted": "14 hours ago",
+      "submitted": "15 hours ago",
       "submitter": "bartmcpherson",
       "tag": "Ask HN",
       "title": "Taking over after contractors jump ship",
@@ -195,7 +261,7 @@
       "id": "9050993",
       "points": 4,
       "source": "nih.gov",
-      "submitted": "10 hours ago",
+      "submitted": "11 hours ago",
       "submitter": "lettergram",
       "tag": null,
       "title": "Drinking dark roast coffee decreases the level of spontaneous DNA strand breaks",
@@ -228,11 +294,22 @@
       "id": "9050396",
       "points": 4,
       "source": "medium.com",
-      "submitted": "14 hours ago",
+      "submitted": "15 hours ago",
       "submitter": "prtndr",
       "tag": null,
       "title": "Why my team uses npm instead of bower",
       "url": "https://medium.com/@nickheiner/why-my-team-uses-npm-instead-of-bower-eecfe1b9afcb"
+    },
+    {
+      "comments": 28,
+      "id": "9038170",
+      "points": 188,
+      "source": "gnupg.org",
+      "submitted": "2 days ago",
+      "submitter": "Sami_Lehtinen",
+      "tag": null,
+      "title": "GnuPG 2.1.2 released",
+      "url": "https://lists.gnupg.org/pipermail/gnupg-announce/2015q1/000361.html"
     },
     {
       "comments": 3,
@@ -255,83 +332,6 @@
       "tag": "Ask HN",
       "title": "Why Can't I Sign Up with Medium Other Than Through Facebook or Twitter?",
       "url": "https://news.ycombinator.com/item?id=9051592"
-    },
-    {
-      "comments": 0,
-      "id": "9050228",
-      "points": 4,
-      "source": "eurogamer.net",
-      "submitted": "15 hours ago",
-      "submitter": "Logmix",
-      "tag": null,
-      "title": "Requiem for a dreamer – the god-damned tragedy of Peter Molyneux",
-      "url": "http://www.eurogamer.net/articles/2015-02-14-rich-stanton-on-requiem-for-a-dreamer"
-    },
-    {
-      "comments": 1,
-      "id": "9050931",
-      "points": 29,
-      "source": "fullstackacademy.com",
-      "submitted": "11 hours ago",
-      "submitter": "dy",
-      "tag": null,
-      "title": "Improve Your Valentine's Day with JavaScript",
-      "url": "http://blog.fullstackacademy.com/post/76605703216/valentines-day-with-javascript"
-    },
-    {
-      "comments": 1,
-      "id": "9047952",
-      "points": 3,
-      "source": "pinterest.com",
-      "submitted": "1 day ago",
-      "submitter": "dannieb",
-      "tag": null,
-      "title": "How Pinterest uses holdout groups to drive sustainable growth",
-      "url": "http://engineering.pinterest.com/post/110916490389/how-holdout-groups-drive-sustainable-growth"
-    },
-    {
-      "comments": 48,
-      "id": "9040023",
-      "points": 50,
-      "source": "aeon.co",
-      "submitted": "2 days ago",
-      "submitter": "Nowyouknow",
-      "tag": null,
-      "title": "The Importance of Anxiety",
-      "url": "http://aeon.co/magazine/psychology/why-anxiety-is-the-secret-of-feeling-good/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+AeonMagazineEssays+%28Aeon+Magazine+Essays%29"
-    },
-    {
-      "comments": 2,
-      "id": "9047943",
-      "points": 5,
-      "source": "techcrunch.com",
-      "submitted": "1 day ago",
-      "submitter": "prateekj",
-      "tag": null,
-      "title": "Apple Has Hundreds Working on an Electric Car Design",
-      "url": "http://techcrunch.com/2015/02/13/apple-car/"
-    },
-    {
-      "comments": 18,
-      "id": "9045239",
-      "points": 10,
-      "source": null,
-      "submitted": "1 day ago",
-      "submitter": "techsin",
-      "tag": "Discuss",
-      "title": "Self Taught Web Dev -What Should I Do?",
-      "url": "https://news.ycombinator.com/item?id=9045239"
-    },
-    {
-      "comments": 15,
-      "id": "9038968",
-      "points": 70,
-      "source": "truveris.github.io",
-      "submitted": "2 days ago",
-      "submitter": "tamentis",
-      "tag": null,
-      "title": "Locust – Testing framework simulating the burstiness of an end user",
-      "url": "http://truveris.github.io/articles/locust/"
     }
   ]
 }

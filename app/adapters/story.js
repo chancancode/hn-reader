@@ -8,6 +8,29 @@ export default DS.Adapter.extend({
   proxy: config.APP.CORS_PROXY,
   host: config.APP.HACKERNEWS_HOST,
 
+  find(store, type, id) {
+    return new Ember.RSVP.Promise( (resolve, reject) => {
+
+      var xhr = new XMLHttpRequest();
+
+      xhr.open("GET", `/item?id=${id}`, true);
+      xhr.responseType = "document";
+
+      xhr.onload = () => {
+        if (isError(xhr.response)) {
+          Ember.run(null, reject, "Not found");
+        } else {
+          Ember.run(null, resolve, xhr.response);
+        }
+      };
+
+      xhr.onerror = () => Ember.run(null, reject, xhr.statusText);
+
+      xhr.send();
+
+    });
+  },
+
   findAll(store, type) { this.findQuery(store, type); },
 
   findQuery(store, type, query = {}) {

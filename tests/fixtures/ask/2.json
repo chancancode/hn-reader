@@ -48,7 +48,7 @@
       "url": "https://news.ycombinator.com/item?id=9044491"
     },
     {
-      "comments": 107,
+      "comments": 0,
       "id": "8908279",
       "points": 275,
       "source": null,
@@ -81,7 +81,7 @@
       "url": "https://news.ycombinator.com/item?id=9017491"
     },
     {
-      "comments": 73,
+      "comments": 0,
       "id": "9007996",
       "points": 64,
       "source": null,
@@ -92,7 +92,7 @@
       "url": "https://news.ycombinator.com/item?id=9007996"
     },
     {
-      "comments": 95,
+      "comments": 0,
       "id": "9033759",
       "points": 41,
       "source": null,
@@ -114,7 +114,7 @@
       "url": "https://news.ycombinator.com/item?id=8998571"
     },
     {
-      "comments": 16,
+      "comments": 0,
       "id": "8861156",
       "points": 11,
       "source": null,
@@ -266,17 +266,6 @@
       "tag": "Discuss",
       "title": "Best Foreign Country to Go Work in? (for a new college grad)",
       "url": "https://news.ycombinator.com/item?id=9036518"
-    },
-    {
-      "comments": 2,
-      "id": "9040733",
-      "points": 4,
-      "source": null,
-      "submitted": "2 days ago",
-      "submitter": "cylinder",
-      "tag": "Ask HN",
-      "title": "Implementing business processes",
-      "url": "https://news.ycombinator.com/item?id=9040733"
     }
   ]
 }

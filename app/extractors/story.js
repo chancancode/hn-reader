@@ -153,6 +153,11 @@ function extractStory(row1, row2) {
   return story;
 }
 
+export function extractSingle(doc) {
+  var rows = $("#hnmain table:eq(1) tr", doc);
+  return { story: extractStory( rows[0], rows[1] ) };
+}
+
 export function extractArray(doc) {
   var meta = {},
       stories = [],
@@ -174,5 +179,5 @@ export function extractArray(doc) {
 }
 
 export function isError(doc) {
-  return $("table table:eq(1) tr", doc).length === 0;
+  return $("#hnmain table:eq(1) tr", doc).length === 0;
 }

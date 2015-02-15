@@ -1,0 +1,337 @@
+{
+  "meta": {
+    "next": "9051590"
+  },
+  "stories": [
+    {
+      "comments": 13,
+      "id": "9051827",
+      "points": 70,
+      "source": "daftpunkonsole.com",
+      "submitted": "5 hours ago",
+      "submitter": "technologia",
+      "tag": null,
+      "title": "Daftpunkonsole",
+      "url": "http://daftpunkonsole.com/"
+    },
+    {
+      "comments": 1,
+      "id": "9051808",
+      "points": 1,
+      "source": null,
+      "submitted": "5 hours ago",
+      "submitter": "UXDork",
+      "tag": "Discuss",
+      "title": "Has anyone done brain stimulation? Is it really better than caffeine?",
+      "url": "https://news.ycombinator.com/item?id=9051808"
+    },
+    {
+      "comments": 46,
+      "id": "9051804",
+      "points": 54,
+      "source": "nytimes.com",
+      "submitted": "5 hours ago",
+      "submitter": "aaronbrethorst",
+      "tag": null,
+      "title": "How Likely Is It That Birth Control Could Let You Down?",
+      "url": "http://www.nytimes.com/interactive/2014/09/14/sunday-review/unplanned-pregnancies.html"
+    },
+    {
+      "comments": 11,
+      "id": "9051782",
+      "points": 39,
+      "source": "flafla2.github.io",
+      "submitted": "5 hours ago",
+      "submitter": "Artemis2",
+      "tag": null,
+      "title": "Bunnyhopping from the Programmer's Perspective",
+      "url": "https://flafla2.github.io/2015/02/14/bunnyhop.html"
+    },
+    {
+      "comments": 0,
+      "id": "9051773",
+      "points": 1,
+      "source": "countercurrents.org",
+      "submitted": "5 hours ago",
+      "submitter": "kephra",
+      "tag": null,
+      "title": "Oil Zapper Magically Restores Denigrated Areas",
+      "url": "http://www.countercurrents.org/nazareth120215.htm"
+    },
+    {
+      "comments": 0,
+      "id": "9051770",
+      "points": 1,
+      "source": "medium.com",
+      "submitted": "5 hours ago",
+      "submitter": "_ayasin",
+      "tag": null,
+      "title": "Solving common node/io.js callback problems",
+      "url": "https://medium.com/@ayasin/solving-common-node-io-js-callback-problems-d3d1f6049259"
+    },
+    {
+      "comments": 1,
+      "id": "9051761",
+      "points": 2,
+      "source": "hezmatt.org",
+      "submitted": "5 hours ago",
+      "submitter": "akerl_",
+      "tag": null,
+      "title": "The Vicious Circle of Documentation",
+      "url": "http://www.hezmatt.org/~mpalmer/blog/2015/02/15/the-documentation-vicious-circle.html"
+    },
+    {
+      "comments": 0,
+      "id": "9051757",
+      "points": 1,
+      "source": "vanityfair.com",
+      "submitted": "5 hours ago",
+      "submitter": "mparramon",
+      "tag": null,
+      "title": "How Channing Tatum’s Face Was Flattened for Foxcatcher",
+      "url": "http://www.vanityfair.com/hollywood/2015/02/foxcatcher-makeup-oscar"
+    },
+    {
+      "comments": 0,
+      "id": "9051755",
+      "points": 2,
+      "source": "bloomberg.com",
+      "submitted": "5 hours ago",
+      "submitter": "mparramon",
+      "tag": null,
+      "title": "Apple Said to Be Working on Electric Car to Challenge Tesla",
+      "url": "http://www.bloomberg.com/news/articles/2015-02-14/michele-ferrero-owner-of-nutella-confectioner-dies-at-age-89http://www.bloomberg.com/news/articles/2015-02-14/apple-said-to-be-working-on-electric-car-to-challenge-tesla"
+    },
+    {
+      "comments": 0,
+      "id": "9051748",
+      "points": 2,
+      "source": "bloomberg.com",
+      "submitted": "5 hours ago",
+      "submitter": "mparramon",
+      "tag": null,
+      "title": "Michele Ferrero, Owner of Nutella Confectioner, Dies at Age 89",
+      "url": "http://www.bloomberg.com/news/articles/2015-02-14/michele-ferrero-owner-of-nutella-confectioner-dies-at-age-89"
+    },
+    {
+      "comments": 0,
+      "id": "9051741",
+      "points": 1,
+      "source": "nautil.us",
+      "submitted": "6 hours ago",
+      "submitter": "mparramon",
+      "tag": null,
+      "title": "Bank Hackers Steal Millions via Malware",
+      "url": "http://nautil.us/issue/21/information/how-i-taught-my-computer-to-write-its-own-musichttp://www.nytimes.com/2015/02/15/world/bank-hackers-steal-millions-via-malware.html"
+    },
+    {
+      "comments": 0,
+      "id": "9051739",
+      "points": 2,
+      "source": "scrtybybscrty.org",
+      "submitted": "6 hours ago",
+      "submitter": "akerl_",
+      "tag": null,
+      "title": "Password strength checker",
+      "url": "http://passwords.scrtybybscrty.org/"
+    },
+    {
+      "comments": 0,
+      "id": "9051730",
+      "points": 3,
+      "source": "github.com",
+      "submitted": "6 hours ago",
+      "submitter": "tvvocold",
+      "tag": null,
+      "title": "A secure socks5/http proxy solution using auto negotiation of secret key",
+      "url": "https://github.com/spance/deblocus"
+    },
+    {
+      "comments": 0,
+      "id": "9051726",
+      "points": 1,
+      "source": "economist.com",
+      "submitted": "6 hours ago",
+      "submitter": "prostoalex",
+      "tag": null,
+      "title": "Oath market",
+      "url": "http://www.economist.com/news/science-and-technology/21642363-quality-control-process-science-publishing-evolving-code-ethics-hot-pursuit-oath?fsrc=scn/tw/te/bl/ed/oathmarket"
+    },
+    {
+      "comments": 0,
+      "id": "9051723",
+      "points": 4,
+      "source": "oreilly.com",
+      "submitted": "6 hours ago",
+      "submitter": "bleakgadfly",
+      "tag": null,
+      "title": "Why learn C? (2012)",
+      "url": "http://radar.oreilly.com/2012/06/why-learn-c.html"
+    },
+    {
+      "comments": 0,
+      "id": "9051712",
+      "points": 1,
+      "source": "studio5innovation.com",
+      "submitted": "6 hours ago",
+      "submitter": "Orinthea",
+      "tag": null,
+      "title": "The Big Problem with small business sites",
+      "url": "http://studio5innovation.com/the-big-problem-with-small-business-websites/"
+    },
+    {
+      "comments": 0,
+      "id": "9051711",
+      "points": 2,
+      "source": "alexanderw.xyz",
+      "submitted": "6 hours ago",
+      "submitter": "slimetree",
+      "tag": null,
+      "title": "Succinctness vs. Readability",
+      "url": "http://alexanderw.xyz/essays/svr/"
+    },
+    {
+      "comments": 0,
+      "id": "9051684",
+      "points": 3,
+      "source": "packetsender.com",
+      "submitted": "6 hours ago",
+      "submitter": "jonbaer",
+      "tag": null,
+      "title": "Packet Sender – The UDP and TCP Network Test Utility",
+      "url": "http://packetsender.com/"
+    },
+    {
+      "comments": 0,
+      "id": "9051661",
+      "points": 1,
+      "source": "youtube.com",
+      "submitted": "6 hours ago",
+      "submitter": "sfdrozdov",
+      "tag": null,
+      "title": "We are a tiny part of this universe",
+      "url": "https://www.youtube.com/watch?v=GSVv40M2aks#t=102"
+    },
+    {
+      "comments": 0,
+      "id": "9051657",
+      "points": 2,
+      "source": "medium.com",
+      "submitted": "6 hours ago",
+      "submitter": "bgia",
+      "tag": null,
+      "title": "5 life things to consider before taking a position abroad",
+      "url": "https://medium.com/@baudoui/5-life-things-to-consider-before-taking-a-position-abroad-3371ba754615"
+    },
+    {
+      "comments": 1,
+      "id": "9051652",
+      "points": 2,
+      "source": "twitter.com",
+      "submitted": "6 hours ago",
+      "submitter": "sinak",
+      "tag": null,
+      "title": "Happy Valentines Day from the NSA",
+      "url": "https://twitter.com/NSA_PAO/status/566606602220756995"
+    },
+    {
+      "comments": 21,
+      "id": "9051645",
+      "points": 62,
+      "source": "github.com",
+      "submitted": "6 hours ago",
+      "submitter": "sevko",
+      "tag": null,
+      "title": "A summary of ECMAScript 6 features",
+      "url": "https://github.com/lukehoban/es6features"
+    },
+    {
+      "comments": 0,
+      "id": "9051636",
+      "points": 1,
+      "source": "recode.net",
+      "submitted": "7 hours ago",
+      "submitter": "prostoalex",
+      "tag": null,
+      "title": "Barack Obama Wants All Kids to Learn to Code",
+      "url": "http://recode.net/2015/02/14/obama-everybodys-got-to-learn-how-to-code/"
+    },
+    {
+      "comments": 0,
+      "id": "9051629",
+      "points": 2,
+      "source": "metzdowd.com",
+      "submitted": "7 hours ago",
+      "submitter": "zmanian",
+      "tag": null,
+      "title": "RAM usage and zero knowledge proofs",
+      "url": "http://www.metzdowd.com/pipermail/cryptography/2015-February/024731.html"
+    },
+    {
+      "comments": 1,
+      "id": "9051626",
+      "points": 3,
+      "source": "youtube.com",
+      "submitted": "7 hours ago",
+      "submitter": "sgy",
+      "tag": null,
+      "title": "Creativity in Mathematics: Inquiry-Based Learning and the Moore Method",
+      "url": "http://www.youtube.com/watch?v=f6t6WiWYdgY"
+    },
+    {
+      "comments": 0,
+      "id": "9051621",
+      "points": 1,
+      "source": "thedailywtf.com",
+      "submitted": "7 hours ago",
+      "submitter": "Sami_Lehtinen",
+      "tag": null,
+      "title": "Getting Wired",
+      "url": "http://www.thedailywtf.com/articles/getting-wired"
+    },
+    {
+      "comments": 0,
+      "id": "9051614",
+      "points": 1,
+      "source": "medium.com",
+      "submitted": "7 hours ago",
+      "submitter": "rubencodes",
+      "tag": null,
+      "title": "Hacking Liberal Arts – The story of planning the first-ever CBBhacks",
+      "url": "https://medium.com/@staticint/hacking-liberal-arts-2d360809ca9e"
+    },
+    {
+      "comments": 4,
+      "id": "9051602",
+      "points": 3,
+      "source": null,
+      "submitted": "7 hours ago",
+      "submitter": "andrewstuart",
+      "tag": "Ask HN",
+      "title": "Possible to buy new double sided double density disk drive and floppies?",
+      "url": "https://news.ycombinator.com/item?id=9051602"
+    },
+    {
+      "comments": 4,
+      "id": "9051592",
+      "points": 4,
+      "source": null,
+      "submitted": "7 hours ago",
+      "submitter": "MichaelCrawford",
+      "tag": "Ask HN",
+      "title": "Why Can't I Sign Up with Medium Other Than Through Facebook or Twitter?",
+      "url": "https://news.ycombinator.com/item?id=9051592"
+    },
+    {
+      "comments": 4,
+      "id": "9051591",
+      "points": 33,
+      "source": "owasp.org",
+      "submitted": "7 hours ago",
+      "submitter": "dhruvbhatia",
+      "tag": null,
+      "title": "HTML5 Security Cheat Sheet",
+      "url": "https://www.owasp.org/index.php/HTML5_Security_Cheat_Sheet"
+    }
+  ]
+}

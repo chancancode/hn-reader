@@ -4,6 +4,61 @@
   },
   "stories": [
     {
+      "comments": 6,
+      "id": "9049597",
+      "points": 59,
+      "source": "arxiv.org",
+      "submitted": "20 hours ago",
+      "submitter": "lelf",
+      "tag": null,
+      "title": "Deep Speech: Scaling up end-to-end speech recognition",
+      "url": "http://arxiv.org/abs/1412.5567"
+    },
+    {
+      "comments": 26,
+      "id": "9049907",
+      "points": 60,
+      "source": "technoquarter.blogspot.com",
+      "submitted": "18 hours ago",
+      "submitter": "protomyth",
+      "tag": null,
+      "title": "OpenBSD Mail Server Intro",
+      "url": "http://technoquarter.blogspot.com/2015/02/openbsd-mail-server.html"
+    },
+    {
+      "comments": 6,
+      "id": "9049945",
+      "points": 64,
+      "source": "marc.info",
+      "submitted": "18 hours ago",
+      "submitter": "protomyth",
+      "tag": null,
+      "title": "Authenticated TLS “contraints” in ntpd(8)",
+      "url": "http://marc.info/?l=openbsd-tech&m=142356166731390&w=2"
+    },
+    {
+      "comments": 14,
+      "id": "9049348",
+      "points": 69,
+      "source": "stupidpythonideas.blogspot.com",
+      "submitted": "22 hours ago",
+      "submitter": "ceronman",
+      "tag": null,
+      "title": "Understanding Python's augmented assignment (a += b)",
+      "url": "http://stupidpythonideas.blogspot.com/2015/02/augmented-assignments-b.html"
+    },
+    {
+      "comments": 43,
+      "id": "9050316",
+      "points": 69,
+      "source": "34cross.in",
+      "submitted": "15 hours ago",
+      "submitter": "arkhamist",
+      "tag": null,
+      "title": "Haskell in Production",
+      "url": "http://34cross.in/zero-to-haskell-in-production"
+    },
+    {
       "comments": 5,
       "id": "9050468",
       "points": 19,
@@ -19,14 +74,14 @@
       "id": "9050595",
       "points": 15,
       "source": "wsj.com",
-      "submitted": "13 hours ago",
+      "submitted": "14 hours ago",
       "submitter": "ganeumann",
       "tag": null,
       "title": "How a Fight Over a Board Game Monopolized an Economist's Life (2009)",
       "url": "http://www.wsj.com/articles/SB125599860004295449"
     },
     {
-      "comments": 174,
+      "comments": 175,
       "id": "9048772",
       "points": 331,
       "source": "theguardian.com",
@@ -35,6 +90,17 @@
       "tag": null,
       "title": "Apple CEO Tim Cook challenges Obama with impassioned stand on privacy",
       "url": "http://www.theguardian.com/technology/2015/feb/13/apple-ceo-tim-cook-challenges-obama-privacy"
+    },
+    {
+      "comments": 19,
+      "id": "9049317",
+      "points": 67,
+      "source": "aphyr.com",
+      "submitted": "23 hours ago",
+      "submitter": "momo-reina",
+      "tag": null,
+      "title": "Clojure from the ground-up: debugging",
+      "url": "https://aphyr.com/posts/319-clojure-from-the-ground-up-debugging"
     },
     {
       "comments": 11,
@@ -48,22 +114,11 @@
       "url": "http://docs.topazruby.com/en/latest/"
     },
     {
-      "comments": 19,
-      "id": "9049317",
-      "points": 67,
-      "source": "aphyr.com",
-      "submitted": "22 hours ago",
-      "submitter": "momo-reina",
-      "tag": null,
-      "title": "Clojure from the ground-up: debugging",
-      "url": "https://aphyr.com/posts/319-clojure-from-the-ground-up-debugging"
-    },
-    {
-      "comments": 188,
+      "comments": 192,
       "id": "9049208",
-      "points": 673,
+      "points": 675,
       "source": null,
-      "submitted": "23 hours ago",
+      "submitted": "1 day ago",
       "submitter": "goralph",
       "tag": "Ask HN",
       "title": "The “I want to do everything but end up doing nothing” dilemma",
@@ -85,7 +140,7 @@
       "id": "9050372",
       "points": 49,
       "source": "bloomberg.com",
-      "submitted": "14 hours ago",
+      "submitted": "15 hours ago",
       "submitter": "blago",
       "tag": null,
       "title": "The Dark Science of Interrogation",
@@ -103,17 +158,6 @@
       "url": "http://meetingcpp.com/index.php/br/items/c17-library-papers-for-cologne.html"
     },
     {
-      "comments": 6,
-      "id": "9049917",
-      "points": 25,
-      "source": "ethereum.org",
-      "submitted": "17 hours ago",
-      "submitter": "jrbedard",
-      "tag": null,
-      "title": "The Subjectivity / Exploitability Tradeoff",
-      "url": "https://blog.ethereum.org/2015/02/14/subjectivity-exploitability-tradeoff/"
-    },
-    {
       "comments": 15,
       "id": "9049113",
       "points": 155,
@@ -126,6 +170,17 @@
     },
     {
       "comments": 6,
+      "id": "9049917",
+      "points": 25,
+      "source": "ethereum.org",
+      "submitted": "18 hours ago",
+      "submitter": "jrbedard",
+      "tag": null,
+      "title": "The Subjectivity / Exploitability Tradeoff",
+      "url": "https://blog.ethereum.org/2015/02/14/subjectivity-exploitability-tradeoff/"
+    },
+    {
+      "comments": 6,
       "id": "9050452",
       "points": 19,
       "source": "guigarage.com",
@@ -134,6 +189,17 @@
       "tag": null,
       "title": "Concurrency in UI Toolkits",
       "url": "http://www.guigarage.com/2015/01/concurrency-ui-toolkits-part-1/"
+    },
+    {
+      "comments": null,
+      "id": "job-0",
+      "points": null,
+      "source": "segment.com",
+      "submitted": "5 hours ago",
+      "submitter": null,
+      "tag": "Job",
+      "title": "Segment is hiring engineers to revamp our infrastructure",
+      "url": "https://segment.com/jobs/descriptions/infrastructure-engineer/"
     },
     {
       "comments": 80,
@@ -151,49 +217,16 @@
       "id": "9049737",
       "points": 23,
       "source": "wornandwound.com",
-      "submitted": "18 hours ago",
+      "submitted": "19 hours ago",
       "submitter": "Thevet",
       "tag": null,
       "title": "An Introduction to Russian Watches (2012)",
       "url": "http://wornandwound.com/2012/01/06/an-introduction-to-russian-watches/"
     },
     {
-      "comments": 11,
-      "id": "9051540",
-      "points": 71,
-      "source": "businessinsider.in",
-      "submitted": "7 hours ago",
-      "submitter": "akbarnama",
-      "tag": null,
-      "title": "Passion Is Overrated",
-      "url": "http://www.businessinsider.in/Dilbert-creator-Scott-Adams-illustrates-why-goals-are-for-losers-and-passion-is-overrated/Dilbert-creator-Scott-Adams-illustrates-why-goals-are-for-losers-and-passion-is-overrated/slideshow/46246132.cms"
-    },
-    {
-      "comments": 7,
-      "id": "9051271",
-      "points": 32,
-      "source": "bbc.co.uk",
-      "submitted": "9 hours ago",
-      "submitter": "lewispb",
-      "tag": null,
-      "title": "Zane Lowe to join Apple",
-      "url": "http://www.bbc.co.uk/newsbeat/31470124"
-    },
-    {
-      "comments": null,
-      "id": "job-0",
-      "points": null,
-      "source": "segment.com",
-      "submitted": "5 hours ago",
-      "submitter": null,
-      "tag": "Job",
-      "title": "Segment is hiring engineers to revamp our infrastructure",
-      "url": "https://segment.com/jobs/descriptions/infrastructure-engineer/"
-    },
-    {
       "comments": 121,
       "id": "9046526",
-      "points": 354,
+      "points": 355,
       "source": "rust-lang.org",
       "submitted": "1 day ago",
       "submitter": "steveklabnik",
@@ -211,6 +244,28 @@
       "tag": null,
       "title": "Sergey Aleynikov Sues FBI Agents Who Arrested Him",
       "url": "http://www.bloomberg.com/news/articles/2015-02-12/goldman-sachs-ex-programmer-sues-fbi-agents-who-arrested-him"
+    },
+    {
+      "comments": 11,
+      "id": "9051540",
+      "points": 71,
+      "source": "businessinsider.in",
+      "submitted": "8 hours ago",
+      "submitter": "akbarnama",
+      "tag": null,
+      "title": "Passion Is Overrated",
+      "url": "http://www.businessinsider.in/Dilbert-creator-Scott-Adams-illustrates-why-goals-are-for-losers-and-passion-is-overrated/Dilbert-creator-Scott-Adams-illustrates-why-goals-are-for-losers-and-passion-is-overrated/slideshow/46246132.cms"
+    },
+    {
+      "comments": 7,
+      "id": "9051271",
+      "points": 32,
+      "source": "bbc.co.uk",
+      "submitted": "9 hours ago",
+      "submitter": "lewispb",
+      "tag": null,
+      "title": "Zane Lowe to join Apple",
+      "url": "http://www.bbc.co.uk/newsbeat/31470124"
     },
     {
       "comments": 72,
@@ -257,22 +312,11 @@
       "url": "https://news.ycombinator.com/item?id=9050343"
     },
     {
-      "comments": 2,
-      "id": "9051870",
-      "points": 7,
-      "source": "artofmanliness.com",
-      "submitted": "3 hours ago",
-      "submitter": "JMill",
-      "tag": null,
-      "title": "How to Develop the Situational Awareness of Jason Bourne",
-      "url": "http://www.artofmanliness.com/2015/02/05/how-to-develop-the-situational-awareness-of-jason-bourne/"
-    },
-    {
       "comments": 0,
       "id": "9051189",
-      "points": 5,
+      "points": 6,
       "source": "writemom.net",
-      "submitted": "9 hours ago",
+      "submitted": "10 hours ago",
       "submitter": "cmikec",
       "tag": "Show HN",
       "title": "I made this to stay in better touch with my mom during Y Combinator",
@@ -288,50 +332,6 @@
       "tag": null,
       "title": "More than 39M Americans Only Have Access to One Wired Broadband Provider",
       "url": "http://broadbandnow.com/report/2013-underserved/"
-    },
-    {
-      "comments": 166,
-      "id": "9042282",
-      "points": 549,
-      "source": "slate.com",
-      "submitted": "2 days ago",
-      "submitter": "tokenadult",
-      "tag": null,
-      "title": "The FDA buries evidence of fraud in medical trials. My students and I dug it up",
-      "url": "http://www.slate.com/articles/health_and_science/science/2015/02/fda_inspections_fraud_fabrication_and_scientific_misconduct_are_hidden_from.single.html"
-    },
-    {
-      "comments": 18,
-      "id": "9049233",
-      "points": 85,
-      "source": "linux-bg.org",
-      "submitted": "23 hours ago",
-      "submitter": "eterps",
-      "tag": null,
-      "title": "Minimal Linux Live",
-      "url": "http://minimal.linux-bg.org/"
-    },
-    {
-      "comments": 2,
-      "id": "9049844",
-      "points": 15,
-      "source": "arxiv.org",
-      "submitted": "18 hours ago",
-      "submitter": "tim_sw",
-      "tag": null,
-      "title": "Show, Attend and Tell: Neural Image Caption Generation with Visual Attention [pdf]",
-      "url": "http://arxiv.org/pdf/1502.03044.pdf"
-    },
-    {
-      "comments": 58,
-      "id": "9046829",
-      "points": 216,
-      "source": "coreos.com",
-      "submitted": "1 day ago",
-      "submitter": "thousandx",
-      "tag": null,
-      "title": "App Container and Docker",
-      "url": "https://coreos.com/blog/app-container-and-docker/"
     }
   ]
 }
