@@ -46,6 +46,7 @@ function testIndex(type) {
 
 testIndex("news");
 testIndex("newest");
+testIndex("active");
 testIndex("show");
 testIndex("ask");
 testIndex("jobs");

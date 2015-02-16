@@ -122,6 +122,7 @@ end
 exec "Removing existing fixtures...", "rm -rf tests/fixtures/*"
 
 download_section "news"
+download_section "active"
 download_section "newest"
 download_section "show"
 download_section "ask"
@@ -155,6 +156,8 @@ page.visit "http://localhost:4200/tests?nocontainer&nojshint&module=Story%20extr
 
 page.evaluate_script "LiveReload.shutDown()"
 
+sleep 5
+
 page.all(:css, ".test-diff pre").each do |el|
   diff = el.text
 
@@ -180,7 +183,7 @@ end
 
 page.visit "http://localhost:4200/tests/index.html?nocontainer&nojshint&module=Story%20extractor"
 
-sleep 1
+sleep 5
 
 failed = page.all(:css, ".fail").count
 

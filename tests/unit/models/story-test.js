@@ -115,6 +115,32 @@ for (let page in fixtures.newest) {
   }
 }
 
+test('finding the latest active stories', function() {
+  var page = fixtures.active['1.json'];
+
+  return this.store().find('story', { filter: 'active' }).then( result => {
+    itemsDeepEqual(result, page.stories);
+    strictEqual(result.meta.next, page.meta.next);
+  });
+});
+
+function findActive(p) {
+  var page = fixtures.active[`${p}.json`];
+
+  test(`finding active stories (page ${p})`, function() {
+    return this.store().find('story', { filter: 'active', page: p }).then( result => {
+      itemsDeepEqual(result, page.stories);
+      strictEqual(result.meta.next, page.meta.next);
+    });
+  });
+}
+
+for (let page in fixtures.active) {
+  if (page.indexOf('.json') > 0) {
+    findActive(page.replace('.json', ''));
+  }
+}
+
 test('finding the latest "Show HN" stories', function() {
   var page = fixtures.show['1.json'];
 

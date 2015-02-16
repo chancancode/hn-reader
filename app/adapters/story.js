@@ -70,6 +70,10 @@ export default DS.Adapter.extend({
         url = "newest";
         break;
 
+      case "active":
+        url = "active";
+        break;
+
       case "show-hn":
         url = "show";
         break;

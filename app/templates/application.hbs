@@ -9,6 +9,10 @@
         Latest Submissions
       {{/link-to}}
 
+      {{#link-to "stories" (query-params filter="active")}}
+        Active
+      {{/link-to}}
+
       {{#link-to "stories" (query-params filter="show-hn")}}
         Show HN
       {{/link-to}}

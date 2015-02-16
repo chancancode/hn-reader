@@ -19,7 +19,7 @@ export default function(prefix = "") {
 
     var server = this;
 
-    ["news", "show", "ask", "jobs"].forEach( type => {
+    ["news", "active", "show", "ask", "jobs"].forEach( type => {
 
       server.get(`/${type}` , request => {
         var page = request.queryParams.p || "1";
