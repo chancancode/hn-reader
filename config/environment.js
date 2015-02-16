@@ -16,6 +16,11 @@ module.exports = function(environment) {
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
+
+      // Boot the server with OFFLINE=1 to enable this. Use the fixtures instead
+      // of the live HN server, great for working at coffeeshops with bad wifi
+      // and presenting at conferences ;)
+      USE_FIXTURES_SERVER: false
     },
 
     contentSecurityPolicy: {
@@ -31,10 +36,14 @@ module.exports = function(environment) {
     // ENV.APP.LOG_TRANSITIONS_INTERNAL = true;
     // ENV.APP.LOG_VIEW_LOOKUPS = true;
 
-    ENV.APP.CORS_PROXY      = 'https://cors-anywhere.herokuapp.com';
-    ENV.APP.HACKERNEWS_HOST = 'https://news.ycombinator.com';
+    if (process.env.OFFLINE) {
+      ENV.APP.USE_FIXTURES_SERVER = true;
+    } else {
+      ENV.APP.CORS_PROXY      = 'https://cors-anywhere.herokuapp.com';
+      ENV.APP.HACKERNEWS_HOST = 'https://news.ycombinator.com';
 
-    ENV.contentSecurityPolicy['connect-src'] = "'self' https://cors-anywhere.herokuapp.com";
+      ENV.contentSecurityPolicy['connect-src'] = "'self' https://cors-anywhere.herokuapp.com";
+    }
   }
 
   if (environment === 'test') {
