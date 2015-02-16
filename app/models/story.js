@@ -5,6 +5,7 @@ export default DS.Model.extend({
   title:     DS.attr('string'),
   url:       DS.attr('string'),
   source:    DS.attr('string'),
+  body:      DS.attr('string'),
   points:    DS.attr('number'),
   comments:  DS.attr('number'),
   submitted: DS.attr('string'),

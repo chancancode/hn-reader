@@ -1,5 +1,6 @@
 {
   "story": {
+    "body": "I'm looking to do linguistic/textual analysis on a large amount of text I've scraped for a research project, finding stats like: frequently used words, associated topic clusters, gender estimations.\n\nI wrote the scraper myself, but the language analysis is something it seems it'd be easier to find OS and use out of the box or slightly modified.\n\nAnyone have any ideas/leads? Preference is for a script or process I can run from the CL to output the vitals.",
     "comments": 6,
     "id": "9050279",
     "points": 4,

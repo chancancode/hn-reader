@@ -4,6 +4,7 @@
   },
   "stories": [
     {
+      "body": null,
       "comments": 13,
       "id": "9051827",
       "points": 70,
@@ -15,6 +16,7 @@
       "url": "http://daftpunkonsole.com/"
     },
     {
+      "body": null,
       "comments": 1,
       "id": "9051808",
       "points": 1,
@@ -26,6 +28,7 @@
       "url": "https://news.ycombinator.com/item?id=9051808"
     },
     {
+      "body": null,
       "comments": 46,
       "id": "9051804",
       "points": 54,
@@ -37,6 +40,7 @@
       "url": "http://www.nytimes.com/interactive/2014/09/14/sunday-review/unplanned-pregnancies.html"
     },
     {
+      "body": null,
       "comments": 11,
       "id": "9051782",
       "points": 39,
@@ -48,6 +52,7 @@
       "url": "https://flafla2.github.io/2015/02/14/bunnyhop.html"
     },
     {
+      "body": null,
       "comments": 0,
       "id": "9051773",
       "points": 1,
@@ -59,6 +64,7 @@
       "url": "http://www.countercurrents.org/nazareth120215.htm"
     },
     {
+      "body": null,
       "comments": 0,
       "id": "9051770",
       "points": 1,
@@ -70,6 +76,7 @@
       "url": "https://medium.com/@ayasin/solving-common-node-io-js-callback-problems-d3d1f6049259"
     },
     {
+      "body": null,
       "comments": 1,
       "id": "9051761",
       "points": 2,
@@ -81,6 +88,7 @@
       "url": "http://www.hezmatt.org/~mpalmer/blog/2015/02/15/the-documentation-vicious-circle.html"
     },
     {
+      "body": null,
       "comments": 0,
       "id": "9051757",
       "points": 1,
@@ -92,6 +100,7 @@
       "url": "http://www.vanityfair.com/hollywood/2015/02/foxcatcher-makeup-oscar"
     },
     {
+      "body": null,
       "comments": 0,
       "id": "9051755",
       "points": 2,
@@ -103,6 +112,7 @@
       "url": "http://www.bloomberg.com/news/articles/2015-02-14/michele-ferrero-owner-of-nutella-confectioner-dies-at-age-89http://www.bloomberg.com/news/articles/2015-02-14/apple-said-to-be-working-on-electric-car-to-challenge-tesla"
     },
     {
+      "body": null,
       "comments": 0,
       "id": "9051748",
       "points": 2,
@@ -114,6 +124,7 @@
       "url": "http://www.bloomberg.com/news/articles/2015-02-14/michele-ferrero-owner-of-nutella-confectioner-dies-at-age-89"
     },
     {
+      "body": null,
       "comments": 0,
       "id": "9051741",
       "points": 1,
@@ -125,6 +136,7 @@
       "url": "http://nautil.us/issue/21/information/how-i-taught-my-computer-to-write-its-own-musichttp://www.nytimes.com/2015/02/15/world/bank-hackers-steal-millions-via-malware.html"
     },
     {
+      "body": null,
       "comments": 0,
       "id": "9051739",
       "points": 2,
@@ -136,6 +148,7 @@
       "url": "http://passwords.scrtybybscrty.org/"
     },
     {
+      "body": null,
       "comments": 0,
       "id": "9051730",
       "points": 3,
@@ -147,6 +160,7 @@
       "url": "https://github.com/spance/deblocus"
     },
     {
+      "body": null,
       "comments": 0,
       "id": "9051726",
       "points": 1,
@@ -158,6 +172,7 @@
       "url": "http://www.economist.com/news/science-and-technology/21642363-quality-control-process-science-publishing-evolving-code-ethics-hot-pursuit-oath?fsrc=scn/tw/te/bl/ed/oathmarket"
     },
     {
+      "body": null,
       "comments": 0,
       "id": "9051723",
       "points": 4,
@@ -169,6 +184,7 @@
       "url": "http://radar.oreilly.com/2012/06/why-learn-c.html"
     },
     {
+      "body": null,
       "comments": 0,
       "id": "9051712",
       "points": 1,
@@ -180,6 +196,7 @@
       "url": "http://studio5innovation.com/the-big-problem-with-small-business-websites/"
     },
     {
+      "body": null,
       "comments": 0,
       "id": "9051711",
       "points": 2,
@@ -191,6 +208,7 @@
       "url": "http://alexanderw.xyz/essays/svr/"
     },
     {
+      "body": null,
       "comments": 0,
       "id": "9051684",
       "points": 3,
@@ -202,6 +220,7 @@
       "url": "http://packetsender.com/"
     },
     {
+      "body": null,
       "comments": 0,
       "id": "9051661",
       "points": 1,
@@ -213,6 +232,7 @@
       "url": "https://www.youtube.com/watch?v=GSVv40M2aks#t=102"
     },
     {
+      "body": null,
       "comments": 0,
       "id": "9051657",
       "points": 2,
@@ -224,6 +244,7 @@
       "url": "https://medium.com/@baudoui/5-life-things-to-consider-before-taking-a-position-abroad-3371ba754615"
     },
     {
+      "body": null,
       "comments": 1,
       "id": "9051652",
       "points": 2,
@@ -235,6 +256,7 @@
       "url": "https://twitter.com/NSA_PAO/status/566606602220756995"
     },
     {
+      "body": null,
       "comments": 21,
       "id": "9051645",
       "points": 62,
@@ -246,6 +268,7 @@
       "url": "https://github.com/lukehoban/es6features"
     },
     {
+      "body": null,
       "comments": 0,
       "id": "9051636",
       "points": 1,
@@ -257,6 +280,7 @@
       "url": "http://recode.net/2015/02/14/obama-everybodys-got-to-learn-how-to-code/"
     },
     {
+      "body": null,
       "comments": 0,
       "id": "9051629",
       "points": 2,
@@ -268,6 +292,7 @@
       "url": "http://www.metzdowd.com/pipermail/cryptography/2015-February/024731.html"
     },
     {
+      "body": null,
       "comments": 1,
       "id": "9051626",
       "points": 3,
@@ -279,6 +304,7 @@
       "url": "http://www.youtube.com/watch?v=f6t6WiWYdgY"
     },
     {
+      "body": null,
       "comments": 0,
       "id": "9051621",
       "points": 1,
@@ -290,6 +316,7 @@
       "url": "http://www.thedailywtf.com/articles/getting-wired"
     },
     {
+      "body": null,
       "comments": 0,
       "id": "9051614",
       "points": 1,
@@ -301,6 +328,7 @@
       "url": "https://medium.com/@staticint/hacking-liberal-arts-2d360809ca9e"
     },
     {
+      "body": null,
       "comments": 4,
       "id": "9051602",
       "points": 3,
@@ -312,6 +340,7 @@
       "url": "https://news.ycombinator.com/item?id=9051602"
     },
     {
+      "body": null,
       "comments": 4,
       "id": "9051592",
       "points": 4,
@@ -323,6 +352,7 @@
       "url": "https://news.ycombinator.com/item?id=9051592"
     },
     {
+      "body": null,
       "comments": 4,
       "id": "9051591",
       "points": 33,

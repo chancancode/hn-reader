@@ -4,6 +4,7 @@
   },
   "stories": [
     {
+      "body": null,
       "comments": 1,
       "id": "9052129",
       "points": 36,
@@ -15,6 +16,7 @@
       "url": "https://www.haskell.org/?new"
     },
     {
+      "body": null,
       "comments": 7,
       "id": "9052128",
       "points": 27,
@@ -26,6 +28,7 @@
       "url": "https://news.ycombinator.com/item?id=9052128"
     },
     {
+      "body": null,
       "comments": 1,
       "id": "9052160",
       "points": 8,
@@ -37,6 +40,7 @@
       "url": "http://www.theguardian.com/world/2007/nov/26/france.artnews"
     },
     {
+      "body": null,
       "comments": 81,
       "id": "9050970",
       "points": 311,
@@ -48,6 +52,7 @@
       "url": "http://websocketd.com/"
     },
     {
+      "body": null,
       "comments": 0,
       "id": "9052187",
       "points": 5,
@@ -59,6 +64,7 @@
       "url": "http://www.its.caltech.edu/~mamikon/VisualCalc.html"
     },
     {
+      "body": null,
       "comments": 1,
       "id": "9052164",
       "points": 4,
@@ -70,6 +76,7 @@
       "url": "http://lispblog.xach.com/post/105434970448/eliza-from-1966"
     },
     {
+      "body": null,
       "comments": 21,
       "id": "9051645",
       "points": 62,
@@ -81,6 +88,7 @@
       "url": "https://github.com/lukehoban/es6features"
     },
     {
+      "body": null,
       "comments": 10,
       "id": "9051782",
       "points": 39,
@@ -92,6 +100,7 @@
       "url": "https://flafla2.github.io/2015/02/14/bunnyhop.html"
     },
     {
+      "body": null,
       "comments": 1,
       "id": "9052188",
       "points": 4,
@@ -103,6 +112,7 @@
       "url": "http://www.sitepoint.com/the-self-pipe-trick-explained/"
     },
     {
+      "body": null,
       "comments": 0,
       "id": "9052173",
       "points": 3,
@@ -114,6 +124,7 @@
       "url": "https://medium.com/matter-archive/the-man-who-destroyed-americas-ego-94d214257b5"
     },
     {
+      "body": null,
       "comments": 49,
       "id": "9051246",
       "points": 487,
@@ -125,6 +136,7 @@
       "url": "https://imgur.com/gallery/jdNA6"
     },
     {
+      "body": null,
       "comments": 46,
       "id": "9051804",
       "points": 54,
@@ -136,6 +148,7 @@
       "url": "http://www.nytimes.com/interactive/2014/09/14/sunday-review/unplanned-pregnancies.html"
     },
     {
+      "body": null,
       "comments": 207,
       "id": "9050793",
       "points": 164,
@@ -147,6 +160,7 @@
       "url": "https://talks.golang.org/2015/state-of-go.slide#1"
     },
     {
+      "body": null,
       "comments": 0,
       "id": "9052147",
       "points": 3,
@@ -158,6 +172,7 @@
       "url": "http://resobscura.blogspot.com/2011/02/happy-lupercalia.html?"
     },
     {
+      "body": null,
       "comments": 63,
       "id": "9050436",
       "points": 172,
@@ -169,6 +184,7 @@
       "url": "http://www.nytimes.com/2015/02/15/world/bank-hackers-steal-millions-via-malware.html"
     },
     {
+      "body": null,
       "comments": 9,
       "id": "9050666",
       "points": 55,
@@ -180,6 +196,7 @@
       "url": "http://www.nytimes.com/2015/02/15/business/behind-monopoly-an-inventor-who-didnt-pass-go.html"
     },
     {
+      "body": null,
       "comments": 15,
       "id": "9050480",
       "points": 125,
@@ -191,6 +208,7 @@
       "url": "https://github.com/eugenkiss/7guis/wiki"
     },
     {
+      "body": null,
       "comments": 15,
       "id": "9051562",
       "points": 33,
@@ -202,6 +220,7 @@
       "url": "http://volatileread.com/Wiki/Index?id=1087"
     },
     {
+      "body": null,
       "comments": 4,
       "id": "9051591",
       "points": 33,
@@ -213,6 +232,7 @@
       "url": "https://www.owasp.org/index.php/HTML5_Security_Cheat_Sheet"
     },
     {
+      "body": null,
       "comments": 4,
       "id": "9050646",
       "points": 43,
@@ -224,6 +244,7 @@
       "url": "http://docs.racket-lang.org/style/index.html"
     },
     {
+      "body": null,
       "comments": 107,
       "id": "9049467",
       "points": 160,
@@ -235,6 +256,7 @@
       "url": "https://spyder.wordpress.com/2014/03/16/why-ocaml-why-now/"
     },
     {
+      "body": null,
       "comments": null,
       "id": "9052012",
       "points": null,
@@ -246,6 +268,7 @@
       "url": "https://news.ycombinator.com/item?id=9052012"
     },
     {
+      "body": null,
       "comments": 26,
       "id": "9050597",
       "points": 42,
@@ -257,6 +280,7 @@
       "url": "http://www.nytimes.com/1988/02/25/us/brain-wound-eliminates-man-s-mental-illness.html"
     },
     {
+      "body": null,
       "comments": 5,
       "id": "9050332",
       "points": 79,
@@ -268,6 +292,7 @@
       "url": "https://medium.com/@DanielleMorrill/working-with-brad-4f79d8859443"
     },
     {
+      "body": null,
       "comments": 23,
       "id": "9049630",
       "points": 115,
@@ -279,6 +304,7 @@
       "url": "http://codecapsule.com/2014/02/12/coding-for-ssds-part-6-a-summary-what-every-programmer-should-know-about-solid-state-drives/"
     },
     {
+      "body": null,
       "comments": 15,
       "id": "9051373",
       "points": 30,
@@ -290,6 +316,7 @@
       "url": "http://amibeingtracked.com"
     },
     {
+      "body": null,
       "comments": 9,
       "id": "9050379",
       "points": 64,
@@ -301,6 +328,7 @@
       "url": "https://www.desmos.com/calculator/9ed6k6wexp"
     },
     {
+      "body": null,
       "comments": 0,
       "id": "9051288",
       "points": 28,
@@ -312,6 +340,7 @@
       "url": "http://www.theguardian.com/higher-education-network/gallery/2015/feb/12/philosophical-transactions-of-the-royal-society-350-years-of-science-publishing-in-pictures"
     },
     {
+      "body": null,
       "comments": 2,
       "id": "9050601",
       "points": 24,
@@ -323,6 +352,7 @@
       "url": "http://pointersgonewild.com/2015/02/08/my-thesis-a-clearer-picture/"
     },
     {
+      "body": null,
       "comments": 13,
       "id": "9049569",
       "points": 62,

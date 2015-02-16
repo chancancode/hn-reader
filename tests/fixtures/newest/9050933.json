@@ -4,6 +4,7 @@
   },
   "stories": [
     {
+      "body": null,
       "comments": 6,
       "id": "9050933",
       "points": 4,
@@ -15,6 +16,7 @@
       "url": "https://medium.com/startup-battles/what-startups-can-learn-from-a-sushi-chef-9a160a99d778"
     },
     {
+      "body": null,
       "comments": 1,
       "id": "9050931",
       "points": 29,
@@ -26,6 +28,7 @@
       "url": "http://blog.fullstackacademy.com/post/76605703216/valentines-day-with-javascript"
     },
     {
+      "body": null,
       "comments": 0,
       "id": "9050921",
       "points": 1,
@@ -37,6 +40,7 @@
       "url": "http://www.bloomberg.com/news/articles/2015-02-14/small-drones-to-provide-significant-benefits-faa-says"
     },
     {
+      "body": null,
       "comments": 0,
       "id": "9050917",
       "points": 1,
@@ -48,6 +52,7 @@
       "url": "https://www.youtube.com/watch?v=WwslBPj8GgI"
     },
     {
+      "body": null,
       "comments": 0,
       "id": "9050913",
       "points": 1,
@@ -59,6 +64,7 @@
       "url": "http://www.figure.ink/blog/2015/2/14/custom-switch-matchers-in-swift"
     },
     {
+      "body": null,
       "comments": 0,
       "id": "9050899",
       "points": 1,
@@ -70,6 +76,7 @@
       "url": "http://davidbrin.blogspot.com/2015/02/privacy-will-not-go-away-but-it-will.html"
     },
     {
+      "body": null,
       "comments": 0,
       "id": "9050895",
       "points": 14,
@@ -81,6 +88,7 @@
       "url": "https://firstlook.org/theintercept/2015/02/12/u-s-drops-49th-world-press-freedom-rankings-second-lowest-ever/"
     },
     {
+      "body": null,
       "comments": 1,
       "id": "9050855",
       "points": 3,
@@ -92,6 +100,7 @@
       "url": "https://news.ycombinator.com/item?id=9050855"
     },
     {
+      "body": null,
       "comments": 0,
       "id": "9050848",
       "points": 1,
@@ -103,6 +112,7 @@
       "url": "http://www.spiegel.de/international/world/a-safety-net-for-global-capitalism-inside-munich-re-the-world-s-risk-center-a-715053.html"
     },
     {
+      "body": null,
       "comments": 0,
       "id": "9050830",
       "points": 2,
@@ -114,6 +124,7 @@
       "url": "https://www.kickstarter.com/projects/2050946430/project-earendel/"
     },
     {
+      "body": null,
       "comments": 0,
       "id": "9050822",
       "points": 1,
@@ -125,6 +136,7 @@
       "url": "http://thenewstack.io/geeks-love-heavy-meta"
     },
     {
+      "body": null,
       "comments": 0,
       "id": "9050815",
       "points": 1,
@@ -136,6 +148,7 @@
       "url": "http://web.mit.edu/evhippel/www/democ1.htm"
     },
     {
+      "body": null,
       "comments": 0,
       "id": "9050806",
       "points": 1,
@@ -147,6 +160,7 @@
       "url": "http://www.thecrimson.com/article/2004/2/9/hundreds-register-for-new-facebook-website/"
     },
     {
+      "body": null,
       "comments": 0,
       "id": "9050796",
       "points": 1,
@@ -158,6 +172,7 @@
       "url": "https://news.ycombinator.com/item?id=9050796"
     },
     {
+      "body": null,
       "comments": 207,
       "id": "9050793",
       "points": 165,
@@ -169,6 +184,7 @@
       "url": "https://talks.golang.org/2015/state-of-go.slide#1"
     },
     {
+      "body": null,
       "comments": 0,
       "id": "9050789",
       "points": 1,
@@ -180,6 +196,7 @@
       "url": "http://labs.marynaaleksandrova.com/valentine-card/create.html"
     },
     {
+      "body": null,
       "comments": 0,
       "id": "9050788",
       "points": 3,
@@ -191,6 +208,7 @@
       "url": "https://futureboy.us/pgp.html"
     },
     {
+      "body": null,
       "comments": 0,
       "id": "9050779",
       "points": 1,
@@ -202,6 +220,7 @@
       "url": "http://www.wander.li/"
     },
     {
+      "body": null,
       "comments": 0,
       "id": "9050776",
       "points": 2,
@@ -213,6 +232,7 @@
       "url": "https://blog.rainforestqa.com/2014-12-08-docker-in-action-from-deployment-to-delivery-part-2-continuous-integration/?utm_source=blog%20read%20next%20tab"
     },
     {
+      "body": null,
       "comments": 0,
       "id": "9050774",
       "points": 1,
@@ -224,6 +244,7 @@
       "url": "https://github.com/mikolalysenko/surface-nets"
     },
     {
+      "body": null,
       "comments": 0,
       "id": "9050767",
       "points": 2,
@@ -235,6 +256,7 @@
       "url": "http://taosecurity.blogspot.com/2015/02/focus-on-threat-bank-heists.html"
     },
     {
+      "body": null,
       "comments": 0,
       "id": "9050762",
       "points": 3,
@@ -246,6 +268,7 @@
       "url": "https://sourceware.org/ml/gdb/2015-02/msg00022.html"
     },
     {
+      "body": null,
       "comments": 0,
       "id": "9050761",
       "points": 2,
@@ -257,6 +280,7 @@
       "url": "http://googlewebmastercentral.blogspot.com/2015/01/crawling-and-indexing-of-locale.html"
     },
     {
+      "body": null,
       "comments": 0,
       "id": "9050759",
       "points": 1,
@@ -268,6 +292,7 @@
       "url": "http://littlebigdetails.com/"
     },
     {
+      "body": null,
       "comments": 0,
       "id": "9050747",
       "points": 2,
@@ -279,6 +304,7 @@
       "url": "https://news.ycombinator.com/item?id=9050747"
     },
     {
+      "body": null,
       "comments": 0,
       "id": "9050743",
       "points": 2,
@@ -290,6 +316,7 @@
       "url": "http://www.sfhac.org/take-action-stop-mission-housing-moratorium/"
     },
     {
+      "body": null,
       "comments": 0,
       "id": "9050739",
       "points": 1,
@@ -301,6 +328,7 @@
       "url": "https://www.youtube.com/watch?v=O2tvsY3yUqY"
     },
     {
+      "body": null,
       "comments": 0,
       "id": "9050731",
       "points": 5,
@@ -312,6 +340,7 @@
       "url": "http://gettwototango.com"
     },
     {
+      "body": null,
       "comments": 0,
       "id": "9050721",
       "points": 3,
@@ -323,6 +352,7 @@
       "url": "https://twitter.com/creativecommits"
     },
     {
+      "body": null,
       "comments": 0,
       "id": "9050715",
       "points": 1,

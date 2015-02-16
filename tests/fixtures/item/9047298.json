@@ -1,5 +1,6 @@
 {
   "story": {
+    "body": "One of our webservers is pretty ancient.  I configured it in 1993 running CERN/3.0, and it's still running in production use 22 years later.  Admittedly, it's not on the original Sun IPC hardware anymore; sometime in the late 1990s it was moved to a Sparcstation 4, and there it remains.  It stopped being our primary webserver about ten years back, but still handles all the staff webpages in production use:\n\nbash-3.2$ telnet www0.cs.ucl.ac.uk 80\n\n...\n\nGET /staff/M.Handley/ HTTP/1.0\n\nHTTP/1.0 200 Document follows\n\nMIME-Version: 1.0\n\nServer: CERN/3.0\n\nDate: Fri, 13 Feb 2015 21:19:43 GMT\n\n...\n\nSo, 22 year old webserver software running on 19 year old hardware.  Not bad.  But something tells me there must be even older servers out there somewhere?  Perhaps some ancient ftp server or DNS server?  So, what is the oldest continuously used server on the Internet (still running the original software or hardware - even if patched)?",
     "comments": 8,
     "id": "9047298",
     "points": 34,

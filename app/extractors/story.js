@@ -51,13 +51,18 @@ function extractSubmitted(text) {
   return (match && match[1]) || null;
 }
 
-function extractStory(row1, row2) {
+function extractBody(lines) {
+  return toArray(lines).map( line => (line.innerText || line.textContent).trim() ).join("\n\n") || null;
+}
+
+function extractStory(row1, row2, row3) {
   var story = {
     id:        null,
     tag:       null,
     title:     null,
     url:       null,
     source:    null,
+    body:      null,
     points:    null,
     comments:  null,
     submitted: null,
@@ -150,12 +155,28 @@ function extractStory(row1, row2) {
     story.submitted = extractSubmitted( submitted );
   }
 
+  // Discussion threads like Ask HN has a body of text attached to them. We can
+  // only get that if we are on the item page (as opposed to the index pages).
+  //
+  // The markup is a little strange, something like this:
+  //
+  //   <td>
+  //     Hello!
+  //     <p>Another line.</p>
+  //     <p>Moar lines.</p>
+  //   </td>
+  //
+
+  if (row3) {
+    story.body = extractBody( $(row3).find("td:has(p)").contents() );
+  }
+
   return story;
 }
 
 export function extractSingle(doc) {
   var rows = $("#hnmain table:eq(1) tr", doc);
-  return { story: extractStory( rows[0], rows[1] ) };
+  return { story: extractStory( rows[0], rows[1], rows[3] ) };
 }
 
 export function extractArray(doc) {

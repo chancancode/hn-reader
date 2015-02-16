@@ -4,6 +4,7 @@
   },
   "stories": [
     {
+      "body": null,
       "comments": 6,
       "id": "9049597",
       "points": 59,
@@ -15,6 +16,7 @@
       "url": "http://arxiv.org/abs/1412.5567"
     },
     {
+      "body": null,
       "comments": 26,
       "id": "9049907",
       "points": 60,
@@ -26,6 +28,7 @@
       "url": "http://technoquarter.blogspot.com/2015/02/openbsd-mail-server.html"
     },
     {
+      "body": null,
       "comments": 6,
       "id": "9049945",
       "points": 64,
@@ -37,6 +40,7 @@
       "url": "http://marc.info/?l=openbsd-tech&m=142356166731390&w=2"
     },
     {
+      "body": null,
       "comments": 14,
       "id": "9049348",
       "points": 69,
@@ -48,6 +52,7 @@
       "url": "http://stupidpythonideas.blogspot.com/2015/02/augmented-assignments-b.html"
     },
     {
+      "body": null,
       "comments": 43,
       "id": "9050316",
       "points": 69,
@@ -59,6 +64,7 @@
       "url": "http://34cross.in/zero-to-haskell-in-production"
     },
     {
+      "body": null,
       "comments": 5,
       "id": "9050468",
       "points": 19,
@@ -70,6 +76,7 @@
       "url": "http://hmarco.org/bugs/linux-ASLR-integer-overflow.html"
     },
     {
+      "body": null,
       "comments": 4,
       "id": "9050595",
       "points": 15,
@@ -81,6 +88,7 @@
       "url": "http://www.wsj.com/articles/SB125599860004295449"
     },
     {
+      "body": null,
       "comments": 175,
       "id": "9048772",
       "points": 331,
@@ -92,6 +100,7 @@
       "url": "http://www.theguardian.com/technology/2015/feb/13/apple-ceo-tim-cook-challenges-obama-privacy"
     },
     {
+      "body": null,
       "comments": 19,
       "id": "9049317",
       "points": 67,
@@ -103,6 +112,7 @@
       "url": "https://aphyr.com/posts/319-clojure-from-the-ground-up-debugging"
     },
     {
+      "body": null,
       "comments": 11,
       "id": "9050009",
       "points": 41,
@@ -114,6 +124,7 @@
       "url": "http://docs.topazruby.com/en/latest/"
     },
     {
+      "body": null,
       "comments": 192,
       "id": "9049208",
       "points": 675,
@@ -125,6 +136,7 @@
       "url": "https://news.ycombinator.com/item?id=9049208"
     },
     {
+      "body": null,
       "comments": 17,
       "id": "9050008",
       "points": 29,
@@ -136,6 +148,7 @@
       "url": "http://cidercraftmag.com/the-center-of-sidra-the-culture-and-custom-of-spanish-cider/"
     },
     {
+      "body": null,
       "comments": 22,
       "id": "9050372",
       "points": 49,
@@ -147,6 +160,7 @@
       "url": "http://www.bloomberg.com/graphics/2015-dark-science-of-interrogation/"
     },
     {
+      "body": null,
       "comments": 8,
       "id": "9049289",
       "points": 30,
@@ -158,6 +172,7 @@
       "url": "http://meetingcpp.com/index.php/br/items/c17-library-papers-for-cologne.html"
     },
     {
+      "body": null,
       "comments": 15,
       "id": "9049113",
       "points": 155,
@@ -169,6 +184,7 @@
       "url": "http://ramtin-amin.fr/#tristar"
     },
     {
+      "body": null,
       "comments": 6,
       "id": "9049917",
       "points": 25,
@@ -180,6 +196,7 @@
       "url": "https://blog.ethereum.org/2015/02/14/subjectivity-exploitability-tradeoff/"
     },
     {
+      "body": null,
       "comments": 6,
       "id": "9050452",
       "points": 19,
@@ -191,6 +208,7 @@
       "url": "http://www.guigarage.com/2015/01/concurrency-ui-toolkits-part-1/"
     },
     {
+      "body": null,
       "comments": null,
       "id": "job-0",
       "points": null,
@@ -202,6 +220,7 @@
       "url": "https://segment.com/jobs/descriptions/infrastructure-engineer/"
     },
     {
+      "body": null,
       "comments": 80,
       "id": "9049186",
       "points": 134,
@@ -213,6 +232,7 @@
       "url": "http://agileupgrade.com/stop-wasting-time-trying-to-get-estimates-right-and-what-to-do-instead/"
     },
     {
+      "body": null,
       "comments": 4,
       "id": "9049737",
       "points": 23,
@@ -224,6 +244,7 @@
       "url": "http://wornandwound.com/2012/01/06/an-introduction-to-russian-watches/"
     },
     {
+      "body": null,
       "comments": 121,
       "id": "9046526",
       "points": 355,
@@ -235,6 +256,7 @@
       "url": "http://blog.rust-lang.org/2015/02/13/Final-1.0-timeline.html"
     },
     {
+      "body": null,
       "comments": 197,
       "id": "9044805",
       "points": 379,
@@ -246,6 +268,7 @@
       "url": "http://www.bloomberg.com/news/articles/2015-02-12/goldman-sachs-ex-programmer-sues-fbi-agents-who-arrested-him"
     },
     {
+      "body": null,
       "comments": 11,
       "id": "9051540",
       "points": 71,
@@ -257,6 +280,7 @@
       "url": "http://www.businessinsider.in/Dilbert-creator-Scott-Adams-illustrates-why-goals-are-for-losers-and-passion-is-overrated/Dilbert-creator-Scott-Adams-illustrates-why-goals-are-for-losers-and-passion-is-overrated/slideshow/46246132.cms"
     },
     {
+      "body": null,
       "comments": 7,
       "id": "9051271",
       "points": 32,
@@ -268,6 +292,7 @@
       "url": "http://www.bbc.co.uk/newsbeat/31470124"
     },
     {
+      "body": null,
       "comments": 72,
       "id": "9049698",
       "points": 136,
@@ -279,6 +304,7 @@
       "url": "https://github.com/ckkashyap/rustix/issues/8"
     },
     {
+      "body": null,
       "comments": 34,
       "id": "9049200",
       "points": 109,
@@ -290,6 +316,7 @@
       "url": "http://kaspars.net/blog/web-development/invisible-click-tracking"
     },
     {
+      "body": null,
       "comments": 0,
       "id": "9049690",
       "points": 16,
@@ -301,6 +328,7 @@
       "url": "http://spitalfieldslife.com/2015/02/11/love-tokens-from-the-thames/"
     },
     {
+      "body": null,
       "comments": 46,
       "id": "9050343",
       "points": 166,
@@ -312,6 +340,7 @@
       "url": "https://news.ycombinator.com/item?id=9050343"
     },
     {
+      "body": null,
       "comments": 0,
       "id": "9051189",
       "points": 6,
@@ -323,6 +352,7 @@
       "url": "http://www.writemom.net"
     },
     {
+      "body": null,
       "comments": 120,
       "id": "9044719",
       "points": 298,

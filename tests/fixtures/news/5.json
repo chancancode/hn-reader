@@ -4,6 +4,7 @@
   },
   "stories": [
     {
+      "body": null,
       "comments": 2,
       "id": "9050979",
       "points": 11,
@@ -15,6 +16,7 @@
       "url": "http://www.salon.com/2015/02/13/amazon_is_killing_your_mailman_why_its_new_sunday_service_is_a_labor_travesty_partner/"
     },
     {
+      "body": null,
       "comments": 18,
       "id": "9045352",
       "points": 71,
@@ -26,6 +28,7 @@
       "url": "https://github.com/dobyrch/termboy-go"
     },
     {
+      "body": null,
       "comments": 11,
       "id": "9045354",
       "points": 70,
@@ -37,6 +40,7 @@
       "url": "http://pepijndevos.nl/2015/02/13/catch-em-all.html"
     },
     {
+      "body": null,
       "comments": 25,
       "id": "9044637",
       "points": 59,
@@ -48,6 +52,7 @@
       "url": "http://www.npr.org/2015/02/12/385474414/with-porches-and-parks-a-texas-community-aims-for-urban-utopia"
     },
     {
+      "body": null,
       "comments": 13,
       "id": "9044539",
       "points": 50,
@@ -59,6 +64,7 @@
       "url": "http://doc.akka.io/docs/akka/snapshot/common/circuitbreaker.html"
     },
     {
+      "body": null,
       "comments": 0,
       "id": "9050290",
       "points": 3,
@@ -70,6 +76,7 @@
       "url": "http://www.bbc.com/future/story/20140704-i-bring-the-dead-back-to-life"
     },
     {
+      "body": null,
       "comments": 624,
       "id": "9045305",
       "points": 1149,
@@ -81,6 +88,7 @@
       "url": "http://gizmodo.com/fuck-it-im-going-back-to-firefox-1685425815"
     },
     {
+      "body": null,
       "comments": 14,
       "id": "9048909",
       "points": 94,
@@ -92,6 +100,7 @@
       "url": "http://www.nostarch.com/xboxfree"
     },
     {
+      "body": null,
       "comments": 105,
       "id": "9049988",
       "points": 95,
@@ -103,6 +112,7 @@
       "url": "http://www.nytimes.com/2015/02/14/world/europe/russian-tv-insider-says-putin-is-running-the-show-in-ukraine.html"
     },
     {
+      "body": null,
       "comments": 1,
       "id": "9051626",
       "points": 3,
@@ -114,6 +124,7 @@
       "url": "http://www.youtube.com/watch?v=f6t6WiWYdgY"
     },
     {
+      "body": null,
       "comments": 8,
       "id": "9047298",
       "points": 34,
@@ -125,6 +136,7 @@
       "url": "https://news.ycombinator.com/item?id=9047298"
     },
     {
+      "body": null,
       "comments": 52,
       "id": "9049218",
       "points": 52,
@@ -136,6 +148,7 @@
       "url": "https://news.ycombinator.com/item?id=9049218"
     },
     {
+      "body": null,
       "comments": 171,
       "id": "9026025",
       "points": 480,
@@ -147,6 +160,7 @@
       "url": "http://crockpotveggies.com/2015/02/09/automating-tinder-with-eigenfaces.html"
     },
     {
+      "body": null,
       "comments": 0,
       "id": "9049533",
       "points": 5,
@@ -158,6 +172,7 @@
       "url": "http://szabo.best.vwh.net/thappsci.html"
     },
     {
+      "body": null,
       "comments": 20,
       "id": "9041877",
       "points": 30,
@@ -169,6 +184,7 @@
       "url": "http://lemery.io/review-fastmail"
     },
     {
+      "body": null,
       "comments": null,
       "id": "job-0",
       "points": null,
@@ -180,6 +196,7 @@
       "url": "http://grnh.se/ap68t5"
     },
     {
+      "body": null,
       "comments": 7,
       "id": "9043295",
       "points": 55,
@@ -191,6 +208,7 @@
       "url": "http://www.colorpipe.org/colour-science-for-python/"
     },
     {
+      "body": null,
       "comments": 4,
       "id": "9034690",
       "points": 53,
@@ -202,6 +220,7 @@
       "url": "https://www.youtube.com/watch?v=fHmgF4ibmuk"
     },
     {
+      "body": null,
       "comments": 47,
       "id": "9040423",
       "points": 85,
@@ -213,6 +232,7 @@
       "url": "https://portalplatform.net/"
     },
     {
+      "body": null,
       "comments": 35,
       "id": "9034319",
       "points": 147,
@@ -224,6 +244,7 @@
       "url": "http://blog.geoffralston.com/startup-priorities"
     },
     {
+      "body": null,
       "comments": 0,
       "id": "9044214",
       "points": 11,
@@ -235,6 +256,7 @@
       "url": "http://videlalvaro.github.io/2015/02/programming-myths.html"
     },
     {
+      "body": null,
       "comments": 2,
       "id": "9050405",
       "points": 8,
@@ -246,6 +268,7 @@
       "url": "https://gist.github.com/adamn/95e472dc14be709fd11f"
     },
     {
+      "body": null,
       "comments": 4,
       "id": "9050431",
       "points": 3,
@@ -257,6 +280,7 @@
       "url": "https://news.ycombinator.com/item?id=9050431"
     },
     {
+      "body": null,
       "comments": 1,
       "id": "9050993",
       "points": 4,
@@ -268,6 +292,7 @@
       "url": "http://www.ncbi.nlm.nih.gov/pubmed/24740588"
     },
     {
+      "body": null,
       "comments": null,
       "id": "job-1",
       "points": null,
@@ -279,6 +304,7 @@
       "url": "https://jobs.lever.co/aptible/e14de4f6-9fb1-426d-8003-82b91f72d1f9?lever-source=HackerNews"
     },
     {
+      "body": null,
       "comments": 6,
       "id": "9050279",
       "points": 4,
@@ -290,6 +316,7 @@
       "url": "https://news.ycombinator.com/item?id=9050279"
     },
     {
+      "body": null,
       "comments": 0,
       "id": "9050396",
       "points": 4,
@@ -301,6 +328,7 @@
       "url": "https://medium.com/@nickheiner/why-my-team-uses-npm-instead-of-bower-eecfe1b9afcb"
     },
     {
+      "body": null,
       "comments": 28,
       "id": "9038170",
       "points": 188,
@@ -312,6 +340,7 @@
       "url": "https://lists.gnupg.org/pipermail/gnupg-announce/2015q1/000361.html"
     },
     {
+      "body": null,
       "comments": 3,
       "id": "9050091",
       "points": 3,
@@ -323,6 +352,7 @@
       "url": "https://news.ycombinator.com/item?id=9050091"
     },
     {
+      "body": null,
       "comments": 4,
       "id": "9051592",
       "points": 4,

@@ -1,5 +1,6 @@
 {
   "story": {
+    "body": "I was brought in to a company to build their own internal development team. They have a few projects in active development with a couple of contracting firms. The plan was to slowly wean the projects away from the outside firms to internal development.\n\nOne of the firms has decided to immediately abandon the project they’ve been working on. We have the source and the app runs on our own servers, but that is about it. No documentation or architectural artifacts of any sort.\n\nThe business has been happy with the product so far. The contractor is “focusing their business on their larger clients”.\n\nWhat has worked best for HN reader’s when taking over a project with little to no documentation/design documents?",
     "comments": 4,
     "id": "9050431",
     "points": 3,

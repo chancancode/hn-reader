@@ -162,7 +162,10 @@ page.all(:css, ".test-diff pre").each do |el|
     print "  Populating #{file}... "
 
     File.open(file, 'w+') do |f|
-      f.print JSON.pretty_generate(JSON.parse(diff.gsub(/"<STUB .+>"/, '').strip))
+      f.print el.native.text
+        .gsub(/"<STUB .+>"/, '')
+        .gsub(/"(?:[^\\"]|\\.)*"/) { |d| d.gsub("\n", "\\n") }
+        .strip
     end
 
     puts "DONE"

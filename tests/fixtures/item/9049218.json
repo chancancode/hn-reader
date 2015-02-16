@@ -1,5 +1,6 @@
 {
   "story": {
+    "body": "I'm about to get a new Mac and will be starting fresh on a new drive. I would like to know if there are any best practices in regards to creating multiple user accounts, with different permissions for my scattered development work.\n\nI spend time with node, python, and RoR. I like cloning projects from github and taking them for a spin. I test out bitcoin projects, and send GPG emails, and ssh into multiple servers. And I do all of this on my main user account that has sudo.\n\nIs there some best practice that I should be aware of that would have me use multiple unix users on my new Mac?",
     "comments": 52,
     "id": "9049218",
     "points": 52,
