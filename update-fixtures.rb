@@ -53,7 +53,8 @@ def download_page(section, page = nil)
   if page
     filename = page.split('=')[1].to_i.to_s
   else
-    parsed.css("a[href^='item?id=']").each do |link|
+    parsed.css("a[href^='item?id=']").each_with_index do |link, i|
+      break if i >= 10
       $items << link['href'].gsub('item?id=', '').to_i
     end
 
