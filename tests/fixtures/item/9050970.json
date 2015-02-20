@@ -1,7 +1,1550 @@
 {
+  "comments": [
+    {
+      "body": "> Write programs to handle text streams, because that is a universal interface.I always hated that part of UNIX. It would be so much better if programs could handle data-structure streams instead. Having text streams causes every single program to implement ad-hoc parsers and serializers.\n\nI now use the command-line only for trivial one-time actions. For everything else I'll use a scripting language and forget about reading and writing text streams altogether.",
+      "comments": [
+        "9052100",
+        "9051644",
+        "9051480",
+        "9051470",
+        "9053337",
+        "9052736",
+        "9051557",
+        "9051901",
+        "9051578",
+        "9051976"
+      ],
+      "id": "9051402",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "1 day ago",
+      "submitter": "jeremiep"
+    },
+    {
+      "body": "The answer is probably the same as why powershell isn't as usable as a unix shell is. Which in turn has a lot to do with why we're still programming text files and not clicking fancy objects, despite it is seemingly a more powerful system and the many projects which tried to take advantage of that.Text is a useful common denominator. Text is possible to version control, tie to bug trackers, and handle with configuration management systems.\n\nThe same is true for the command line. If you handle structured data, or objects, you communicate using APIs. While it's not theoretically impossible to still use version control and configuration management, it turns out that it's much more difficult in practice. Plain text is a useful lowest common denominator.",
+      "comments": [
+        "9052537"
+      ],
+      "id": "9052100",
+      "isDead": false,
+      "parent": "9051402",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "18 hours ago",
+      "submitter": "xorcist"
+    },
+    {
+      "body": "We're already creating ad-hoc APIs using cut, sed and awk and grep (to name a but a few) all the time in order to massage the data into a format the next program in the chain will understand. This sometimes involves non-trivial invocation chains, I always feel like I'm working on a representation of the data rather than the data itself.\n\nI would much rather have functional primitives (map, filter, reduce, zip, take, drop, etc) doing this work.",
+      "comments": [],
+      "id": "9052537",
+      "isDead": false,
+      "parent": "9052100",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "13 hours ago",
+      "submitter": "jeremiep"
+    },
+    {
+      "body": "It would seem to be better in theory, but I don't think it's much better in practice. I could never get on with PowerShell, though that's a further step beyond what you suggest - not just structured streams, but object streams.It's like the difference between static and dynamic typing. Solving the type system's constraints adds complexity over and above the irreducible complexity of the problem. Static typing pays for its added complexity by proving certain things about the code, but for ad-hoc, short-lived code it usually isn't worth it. And most code (by frequency, if not by importance) using streams is ad-hoc, on the command line.With a structured stream, there are only a handful of generic utilities that make sense: map, filter, reduce, etc. (and they better have a good lambda syntax). Whereas the advantage of unstructured streams is that utilities that were never designed to work together can be made to do so, usually with relatively little effort.For example, suppose you have a bunch of pid files in a directory, and you want to send all the associated processes a signal. What kind of data structure stream does your signal sending program accept? What needs to be done to a bare number to convert it into the correct format? How do you re-structure plain text from individual files? Structure in streams seems to have suddenly added a whole lot of complexity and work, and for what?Whereas:    cat $pid_directory/*.pid | xargs kill -USR1  (I don't really see how a scripting language solves your issue. You still need to parse the output and format the input of all the tools you exec from your scripting language. Or maybe you're not actually using tools written in lots of different languages? Because this is one of my main use cases for the shell using streams: gluing focused programs together without constraint on implementation language.)",
+      "comments": [
+        "9051903",
+        "9051905"
+      ],
+      "id": "9051644",
+      "isDead": false,
+      "parent": "9051402",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "23 hours ago",
+      "submitter": "barrkel"
+    },
+    {
+      "body": ">For example, suppose you have a bunch of pid files in a directory, and you want to send all the associated processes a signal. What kind of data structure stream does your signal sending program accept?What program? A single line of shell code would work fine. Kill itself only need take a pid, or an actual handle if Unix had sich a thing.>What needs to be done to a bare number to convert it into the correct format?If a \"bare number\" isn't the correct format, why would you have them at all?>How do you re-structure plain text from individual files?The whole idea is not to use plain text at all.>Structure in streams seems to have suddenly added a whole lot of complexity and work, and for what?Structuring your data doesn't add complexity; when you consider the hoops one jumps through to strip data of its structure at one end of a stream and reconstitute it at the other, it's really reducing it. It's only if you insist on also using unstructured representations that complexity is increased.\n\nOf course, as long as Unixes and their shells only speak bytestreams and leave all structuring, even of program arguments, to individual programs, it's a moot point. He's still right aboutnit being a shitty design, though.",
+      "comments": [
+        "9052186"
+      ],
+      "id": "9051903",
+      "isDead": false,
+      "parent": "9051644",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "20 hours ago",
+      "submitter": "sjolsen"
+    },
+    {
+      "body": "> When you consider the hoops one jumps through to strip data of its structure at one end of a stream and reconstitute it at the other, structured data is really reducing complexity.Exactly this. I think HN doesn't have much experience with powershell, which is why you're currently being downvoted. So let's have a practical example: consider killing processes run in the last 5 mins using posh:ps someprocess | where { $_.StartTime -and (Get-Date).AddMinutes(-5) -gt $_.StartTime } | kill\n\nNow try the same on bash, and spend time creating a regex to extract time from the unstructured output of Unix ps.",
+      "comments": [
+        "9052335"
+      ],
+      "id": "9052186",
+      "isDead": false,
+      "parent": "9051903",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "17 hours ago",
+      "submitter": "nailer"
+    },
+    {
+      "body": "kill `ps -eo pid,etime | grep -P ' (00|01|02|03|04):..$' | cut -d \" \" -f 1`Not really a complex regexp thogh. I almost exclusively use Linux and thus bash/zsh etc. And yes, my piece above looks uglier and like but of a hack, but that's not the point. It's easy because it's discoverable. These are one-liners you write ad hoc and use once. But powershell in my experience lacks the discoverability that bash has, you can't look at what some tool outputs and then know how to parse it, you need to look at the underlying object first. Granted I have maybe one day of experience with PowerShell, but I don't know anyone who uses it for their primary interaction with the Computer. For Bash though...(And yes I'm aware that you can also create huge complicated bash scripts, but you could also just use python)Find the name of the CPU using powershell and have fun looking up the correct WMI class and what property you need.\n\nHere's bash: grep name /proc/cpuinfo",
+      "comments": [
+        "9052503"
+      ],
+      "id": "9052335",
+      "isDead": false,
+      "parent": "9052186",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "15 hours ago",
+      "submitter": "lawl"
+    },
+    {
+      "body": "> my piece above looks uglier and like but of a hack, but that's not the point.Well it was precisely my point.\n\nget-wmiinfo seems pretty discoverable to me. You can browse the output and pick what you want.",
+      "comments": [],
+      "id": "9052503",
+      "isDead": false,
+      "parent": "9052335",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "13 hours ago",
+      "submitter": "nailer"
+    },
+    {
+      "body": "Structure in streams seems to have suddenly added a whole lot of complexity and work, and for what?Being able to stream a collections of bytes (and collections of collections of bytes, recursively) is one case that I find myself wanting when sending data between programs at the command line.Consider:  ls \"$pid_directory\" | xargs rm  This, of course, has problems for some inputs because ls is sending a single stream and xargs is trying to re-parse it into a collection on which to use rm.\n\nIf there were some way to encode items in a collection OOB, you could pipe data through programs while getting some guarantees about it being represented correctly in the recipient program.  (Sometimes you see scripts that do this by separating data in a stream with NUL delimiters, but this doesn't work recursively or if your main data stream might have NUL in it.)",
+      "comments": [
+        "9052348"
+      ],
+      "id": "9051905",
+      "isDead": false,
+      "parent": "9051644",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "20 hours ago",
+      "submitter": "swhipple"
+    },
+    {
+      "body": ">Being able to stream a collections of bytes (and collections of collections of bytes, recursively) is one case that I find myself wanting when sending data between programs at the command line.If you don't mind using JSON as intermediary format, you might like to have a look at jq: http://stedolan.github.io/jq/\n\njq can also convert raw (binary) data to JSON objects containing strings (and vice versa) for further processing. Naturally, jq filters can be pipelined in many useful ways.",
+      "comments": [
+        "9052689"
+      ],
+      "id": "9052348",
+      "isDead": false,
+      "parent": "9051905",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "15 hours ago",
+      "submitter": "ackalker"
+    },
+    {
+      "body": "There's work ongoing on FreeBSD to add libxo support to tools in the base system, which will allow you to get (amongst others) JSON out of various commands: https://github.com/Juniper/libxo",
+      "comments": [],
+      "id": "9052689",
+      "isDead": false,
+      "parent": "9052348",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "12 hours ago",
+      "submitter": "Freaky"
+    },
+    {
+      "body": "The .NET shell does this, but that's why it's not Unix, and it's not universal.\n\nIf programs passed data structures then either you're forcing a certain data structure model (i.e. it's not universal, because it's not compatible with anything else), or your data structures are so general (i.e. a block stream) that your applications are going to be parsing anyway... and that's going to be even nastier than if everything was stupid text steams in the first place.",
+      "comments": [
+        "9052526"
+      ],
+      "id": "9051480",
+      "isDead": false,
+      "parent": "9051402",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "1 day ago",
+      "submitter": "ayani"
+    },
+    {
+      "body": "Programs already need to have their input in the proper format in order to parse them. I'd like the mismatch error to be from the invocation of the program rather than halfway down the parsing.\n\nFor this to work data structures would have to be nothing more than scalars, sequences and mappings without specific concrete types. Just like JSON, YAML, and the rest do it now.",
+      "comments": [],
+      "id": "9052526",
+      "isDead": false,
+      "parent": "9051480",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "13 hours ago",
+      "submitter": "jeremiep"
+    },
+    {
+      "body": "The main problem is that there are many kinds of incompatible \"data-structure streams\". Using a scripting language doesn't solve the problem, it just standardises on one particular ad-hoc parser/serialiser combination (say, Python's pickle, for example).\n\nThat's fine for personal use, or in a single project, but doesn't scale like \"dumb\" text does.",
+      "comments": [
+        "9051532"
+      ],
+      "id": "9051470",
+      "isDead": false,
+      "parent": "9051402",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "1 day ago",
+      "submitter": "chriswarbo"
+    },
+    {
+      "body": "If there was a non-ideal but reasonable standard serialization format, like maybe IFF [1] or BSON [2], it would still simplify things, and common tools like `cat` might support decoding them.It would be easy to wrap an arbitrary other packed format inside a binary string, or an arbitrary text format inside a text string.IFF is quite successful in certain areas, BTW.\n\n[1]: http://en.wikipedia.org/wiki/Interchange_File_Format [2]: http://en.wikipedia.org/wiki/BSON",
+      "comments": [
+        "9052301"
+      ],
+      "id": "9051532",
+      "isDead": false,
+      "parent": "9051470",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "1 day ago",
+      "submitter": "nine_k"
+    },
+    {
+      "body": "You could always pass a message per line (so to speak) and use msgpack or json... if you want compression you could use json+gz\n\nOf course, you could also do something similar with a 0mq adapter as well for a request/response server, which is available pretty much everywhere you might need it (language wise)...  It's an interesting generic interface... however as I mostly use node for newer development, it's so trivial to use sockets or websockets directly for this, I'd just assume go that route... or for that matter, something like sockjs/shoe.",
+      "comments": [],
+      "id": "9052301",
+      "isDead": false,
+      "parent": "9051532",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "16 hours ago",
+      "submitter": "tracker1"
+    },
+    {
+      "body": "At the risk of perpetuating the meme that hacker news is overly enamored of Golang, I'd like to say that providing \"data structure streams\" is exactly Go's sweet spot, and it's about as awesome as you would hope it would be.",
+      "comments": [
+        "9054276"
+      ],
+      "id": "9053337",
+      "isDead": false,
+      "parent": "9051402",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "9 hours ago",
+      "submitter": "jqgatsby"
+    },
+    {
+      "body": "No risk of that here. websocketd is written in golang.",
+      "comments": [],
+      "id": "9054276",
+      "isDead": false,
+      "parent": "9053337",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "5 hours ago",
+      "submitter": "yawaramin"
+    },
+    {
+      "body": "Since there is so much pointless discussion about use of text streams under this comment.\n\nWhen someone has example of situation when binary, json or other communication between websocketd and program is needed, please just file a ticket, it would be great to see practical situation instead of just arguing with each other about text stream/unix principles/json and other stuff.",
+      "comments": [],
+      "id": "9052736",
+      "isDead": false,
+      "parent": "9051402",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "11 hours ago",
+      "submitter": "asergeyev"
+    },
+    {
+      "body": "How exactly would that work? How would you pass one kind of data structure from one program to another so that they both could understand it without involving parsers or deserializer? To be concrete let's start with the simplest possible data structure the linked list.",
+      "comments": [
+        "9052388",
+        "9052520",
+        "9052098",
+        "9051969"
+      ],
+      "id": "9051557",
+      "isDead": false,
+      "parent": "9051402",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "1 day ago",
+      "submitter": "dkarapetyan"
+    },
+    {
+      "body": "That's no different from text. You can't pass one kind of text from one program to another without both understanding it. That's why ls has a million different and confusing quoting options.The advantage of using a proper data format is\n\na) You don't have to do in-band signalling so it will be far more reliable (you still can't have spaces in filenames for a lot of unixy things). b) The encoding is standard. Using text for pipes still requires some kind of encoding in general, but there are many different ways (is it one entry per line? space separated? are strings quoted? etc.)",
+      "comments": [],
+      "id": "9052388",
+      "isDead": false,
+      "parent": "9051557",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "15 hours ago",
+      "submitter": "IshKebab"
+    },
+    {
+      "body": "A linked-list is already too specific, a sequence is all you need to express any linear arrangement of data, be it an array, linked list, vector, or any of the myriad of other concrete sequence types.",
+      "comments": [],
+      "id": "9052520",
+      "isDead": false,
+      "parent": "9051557",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "13 hours ago",
+      "submitter": "jeremiep"
+    },
+    {
+      "body": "S-expression",
+      "comments": [
+        "9052107"
+      ],
+      "id": "9052098",
+      "isDead": false,
+      "parent": "9051557",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "18 hours ago",
+      "submitter": "sparkie"
+    },
+    {
+      "body": "And how do you convert any data structure to an s-expression? You serialize the data. How do you get the s-expression into a form your program can understand? You parse it.\n\nIn other words you still haven't solved the fundamental problem of passing data back and forth between different programs. In fact if you are going to mandate a specific serialization/deserialization format then JSON, XML, or even ASN.1 are better options than s-expressions.",
+      "comments": [
+        "9052307",
+        "9052437"
+      ],
+      "id": "9052107",
+      "isDead": false,
+      "parent": "9052098",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "17 hours ago",
+      "submitter": "dkarapetyan"
+    },
+    {
+      "body": "My point was more, let your language do the parsing and deserialization for you. S-expressions are merely a textual representation of linked lists. The parsing and evaluation of text is already written as part of the language.The other point was that we're ultimately stuck with serial forms of communication, be it wires, pipes, sockets etc. If we want to easily transfer structured data through these serial channels, we should probably build up our structures from a serial primitives, and S-expressions are much more handy than plain strings (which we may not even be able to parse without ambiguity), or XML, JSON or whatnot. One, because the parser is already implemented as part of the language, and secondly, because you can transfer code in addition to data, and evaluate it on the remote end to bring into scope more \"structured\" data like records.\n\nI did try to include a bit more in the previous post, but I'd accidentally hit save, and I was unable to edit the post afterwards",
+      "comments": [],
+      "id": "9052307",
+      "isDead": false,
+      "parent": "9052107",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "16 hours ago",
+      "submitter": "sparkie"
+    },
+    {
+      "body": "Somehow it always felt natural in Lisp Machines.",
+      "comments": [],
+      "id": "9052437",
+      "isDead": false,
+      "parent": "9052107",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "14 hours ago",
+      "submitter": "pjmlp"
+    },
+    {
+      "body": "How does PowerShell do it?",
+      "comments": [
+        "9052039"
+      ],
+      "id": "9051969",
+      "isDead": false,
+      "parent": "9051557",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "20 hours ago",
+      "submitter": "cheeze"
+    },
+    {
+      "body": "PowerShell can not pass anything structured unless the other end of the pipe is a cmdlet and even then there are times when the other end of the pipe is forced to interpret whatever is passed to it as a string instead of a more structured object like a dictionary.\n\nSo even within a controlled environment like PowerShell where everything is a cmdlet it is still impossible to pass only structured objects between commands.",
+      "comments": [],
+      "id": "9052039",
+      "isDead": false,
+      "parent": "9051969",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "19 hours ago",
+      "submitter": "dkarapetyan"
+    },
+    {
+      "body": "You're on the right track. This does however present us with a challenging problem: developing a single consistent efficient cross-platform language-independent form of storing and transmitting data (between programs).\n\nIt's something to ruminate upon.",
+      "comments": [
+        "9052512",
+        "9052309"
+      ],
+      "id": "9051901",
+      "isDead": false,
+      "parent": "9051402",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "20 hours ago",
+      "submitter": "winter_blue"
+    },
+    {
+      "body": "This is already a partly solved challenge. Text streams don't magically come into existence, programs needs STDIN, STDOUT and STDERR at their disposal to use them.All you really need are scalars, sequences and mappings to fully express any data structure. Tagged types would be sugar on top but it could quickly add unwanted complexity.\n\nAll you need is a shell capable of marshalling data between the different programs piped together. Powershell is a nice idea but it only runs .NET code and that's a limitation I can't live with.",
+      "comments": [],
+      "id": "9052512",
+      "isDead": false,
+      "parent": "9051901",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "13 hours ago",
+      "submitter": "jeremiep"
+    },
+    {
+      "body": "Most json stringifiers will create a json with no line terminators that aren't inside escaped strings...  so a json object terminated by a CR would seem to be a pretty logical data format for open text...\n\nThere's also msgpack, protocol buffers as well... I think the plain text of json that is readily a line per message is far simpler and easier to handle though.",
+      "comments": [],
+      "id": "9052309",
+      "isDead": false,
+      "parent": "9051901",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "16 hours ago",
+      "submitter": "tracker1"
+    },
+    {
+      "body": "There's a very good reason that UNIX is data structure ambivalent; because supporting lower level (text streams) offers far more flexibility. If you want to use a specific data structure type among your own suite of scripts you are free to do this, UNIX does not get in your way.At the same time, if you want to write a utility like grep that is agnostic to the structure of your text, it can exist and work. If UNIX cared about data structures, this wouldn't work.\n\nHere's a good rule for you; if you find yourself thinking the way UNIX (or any other long existing and widely supported system) does something is dumb and you know better, assume you are wrong and look for the reasons that the people who are smarter than you chose to do it the way that it was done.",
+      "comments": [
+        "9051793",
+        "9051907"
+      ],
+      "id": "9051578",
+      "isDead": false,
+      "parent": "9051402",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "1 day ago",
+      "submitter": "ebbv"
+    },
+    {
+      "body": "This is a tough lesson and for many the only teacher is experience.  For the longest time I avoided what I considered abstract math, despite the general wisdom of its importance to computer science.  I spent weeks writing software that could predict customer complaints based on supplier action.  Given the first three days of complaints following an action, I could reliably predict the total number of complaints a year into the future.  I proudly showed one of my coworkers, who didn't have the aversion to math that I did, he informed me that I just reinvented poisson linear regression.  I learned my lesson that day.  This guy will likely figure it out after a couple of tries as well :)",
+      "comments": [],
+      "id": "9051793",
+      "isDead": false,
+      "parent": "9051578",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "22 hours ago",
+      "submitter": "woodman"
+    },
+    {
+      "body": "Have you read the Unix Haters Handbook?\n\nhttp://web.mit.edu/~simsong/www/ugh.pdf",
+      "comments": [
+        "9052040"
+      ],
+      "id": "9051907",
+      "isDead": false,
+      "parent": "9051578",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "20 hours ago",
+      "submitter": "Curmudgel"
+    },
+    {
+      "body": "I hadn't, looks like an hour of two of amusement.\n\nWhile there are some occasional good points that could be converted in to solutions, I can't help but think that this book is more amusement than actual constructive criticisms well packaged.",
+      "comments": [
+        "9053624"
+      ],
+      "id": "9052040",
+      "isDead": false,
+      "parent": "9051907",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "19 hours ago",
+      "submitter": "mjevans"
+    },
+    {
+      "body": "It's a collection of some of the best rants from the Unix Haters mailing list that existed in the late eighties/early nineties. The people that were on the list usually had experience with operating systems that were more advanced than Unix. Constructive criticism was never really the point of the mailing list.\n\nMy point was that the parent's suggestion that anyone who criticizes Unix obviously isn't smart enough to understand it is just flat out wrong and offensive.",
+      "comments": [],
+      "id": "9053624",
+      "isDead": false,
+      "parent": "9052040",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "7 hours ago",
+      "submitter": "Curmudgel"
+    },
+    {
+      "body": "you never got to learn and understand the unix philosophy.  your loss.",
+      "comments": [
+        "9052389"
+      ],
+      "id": "9051976",
+      "isDead": false,
+      "parent": "9051402",
+      "quality": 0.38823529411764707,
+      "story": "9050970",
+      "submitted": "19 hours ago",
+      "submitter": "segmondy"
+    },
+    {
+      "body": "The \"unix philosphy\" is out-dated and wrong in many cases. You're an idiot if you follow it blindly.",
+      "comments": [
+        "9052805"
+      ],
+      "id": "9052389",
+      "isDead": false,
+      "parent": "9051976",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "15 hours ago",
+      "submitter": "IshKebab"
+    },
+    {
+      "body": "A philosophy is neither right nor wrong. It's a philosophy, one that you choose to subscribe to, or not.",
+      "comments": [],
+      "id": "9052805",
+      "isDead": false,
+      "parent": "9052389",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "11 hours ago",
+      "submitter": "joewalnes"
+    },
+    {
+      "body": "OP here. Something I forgot to mention on the page is how much this simplified life for a server admin. Using \"ps\" you can see each connection, the memory overhead, CPU usage. It's easy for a sysadmin to kill bad connections without taking down the whole server.",
+      "comments": [
+        "9051307",
+        "9051821"
+      ],
+      "id": "9051031",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "1 day ago",
+      "submitter": "joewalnes"
+    },
+    {
+      "body": "I like the project. But it says:> Full duplex messaging\n\nAnd the examples only show single direction. Is my understanding correct that everything received goes as STDIN? And is it also possible to run websocketd as a client?",
+      "comments": [
+        "9051431"
+      ],
+      "id": "9051307",
+      "isDead": false,
+      "parent": "9051031",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "1 day ago",
+      "submitter": "comboy"
+    },
+    {
+      "body": "In the source code /examples folder most of the languages have a bi-directional example called \"greeter\"",
+      "comments": [],
+      "id": "9051431",
+      "isDead": false,
+      "parent": "9051307",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "1 day ago",
+      "submitter": "jakejake"
+    },
+    {
+      "body": "can i use other web socket clients like socket.io??",
+      "comments": [
+        "9052319"
+      ],
+      "id": "9051821",
+      "isDead": false,
+      "parent": "9051031",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "21 hours ago",
+      "submitter": "itsbits"
+    },
+    {
+      "body": "websockets after upgrade are not message based like the same as socket.io (which adds fallback/fall-forward) and sockjs does this providing a stream interface...\n\nIf you don't need to support a web browser client, you don't need the extra overhead.. and if you do, you're better off just using socket.io or shoe and having your server in node.js ... as an aside, I'd probably just use raw sockets in node if I didn't need browser support.",
+      "comments": [
+        "9052801"
+      ],
+      "id": "9052319",
+      "isDead": false,
+      "parent": "9051821",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "15 hours ago",
+      "submitter": "tracker1"
+    },
+    {
+      "body": "WebSockets are message based.",
+      "comments": [
+        "9055052"
+      ],
+      "id": "9052801",
+      "isDead": false,
+      "parent": "9052319",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "11 hours ago",
+      "submitter": "joewalnes"
+    },
+    {
+      "body": "I realize this... I meant to say that socket.io adds a lot more than just websockets.",
+      "comments": [],
+      "id": "9055052",
+      "isDead": false,
+      "parent": "9052801",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "24 minutes ago",
+      "submitter": "tracker1"
+    },
+    {
+      "body": "I used this a while ago on my own insane project.  I had a Webdav server and websocketd providing a Web interface to a Linux box.Even at it's young age (bug reports #5 and #7 were mine), it allowed me to progress a lot further in my project before I needed to write a server designed specifically for the task at hand.In the end I wrote userserv https://github.com/Lerc/userserv for the one must have feature I needed.  I needed logins and responses delivered from a process with the UID of the CookieToken.\n\nSo, thanks Joe.  Notanos got further because of websocketd and while I'm not currently using it,  There's a high chance of me doing so in future projects.",
+      "comments": [
+        "9052806"
+      ],
+      "id": "9052008",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "19 hours ago",
+      "submitter": "Lerc"
+    },
+    {
+      "body": "Great to hear! Thanks :)",
+      "comments": [],
+      "id": "9052806",
+      "isDead": false,
+      "parent": "9052008",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "11 hours ago",
+      "submitter": "joewalnes"
+    },
+    {
+      "body": "Unless you need to handle a very small number of concurrent connections, using 1 process per connection seems to be a huge overhead, although I can think of some use cases.However, I can imagine a similar tool doing multi/demultiplexing, eg the handler process would take input text lines prepended with a connection identifier (eg. \"$socketID $message\") and output using a similar formatting. Pretty much like websocketd but with multiplexing and unixy/pipe-friendly (eg. you can apply grep/awk/etc before and after).\n\nHow would this fit compared to websocketd?",
+      "comments": [
+        "9051515",
+        "9051234",
+        "9052024",
+        "9051622"
+      ],
+      "id": "9051195",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "1 day ago",
+      "submitter": "elierotenberg"
+    },
+    {
+      "body": "Indeed, there is no free lunch.At is stands, this is only really workable for low traffic (so it doesn't eat memory) where connections do not come and go frequently (so it doesn't eat process management CPU).Once you start doing multiplexing for the sake of making this more reasonable in terms of resource usage, the simplicity benefits kind of fall away as you move closer to a full concurrent web framework.\n\nI guess it really depends what you're tuning for, what your use case is, and how much hardware budget you have to throw at the problem.",
+      "comments": [
+        "9052821",
+        "9051688",
+        "9051577"
+      ],
+      "id": "9051515",
+      "isDead": false,
+      "parent": "9051195",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "1 day ago",
+      "submitter": "ayani"
+    },
+    {
+      "body": "CGI fell out of favor for this reason, but WebSockets have a different runtime profile: instead of having to deal with 10K shortlived requests per second, WebSocket endpoints have much fewer but longer lived connections. This is why the CGI model actually works well on WebSockets.",
+      "comments": [],
+      "id": "9052821",
+      "isDead": false,
+      "parent": "9051515",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "11 hours ago",
+      "submitter": "joewalnes"
+    },
+    {
+      "body": "BTW, there is a VM for Dart that is experimenting with different concurrent modes to provide an alternative to async programming: https://github.com/dart-lang/fletchYou can read its short wiki for some clues: https://github.com/dart-lang/fletch/wiki/Processes-and-Isola...I like Fletch's idea very much. Imagine not having to worry about Async all the time.Not sure how everything is implemented in Fletch, but I think I heard that in Fletch they are able to share 1 thread per many processes if need be. And they have been trying hard to save memory while implementing those features.If you want to run some tests to compare with, I created some small samples using different Dart implementations and NodeJS here: https://github.com/jpedrosa/arpoador/tree/master/direct_test...\n\nFletch also supports a kind of Coroutine: https://github.com/dart-lang/fletch/wiki/Coroutines-and-Thre...",
+      "comments": [
+        "9052226"
+      ],
+      "id": "9051688",
+      "isDead": false,
+      "parent": "9051515",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "23 hours ago",
+      "submitter": "estava"
+    },
+    {
+      "body": "> Imagine not having to worry about Async all the time.I'm nitpicking, because Fletch truly sounds very cool indeed, but when I use Elixir, Erlang, or Go, I never worry about async either. From that wiki page, I can't really see what the difference with the Erlang VM is.\n\n(that's a good thing, the Erlang VM is awesome, and being able to write server code on an Erlang-like VM and still share code with the browser sounds like the thing that could make me adopt Dart)",
+      "comments": [],
+      "id": "9052226",
+      "isDead": false,
+      "parent": "9051688",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "16 hours ago",
+      "submitter": "skrebbel"
+    },
+    {
+      "body": "About wow many connections for an average machine with 8GB ram would be deemed 'OK' with this tool?",
+      "comments": [
+        "9051603"
+      ],
+      "id": "9051577",
+      "isDead": false,
+      "parent": "9051515",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "1 day ago",
+      "submitter": "platz"
+    },
+    {
+      "body": "I was just playing around with this tonight using PHP and each process was about 5Mb of RAM.  I'd imagine if you wrote your server code in, say C instead, then the memory footprint would be much smaller.There's also a limit to the number of processes allowed as well.  On my OSX laptop with 16Gb RAM for example the default limit is 709 (kinda strange number???).  The commandulimit -a\n\nwill tell you the value of \"max user processes\" for your machine.",
+      "comments": [
+        "9052120",
+        "9051613"
+      ],
+      "id": "9051603",
+      "isDead": false,
+      "parent": "9051577",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "1 day ago",
+      "submitter": "jakejake"
+    },
+    {
+      "body": "The problem here of course is that a CGI-like approach does a fork plus execve for each request, which does not give a large benefit of sharing.\n\nIf you have a simple forking socket-based server, Linux (I assume that OS X is not any different) the amount of memory per process is much lower because it uses copy-on-write pages for forks and it's largely the same process.",
+      "comments": [],
+      "id": "9052120",
+      "isDead": false,
+      "parent": "9051603",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "17 hours ago",
+      "submitter": "danieldk"
+    },
+    {
+      "body": "That must be an OSX oddity. I just checked my Ubuntu laptop with 3GB RAM: 23967 processes, and a Debian server that I happened to be logged in to, with 0.5 GB: 127118 processes.",
+      "comments": [
+        "9051620"
+      ],
+      "id": "9051613",
+      "isDead": false,
+      "parent": "9051603",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "1 day ago",
+      "submitter": "leephillips"
+    },
+    {
+      "body": "Of course, with 3GB you could only get 600 connections at 5MB a pop.",
+      "comments": [],
+      "id": "9051620",
+      "isDead": false,
+      "parent": "9051613",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "1 day ago",
+      "submitter": "platz"
+    },
+    {
+      "body": "There is closed ticket (github.com/joewalnes/websocket) where we were battling this out, you're always welcome to join with good ideas, that would be appreciated.",
+      "comments": [],
+      "id": "9051234",
+      "isDead": false,
+      "parent": "9051195",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "1 day ago",
+      "submitter": "asergeyev"
+    },
+    {
+      "body": "It's just so easy to write a web-socket server these days in Go and other languages it might not be worth the trouble.  I can only see something like this being useful in odd-ball use cases; of which none really come to mind right now but I'm sure I'd recognize it when I was faced with it.",
+      "comments": [],
+      "id": "9052024",
+      "isDead": false,
+      "parent": "9051195",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "19 hours ago",
+      "submitter": "Rapzid"
+    },
+    {
+      "body": "Sounds basically like the difference between CGI and FastCGI.",
+      "comments": [],
+      "id": "9051622",
+      "isDead": false,
+      "parent": "9051195",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "1 day ago",
+      "submitter": "michaelmior"
+    },
+    {
+      "body": "I had come across websocketd a while ago, and to try it out, wrote a simple Python program and a web page. The two posts about it are here:1. Use WebSockets and Python for web-based system monitoring:http://jugad2.blogspot.in/2014/01/use-websockets-and-python-...2. websocketd and Python for system monitoring - the JavaScript WebSocket client:http://jugad2.blogspot.in/2014/01/websocketd-and-python-for-...Note: As it says in one of the posts, you have to:set PYTHONUNBUFFERED=truefor the Python program to work as a websocket server, though it works fine without that if only run directly at the command line (without websocketd). Thanks to Joe for pointing this out.\n\nwebsocketd is a nice utility.",
+      "comments": [],
+      "id": "9052862",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "11 hours ago",
+      "submitter": "vram22"
+    },
+    {
+      "body": "I guess the next logical step is to build a virtual filesystem such that each connection is represented by a file. Then you can further decouple the connection handling from the actual application. Applications can start later to talk to a connection established before.",
+      "comments": [
+        "9051514",
+        "9052194",
+        "9051982"
+      ],
+      "id": "9051328",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "1 day ago",
+      "submitter": "riobard"
+    },
+    {
+      "body": "That would be less 'unixy' and more 'plan-niney' :)\n\nI like the idea of having a FS interface, e.g. using named pipes made available by the daemon.",
+      "comments": [],
+      "id": "9051514",
+      "isDead": false,
+      "parent": "9051328",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "1 day ago",
+      "submitter": "nine_k"
+    },
+    {
+      "body": "That's the idea behind https://thefiletree.com/. The decoupling works well for applications tied to a textual format (see eg. https://thefiletree.com/heap/diagram.sequence). It means collaborative SVG editing, for instance, is not a challenge. On the other hand, binary data (bitmap images, sound, video) would need to be treated specially, I think, unless we had a common structure format and protocol that would map to each of those.\n\n(The code is here: https://github.com/garden/)",
+      "comments": [],
+      "id": "9052194",
+      "isDead": false,
+      "parent": "9051328",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "17 hours ago",
+      "submitter": "espadrine"
+    },
+    {
+      "body": "There was SpockFS here on HN a while back: https://github.com/unbit/spockfs",
+      "comments": [],
+      "id": "9051982",
+      "isDead": false,
+      "parent": "9051328",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "19 hours ago",
+      "submitter": "dangayle"
+    },
+    {
+      "body": "I don't understand how I'd use this. WebSockets are generally for server-initiated events, but this doesn't make it very easy to initiate events on the server. Usually it will be some pubsub situation, so I'd want a server process to be able to emit a message to one or many connections - but instead the connection is tied to one process for its life.  I'd like to see an example like a simple chat room.",
+      "comments": [
+        "9052053",
+        "9052827",
+        "9052323"
+      ],
+      "id": "9051779",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "22 hours ago",
+      "submitter": "ianbicking"
+    },
+    {
+      "body": "Actually, I think you're looking for Server-Sent Events [1] for something of a pub/sub nature. WebSockets, on the other hand, are intended for realtime bidirectional communication over a single TCP connection.Pub/Sub is much more one-directional. A single subscribe event initiates a stream of all published events. Server-Sent Events are more suited for this because the server will never have to bother checking the TCP connection for incoming data.\n\n[1] http://www.w3.org/TR/2011/WD-eventsource-20110208/",
+      "comments": [],
+      "id": "9052053",
+      "isDead": false,
+      "parent": "9051779",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "18 hours ago",
+      "submitter": "andrewstuart2"
+    },
+    {
+      "body": "I've built chatrooms with websocketd. To do this, you a shared pub/sub store. Redis is great, so is Postgres (with its pub/sub add-ons). Storing chat data in a store is more durable than keeping it in memory on a single machine.",
+      "comments": [],
+      "id": "9052827",
+      "isDead": false,
+      "parent": "9051779",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "11 hours ago",
+      "submitter": "joewalnes"
+    },
+    {
+      "body": "The solution in question could well be used for pub/sub servers or for request/response patterns... it's really pretty cool.  I'm needing to expose a very small utility that uses C# for the micro service... I'm considering this for that reason... aside from that, I think the solution in question is pretty cool.",
+      "comments": [],
+      "id": "9052323",
+      "isDead": false,
+      "parent": "9051779",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "15 hours ago",
+      "submitter": "tracker1"
+    },
+    {
+      "body": "A project in a similar vein is websockify ( https://github.com/kanaka/websockify ) , which makes an existing app with a TCP endpoint available over websockets.",
+      "comments": [
+        "9051089",
+        "9051033"
+      ],
+      "id": "9051028",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "1 day ago",
+      "submitter": "NathanOsullivan"
+    },
+    {
+      "body": "What are the differences? Do I miss anything?1. websocketify allows binary, while websocketd is text-only2. websocketify does I/O through a socket that the program uses (and that it sniffes through rebind.so), while websocketd relies on stdin / stdout3. The arguments are differentwebsocketd --port=8080 my-program\n\nwebsocketify 8080 -D -- my-program",
+      "comments": [
+        "9051205",
+        "9051099"
+      ],
+      "id": "9051089",
+      "isDead": false,
+      "parent": "9051028",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "1 day ago",
+      "submitter": "espadrine"
+    },
+    {
+      "body": "Also websocketd is multiplatform and does not require python. Neither good or bad, just another difference :)\n\nAlso, not sure if websocketify can but websocketd also has --dir argument and can supervise and route many sockets to many different programs.",
+      "comments": [
+        "9053121"
+      ],
+      "id": "9051205",
+      "isDead": false,
+      "parent": "9051089",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "1 day ago",
+      "submitter": "asergeyev"
+    },
+    {
+      "body": "websockify can be run on Node.js as well as python. Both versions seem to be highly reliable (I'm using them on multiple production servers with paying customers for web conferencing). The python version doesn't seem to work on Windows servers, but the Node version works fine.",
+      "comments": [],
+      "id": "9053121",
+      "isDead": false,
+      "parent": "9051205",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "10 hours ago",
+      "submitter": "cpncrunch"
+    },
+    {
+      "body": "I haven't used websocketify. I'd be interested to have users try out both and write up their experiences.",
+      "comments": [],
+      "id": "9051099",
+      "isDead": false,
+      "parent": "9051089",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "1 day ago",
+      "submitter": "joewalnes"
+    },
+    {
+      "body": "Nice! I hadn't seen that. Yeah, that's pretty sweet.",
+      "comments": [],
+      "id": "9051033",
+      "isDead": false,
+      "parent": "9051028",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "1 day ago",
+      "submitter": "joewalnes"
+    },
+    {
+      "body": "Looks very nice for quick prototype kind of things in any language or to make existing tools quickly available to a small circle of users!\n\nfor larger-scale usage the overhead probably is to big.",
+      "comments": [
+        "9051026",
+        "9051039"
+      ],
+      "id": "9051015",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "1 day ago",
+      "submitter": "detaro"
+    },
+    {
+      "body": "OP here. The overhead is really dependent on your process overhead. I typically use it for Python/Ruby/C apps which are relatively lightweight compared to something JVM based.\n\nThe runtime profile of WebSockets tends to be different to typical HTTP requests too. With typical HTTP you're often optimizing for 1000s of short requests per second, whereas with WebSockets the requests are much longer lived.",
+      "comments": [
+        "9051442"
+      ],
+      "id": "9051026",
+      "isDead": false,
+      "parent": "9051015",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "1 day ago",
+      "submitter": "joewalnes"
+    },
+    {
+      "body": "The JVM is optimized for long-running processes as it takes time for the JIT to kick in. Other than the memory footprint your code gets quite a performance boost; I'm always surprised how much of a difference it makes before and after.\n\nYou wouldn't want to boot a JVM process per connection but rather implement the listening socket yourself and dispatch connections within that same process with all of the required services already initialized. A WebSocket server is no different.",
+      "comments": [],
+      "id": "9051442",
+      "isDead": false,
+      "parent": "9051026",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "1 day ago",
+      "submitter": "jeremiep"
+    },
+    {
+      "body": "Depending on the job. If your job involve long lasting connections, overhead of setting up websocket connection and spawning new process wouldn't matter.But this is clearly will not cut for typical HTTP static stuff.\n\nSo if your server side keeps connection for a long period of time (think IRC server, or netcat?) - this might be good.",
+      "comments": [
+        "9051583"
+      ],
+      "id": "9051039",
+      "isDead": false,
+      "parent": "9051015",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "1 day ago",
+      "submitter": "hippich"
+    },
+    {
+      "body": "The overhead isn't the setup. It's the memory footprint of a process. A minimal process (just sleeping) will use ~128KB. One process per connection means a server will need well over 1GB memory per 8000 connected users. A python process just sleeping will be almost 3MB, which means you get 333 connections per GB.\n\nCompare this with an efficient green threads implementation. In Erlang you can have 100k sleeping \"processes\" in just 200MB of memory.",
+      "comments": [],
+      "id": "9051583",
+      "isDead": false,
+      "parent": "9051039",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "1 day ago",
+      "submitter": "phamilton"
+    },
+    {
+      "body": "This is a good idea.Myself, I noticed that almost all my websockets projects could easily share one single code base, and finally I just made a Websockets boilerplate repo that I can pull from for any given project. This is what node.js really excels at, and it's an execution model fundamentally different from websocketd: being a message broker between the client and the request-based web server.\n\nSome people don't like the separation between web server and websockets server, but when you think about it they don't belong quite on the same level of abstraction. Plus, it's usually orders of magnitude easier to reason about single requests than to reason about a complex persistent application server's state.",
+      "comments": [],
+      "id": "9051363",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "1 day ago",
+      "submitter": "Udo"
+    },
+    {
+      "body": "For simple one-directional communication (Server to client(s)) as shown in the example, it may for many people be simpler to use EventSource [1]I've used this for UI's where the server continuously sends/pushes updates to the clients. Really handy, and multiple implementations and libraries available in most languages.Of interest is perhaps also the spec [2][1]: https://developer.mozilla.org/en-US/docs/Web/API/EventSource\n\n[2]: https://html.spec.whatwg.org/multipage/comms.html#the-events...",
+      "comments": [
+        "9051254"
+      ],
+      "id": "9051200",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "1 day ago",
+      "submitter": "lordlarm"
+    },
+    {
+      "body": "Not supported in any of IE versions... https://status.modern.ie/serversenteventseventsource?term=Ev...\n\nAnd WebSockets is working since IE10 https://status.modern.ie/websocket?term=WebSocket",
+      "comments": [
+        "9051975"
+      ],
+      "id": "9051254",
+      "isDead": false,
+      "parent": "9051200",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "1 day ago",
+      "submitter": "asergeyev"
+    },
+    {
+      "body": "Due to it's nature, EventSource can be quite easily implemented using a polyfill for legacy browsers.It's also MUCH easier to setup/run in a multi-layered stack (e.g. Pound/HAProxy > Varnish > App Server).\n\nAs per usual, WebSockets is what the \"cool kids\" use, even when it's often much less appropriate and much less flexible.",
+      "comments": [
+        "9052476"
+      ],
+      "id": "9051975",
+      "isDead": false,
+      "parent": "9051254",
+      "quality": 0.5490196078431373,
+      "story": "9050970",
+      "submitted": "19 hours ago",
+      "submitter": "stephenr"
+    },
+    {
+      "body": "So what would you use to implement the polyfill for IE10? Is there something more appropriate than websockets? If not, are we not back to square one where you may as well use websockets from the start?",
+      "comments": [
+        "9052843"
+      ],
+      "id": "9052476",
+      "isDead": false,
+      "parent": "9051975",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "14 hours ago",
+      "submitter": "tokenizerrr"
+    },
+    {
+      "body": "There are multiple polyfills for EventSource - mostly all it needs is a working XHR implementation.\n\nThe key thing is that a proxy/load balancer doesn't need special cases to support EventSource like it needs (and often doesn't have) with websockets.",
+      "comments": [],
+      "id": "9052843",
+      "isDead": false,
+      "parent": "9052476",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "11 hours ago",
+      "submitter": "stephenr"
+    },
+    {
+      "body": "The thing with WebSockets is that they are message oriented. WebSockets endpoints are presented with a series of distinct messages, whereas stdin/stdout are stream based and you have to build messaging on top, if that's what you want. I guess the idea here is that you are just using '\\n' as the message delimiter?",
+      "comments": [
+        "9051212"
+      ],
+      "id": "9051194",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "1 day ago",
+      "submitter": "minimax"
+    },
+    {
+      "body": "Pretty much. Good example is Joe's vmstats https://github.com/joewalnes/web-vmstats",
+      "comments": [],
+      "id": "9051212",
+      "isDead": false,
+      "parent": "9051194",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "1 day ago",
+      "submitter": "asergeyev"
+    },
+    {
+      "body": "It's a petty comment, I know, but:    for count in range(0, 10):       print count + 1       sleep(0.5)  makes me feel sad.",
+      "comments": [],
+      "id": "9053265",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "9 hours ago",
+      "submitter": "MatthewWilkes"
+    },
+    {
+      "body": "Elegant approach. Reminds me of inetd.",
+      "comments": [
+        "9051980"
+      ],
+      "id": "9051597",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "1 day ago",
+      "submitter": "jkarneges"
+    },
+    {
+      "body": "I'm surprised this isn't just implemented as an inetd handler, given the \"do one thing and do it well\" mantra.",
+      "comments": [
+        "9052213"
+      ],
+      "id": "9051980",
+      "isDead": false,
+      "parent": "9051597",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "19 hours ago",
+      "submitter": "colanderman"
+    },
+    {
+      "body": "Its the 21st Century.  People don't look backwards any more.  inetd is passé..",
+      "comments": [
+        "9052720"
+      ],
+      "id": "9052213",
+      "isDead": false,
+      "parent": "9051980",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "16 hours ago",
+      "submitter": "fit2rule"
+    },
+    {
+      "body": "I'm assuming you're being sarcastic.  This tool wants to \"do things the Unix way\"... which was invented in the 1970s.",
+      "comments": [],
+      "id": "9052720",
+      "isDead": false,
+      "parent": "9052213",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "12 hours ago",
+      "submitter": "colanderman"
+    },
+    {
+      "body": "Why is this better than netcat?\n\nhttps://en.wikipedia.org/wiki/Netcat",
+      "comments": [
+        "9051977"
+      ],
+      "id": "9051955",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "20 hours ago",
+      "submitter": "romanpoet"
+    },
+    {
+      "body": "Because it handles the WebSocket protocol for you.",
+      "comments": [],
+      "id": "9051977",
+      "isDead": false,
+      "parent": "9051955",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "19 hours ago",
+      "submitter": "colanderman"
+    },
+    {
+      "body": "This looks great, without knowing much I was able to get:./websocketd --staticdir=. --port=8123 psto give me a simple output of processes. What I'd really LOVE is to get this to work:./websocketd --staticdir=. --port=8123 htop\n\nIt'd be great if I could see the output of htop on the web...from anywhere. I guess htop is setting up a different video mode or something that isn't compatible?",
+      "comments": [
+        "9051999"
+      ],
+      "id": "9051910",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "20 hours ago",
+      "submitter": "aabajian"
+    },
+    {
+      "body": "I think you would need to feed what you are getting to a Javascript terminal emulator. (e.g. https://github.com/chjj/tty.js/)",
+      "comments": [],
+      "id": "9051999",
+      "isDead": false,
+      "parent": "9051910",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "19 hours ago",
+      "submitter": "olalonde"
+    },
+    {
+      "body": "Oh my! I have been waiting for this, trying to write my own websocket server implementation in multiple esoteric languages! Fantastic!",
+      "comments": [],
+      "id": "9051275",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "1 day ago",
+      "submitter": "keyle"
+    },
+    {
+      "body": "How are message boundaries handled?\n\nWebSockets are message-based. UNIX streams are not.",
+      "comments": [
+        "9054194"
+      ],
+      "id": "9053460",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "8 hours ago",
+      "submitter": "kalmi10"
+    },
+    {
+      "body": "websocketd treats each line as a message. i.e. boundaries are marked with \\n",
+      "comments": [],
+      "id": "9054194",
+      "isDead": false,
+      "parent": "9053460",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "5 hours ago",
+      "submitter": "joewalnes"
+    },
+    {
+      "body": "This is perfect for admin tools. I'd rather parse stdout strings than code a custom API.",
+      "comments": [],
+      "id": "9051787",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "22 hours ago",
+      "submitter": "runewell"
+    },
+    {
+      "body": "beautiful website may I ask with which template / framework it was written? (is it in github by any chance?)",
+      "comments": [
+        "9052852"
+      ],
+      "id": "9052608",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "12 hours ago",
+      "submitter": "tomerbd"
+    },
+    {
+      "body": "Didn't use any templates or frameworks (apart from font-awesome for icons and prism for syntax highlighting the code examples).\n\nJust some good old fashioned hand written HTML + CSS. https://github.com/joewalnes/websocketd/tree/gh-pages",
+      "comments": [],
+      "id": "9052852",
+      "isDead": false,
+      "parent": "9052608",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "11 hours ago",
+      "submitter": "joewalnes"
+    },
+    {
+      "body": "I'll try this. Looks good!",
+      "comments": [],
+      "id": "9051040",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "1 day ago",
+      "submitter": "frknbasaran"
+    },
+    {
+      "body": "Could anyone give an example of what this is used for?",
+      "comments": [
+        "9052839",
+        "9051860"
+      ],
+      "id": "9051791",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "22 hours ago",
+      "submitter": "hurin"
+    },
+    {
+      "body": "It allows you to write a WebSocket end point, in any programming language, without having to deal with building socket servers, dealing with WebSocket protocol handshake/parsing/formatting/etc, worrying about threading etc. Just write a script that reads and writes to stdin/out.",
+      "comments": [],
+      "id": "9052839",
+      "isDead": false,
+      "parent": "9051791",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "11 hours ago",
+      "submitter": "joewalnes"
+    },
+    {
+      "body": "It appears to me that it is useful for eliminating the \"middle man\" scripts/code often written for web application and server interaction. If I want to create a web application that displays the status of my server (CPU, memory, I/O, etc) I can use this software to call vmstat directly instead of writing an API (PHP, Node.js, RoR, etc) that executes the same command or uses a library that requires even more code to get the exact same data.",
+      "comments": [
+        "9051898"
+      ],
+      "id": "9051860",
+      "isDead": false,
+      "parent": "9051791",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "21 hours ago",
+      "submitter": "runewell"
+    },
+    {
+      "body": "I'm sure this this is probably because I don't have do this for work - but from that description it's hard for me to tell what the advantages are. A script to feed vmstat (or other command data) with a python socket would be ~50 lines or so.",
+      "comments": [],
+      "id": "9051898",
+      "isDead": false,
+      "parent": "9051860",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "20 hours ago",
+      "submitter": "hurin"
+    },
+    {
+      "body": "I assume you are treating `stdin` and `stdout` as just a stream of bytes rather than trying to do anything clever a la Python 3 ?",
+      "comments": [
+        "9052890"
+      ],
+      "id": "9051736",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "22 hours ago",
+      "submitter": "spiralpolitik"
+    },
+    {
+      "body": "Yep. The only magic thing is a line break (e.g. \\n) is used to terminate each message.",
+      "comments": [],
+      "id": "9052890",
+      "isDead": false,
+      "parent": "9051736",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "11 hours ago",
+      "submitter": "joewalnes"
+    },
+    {
+      "body": "> \"Write programs that do one thing and do it well.\"\n\nSo why does this WebSocket daemon also serve static files and CGI applications?",
+      "comments": [
+        "9052146"
+      ],
+      "id": "9051743",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "22 hours ago",
+      "submitter": "cypher543"
+    },
+    {
+      "body": "Because you need to implement a tiny HTTP server for WebSockets anyway (if you want't them to work from browsers). So, adding the ability to serve static files on top of that is trivial.\n\nNot sure why they added CGI, though.",
+      "comments": [
+        "9052848"
+      ],
+      "id": "9052146",
+      "isDead": false,
+      "parent": "9051743",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "17 hours ago",
+      "submitter": "spoiler"
+    },
+    {
+      "body": "That indeed was a dilemma. Although it focusses on doing one thing well, there were also a few core things that are useful to support a websocket based app - namely a place to serve the actual web content from (static) and the ability to use websocketd using vanilla http instead of websockets (cgi).",
+      "comments": [],
+      "id": "9052848",
+      "isDead": false,
+      "parent": "9052146",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "11 hours ago",
+      "submitter": "joewalnes"
+    },
+    {
+      "body": "This is cool. I can see this being used for prototyping and validating an idea before going full steam ahead with a more scalable framework.",
+      "comments": [],
+      "id": "9051572",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "1 day ago",
+      "submitter": "dkarapetyan"
+    },
+    {
+      "body": "Holy shit that's cool",
+      "comments": [],
+      "id": "9051750",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "22 hours ago",
+      "submitter": "nichochar"
+    },
+    {
+      "body": "Oh, this is going to be so fun for doing terrible things.",
+      "comments": [
+        "9051284"
+      ],
+      "id": "9051166",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "1 day ago",
+      "submitter": "angersock"
+    },
+    {
+      "body": "Untold rule is not to run \"sudo websocketd --devconsole bash\" :)",
+      "comments": [
+        "9052101"
+      ],
+      "id": "9051284",
+      "isDead": false,
+      "parent": "9051166",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "1 day ago",
+      "submitter": "asergeyev"
+    },
+    {
+      "body": "The browser will not implement terminal controls. You could get by though. This sort of scenario is why ed is never obsolete.",
+      "comments": [
+        "9052885"
+      ],
+      "id": "9052101",
+      "isDead": false,
+      "parent": "9051284",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "18 hours ago",
+      "submitter": "cturner"
+    },
+    {
+      "body": "ed is for the weak. Real developers edit bits using the magnetic forces of oceans.",
+      "comments": [],
+      "id": "9052885",
+      "isDead": false,
+      "parent": "9052101",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "11 hours ago",
+      "submitter": "joewalnes"
+    },
+    {
+      "body": "Link is down =(",
+      "comments": [],
+      "id": "9051117",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "1 day ago",
+      "submitter": "nubb"
+    },
+    {
+      "body": "this is fucking cool. I got it instantly just glancing at the code example. I immediately understood how it worked. That is powerful stuff.My only worry of course is, how would you scale this up? What's really going beneath the hood.I'm really excited and trying to think of something so I can use it as an excuse to use this.\n\nThe only other suggestion I would make is maybe change the name to something more catchy and brandable. Websocketd...okay like systemd...but I don't know, something as good as this deserves a brandable name like Jupiter, or some Greek goddess or clever hacky name.",
+      "comments": [
+        "9052830"
+      ],
+      "id": "9051862",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "21 hours ago",
+      "submitter": "curiously"
+    },
+    {
+      "body": "Thanks. And I suck at naming stuff.",
+      "comments": [],
+      "id": "9052830",
+      "isDead": false,
+      "parent": "9051862",
+      "quality": 1,
+      "story": "9050970",
+      "submitted": "11 hours ago",
+      "submitter": "joewalnes"
+    }
+  ],
   "story": {
     "body": null,
-    "comments": 123,
+    "comments": [
+      "9051402",
+      "9051031",
+      "9052008",
+      "9051195",
+      "9052862",
+      "9051328",
+      "9051779",
+      "9051028",
+      "9051015",
+      "9051363",
+      "9051200",
+      "9051194",
+      "9053265",
+      "9051597",
+      "9051955",
+      "9051910",
+      "9051275",
+      "9053460",
+      "9051787",
+      "9052608",
+      "9051040",
+      "9051791",
+      "9051736",
+      "9051743",
+      "9051572",
+      "9051750",
+      "9051166",
+      "9051117",
+      "9051862"
+    ],
+    "commentsCount": 123,
     "id": "9050970",
     "points": 393,
     "source": "websocketd.com",

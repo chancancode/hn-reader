@@ -5,7 +5,8 @@
   "stories": [
     {
       "body": null,
-      "comments": 6,
+      "comments": null,
+      "commentsCount": 6,
       "id": "9050933",
       "points": 4,
       "source": "medium.com",
@@ -17,7 +18,8 @@
     },
     {
       "body": null,
-      "comments": 1,
+      "comments": null,
+      "commentsCount": 1,
       "id": "9050931",
       "points": 29,
       "source": "fullstackacademy.com",
@@ -29,7 +31,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9050921",
       "points": 1,
       "source": "bloomberg.com",
@@ -41,7 +44,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9050917",
       "points": 1,
       "source": "youtube.com",
@@ -53,7 +57,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9050913",
       "points": 1,
       "source": "figure.ink",
@@ -65,7 +70,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9050899",
       "points": 1,
       "source": "davidbrin.blogspot.com",
@@ -77,7 +83,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9050895",
       "points": 14,
       "source": "firstlook.org",
@@ -89,7 +96,8 @@
     },
     {
       "body": null,
-      "comments": 1,
+      "comments": null,
+      "commentsCount": 1,
       "id": "9050855",
       "points": 3,
       "source": null,
@@ -101,7 +109,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9050848",
       "points": 1,
       "source": "spiegel.de",
@@ -113,7 +122,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9050830",
       "points": 2,
       "source": "kickstarter.com",
@@ -125,7 +135,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9050822",
       "points": 1,
       "source": "thenewstack.io",
@@ -137,7 +148,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9050815",
       "points": 1,
       "source": "mit.edu",
@@ -149,7 +161,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9050806",
       "points": 1,
       "source": "thecrimson.com",
@@ -161,7 +174,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9050796",
       "points": 1,
       "source": null,
@@ -173,7 +187,8 @@
     },
     {
       "body": null,
-      "comments": 207,
+      "comments": null,
+      "commentsCount": 207,
       "id": "9050793",
       "points": 165,
       "source": "golang.org",
@@ -185,7 +200,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9050789",
       "points": 1,
       "source": "marynaaleksandrova.com",
@@ -197,7 +213,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9050788",
       "points": 3,
       "source": "futureboy.us",
@@ -209,7 +226,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9050779",
       "points": 1,
       "source": "wander.li",
@@ -221,7 +239,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9050776",
       "points": 2,
       "source": "rainforestqa.com",
@@ -233,7 +252,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9050774",
       "points": 1,
       "source": "github.com",
@@ -245,7 +265,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9050767",
       "points": 2,
       "source": "taosecurity.blogspot.com",
@@ -257,7 +278,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9050762",
       "points": 3,
       "source": "sourceware.org",
@@ -269,7 +291,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9050761",
       "points": 2,
       "source": "googlewebmastercentral.blogspot.com",
@@ -281,7 +304,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9050759",
       "points": 1,
       "source": "littlebigdetails.com",
@@ -293,7 +317,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9050747",
       "points": 2,
       "source": null,
@@ -305,7 +330,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9050743",
       "points": 2,
       "source": "sfhac.org",
@@ -317,7 +343,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9050739",
       "points": 1,
       "source": "youtube.com",
@@ -329,7 +356,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9050731",
       "points": 5,
       "source": "gettwototango.com",
@@ -341,7 +369,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9050721",
       "points": 3,
       "source": "twitter.com",
@@ -353,7 +382,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9050715",
       "points": 1,
       "source": "slatestarcodex.com",

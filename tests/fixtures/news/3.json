@@ -5,7 +5,8 @@
   "stories": [
     {
       "body": null,
-      "comments": 166,
+      "comments": null,
+      "commentsCount": 166,
       "id": "9042282",
       "points": 549,
       "source": "slate.com",
@@ -17,7 +18,8 @@
     },
     {
       "body": null,
-      "comments": 2,
+      "comments": null,
+      "commentsCount": 2,
       "id": "9051870",
       "points": 7,
       "source": "artofmanliness.com",
@@ -29,7 +31,8 @@
     },
     {
       "body": null,
-      "comments": 18,
+      "comments": null,
+      "commentsCount": 18,
       "id": "9049233",
       "points": 85,
       "source": "linux-bg.org",
@@ -41,7 +44,8 @@
     },
     {
       "body": null,
-      "comments": 2,
+      "comments": null,
+      "commentsCount": 2,
       "id": "9049844",
       "points": 15,
       "source": "arxiv.org",
@@ -53,7 +57,8 @@
     },
     {
       "body": null,
-      "comments": 58,
+      "comments": null,
+      "commentsCount": 58,
       "id": "9046829",
       "points": 216,
       "source": "coreos.com",
@@ -65,7 +70,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9049874",
       "points": 14,
       "source": "hearingbrain.org",
@@ -77,7 +83,8 @@
     },
     {
       "body": null,
-      "comments": 35,
+      "comments": null,
+      "commentsCount": 35,
       "id": "9048414",
       "points": 132,
       "source": "cannedemails.com",
@@ -89,7 +96,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9049972",
       "points": 10,
       "source": "nytimes.com",
@@ -101,7 +109,8 @@
     },
     {
       "body": null,
-      "comments": 67,
+      "comments": null,
+      "commentsCount": 67,
       "id": "9047086",
       "points": 178,
       "source": "cabmaddux.com",
@@ -113,7 +122,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9050943",
       "points": 6,
       "source": "flafla2.github.io",
@@ -125,7 +135,8 @@
     },
     {
       "body": null,
-      "comments": 97,
+      "comments": null,
+      "commentsCount": 97,
       "id": "9040090",
       "points": 504,
       "source": "7xter.com",
@@ -138,6 +149,7 @@
     {
       "body": null,
       "comments": null,
+      "commentsCount": null,
       "id": "job-0",
       "points": null,
       "source": "greenhouse.io",
@@ -149,7 +161,8 @@
     },
     {
       "body": null,
-      "comments": 33,
+      "comments": null,
+      "commentsCount": 33,
       "id": "9044927",
       "points": 194,
       "source": "github.com",
@@ -161,7 +174,8 @@
     },
     {
       "body": null,
-      "comments": 1,
+      "comments": null,
+      "commentsCount": 1,
       "id": "9049781",
       "points": 11,
       "source": "bu.edu",
@@ -173,7 +187,8 @@
     },
     {
       "body": null,
-      "comments": 38,
+      "comments": null,
+      "commentsCount": 38,
       "id": "9047786",
       "points": 131,
       "source": "arxiv.org",
@@ -185,7 +200,8 @@
     },
     {
       "body": null,
-      "comments": 28,
+      "comments": null,
+      "commentsCount": 28,
       "id": "9045125",
       "points": 140,
       "source": "t37.net",
@@ -197,7 +213,8 @@
     },
     {
       "body": null,
-      "comments": 8,
+      "comments": null,
+      "commentsCount": 8,
       "id": "9045921",
       "points": 40,
       "source": "iop.org",
@@ -209,7 +226,8 @@
     },
     {
       "body": null,
-      "comments": 162,
+      "comments": null,
+      "commentsCount": 162,
       "id": "9047833",
       "points": 119,
       "source": "wsj.com",
@@ -221,7 +239,8 @@
     },
     {
       "body": null,
-      "comments": 32,
+      "comments": null,
+      "commentsCount": 32,
       "id": "9047255",
       "points": 129,
       "source": "newyorker.com",
@@ -233,7 +252,8 @@
     },
     {
       "body": null,
-      "comments": 13,
+      "comments": null,
+      "commentsCount": 13,
       "id": "9044330",
       "points": 158,
       "source": "rovaughn.github.io",
@@ -245,7 +265,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9049700",
       "points": 8,
       "source": "lwn.net",
@@ -257,7 +278,8 @@
     },
     {
       "body": null,
-      "comments": 84,
+      "comments": null,
+      "commentsCount": 84,
       "id": "9045497",
       "points": 147,
       "source": "techcrunch.com",
@@ -269,7 +291,8 @@
     },
     {
       "body": null,
-      "comments": 98,
+      "comments": null,
+      "commentsCount": 98,
       "id": "9042891",
       "points": 247,
       "source": "mozilla.org",
@@ -281,7 +304,8 @@
     },
     {
       "body": null,
-      "comments": 16,
+      "comments": null,
+      "commentsCount": 16,
       "id": "9044640",
       "points": 107,
       "source": "datadive.net",
@@ -293,7 +317,8 @@
     },
     {
       "body": null,
-      "comments": 90,
+      "comments": null,
+      "commentsCount": 90,
       "id": "9040841",
       "points": 340,
       "source": "sdelements.github.io",
@@ -305,7 +330,8 @@
     },
     {
       "body": null,
-      "comments": 39,
+      "comments": null,
+      "commentsCount": 39,
       "id": "9045518",
       "points": 123,
       "source": "bloomberg.com",
@@ -317,7 +343,8 @@
     },
     {
       "body": null,
-      "comments": 22,
+      "comments": null,
+      "commentsCount": 22,
       "id": "9045539",
       "points": 75,
       "source": "vice.com",
@@ -329,7 +356,8 @@
     },
     {
       "body": null,
-      "comments": 7,
+      "comments": null,
+      "commentsCount": 7,
       "id": "9044039",
       "points": 35,
       "source": "longnow.org",
@@ -341,7 +369,8 @@
     },
     {
       "body": null,
-      "comments": 13,
+      "comments": null,
+      "commentsCount": 13,
       "id": "9046034",
       "points": 32,
       "source": "github.com",
@@ -353,7 +382,8 @@
     },
     {
       "body": null,
-      "comments": 11,
+      "comments": null,
+      "commentsCount": 11,
       "id": "9045452",
       "points": 108,
       "source": "infoq.com",

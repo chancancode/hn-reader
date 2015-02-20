@@ -1,7 +1,9 @@
 {
+  "comments": [],
   "story": {
     "body": null,
-    "comments": 0,
+    "comments": [],
+    "commentsCount": 0,
     "id": "9050533",
     "points": 2,
     "source": "github.com",

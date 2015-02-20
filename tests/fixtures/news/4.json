@@ -5,7 +5,8 @@
   "stories": [
     {
       "body": null,
-      "comments": 44,
+      "comments": null,
+      "commentsCount": 44,
       "id": "9042858",
       "points": 237,
       "source": "nytimes.com",
@@ -17,7 +18,8 @@
     },
     {
       "body": null,
-      "comments": 88,
+      "comments": null,
+      "commentsCount": 88,
       "id": "9038873",
       "points": 342,
       "source": "0hn0.com",
@@ -29,7 +31,8 @@
     },
     {
       "body": null,
-      "comments": 94,
+      "comments": null,
+      "commentsCount": 94,
       "id": "9043594",
       "points": 158,
       "source": "noctua-software.com",
@@ -42,6 +45,7 @@
     {
       "body": null,
       "comments": null,
+      "commentsCount": null,
       "id": "job-0",
       "points": null,
       "source": "angel.co",
@@ -53,7 +57,8 @@
     },
     {
       "body": null,
-      "comments": 4,
+      "comments": null,
+      "commentsCount": 4,
       "id": "9046630",
       "points": 27,
       "source": "weirdthings.com",
@@ -65,7 +70,8 @@
     },
     {
       "body": null,
-      "comments": 1,
+      "comments": null,
+      "commentsCount": 1,
       "id": "9049864",
       "points": 7,
       "source": "godbolt.org",
@@ -77,7 +83,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9050618",
       "points": 6,
       "source": "slideshare.net",
@@ -89,7 +96,8 @@
     },
     {
       "body": null,
-      "comments": 5,
+      "comments": null,
+      "commentsCount": 5,
       "id": "9044156",
       "points": 32,
       "source": "collectorsweekly.com",
@@ -101,7 +109,8 @@
     },
     {
       "body": null,
-      "comments": 27,
+      "comments": null,
+      "commentsCount": 27,
       "id": "9046701",
       "points": 86,
       "source": "haiku-os.org",
@@ -113,7 +122,8 @@
     },
     {
       "body": null,
-      "comments": 20,
+      "comments": null,
+      "commentsCount": 20,
       "id": "9046335",
       "points": 79,
       "source": "olark.com",
@@ -125,7 +135,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9051861",
       "points": 5,
       "source": "jsfiddle.net",
@@ -137,7 +148,8 @@
     },
     {
       "body": null,
-      "comments": 39,
+      "comments": null,
+      "commentsCount": 39,
       "id": "9044327",
       "points": 91,
       "source": "nautil.us",
@@ -149,7 +161,8 @@
     },
     {
       "body": null,
-      "comments": 141,
+      "comments": null,
+      "commentsCount": 141,
       "id": "9044030",
       "points": 195,
       "source": "bbc.co.uk",
@@ -161,7 +174,8 @@
     },
     {
       "body": null,
-      "comments": 183,
+      "comments": null,
+      "commentsCount": 183,
       "id": "9048110",
       "points": 278,
       "source": "plus.google.com",
@@ -173,7 +187,8 @@
     },
     {
       "body": null,
-      "comments": 19,
+      "comments": null,
+      "commentsCount": 19,
       "id": "9044945",
       "points": 102,
       "source": "bunniestudios.com",
@@ -185,7 +200,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9050895",
       "points": 14,
       "source": "firstlook.org",
@@ -197,7 +213,8 @@
     },
     {
       "body": null,
-      "comments": 6,
+      "comments": null,
+      "commentsCount": 6,
       "id": "9044233",
       "points": 26,
       "source": "nczonline.net",
@@ -209,7 +226,8 @@
     },
     {
       "body": null,
-      "comments": 8,
+      "comments": null,
+      "commentsCount": 8,
       "id": "9044063",
       "points": 29,
       "source": "buzzfeed.com",
@@ -221,7 +239,8 @@
     },
     {
       "body": null,
-      "comments": 95,
+      "comments": null,
+      "commentsCount": 95,
       "id": "9045507",
       "points": 141,
       "source": "scientificamerican.com",
@@ -233,7 +252,8 @@
     },
     {
       "body": null,
-      "comments": 224,
+      "comments": null,
+      "commentsCount": 224,
       "id": "9045677",
       "points": 512,
       "source": "stopusinglinkedin.com",
@@ -245,7 +265,8 @@
     },
     {
       "body": null,
-      "comments": 6,
+      "comments": null,
+      "commentsCount": 6,
       "id": "9050054",
       "points": 18,
       "source": "synaptia.net",
@@ -257,7 +278,8 @@
     },
     {
       "body": null,
-      "comments": 8,
+      "comments": null,
+      "commentsCount": 8,
       "id": "9048046",
       "points": 53,
       "source": "github.com",
@@ -269,7 +291,8 @@
     },
     {
       "body": null,
-      "comments": 42,
+      "comments": null,
+      "commentsCount": 42,
       "id": "9049592",
       "points": 51,
       "source": "elementaryos.org",
@@ -281,7 +304,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9050762",
       "points": 3,
       "source": "sourceware.org",
@@ -293,7 +317,8 @@
     },
     {
       "body": null,
-      "comments": 177,
+      "comments": null,
+      "commentsCount": 177,
       "id": "9034570",
       "points": 358,
       "source": "medium.com",
@@ -306,6 +331,7 @@
     {
       "body": null,
       "comments": null,
+      "commentsCount": null,
       "id": "job-1",
       "points": null,
       "source": "swiftype.com",
@@ -317,7 +343,8 @@
     },
     {
       "body": null,
-      "comments": 6,
+      "comments": null,
+      "commentsCount": 6,
       "id": "9045315",
       "points": 24,
       "source": "bravenewgeek.com",
@@ -329,7 +356,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9050707",
       "points": 3,
       "source": "hammerlab.org",
@@ -341,7 +369,8 @@
     },
     {
       "body": null,
-      "comments": 5,
+      "comments": null,
+      "commentsCount": 5,
       "id": "9051005",
       "points": 10,
       "source": "theregister.co.uk",
@@ -353,7 +382,8 @@
     },
     {
       "body": null,
-      "comments": 4,
+      "comments": null,
+      "commentsCount": 4,
       "id": "9051602",
       "points": 3,
       "source": null,

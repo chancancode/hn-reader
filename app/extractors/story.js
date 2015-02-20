@@ -12,8 +12,8 @@ function toArray(arr) {
   return [].map.call(arr, item => item);
 }
 
-function toInt(val) {
-  return parseInt(val, 10) || 0;
+function toInt(val, base = 10) {
+  return parseInt(val, base) || 0;
 }
 
 function extractID(possibleID) {
@@ -21,8 +21,8 @@ function extractID(possibleID) {
   return (match && match[1]) || null;
 }
 
-function generateID() {
-  return `job-${ guid++ }`;
+function generateID(prefix = "dead") {
+  return `${prefix}-${ guid++ }`;
 }
 
 function extractTag(title) {
@@ -51,11 +51,169 @@ function extractSubmitted(text) {
   return (match && match[1]) || null;
 }
 
-function extractBody(lines) {
-  return toArray(lines).map( line => (line.innerText || line.textContent).trim() ).join("\n\n") || null;
+function extractQuality(color) {
+  var match = /#([0-9a-f]{2})[0-9a-f]{4}/i.exec(color);
+  if (match && match[1]) {
+    return ( 255 - toInt(match[1], 16) ) / 255;
+  } else {
+    return null;
+  }
 }
 
-function extractStory(row1, row2, row3) {
+function extractBody(lines) {
+  return toArray(lines).map( line => (line.innerText || line.textContent).replace(/\s/g, " ").trim() ).join("\n\n") || null;
+}
+
+function extractComment(story, row) {
+  // A normal comment row looks like this:
+  //
+  //   <tr>
+  //     <td><img src="s.gif" height="1" width="40"></td>
+  //     <td>...vote arrows...</td>
+  //     <td>
+  //       <div>
+  //         <span class="comhead">
+  //           <a href="...">cbd1984</a> <a href="item?id=9052474">12 hours ago</a> <span class="deadmark"></span>
+  //         </span>
+  //       </div>
+  //       <br>
+  //       <span class="comment">
+  //         <font color="#000000">
+  //           ...
+  //           <p><font color="#000000">...</font></p>
+  //           <p><font color="#000000">...</font></p>
+  //           <p><font size="1"><u><a href="...">reply</a></u></font></p>
+  //         </font>
+  //       </span>
+  //     </td>
+  //   </tr>
+  //
+  // From here, we want to extract:
+  //
+  //   1. The ID of the comment
+  //   2. The nesting level
+  //   3. The submitter username
+  //   4. The submission time
+  //   5. The "quality" of the comment
+  //   6. The body of the comment
+  //
+  // Most of these should be self-explainatory. The "nesting level" is the width
+  // of the spacer gif (see `extractComments` for how its used). The quality is
+  // represented visually via the font color with different shades of gray. We
+  // normalize it to a float between 0 and 1 where 0 (#ffffff) is the worst and
+  // 1 (#000000) is normal.
+  //
+  // But a comment could also be dead (deleted), in which case it looks like
+  // this:
+  //
+  //   <tr>
+  //     <td><img src="s.gif" height="1" width="80"></td>
+  //     <td><span class="deadmark"></span></td>
+  //     <td>
+  //       <div>
+  //         <span class="comhead">...</span>
+  //       </div>
+  //       <span class="comment">[deleted]</span>
+  //     </td>
+  //   </tr>
+  //
+
+  var comment = {
+    id:        null,
+    isDead:    false,
+    body:      null,
+    quality:   null,
+    submitter: null,
+    submitted: null,
+    level:     null,
+    parent:    null,
+    comments:  [],
+    story:     story.id
+  };
+
+  var $spacer    = $("img[src='s.gif'][width]", row),
+      $comhead   = $(".comhead", row),
+      $body      = $(".comment font", row),
+      $submitter = $comhead.find("a:first-of-type"),
+      $submitted = $comhead.find("a:last-of-type");
+
+  if ($submitted.length) {
+    comment.id = extractID( $submitted.attr("href") );
+
+    if ($body.last().find("a[href^=reply]").length) {
+      comment.body = extractBody( $body.not(":last") );
+    } else {
+      comment.body = extractBody( $body );
+    }
+
+    comment.quality = extractQuality( $body.first().attr("color") ) || 1;
+    comment.submitter = $submitter.text().trim();
+    comment.submitted = extractSubmitted( $submitted.text().trim() );
+  } else {
+    comment.id = generateID();
+    comment.isDead = true;
+  }
+
+  comment.level = toInt( $spacer.attr("width") );
+
+  return comment;
+}
+
+function extractComments(story, rows) {
+  var comments = [];
+
+  story.comments = [];
+
+  // Keep track of the nesting of the comments. This is orangized as a stack of
+  // { level, parent, lastSibling } tuples.
+  //
+  // The nesting level is an "arbitary" integer scale where larger numbers means
+  // deeper nesting. (In reality, this number corresponding to the width of
+  // indentation/padding in the markup.)
+  //
+  // The parent is parent for all comments at this level, i.e. the most recently
+  // seen comment from the previous level.
+  //
+  // The lastSibling is the most recently seen comment at this level.
+
+  var nesting = [ [0, null, null] ];
+
+  for (let row of toArray(rows)) {
+    let comment = extractComment(story, row);
+
+    let level, parentComment, lastSibling;
+
+    [level, parentComment, lastSibling] = nesting[0];
+
+    while (comment.level < level) {
+      nesting.shift();
+      [level, parentComment, lastSibling] = nesting[0];
+    }
+
+    if (comment.level === level) {
+      comment.parent = parentComment && parentComment.id;
+      nesting[0][2]  = comment;
+    } else {
+      parentComment  = lastSibling;
+      comment.parent = parentComment.id;
+      nesting.unshift( [comment.level, parentComment, comment] );
+    }
+
+    comments.push( comment );
+
+    if (parentComment) {
+      parentComment.comments.push( comment.id );
+    } else {
+      story.comments.push( comment.id );
+    }
+
+    delete comment.level;
+  }
+
+  return comments;
+}
+
+function extractStory(row1, row2, row3, commentRows) {
   var story = {
     id:        null,
     tag:       null,
@@ -64,10 +222,13 @@ function extractStory(row1, row2, row3) {
     source:    null,
     body:      null,
     points:    null,
-    comments:  null,
+    submitter: null,
     submitted: null,
-    submitter: null
+    comments:  null,
+    commentsCount: null
   };
+
+  var comments = [];
 
   // There are three possible ways to extract the ID:
   //
@@ -81,7 +242,7 @@ function extractStory(row1, row2, row3) {
   story.id = extractID( $("a:has(.votearrow)", row1).attr("id") ) ||
              extractID( $(".subtext a:last-of-type", row2).attr("href") ) ||
              extractID( $(".title a", row1).attr("href") ) ||
-             generateID();
+             generateID("job");
 
   // A link on Hacker News usually look like this:
   //
@@ -133,7 +294,7 @@ function extractStory(row1, row2, row3) {
   //
   //   1. The number of points
   //   2. The number of comments
-  //   3. The username of the submitter
+  //   3. The submitter username
   //   4. The submission time
   //
   // Everything besides jobs has all of these properties, so if we couldn't find
@@ -142,14 +303,14 @@ function extractStory(row1, row2, row3) {
 
   var $points    = $(".subtext .score", row2),
       $comments  = $(".subtext a:last-of-type", row2),
-      $submitter = $(".subtext a:eq(0)", row2),
+      $submitter = $(".subtext a:first-of-type", row2),
       submitted = $(".subtext", row2).text().trim();
 
   if ($points.length > 0 && $comments.length > 0 && $submitter.length > 0) {
     story.points    = toInt( $points.text() );
-    story.comments  = toInt( $comments.text() );
     story.submitter = $submitter.text().trim();
     story.submitted = extractSubmitted( submitted );
+    story.commentsCount = toInt( $comments.text() );
   } else {
     story.tag = "Job";
     story.submitted = extractSubmitted( submitted );
@@ -171,12 +332,22 @@ function extractStory(row1, row2, row3) {
     story.body = extractBody( $(row3).find("td:has(p)").contents() );
   }
 
-  return story;
+  // Obviously we will only have this if we are on the item page.
+
+  if (story.commentsCount !== null && commentRows) {
+    comments = extractComments(story, commentRows);
+  }
+
+  return [story, comments];
 }
 
 export function extractSingle(doc) {
   var rows = $("#hnmain table:eq(1) tr", doc);
-  return { story: extractStory( rows[0], rows[1], rows[3] ) };
+  var commentRows = $("#hnmain table:eq(2) table", doc);
+
+  var [story, comments] = extractStory( rows[0], rows[1], rows[3], commentRows );
+
+  return { story, comments };
 }
 
 export function extractArray(doc) {
@@ -193,7 +364,7 @@ export function extractArray(doc) {
   var rows = toArray( $("#hnmain table:eq(1) tr:has(.title):not(:last-child)", doc) );
 
   rows.forEach( row => {
-    stories.push( extractStory(row, row.nextElementSibling) );
+    stories.push( extractStory(row, row.nextElementSibling)[0] );
   });
 
   return payload;

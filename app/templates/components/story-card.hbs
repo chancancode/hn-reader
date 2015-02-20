@@ -25,12 +25,12 @@
 
 
   <span class="right">
-    {{#if story.hasPoints}}
+    {{#if story.votable}}
       <span class="points">{{story.points}} points</span>
     {{/if}}
 
-    {{#if story.hasComments}}
-      <span class="comments">{{#link-to "stories.show.comments" story}}{{story.comments}} comments{{/link-to}}</span>
+    {{#if story.commentable}}
+      <span class="comments">{{#link-to "stories.show.comments" story}}{{story.commentsCount}} comments{{/link-to}}</span>
     {{/if}}
   </span>
 </div>

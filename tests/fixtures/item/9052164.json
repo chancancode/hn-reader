@@ -1,7 +1,23 @@
 {
+  "comments": [
+    {
+      "body": "RMS -vs- Doctor, on the evils of Natalism:\n\nhttp://www.art.net/~hopkins/Don/text/rms-vs-doctor.html",
+      "comments": [],
+      "id": "9052195",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052164",
+      "submitted": "15 minutes ago",
+      "submitter": "DonHopkins"
+    }
+  ],
   "story": {
     "body": null,
-    "comments": 1,
+    "comments": [
+      "9052195"
+    ],
+    "commentsCount": 1,
     "id": "9052164",
     "points": 4,
     "source": "xach.com",

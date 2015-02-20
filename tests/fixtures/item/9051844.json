@@ -1,7 +1,23 @@
 {
+  "comments": [
+    {
+      "body": "Generally, you should tailor your resume to the job/company (at least to some extent). So feel free to add some more writing-focused information for this job, and to de-emphasize your programming experience.\n\nIt's also not uncommon to put a link to a blog in a resume. ;-)",
+      "comments": [],
+      "id": "9052148",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9051844",
+      "submitted": "38 minutes ago",
+      "submitter": "JoachimSchipper"
+    }
+  ],
   "story": {
     "body": null,
-    "comments": 1,
+    "comments": [
+      "9052148"
+    ],
+    "commentsCount": 1,
     "id": "9051844",
     "points": 2,
     "source": null,

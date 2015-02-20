@@ -1,7 +1,583 @@
 {
+  "comments": [
+    {
+      "body": "Your sitemap contains about 1 million URLs. When I look at http://whocalled.us/lookup/2104495665 I see hardly information other than the phone number itself. And Google Adsense advertising. Most of the pages look exactly the same. The ones linked on the homepage contain profanity. The category pages, e.g. http://whocalled.us/lookup/sanantonio are just lists of numbers.From the outside it looks like a typical content database where every entry is a page with advertising. I can imagine those are no longer in the new Google algorithm's favor. What makes you think your website deserves to be listed onThe usual process to get Google employees to reconsider indexing the website again is called a reconsideration request https://support.google.com/webmasters/answer/35843?hl=en\"I've been making websites since before Google existed, and it feels like my ways are going extinct.\"\n\nYes I think creating content databases and giving every piece of information a URL and adding untargeted Adsense is no longer a business. Spammers (not whocalled.us) have been misusing that SEO tactic for too long.",
+      "comments": [
+        "9050441",
+        "9050476",
+        "9051316",
+        "9050661",
+        "9050842",
+        "9051049",
+        "9050758"
+      ],
+      "id": "9050424",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9050343",
+      "submitted": "15 hours ago",
+      "submitter": "mtmail"
+    },
+    {
+      "body": "> giving every piece of information a URL\n\nWasn't that supposed to be the whole purpose of URL?",
+      "comments": [
+        "9051109",
+        "9050447"
+      ],
+      "id": "9050441",
+      "isDead": false,
+      "parent": "9050424",
+      "quality": 1,
+      "story": "9050343",
+      "submitted": "15 hours ago",
+      "submitter": "seba_dos1"
+    },
+    {
+      "body": "This kind of website does not have a URL for every piece of information: it has a public URL for every potential piece of information, and it expects those to show up in search results. This would be similar to having every combination of words show up in your search results as a blank page on Wikipedia that you can edit to add content. When I use Google to find content, I want to find actual content, not ten billion placeholders: if the site doesn't have information on a particular phone number it should return a 404, not a 200, and not be indexed; there should then be a way to submit information into the database (actual information, not something totally useless like \"reported\") that then creates that URL. From the home page (which hopefully at this point has high page rank for being a non-spammy resource) they then should link to a list of \"updates\", which will be seen to change often, and the links on the other end of those will also change often, so Google will pick up new content quickly and efficiently. Yes: I realize that these websites are trying to rely on the search query as their discovery tool to get people to add content, and so doing this \"harms\" them, but if every one of them does this it becomes a useless discovery tool anyway (as the page of results is just pages and pages of these placeholders); imagine if every wiki did this: chaos.",
+      "comments": [
+        "9051130"
+      ],
+      "id": "9051109",
+      "isDead": false,
+      "parent": "9050441",
+      "quality": 1,
+      "story": "9050343",
+      "submitted": "10 hours ago",
+      "submitter": "saurik"
+    },
+    {
+      "body": "Which website? whocalled.us does not generate or list any URL that does not have information. Empty pages were never indexed by Google.\n\nIf you search Google for a random telephone number you will see a ton of empty sites who list every possible number. whocalled.us has never done that.",
+      "comments": [],
+      "id": "9051130",
+      "isDead": false,
+      "parent": "9051109",
+      "quality": 1,
+      "story": "9050343",
+      "submitted": "10 hours ago",
+      "submitter": "whocalledus"
+    },
+    {
+      "body": "Like some sort of a uniform resource locator?",
+      "comments": [
+        "9050459"
+      ],
+      "id": "9050447",
+      "isDead": false,
+      "parent": "9050441",
+      "quality": 0.4666666666666667,
+      "story": "9050343",
+      "submitted": "15 hours ago",
+      "submitter": "jayzalowitz"
+    },
+    {
+      "body": "definitely, though that doesn't mean it is interesting for humans (Google is a search engine for humans).",
+      "comments": [
+        "9050499"
+      ],
+      "id": "9050459",
+      "isDead": false,
+      "parent": "9050447",
+      "quality": 1,
+      "story": "9050343",
+      "submitted": "14 hours ago",
+      "submitter": "askmike"
+    },
+    {
+      "body": "Do you, as a human, find the site to be uninteresting? It's very clear to me, and obviously useful.If a number calls me, I can look it up. If anyone else has received calls, I may get information. I've used services like this to find out that certain numbers were spam, others were from my bank, etc.It makes sense to have each number to be a page. How else would you design it?This is of some concern to me as a small webmaster. I have a site with a few pages like this:http://lsathacks.com/explanations/lsat-preptest-73/logical-r...Only the test number, section number and question number change. And of course the text changes completely too, since each page explains a different question. But from headings, the page looks very similar to others.To someone studying for the LSAT, that page is immensely meaningful, and they'll know the difference between 72 and 64 in the context of the LSAT.\n\nJust like a human interested in phone number 123-456-7890 will know the difference between that number and 111-456-7890 even though the two numbers may look similar to a machine.",
+      "comments": [
+        "9051042",
+        "9050908"
+      ],
+      "id": "9050499",
+      "isDead": false,
+      "parent": "9050459",
+      "quality": 1,
+      "story": "9050343",
+      "submitted": "14 hours ago",
+      "submitter": "graeme"
+    },
+    {
+      "body": "Oops. I can't edit. For posterity, I meant to say I have a few thousand pages like the one I linked to. Right now Google has correctly figured out they're useful to list separately. But this whocalledus precedent worries me that someday Google might decide that my pages aren't \"different enough\" even though there's no better way to arrange them and they were designed for humans.",
+      "comments": [],
+      "id": "9051042",
+      "isDead": false,
+      "parent": "9050499",
+      "quality": 1,
+      "story": "9050343",
+      "submitted": "11 hours ago",
+      "submitter": "graeme"
+    },
+    {
+      "body": "> It makes sense to have each number to be a page. How else would you design it?\n\nI don't see how it makes any sense to waste an entire page for each number.  A simple scrolling list, maybe with numbers that can expand to show more info.",
+      "comments": [
+        "9050948"
+      ],
+      "id": "9050908",
+      "isDead": false,
+      "parent": "9050499",
+      "quality": 0.5490196078431373,
+      "story": "9050343",
+      "submitted": "12 hours ago",
+      "submitter": "mchahn"
+    },
+    {
+      "body": "I would think 99% of visitors are interested in a single number. Why show them a list of numbers?",
+      "comments": [],
+      "id": "9050948",
+      "isDead": false,
+      "parent": "9050908",
+      "quality": 1,
+      "story": "9050343",
+      "submitted": "11 hours ago",
+      "submitter": "dlubarov"
+    },
+    {
+      "body": "Then Google should stop letting them use adsense, not delist them.I looked up a number that recently called me: http://whocalled.us/lookup/2126621932\n\nNot much info, but enough to know not to answer :-).",
+      "comments": [
+        "9050811"
+      ],
+      "id": "9050476",
+      "isDead": false,
+      "parent": "9050424",
+      "quality": 1,
+      "story": "9050343",
+      "submitted": "14 hours ago",
+      "submitter": "quicklyfrozen"
+    },
+    {
+      "body": ">Not much info\n\nExactly, not much info, which is subpar of the quality that Google wants to index.",
+      "comments": [
+        "9050918"
+      ],
+      "id": "9050811",
+      "isDead": false,
+      "parent": "9050476",
+      "quality": 0.3176470588235294,
+      "story": "9050343",
+      "submitted": "12 hours ago",
+      "submitter": "akshatpradhan"
+    },
+    {
+      "body": "In http://www.google.com/about/company/philosophy/ Google states that \"Democracy on the web works\":\"We assess the importance of every web page using more than 200 signals and a variety of techniques, including our patented PageRank™ algorithm, which analyzes which sites have been “voted” to be the best sources of information by other pages across the web. \"\n\nIf they are deciding what is good content or not, that doesn't sound too much \"Democratic\" to me. They have the right to index whatever they want, but by doing that I have to return to the early ages of the web when we had to consolidate information from different search engines.",
+      "comments": [],
+      "id": "9050918",
+      "isDead": false,
+      "parent": "9050811",
+      "quality": 1,
+      "story": "9050343",
+      "submitted": "12 hours ago",
+      "submitter": "pmelendez"
+    },
+    {
+      "body": "I'll be the first one to critique whocalled.us, and tell you all the ways it could be much better. But that is a different issue than whether or not Google should completely remove it from its search results.That page you linked to is mostly useless, and I would prefer to remove it from the index. But if I search that same phone number on Google, the #1 result is an empty page, \"Be the first to comment:\" (http://www.callhunter.com/numbers/2104495665).There are plenty of pages that have a lot more information. Try this one (http://whocalled.us/lookup/6023888058). It is a messy site, with profanity, and plenty of noisy data. But how is that \"Pure Spam\" as Google insists?I'll gladly reorganize the site if there's a significant problem with how it's structured. But Google has indexed this website in this same form for many years, and it continues to index its competitors. Why delete it now?\n\nThey might've detected something I have not found yet, but why not tell me so I can fix it? They provide me with no specifics about why whocalled.us is \"Pure Spam\".",
+      "comments": [],
+      "id": "9051316",
+      "isDead": false,
+      "parent": "9050424",
+      "quality": 1,
+      "story": "9050343",
+      "submitted": "9 hours ago",
+      "submitter": "whocalledus"
+    },
+    {
+      "body": "This is basically a wiki, but with lots of low quality pages. Perhaps shrinking the sitemap to phone numbers that have actual information would help?",
+      "comments": [
+        "9051185",
+        "9050894"
+      ],
+      "id": "9050661",
+      "isDead": false,
+      "parent": "9050424",
+      "quality": 1,
+      "story": "9050343",
+      "submitted": "13 hours ago",
+      "submitter": "skybrian"
+    },
+    {
+      "body": "I chose not to list any page without at least 1 reported phonecall or comment. Competitors instead listed empty pages, and that is why they beat whocalled.us to the top results in Google, and gained much more traffic.I thought it was spammy to list empty pages, and could not bring myself to do it. But the sites that do that are still indexed, and whocalled.us is not.    mysql whocalled -e 'select count(*) as empty      from sitemap s      left join comment c using(phonenumber)      left join phonecall p using(phonenumber)      where c.id is null and p.id is null'      +-------+     | empty |     +-------+     |     0 |     +-------+",
+      "comments": [
+        "9051197"
+      ],
+      "id": "9051185",
+      "isDead": false,
+      "parent": "9050661",
+      "quality": 1,
+      "story": "9050343",
+      "submitted": "10 hours ago",
+      "submitter": "whocalledus"
+    },
+    {
+      "body": "I am refuted!",
+      "comments": [],
+      "id": "9051197",
+      "isDead": false,
+      "parent": "9051185",
+      "quality": 1,
+      "story": "9050343",
+      "submitted": "10 hours ago",
+      "submitter": "skybrian"
+    },
+    {
+      "body": "But if the phone numbers weren't on Google when they had 0 comments, then who would be the first to put down a comment?\n\nIt is the chicken and egg problem.",
+      "comments": [
+        "9051182",
+        "9051216"
+      ],
+      "id": "9050894",
+      "isDead": false,
+      "parent": "9050661",
+      "quality": 1,
+      "story": "9050343",
+      "submitted": "12 hours ago",
+      "submitter": "codexon"
+    },
+    {
+      "body": "What it comes down to is that you can't rely on Google for that, any more than Wikipedia could spam Google with a bunch of blank pages as a strategy to get passers-by to fill them in. People who already know about whocalled.us and use it regularly will have to seed it.\n\n(Disclaimer: personal opinion; no actual knowledge.)",
+      "comments": [
+        "9051208"
+      ],
+      "id": "9051182",
+      "isDead": false,
+      "parent": "9050894",
+      "quality": 1,
+      "story": "9050343",
+      "submitted": "10 hours ago",
+      "submitter": "skybrian"
+    },
+    {
+      "body": "1. The pages actually gives you geographical information even if there are no comments.2. Knowing that you are the first person to complain about a number is also informative.If I google a number that no one has complained about, is it better to return 0 results, or at least some of these phone number websites without any comments? I would argue the latter is better.\n\n3. Is it really appropriate for Google to ban an entire domain like this? They can arbitrarily decide that you can't have pages organized in a particular manner and have your whole domain banned?",
+      "comments": [],
+      "id": "9051208",
+      "isDead": false,
+      "parent": "9051182",
+      "quality": 1,
+      "story": "9050343",
+      "submitted": "10 hours ago",
+      "submitter": "codexon"
+    },
+    {
+      "body": "Exactly. But if you search a telephone number you should be given new information, not an empty page for you to fill out. Otherwise we end up with the situation we have now, where there's endless empty pages in the search results.",
+      "comments": [],
+      "id": "9051216",
+      "isDead": false,
+      "parent": "9050894",
+      "quality": 1,
+      "story": "9050343",
+      "submitted": "10 hours ago",
+      "submitter": "whocalledus"
+    },
+    {
+      "body": "> every piece of information a URL and adding untargeted Adsense is\n\nI vaguely recall rap genius (now just Genius) getting in trouble for this.",
+      "comments": [],
+      "id": "9050842",
+      "isDead": false,
+      "parent": "9050424",
+      "quality": 1,
+      "story": "9050343",
+      "submitted": "12 hours ago",
+      "submitter": "27182818284"
+    },
+    {
+      "body": "> The usual process to get Google employees to reconsider indexing the website again is called a reconsideration request https://support.google.com/webmasters/answer/35843?hl=en\n\nDoesn't that just get filed to dev/null and marked closed after being sent some copypasta that suggests no one ever read the email? That does seem to be the Google Way.",
+      "comments": [
+        "9051252"
+      ],
+      "id": "9051049",
+      "isDead": false,
+      "parent": "9050424",
+      "quality": 1,
+      "story": "9050343",
+      "submitted": "11 hours ago",
+      "submitter": "barry-cotter"
+    },
+    {
+      "body": "After the first few reconsideration requests, I questioned whether they were truly read by a human. The time between request and response was often the same, but not always. Whether I wrote a descriptive formal reasoning for reconsideration, or simply \"You're idiots.\", I still received the same exact template message:> Reconsideration request for http://whocalled.us/: Site violates Google's quality guidelines > February 14, 2015> Google received a reconsideration request from a site owner for http://whocalled.us/.> We've reviewed your site and we believe that http://whocalled.us/ still violates our quality guidelines. These guidelines outline illicit practices which may lead Google to take action on a site in order to keep webspam out of search results. In order to preserve the quality of our search engine, pages from http://whocalled.us/ may not appear or may not rank as highly in Google's search results, or may otherwise be considered to be less trustworthy than sites which follow the quality guidelines.> Please correct or remove all content that is outside our quality guidelines. Keep in mind that simply deleting all of your site’s content and immediately requesting reconsideration will not lead to success. Instead we recommend that you spend considerable time and effort to make sure your site provides original, valuable content for users. In order to have a successful reconsideration request, you will need to show that your updated site contains content that does not violate our guidelines.\n\n> For more specific information about the status of your site, visit the Manual Actions page in Webmaster Tools. From there, you may request reconsideration of your site again when you believe your site no longer violates the quality guidelines.",
+      "comments": [],
+      "id": "9051252",
+      "isDead": false,
+      "parent": "9051049",
+      "quality": 1,
+      "story": "9050343",
+      "submitted": "9 hours ago",
+      "submitter": "whocalledus"
+    },
+    {
+      "body": "\"From the outside it looks like a typical content database...\"You would terribly fail, if you were one of Google's paid quality raters. The task is to rate the actual value to the user, regardless of the particulars. The task is NEVER to take lazy shortcuts like you've done and judge a site based on any superficial features, no matter what.\n\nYou attitude and excuses for Google makes the internet worse for everyone. Please stop being among the people to spread this lazy attitude.",
+      "comments": [],
+      "id": "9050758",
+      "isDead": false,
+      "parent": "9050424",
+      "quality": 0.6470588235294118,
+      "story": "9050343",
+      "submitted": "13 hours ago",
+      "submitter": "solve"
+    },
+    {
+      "body": "Sorry to hear this. I always like whocalled.us. I thought it a useful service. I used to Google strange numbers I didn't recognize that called my cell phone (until I just started ignoring them all together). I didn't really care who gave me an answer, but among all the copycat sites that quickly popped up, I came to recognize whocalled.us as a legitimate source of the info I was looking for. It seemed the most active and least spammy of its class.\n\nWas it perhaps the target of some of the sleazy blackhat SEO tactics that have been discussed elsewhere on this site?",
+      "comments": [],
+      "id": "9050433",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9050343",
+      "submitted": "15 hours ago",
+      "submitter": "klenwell"
+    },
+    {
+      "body": "I can't speak to why they've penalized you, but it sounds similar to what they did with RapGenius.  Rap Genius would pay others to link to them to help increase their pagerank.  Google caught wind of it, and penalized them for gaming the system.http://searchenginewatch.com/sew/news/2321516/rap-genius-no-...\n\nI'm not sure why they think you've done the same - but that's likely why they are blaming you for the links others have created to your site.  I agree - if you did nothing to encourage those links to be created, it's difficult to see how you should be responsible for their removal, but hopefully the article I've linked will give you more context as to what Google is probably trying to weed out from their search results in order to help you get it resolved.",
+      "comments": [
+        "9050488"
+      ],
+      "id": "9050426",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9050343",
+      "submitted": "15 hours ago",
+      "submitter": "uptown"
+    },
+    {
+      "body": "It's not just payment. Google also considers an unnatural link profile as evidence of spammy actions.This is perhaps reasonable in isolation and in most cases. But it certainly raises the possibility of negative SEO, where you point large numbers of spam links to a competitor's site in order to blacklist them with Google.See this for example: http://moz.com/blog/a-startling-case-study-of-manual-penalti...I run a site that has received a few tens of thousands of visitors. I checked webmaster tools. I have a bunch of spam links from btclush.com, marqueefy.com and some russian sites. I can't actually find the linking pages, btclush.com itself is blank and all content is on subdomains.It's not clear to me what I, a small webmaster, should be doing about this. I'm hoping these sites send spam links to almost every site – in that case presumably google is aware that site owners are not at fault.\n\nI don't have the time to contact spam sites to tell them not to link to me or to disavow all these links. Note that the composition of the spam links changes. The last time I checked different spam sites were linking to me.",
+      "comments": [],
+      "id": "9050488",
+      "isDead": false,
+      "parent": "9050426",
+      "quality": 1,
+      "story": "9050343",
+      "submitted": "14 hours ago",
+      "submitter": "graeme"
+    },
+    {
+      "body": "One huge aspect of the problem is that the browser developers are in bed with the search engines. Whatever you type in the address bar, it will be redirected to Google or Bing.I would almost go so far as to say browsers and search engines are killing the web. It's no longer a web.People will tell you to not depend on the search engines. But what do you do now when you are blocked? Start advertising on AdWords? LOL!\n\nMy advice is to build a community. Get people involved with your site, make them return often.",
+      "comments": [
+        "9051116"
+      ],
+      "id": "9050478",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9050343",
+      "submitted": "14 hours ago",
+      "submitter": "z3t4"
+    },
+    {
+      "body": "> I would almost go so far as to say browsers and search engines are killing the web. It's no longer a web.\n\nHow do you want people to find things on the web if not via search engine? Do you want to go back to the days of the \"Web Ring?\" Or are people supposed to crowd source their search via their social graph on Facebook?",
+      "comments": [],
+      "id": "9051116",
+      "isDead": false,
+      "parent": "9050478",
+      "quality": 1,
+      "story": "9050343",
+      "submitted": "10 hours ago",
+      "submitter": "pyre"
+    },
+    {
+      "body": "If I had to guess, they are probably going to introduce a similar service to their Google Voice service soon (e.g. a 'spam' filter that auto directs/categorizes > voice mail).\n\nToo many ppl I know get spammed by recruiters because they once made a mistake of putting their real contact phone number on a resume for a major jobs board.",
+      "comments": [],
+      "id": "9050423",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9050343",
+      "submitted": "15 hours ago",
+      "submitter": "wallflower"
+    },
+    {
+      "body": "As a side note, thank you for creating that site. My phone number was sold some time ago and I regularly get telemarketers calling me and a quick google search of any unknown number would find your site and let me make the determination to answer or not.",
+      "comments": [],
+      "id": "9050432",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9050343",
+      "submitted": "15 hours ago",
+      "submitter": "sleazebreeze"
+    },
+    {
+      "body": "In my opinion you have been extremely fortunate to have made it this long before getting smacked down. Continue for my opinion which is pretty harsh:1. Almost all of your pages probably have no contentYou've got 1.9M+ calls. Some numbers like 2145627653 have multiple calls but none of them provide anything new. Others like 4802550681 have 1 or more calls but no information other than city + state which is available on like every phone now. Others have no calls, no information at all.2. As a result, almost all search users probably bounce, immediatelyPeople want to know who is calling them, right now. They have like 6 seconds before the caller hangs up so they need to know - when they realize there is no information they are going to bail. They are also going to be pissed off that the top result on Google is asking them for information rather than giving it to them.3. Your traffic is probably almost exclusively from searchAgain I'm guessing here but I can't imagine that you are getting more than 5-10% of your traffic from sources outside of people searching for information on a phone number. That says to me that people don't think there is a reason to come back.Yeah, you were first, but who cares? Your site sat around pissing off search engine users (including me) for a decade and still looks like the MVP it was in 2006. You may not be actively spamming the web but your website is passively spamming Google. Those other guys might be worse but who cares? That doesn't change the other facts and their punishment will likely come soon. That argument doesn't get you off the hook with Google.\n\nIf you want to get back on top you're going to need a better offering than effectively being the first result on Google and a comments system.",
+      "comments": [
+        "9051382"
+      ],
+      "id": "9051317",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9050343",
+      "submitted": "9 hours ago",
+      "submitter": "tehwebguy"
+    },
+    {
+      "body": "There's a couple million phone calls reported, but there's less than a million telephone number pages for Google to index. There's 63 thousand numbers with more than 1 comment, 195 thousand with at least 1. If the problem is that the caller ID name with date of call is not rich enough data for Google, then I can limit the sitemap to only pages with textual comments. But Google is not saying that, or that they will reinclude it if I do that. They're not saying anything except that the site is using illicit practices.Prior to Google removing whocalled.us, it accounted for 68% of traffic. 15% was direct, 6% Yahoo, 4.6% Bing. The fact that it is an extension of search, and not primarily a website people want to return to does not in any way demote its value to people. I do not visit Wikipedia directly, but I still want it in my search results.\n\nIf the time of this kind of site is over, then great, remove them all. Why pick on whocalled.us?",
+      "comments": [
+        "9051386"
+      ],
+      "id": "9051382",
+      "isDead": false,
+      "parent": "9051317",
+      "quality": 1,
+      "story": "9050343",
+      "submitted": "9 hours ago",
+      "submitter": "whocalledus"
+    },
+    {
+      "body": "My guess? Because you were first. I wouldn't be surprised if the others are gone soon.\n\nSide note, searching on your site pulls up a slightly different domain for me. Is that on purpose?",
+      "comments": [
+        "9051423"
+      ],
+      "id": "9051386",
+      "isDead": false,
+      "parent": "9051382",
+      "quality": 1,
+      "story": "9050343",
+      "submitted": "9 hours ago",
+      "submitter": "tehwebguy"
+    },
+    {
+      "body": "I think other sites are interfacing with whocalled.us through the HTML. I see it listed on sites like Spokeo where it shows comments, and I don't think they're using the API. Plus the site code is old, and people tend to dislike it when you mess with how their site works.So I made whocalld.us as a place to write a new interface from scratch that uses the same database. That is where I added fulltext indexing for search. Previously the search box on whocalled.us used Google Site Search. But I want to remove Google services, so rather than add fulltext search to whocalled.us, I pointed it to whocalld.us for now.I figured if I could rewrite the site to be better, then people would allow me to replace whocalled.us with that one.I thought maybe that's why Googlebot detected whocalled.us as spam, if it saw duplicate text on whocalld.us. But I tried things like denying Googlebot access to whocalld.us with robots.txt, and setting noindex in meta tags, but nothing helped. If that were the issue then a person could see I own both sites during the reconsideration request, and either remove the \"Pure Spam\" penalty or provide some clue as to how I should fix it. Besides, if that was enough to get my site removed, then what's stopping malicious people from doing the same to other sites?Either way, I should have the freedom to fork my own website to recode it if I want without having to worry about the Google police. I don't build websites for Google, so if this is how things work, I'll have to find a way to thrive on the web without Google's help. We did it before, and we can do it again.\n\nThe other domain, whocalld.us, is also deleted as \"Pure Spam\" too.",
+      "comments": [],
+      "id": "9051423",
+      "isDead": false,
+      "parent": "9051386",
+      "quality": 1,
+      "story": "9050343",
+      "submitted": "8 hours ago",
+      "submitter": "whocalledus"
+    },
+    {
+      "body": "I'm not sure what your site is about. Looking at it right now, nothing really is stated about the numbers who called. It's a lot of empty fields and \"unknown\"s.\n\nI can't see why Google would penalize you like this unless you have been suspected of doing dirty work.",
+      "comments": [],
+      "id": "9050402",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9050343",
+      "submitted": "15 hours ago",
+      "submitter": "madsravn"
+    },
+    {
+      "body": "Essentially, this is the way that Google sets the standard for acceptable web content.It's subjective, it's vague, and sometimes unfair but that's the burden they have to bear. Defining the \"quality\" of a web page for a search has become as important a factor to web search as any other.But \"search quality\" is a leaky abstraction like any other. When someone looks up a random phone number that just called them, they aren't looking for a blog post about it. They're looking for a very small amount of information.Let's imagine we're determining the quality of a web page as a search result. Say we're looking for the combatants of the Second Boer War, so our query is \"second boer war combatants\". Now, if we had a page that listed only and exactly the names of those combatants, that would seem to be the \"answer\" we're looking for. But wait, isn't it better to see a page about the Second Boer War which has a lot of other information about the conflict? Or a page about the military history of the most notable combatant? Or even a table of major historical conflicts with their combatants?Basically, although it would seem like a precise \"answer page\" is the best, there are a lot of other factors. The most popular kind of search results are often Wikipedia pages, so people seem to want that level of information on a subject. People sometimes search for something as a way to get to something else. The nature of the web indicates that pages with links to further information are more useful than those without them. And of course, as untrustworthy sites proliferate, the more well-compiled, organized and correlated information is on a page, the more reliable it is.So ultimately, I feel like it's inevitable. As search has improved, Google has to make these kind of choices, in a quantifiable way, about the nature of a quality search result. And that ends up, in the tools-make-us stage of the web we're in, shaping the envelope of what web content is popular, even in some way acceptable. In turn, the web becomes easier for Google users to use by becoming easier for Google to index and search effectively.\n\nBut this is the more painful reality, as I also know. You get pushed out of the Google results not by sites with better information, not by sites that are more relevant, but by sites which seem like they can play the \"Google game\" better because they have the resources and profit motive to put together good metrics for the myriad signals that make you rise in the ranks.",
+      "comments": [],
+      "id": "9050891",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9050343",
+      "submitted": "12 hours ago",
+      "submitter": "zach"
+    },
+    {
+      "body": "Create an android app that automatically sends telemarketers to voice mail?",
+      "comments": [
+        "9050634",
+        "9050608"
+      ],
+      "id": "9050443",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9050343",
+      "submitted": "15 hours ago",
+      "submitter": "jayzalowitz"
+    },
+    {
+      "body": "Spam calls are a much larger problem in China. If only we had Xiaomi's spam filtering features in the phone's UI. \"MIUI users can label an incoming call as spam by tapping a button, if enough people do it all MIUI users will see the number as spam.\"[1]\n\n1. http://techcrunch.com/2015/02/12/liveblog-xiaomi-explains-it...",
+      "comments": [],
+      "id": "9050634",
+      "isDead": false,
+      "parent": "9050443",
+      "quality": 1,
+      "story": "9050343",
+      "submitted": "13 hours ago",
+      "submitter": "qiqing"
+    },
+    {
+      "body": "Is it possible to forward the call to a premium rate sex line at no cost to the user? That would be great to know they are being charged a lot of money for the first minute to a premium rate number as soon as they are connected every time.",
+      "comments": [],
+      "id": "9050608",
+      "isDead": false,
+      "parent": "9050443",
+      "quality": 1,
+      "story": "9050343",
+      "submitted": "14 hours ago",
+      "submitter": "jumpbox_"
+    },
+    {
+      "body": "I have been receiving spam calls recently despite being on the national do not call register.  Thanks to google, I wasn aware of this resource until today.There is no defense against Google's actions here other than to acknowledge that they make mistakes and need to take more  responsibility given the power they hold.\n\nIf they don't become more transparent about appealing these mistakes, eventually we as a society should develop a legal recourse.  There simply isn't enough competition in search to enable these kinds of errors to be corrected through market mechanisms.",
+      "comments": [],
+      "id": "9051303",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9050343",
+      "submitted": "9 hours ago",
+      "submitter": "gress"
+    },
+    {
+      "body": "Google hires people from the top universities. People with 4.0 GPAs. People who go through strenuous interviews where they are asked questions such as \"how would you move the pyramids of Egypt.\"\n\nYou live in their world. This is their world. Assume that they did something right, and you did something wrong.",
+      "comments": [],
+      "id": "9050938",
+      "isDead": false,
+      "parent": null,
+      "quality": 0.3176470588235294,
+      "story": "9050343",
+      "submitted": "11 hours ago",
+      "submitter": "hackaflocka"
+    },
+    {
+      "body": "You probably didn't spend enough on AdWords.",
+      "comments": [],
+      "id": "9050403",
+      "isDead": false,
+      "parent": null,
+      "quality": 0.4666666666666667,
+      "story": "9050343",
+      "submitted": "15 hours ago",
+      "submitter": "vgeek"
+    },
+    {
+      "body": "There is very little meaningful content on your site, which makes it hard to see how it is different from the spam sites.",
+      "comments": [],
+      "id": "9050418",
+      "isDead": false,
+      "parent": null,
+      "quality": 0.4666666666666667,
+      "story": "9050343",
+      "submitted": "15 hours ago",
+      "submitter": "arkitaip"
+    },
+    {
+      "body": "I am almost sure this is a machine learning fail on Google's side. Your site probably matches some spammy profile and they just treat their algorithms as objective truth beyond certain threshold. I think we should all get used to this broken AI everywhere for the next 20 years...",
+      "comments": [],
+      "id": "9050582",
+      "isDead": false,
+      "parent": null,
+      "quality": 0.5490196078431373,
+      "story": "9050343",
+      "submitted": "14 hours ago",
+      "submitter": "bitL"
+    }
+  ],
   "story": {
     "body": "In November Google completely removed whocalled.us from their search results.\n\nIt was the first site of its kind, created in 2005 for crowdsourced info about telemarketing numbers. There were scripts for people to utilize in their VoIP boxes, and it was a good honest site.\n\nGoogle has been trying to weed out telephone spam in their results, and for some reason they deleted the original instead of the useless empty shell sites that spam every possible telephone number combination.\n\nIf I search \"whocalled.us\" on Google now I see #1 the Google+ page for the site, and #2 a WordPress spam page. They deleted whocalled.us with a \"Pure Spam\" manual action, and literally replaced it with pure spam.\n\nwhocalled.us has never used spam tactics. That is why copycats quickly beat it in terms of traffic. The first competitor used spammy SEO techniques, and is often the #1 result now for telephone number searches.\n\nI've been making websites since before Google existed, and it feels like my ways are going extinct. Prior to this \"Pure Spam\" removal, there was a partial action for unnatural links. I was shocked that a search engine sent me a notice that my website would be penalized unless I contacted other websites to have them remove links to my site. Remove links? That is the whole point of the web!\n\nIt included some suggestions of \"spam\" sites with links to mine, and when I clicked one I saw someone's personal blog with some links to their favorite sites. I don't know what world this is, where a search engine tells a webmaster they need to contact a small-time blog owner to have them remove a link recommending your site, but it's not mine.\n\nTo me this is still the World Wide Web, where little guys like me can play on the same field as global giants. But in reality, this is Google's game now, and when they kick you off their field, there's not much to do but sulk and go home.",
-    "comments": 46,
+    "comments": [
+      "9050424",
+      "9050433",
+      "9050426",
+      "9050478",
+      "9050423",
+      "9050432",
+      "9051317",
+      "9050402",
+      "9050891",
+      "9050443",
+      "9051303",
+      "9050938",
+      "9050403",
+      "9050418",
+      "9050582"
+    ],
+    "commentsCount": 46,
     "id": "9050343",
     "points": 166,
     "source": null,

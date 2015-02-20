@@ -1,7 +1,967 @@
 {
+  "comments": [
+    {
+      "body": "\"In fact, for products like milk and flour, where fortification and enrichment have occurred for so long that they’ve become invisible, it would be almost irresponsible not to add synthetic vitamins.\"\n\nHow come most countries don't do it, then? At least in Germany I have never seen added stuff in milk or flour.",
+      "comments": [
+        "9054409",
+        "9054162",
+        "9054221",
+        "9054501",
+        "9054536",
+        "9054384"
+      ],
+      "id": "9054139",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "5 hours ago",
+      "submitter": "Genmutant"
+    },
+    {
+      "body": "Do people in those countries typically eat whole wheat or \"enriched\" white flour? Fortification of white flour attempts to replace the nutrition that was stripped away by processing, with only partial success. Whole wheat is rarely fortified with anything since it doesn't need it.",
+      "comments": [
+        "9054533"
+      ],
+      "id": "9054409",
+      "isDead": false,
+      "parent": "9054139",
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "4 hours ago",
+      "submitter": "code_duck"
+    },
+    {
+      "body": "We normally use \"normal\" white flour for many things like cakes and pasta and stuff. But we have maybe more \"real\" bread which is not made of white flour?",
+      "comments": [],
+      "id": "9054533",
+      "isDead": false,
+      "parent": "9054409",
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "3 hours ago",
+      "submitter": "Genmutant"
+    },
+    {
+      "body": "Not just \"irresponsible\" but adding them in the UK is a legal requirement :http://www.dovesfarm.co.uk/flour-and-ingredients/organic-flo...Organic Plain White Flour 1kgIngredients:\n\nwheat flour* (contains GLUTEN), statutory ingredients (calcium carbonate, iron, thiamine & niacin).",
+      "comments": [],
+      "id": "9054162",
+      "isDead": false,
+      "parent": "9054139",
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "5 hours ago",
+      "submitter": "SixSigma"
+    },
+    {
+      "body": "Lots of countries do do it, although you're right that Germany doesn't.http://www.ffinetwork.org/regional_activity/europe.phpHere is the law for England & Wales; Northern Ireland, and Scotland.\n\nhttp://www.food.gov.uk/sites/default/files/multimedia/pdfs/b...",
+      "comments": [],
+      "id": "9054221",
+      "isDead": false,
+      "parent": "9054139",
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "5 hours ago",
+      "submitter": "DanBC"
+    },
+    {
+      "body": "Do they not add iodine in salt in Germany?",
+      "comments": [
+        "9054526",
+        "9054546"
+      ],
+      "id": "9054501",
+      "isDead": false,
+      "parent": "9054139",
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "4 hours ago",
+      "submitter": "walshemj"
+    },
+    {
+      "body": "Yes, they do. I think that's the only one which is (normally) fortified.",
+      "comments": [],
+      "id": "9054526",
+      "isDead": false,
+      "parent": "9054501",
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "3 hours ago",
+      "submitter": "Genmutant"
+    },
+    {
+      "body": "Looking around, it sounds like they didn't:The practice of putting iodine into food had been banned in West Germany since after World War II.    http://www.thyroid-info.com/articles/germanyiodine.htm  In Germany it has been estimated to cause a billion dollars in health care costs per year.    http://en.wikipedia.org/wiki/Iodine_deficiency#Deficiency  But, supposedly are in the middle of iodizing their salt.",
+      "comments": [
+        "9054589",
+        "9054554"
+      ],
+      "id": "9054546",
+      "isDead": false,
+      "parent": "9054501",
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "3 hours ago",
+      "submitter": "sliverstorm"
+    },
+    {
+      "body": "That's just wrong. You sometimes see salt without iodine, but it's almost rare. Has been for as long as I can remember.",
+      "comments": [],
+      "id": "9054589",
+      "isDead": false,
+      "parent": "9054546",
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "3 hours ago",
+      "submitter": "matt4077"
+    },
+    {
+      "body": "Really I am surprised that the EU hasn't mandated it or some one in Germany hasn't taken the government to court.",
+      "comments": [],
+      "id": "9054554",
+      "isDead": false,
+      "parent": "9054546",
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "3 hours ago",
+      "submitter": "walshemj"
+    },
+    {
+      "body": "The key phrase is \"where fortification and enrichment have occurred for so long that they’ve become invisible.\"\n\nThat is, if you suddenly stop doing it, you have a problem. In Germany, presumably, they are already finding other ways to get those vitamins.",
+      "comments": [
+        "9054573"
+      ],
+      "id": "9054536",
+      "isDead": false,
+      "parent": "9054139",
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "3 hours ago",
+      "submitter": "robbrown451"
+    },
+    {
+      "body": "As I read about the subject, it sounds like they didn't have a good source of those vitamins, as most of the land that makes up Germany is iodine deficient- so even foods supposed to be high in iodine, are not. So the way they found was to iodize their salt.\n\nThe information seems to be spotty though.",
+      "comments": [],
+      "id": "9054573",
+      "isDead": false,
+      "parent": "9054536",
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "3 hours ago",
+      "submitter": "sliverstorm"
+    },
+    {
+      "body": "Same in Italy, but many people here buy fresh milk, and I guess the same is true in Germany. It lasts only 3/4 days but is only treated with light pasteurization that leaves most nutrients unaltered.",
+      "comments": [
+        "9054508"
+      ],
+      "id": "9054384",
+      "isDead": false,
+      "parent": "9054139",
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "4 hours ago",
+      "submitter": "antirez"
+    },
+    {
+      "body": "Few people buy fresh milk in Germany. Almost all milk in supermarkets is UHT, and fresh milk is typically only drinkable for a couple of days, and is frequently almost soured even when you buy it.\n\nUK supermarkets on the other hand sell filtered milk (at a premium price). Filtered milk stays and tastes fresh for over a week.",
+      "comments": [
+        "9054613"
+      ],
+      "id": "9054508",
+      "isDead": false,
+      "parent": "9054384",
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "4 hours ago",
+      "submitter": "barrkel"
+    },
+    {
+      "body": "Are you sure you mean UHT milk and not ESL milk?In Austria, all supermarkets used to sell pasteurized fresh milk (last about a week). In the last few years, they started moving to ESL milk (lasts 3 weeks). UHT milk (lasts 6 months) is also available, but people usually don't buy that.\n\nReally fresh unpasteurized milk is available only in some stores or directly from farmers (it's still somewhat common for people on the countryside to buy milk directly from farmers).",
+      "comments": [
+        "9054941"
+      ],
+      "id": "9054613",
+      "isDead": false,
+      "parent": "9054508",
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "3 hours ago",
+      "submitter": "jakobegger"
+    },
+    {
+      "body": "Here's my context: my girlfriend is German; I'm Irish, but currently live in the UK. So I've spent a fair amount of time in Germany (typically north of Hamburg, in Schleswig-Holstein) with my GF's family, and the typical milk bought was much closer to UHT than pasteurized in terms of flavour. But I don't know exactly what process it went through - looking at a translation of the exact carton description isn't enough.I do know that to get pasteurized milk that tasted like I understand pasteurized milk to taste I had to look fairly hard in the supermarkets, and it was clearly a niche product. Unfortunately I don't speak German and my GF is currently in Germany, or I'd give you the key words of exactly what I had to look for.I've had unpasteurized raw milk in Ireland when I've stayed with people with farms. But I prefer homogenized full-fat milk; with normal raw milk fresh from the cow, the cream rises to the top. I prefer it in the milk, giving it body.\n\nPS: check out the table in Wikipedia: http://en.wikipedia.org/wiki/Ultra-high-temperature_processi... - it indicates 66% of milk consumed in Germany is UHT, vs 20% in Austria. Possibly there is regional variation too.",
+      "comments": [],
+      "id": "9054941",
+      "isDead": false,
+      "parent": "9054613",
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "1 hour ago",
+      "submitter": "barrkel"
+    },
+    {
+      "body": "I'm not sure what universe this statement is true:> we refuse to change our eating habits in the ways that would actually protect us, which would require refocusing our diets on minimally processed foods that are naturally nutrient-richIt doesn't seem to be the one I live in, where all the trends of the last decade or longer have been towards various \"natural\" food diets. Even Walmart sells organic food. \"All natural\" is an extremely common marketing slogan and has been for decades. I know many \"health conscious\" people, and none of them are obsessed with vitamins.\n\nThe facts about vitamins vs minimally processed foods may be true, but the article seems to seriously mischaracterize American food culture.",
+      "comments": [
+        "9054581",
+        "9054538"
+      ],
+      "id": "9054528",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "3 hours ago",
+      "submitter": "mrxd"
+    },
+    {
+      "body": "This confusion might be due to different meanings of the word 'natural'. You can get a certified organic frozen pizza, but it wouldn't be 'natural' in the sense the article uses. The best definition is probably 'everything that doesn't have an ingredients label'.",
+      "comments": [],
+      "id": "9054581",
+      "isDead": false,
+      "parent": "9054528",
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "3 hours ago",
+      "submitter": "matt4077"
+    },
+    {
+      "body": "I suspect the trend is much more prevalent among higher-income and better-educated individuals (not necessarily the same group). It is also important to note that \"all natural\" is not an FDA regulated statement, therefore it is effectively meaningless.",
+      "comments": [],
+      "id": "9054538",
+      "isDead": false,
+      "parent": "9054528",
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "3 hours ago",
+      "submitter": "glesica"
+    },
+    {
+      "body": "But what does a typical American eat then? In my country (Netherlands) we eat fresh vegetables every day, we cook every day using many different ingredients and usually Rice, Potato of Pasta as the basis. Is it so typically American to eat highly processed foods? Don't you have a vegetable department in the stores? Here it would also be quite expensive to buy prepackage stuff as one gets peppers, cucumbers, zucchini etc for under 40 cents a piece, a bag of washed fresh spinach is about 1 euro, potatos costs less than 50 cents/kilo. Veggies are even cheaper now that we are not allowed to sell to Russia.\n\nI have worked with Italian colleagues, they are even more puristic. Is this really a cultural thing or are vegetables just so expensive in the US? Are you not taking the time to cook? (about 30 min hands-on a day for preparing warm meals is considered normal here.)",
+      "comments": [
+        "9054704",
+        "9054614",
+        "9054607",
+        "9054577",
+        "9054583",
+        "9054601"
+      ],
+      "id": "9054522",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "3 hours ago",
+      "submitter": "teekert"
+    },
+    {
+      "body": "It is mostly people not taking time to cook due in large part to a rushed lifestyle. Fresh vegetables are ubiquitous, diverse, and cheap. Also, in most parts of the US, you have to drive a significant distance to the grocery store; it is much easier to cook interesting food if you only need to walk down the street to get fresh ingredients.One thing to understand is that the typical American diet tends to be regional and varies considerably across those regions. For example, where I currently live (Pacific Northwest) people eat relatively little processed food, in part because they have unbelievable access to fresh ingredients. On the other hand, when I lived in the central US, it was a blend of heavily processed food and fairly limited central/eastern European cuisine. This reflects what is available locally as well as the ethnic history of a region.\n\nIn my experience, some parts of the US have a much more diverse and widely available fresh vegetable selection than Europe. This is particularly true in the western US, which is where many vegetables come from. If you are lucky enough to live on the west coast of the US, you can buy a very wide range of fresh vegetables for almost no money all year long. What is available locally is seasonal but augmented by vast greenhouse operations and vegetables shipped in from other latitudes, which is simple in North America. In fact, the lack of vegetable diversity at any point in time compared to what I am accustomed to is one of my complaints about eating in Europe, especially in winter.",
+      "comments": [],
+      "id": "9054704",
+      "isDead": false,
+      "parent": "9054522",
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "2 hours ago",
+      "submitter": "jandrewrogers"
+    },
+    {
+      "body": ">Is it so typically American to eat highly processed foodsYes.>Don't you have a vegetable department in the stores?There are a large number of Americans, especially the poor, for whom the only nearby \"grocery stores\" are bodegas, convenience stores, minimarts, etc, from which the supply of fresh foods tends to be limited at best. Add to that how spaced out everything in the US is and how poor Americans may not have a car or the free time to drive a considerable distance to a proper grocery store and back and stocking up on anything but the shelf-stable basics can be pretty hard. Take a look at \"food desert\" maps for more information.>Here it would also be quite expensive to buy prepackage stuff as one gets peppers, cucumbers, zucchini etc for under 40 cents a piece, a bag of washed fresh spinach is about 1 euro, potatos costs less than 50 cents/kiloWhere I live, in a fairly low cost of living city, prices from a local grocery store start out at $1 apiece for bell peppers for cucumbers, $0.80/pound for potatoes, and $2/pound for apples or broccoli. Increase from there for most other big cities, or for people living in food deserts who have to spend their time getting to a real grocery store if they want anything approaching reasonable prices for fresh stuff.\n\nBy contrast, even convenience stores and minimarts will often have processed foods available at a cost low enough to approach those of \"real\" grocery stores, since canned foods and frozen dinners don't go bad if they're left on the shelves for too long.",
+      "comments": [],
+      "id": "9054614",
+      "isDead": false,
+      "parent": "9054522",
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "3 hours ago",
+      "submitter": "zyxley"
+    },
+    {
+      "body": "Vegetables are relatively cheap. It's just that in the US, cultural traditions are mish-mashed and weaker, and the food industry is motivated to increase their profit margin though selling \"value add\" which is really just \"perceived value add\" and amounts to processing and packaging.I do all my own cooking, exclusively roasting and steaming, and don't even use carbohydrate rich foods like rice or pasta as a staple. I have steamed or roasted vegetables every day with almost every meal.\n\nOne thing I've noticed is that my fellow Americans tend to make a lot more work of vegetables than they need to. They're much too elaborate with washing, and are way too fussy with ingredients and extraneous prep. Just boil, roast, or steam vegetables. Add some salt and butter or olive oil, and you can call it done. So long as the vegetables are fresh and not overcooked, they will taste amazing! (Also, get as fancy as you want, but the best and most complex flavors come from fresh foods.)",
+      "comments": [],
+      "id": "9054607",
+      "isDead": false,
+      "parent": "9054522",
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "3 hours ago",
+      "submitter": "stcredzero"
+    },
+    {
+      "body": "Southern California native now living in Chicago. Most of the meals from my childhood were packaged TV dinners we microwaved. Nowadays I will slow cook a soup once a week in a large crockpot. Maybe cook 2-ish other times during the week and the rest is pre-packaged or eating out. Others probably do better, but to your point, people like me exist. :)",
+      "comments": [],
+      "id": "9054577",
+      "isDead": false,
+      "parent": "9054522",
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "3 hours ago",
+      "submitter": "darkxanthos"
+    },
+    {
+      "body": "US people in general eat a lot of processed, canned and frozen food. Even in the areas where fresh foods are available. I see even many immigrants who don't do it in their home countries do it when they come here.\n\nI do think vegetables are overpriced in general grocery stores. The large asian grocery stores are pretty fairly priced.",
+      "comments": [],
+      "id": "9054583",
+      "isDead": false,
+      "parent": "9054522",
+      "quality": 0.6470588235294118,
+      "story": "9053693",
+      "submitted": "3 hours ago",
+      "submitter": "amalag"
+    },
+    {
+      "body": "> we eat fresh vegetables every day\n\nthat shit's very very expensive here.",
+      "comments": [
+        "9054626"
+      ],
+      "id": "9054601",
+      "isDead": false,
+      "parent": "9054522",
+      "quality": 0.6470588235294118,
+      "story": "9053693",
+      "submitted": "3 hours ago",
+      "submitter": "pXMzR2A"
+    },
+    {
+      "body": "No it's not! Green Beans. Cauliflower. Broccoli. Brussels sprouts. None of that's \"expensive.\" I've been feeding myself exclusively on ordinary grocery store veggies, steak, and fish. It's not expensive or time consuming at all, and it's quite delicious when you catch on to how to do it, which you will very quickly, if you cook all your own meals.",
+      "comments": [],
+      "id": "9054626",
+      "isDead": false,
+      "parent": "9054601",
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "3 hours ago",
+      "submitter": "stcredzero"
+    },
+    {
+      "body": "The article never actually established what made food healthy. Just because something is \"natural\" does not make it good (and conversely, something being \"unnatural\" does not make it bad). http://en.wikipedia.org/wiki/Appeal_to_natureIt made brief mention of a few chemicals the author claimed \"processing\" disrupted, but didn't really expand on that.\n\nIf the food has all the chemicals we need, what does it matter if it's \"low quality\" by the author's standard? If the food doesn't have all the chemicals we need and this isn't obvious, that's a failure of our nutrient tracking scheme.",
+      "comments": [
+        "9054217",
+        "9054331",
+        "9054289",
+        "9054185",
+        "9054130",
+        "9054235"
+      ],
+      "id": "9054083",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "5 hours ago",
+      "submitter": "wyager"
+    },
+    {
+      "body": "See the comment about broccoli. Today's science doesn't known the chemicals required in a healthy diet, missing some  may lead to health problems like cancer. Indeed, this is one of the problems with products like Soylent as long-term risk (for example, cancer) remains poorly understood. You don't want to be eating the stuff for 10 years and realize you doubled your risk for cancer.",
+      "comments": [
+        "9054586",
+        "9054251",
+        "9054485"
+      ],
+      "id": "9054217",
+      "isDead": false,
+      "parent": "9054083",
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "5 hours ago",
+      "submitter": "frozenport"
+    },
+    {
+      "body": "> \"Today's science doesn't known the chemicals required in a healthy diet\"This is quite ridiculous. We've mapped the nutrients required by our cells down to a molecular level. We've even got a thorough understanding of the interaction between the food we eat and how the microbial ecosystem in our digestive system breaks down our food as we digest it.We have less understanding of the \"natural\" foods we eat. We've only mapped only a few genomes of the stable foods, let alone a complex break down of the exotic foods in the grocery store isle. The cocktail of organic molecules in the average fruit or vegetable is overwhelming, and many of them have been proved to be highly carcinogenic. Apples for example contain arsenic, amongst other poisonous chemicals. You get diarrhoea after eating too many fruits because of this. You also have pesticides, fertilisers, preservatives, and packaging contamination in 'natural' food.I'm not against eating healthy, but the \"we don't know if it causes cancer\" banter is quite arrogant.\n\nThe concept of Soylent is great as it can be tailored for human requirements.",
+      "comments": [],
+      "id": "9054586",
+      "isDead": false,
+      "parent": "9054217",
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "3 hours ago",
+      "submitter": "pippy"
+    },
+    {
+      "body": ">\"You dont want to be eating the stuff for 10 years and realize you doubled your risk for cancer.\"\n\nI'm not following... How does that not apply to \"natural\" foods as well? Without resorting to an appeal to nature.",
+      "comments": [
+        "9054322",
+        "9054326",
+        "9054855"
+      ],
+      "id": "9054251",
+      "isDead": false,
+      "parent": "9054217",
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "5 hours ago",
+      "submitter": "zo1"
+    },
+    {
+      "body": "There is a difference between \"appeal to nature\" and the idea that there may be more compounds and nutrients in whole foods, perhaps acting in tandem, in ways that we haven't yet figured out.I don't think this article is particularly well written or argued, but at the same time, I don't see any appeals to animism or mysticism in it. The author is simply suggesting, albeit not as clearly as he could have, that we have focused in isolation on only a subset of the nutrients we actually need. Obviously, the responsible \"next step\" to that sort of argument would be to form hypotheses and undertake further study. But that's not really the function of the article, as far as I'm aware.Consider the broccoli example mentioned in the article:\"A 2011 study on broccoli, for example, found that giving subjects fresh broccoli florets led them to absorb and metabolize seven times more of the anticancer compounds known as glucosinolates, present in broccoli and other cruciferous vegetables, than when glucosinolates were given in straight capsule form. The researchers hypothesized that this might be because the whole broccoli contained other compounds that helped people’s bodies put the anticancer chemicals to use.\"Now, the \"appeal to nature\" argument here would be that there is something fundamentally irreducible or non-replicable in broccoli that we just can't reproduce in a lab, because nature. That's not what the article says. Instead, it says that researchers hypothesized that there may be more components to broccoli than we've yet figured out. That's science. Science is always probing at the edges of what we haven't yet figured out, or revising what we think we have figured out.\n\nThe author does his point no favors by harping about synthetic vitamins. I'll grant you that. But he's not advancing any magical thinking.",
+      "comments": [
+        "9054398"
+      ],
+      "id": "9054322",
+      "isDead": false,
+      "parent": "9054251",
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "4 hours ago",
+      "submitter": "jonnathanson"
+    },
+    {
+      "body": "You could just as easily hypothesize that there are components in broccoli that are unhealthy. The science isn't the hypothesis, it's the experimentation. Without experimental evidence you just have a guess, and in this case you can prefer the one \"from nature\" without evidence to suggest one or the other is correct. This is exactly the \"appeal to nature\" fallacy. You really need to compare cancer incidence in different populations to get a full idea.> the \"appeal to nature\" argument here would be that there is something fundamentally irreducible or non-replicable in broccoli that we just can't reproduce in a lab, because nature\n\nThis is a huge strawman.",
+      "comments": [
+        "9054745",
+        "9054571"
+      ],
+      "id": "9054398",
+      "isDead": false,
+      "parent": "9054322",
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "4 hours ago",
+      "submitter": "TTPrograms"
+    },
+    {
+      "body": ">>The science isn't the hypothesis, it's the experimentation.Its both! Without a model we don't know what an experiment is testing, indeed a pure experiment is unconvincing for example Ohm's eponymous law were ridiculed as a \"web of naked fallacies\", and only accepted after a model was proposed.Or consider my theory that Canadian Geese take summer with them when they migrate south. My experiment shows that after they leave it gets really cold, but nobody believes my model!>>in broccoli that are unhealthy\n\nQuite possibly, what is your hypothesis?",
+      "comments": [],
+      "id": "9054745",
+      "isDead": false,
+      "parent": "9054398",
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "2 hours ago",
+      "submitter": "frozenport"
+    },
+    {
+      "body": "> This is exactly the \"appeal to nature\" fallacy.The more dangerous \"fallacy\" is the idea that all food is equivalent until rigorously experimented and proven otherwise.  This is the mentality that the food industry hangs its hat on to continue producing the worst possible products that still somehow meet FDA and public approval.  It's dangerous because these foods are engineered primarily to appeal to convenience and taste sensibilities which give people an emotional connection to these substandard foods so that they will be more willing accept any evidence that said foods are acceptable.\n\nThe idea that eating whole foods which have traditionally been cultivated or gathered by humans is generally preferable to a manufactured alternative is not a bad or fallacious principle. It isn't \"because nature\", it's because we've been eating those things a long time with a good deal of success, and conversely, in the last 70-80 years of explosion of heavily processed convenience foods we've seen an explosion in diet related health problems.  Waiting for conclusive scientific proof of the mechanisms of all these problems instead of using Occam's razor and some common sense is a phenomenally stupid thing to do.",
+      "comments": [
+        "9054881"
+      ],
+      "id": "9054571",
+      "isDead": false,
+      "parent": "9054398",
+      "quality": 0.6470588235294118,
+      "story": "9053693",
+      "submitted": "3 hours ago",
+      "submitter": "dasil003"
+    },
+    {
+      "body": "> The more dangerous \"fallacy\" is the idea that all food is equivalent until rigorously experimented and proven otherwise.OK, so even if we accept based on no evidence that it isn't, why should we prefer so-called 'natural' foods. And please tell me how GMOs such as corn (maize) and apples are natural, BTW.> This is the mentality that the food industry hangs its hat on to continue producing the worst possible products that still somehow meet FDA and public approval.Appeal to 'corporations are evil' is also a rather dangerous fallacy.> The idea that eating whole foods which have traditionally been cultivated or gathered by humans is generally preferable to a manufactured alternative is not a bad or fallacious principle.Without evidence it is. This bald assertion does your side no favors.> It isn't \"because nature\", it's because we've been eating those things a long time with a good deal of successNot really. Look at how common deficiency disorders were, back before such horrible modern artificial nonsense such as refrigeration and food preservation.\n\nBesides, what my ancestors ate is not the same as what your ancestors ate, most likely, so which is better? Which diet should we follow? And my ancestors didn't all come from the same place, so which of my ancestors' diets should I follow?",
+      "comments": [],
+      "id": "9054881",
+      "isDead": false,
+      "parent": "9054571",
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "1 hour ago",
+      "submitter": "cbd1984"
+    },
+    {
+      "body": "It does. One of the differences is that our parents, grandparents and great grandparents have eaten \"natural\" foods as well so while they aren't completely undestood we often know a whole lot more about those risks.\n\n(I guess I should mention, as far as I understand we now know that some of the natural ones increase cancer risk quite a bit, yes.)",
+      "comments": [],
+      "id": "9054326",
+      "isDead": false,
+      "parent": "9054251",
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "4 hours ago",
+      "submitter": "eitland"
+    },
+    {
+      "body": "> How does that not apply to \"natural\" foods as well? Without resorting to an appeal to nature.\n\nGood point. You hit the nail on the head.",
+      "comments": [],
+      "id": "9054855",
+      "isDead": false,
+      "parent": "9054251",
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "1 hour ago",
+      "submitter": "cbd1984"
+    },
+    {
+      "body": "Just because those two things are poorly understood (and I think you massively underestimate how much we do know about both cancer and diet) doesn't mean that you should worry about solyent doubling your cancer risk. The same logic of having no good information to go on would have you simultaneously optimistic about it halving it. Missing knowledge doesn't define risk, it defines error bars.",
+      "comments": [],
+      "id": "9054485",
+      "isDead": false,
+      "parent": "9054217",
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "4 hours ago",
+      "submitter": "lotsofmangos"
+    },
+    {
+      "body": "This is explicitly addressed:\"The problem with this approach to nutrition is not that there’s anything inherently wrong with synthetic vitamins — it’s the shortsighted nutritional philosophy that our obsession with vitamins encourages. Sure, our easy access to synthetic vitamins means that we’re no longer likely to die from acute vitamin deficiency diseases. But extra vitamins do not protect us from the long-term “diseases of civilization” that are currently ravaging our country, including obesity, heart disease and Type 2 diabetes — many of which are strongly associated with diet.\"\n\nThere is no appeal to nature anywhere in this article, but a general concern that hubris with regards to our knowledge of nutrition is dangerous, especially given that we have obvious serious health problems going on that our approach has caused.",
+      "comments": [],
+      "id": "9054331",
+      "isDead": false,
+      "parent": "9054083",
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "4 hours ago",
+      "submitter": "freshhawk"
+    },
+    {
+      "body": "\"The article never actually established what made food healthy\"\"If the food has all the chemicals we need\"Well, this is complicated.You won't die if you take all the needed vitamins and have the needed intake of macronutrients (proteins and fats, carbs are not \"needed\")However, it's not healthy for the following reasons:- Fibers. Not exactly needed, but healthy.- Electrolytes. http://en.wikipedia.org/wiki/Water-electrolyte_imbalance (You can die from this)- Other substances that have an effect even though they're not necessarily a nutrient, like the Broccoli one.\n\n- Foreign substances coming from processed foods and that are not present in natural foods (or just synthetic ones, conservatives, colouring, etc)",
+      "comments": [],
+      "id": "9054289",
+      "isDead": false,
+      "parent": "9054083",
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "5 hours ago",
+      "submitter": "raverbashing"
+    },
+    {
+      "body": "> If the food has all the chemicals we need, what does it matter if it's \"low quality\" by the author's standard? If the food doesn't have all the chemicals we need and this isn't obvious, that's a failure of our nutrient tracking scheme.\n\nOur 'nutrient tracking scheme' does not claim to be 100% complete, any more than any other science. I feel it's legitimate to discuss differences between 'naturally' healthy food, and food that is notably deficient being 'fortified' with our best guess as to what's missing.",
+      "comments": [],
+      "id": "9054185",
+      "isDead": false,
+      "parent": "9054083",
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "5 hours ago",
+      "submitter": "qnaal"
+    },
+    {
+      "body": "The article mentions that it's not just a matter of having 20 grams of X, and 100% of our daily requirement of Y - a lot of these things seem to work together in concert, as catalysts.",
+      "comments": [],
+      "id": "9054130",
+      "isDead": false,
+      "parent": "9054083",
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "5 hours ago",
+      "submitter": "pavel_lishin"
+    },
+    {
+      "body": "The author is talking like a chemist or a chemical engineer WRT \"low quality feedstock\" \"low quality source\" and language like that.Here's a typical journal article about Vit C stability while stored.  Sealed, its actually pretty stable... assuming your seal is really good.http://www.iosrjournals.org/iosr-jac/papers/vol2-issue4/D024...There is another way to talk about \"low quality\" which is WRT discourse.  There's a widely held belief that there is a constant fixed long term demand for certain substances that is invariant between people with the possible exception of demographics (prenatal vitamins, and advertising campaigns relying on selling higher priced mens/womens products to men/women).  Then that compounds with liberal arts grad types thinking vitamin / mineral / supplement / medication are mere synonyms that can be freely safely interchanged to sound good in written prose.  Finally experimental data shows that regardless of what was sealed into the package at the factory or farm or factory farm, somewhere between a little bit and practically all of the vitamin decays before you eat it (also cooking destroys / leaches out nutrients, etc)\n\nThis all leads to the engineering comedy of your food having 3 sig figs of \"percent of US RDA of vitamin C for an imaginary person eating an imaginary 200 calorie diet\".  When in reality its closer to 1 sig fig at best and all we really know for sure is completely removing it from your diet for a couple months or eating months of the supply at one sitting will make you really sick.  Oh and another thing we know for certain, is a lot of people make a lot of money by making sure the public is poorly informed and anxious about the topic, but that's also a given in all the other areas of the consumer economy.",
+      "comments": [],
+      "id": "9054235",
+      "isDead": false,
+      "parent": "9054083",
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "5 hours ago",
+      "submitter": "VLM"
+    },
+    {
+      "body": "I had elevated liver enzymes (i.e. signs of liver damage) for two annual physicals in a row.  My doctor tested me for all the usual culprits including all types of hepatitis and everything came back negative.She then asked me if I took a daily multivitamin.  I told her I did and she told me to stop taking it.  That was 12 years ago and I have not had elevated liver enzymes since.  According to my doctor, people that get enough vitamins and minerals through their diet can actually overdose on the sledgehammer of vitamins in a typical Centrum-style multivitamin.  This can then cause liver damage which shows up in an ALT/AST blood test.\n\nI think it's prudent to only take vitamins for which you know you are deficient either because of dietary restrictions or through actual testing.  For example, my vitamin d level gets low in the winter time so I take vitamin d3 for that.",
+      "comments": [
+        "9054552"
+      ],
+      "id": "9054379",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "4 hours ago",
+      "submitter": "300bps"
+    },
+    {
+      "body": "This sounds like an excellent use case for blood-level monitoring for personalized medicine (or in this case, vitamins). I'm not sure how viable the hardware aspect is, but there are sure a lot of things you could do in software with a real-time stream of that data.",
+      "comments": [],
+      "id": "9054552",
+      "isDead": false,
+      "parent": "9054379",
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "3 hours ago",
+      "submitter": "yid"
+    },
+    {
+      "body": "If the food has what we need how is it necessarily low quality?\n\nThis just sounds like the naturalistic fallacy.",
+      "comments": [
+        "9055090"
+      ],
+      "id": "9054849",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "1 hour ago",
+      "submitter": "cbd1984"
+    },
+    {
+      "body": "Quoting from the article:> The problem with this approach to nutrition is not that there’s anything inherently wrong with synthetic vitamins — it’s the shortsighted nutritional philosophy that our obsession with vitamins encourages. ...> Indeed, natural foods contain potentially protective substances such as phytochemicals and polyunsaturated fat that also are affected by processing, but that are not usually replaced. If these turn out to be as important as many researchers suspect, then our exclusive focus on vitamins could mean we’re protecting ourselves against the wrong dangers. ...> .. extra vitamins do not protect us from the long-term “diseases of civilization” that are currently ravaging our country, including obesity, heart disease and Type 2 diabetes — many of which are strongly associated with diet.This is not a naturalistic fallacy. As my example, which I think is more direct than phytochemicals, consider that alcoholism can lead to B1 deficiency. In the 1970s people proposed vitamin fortified alcohols, which would prevent the institutionalization of 1,200 alcoholics yearly (in the 1970s) due to Wernicke-Korsakoff syndrome. (See http://news.google.com/newspapers?nid=2706&dat=19780812&id=J... for a newspaper article from the time. The PubMed reference is http://www.ncbi.nlm.nih.gov/pubmed/96343 .)This wasn't done because, as I recall, the labeling of \"vitamin fortified\" would likely influence some people to consume more alcohol, on the idea that it was healthier because it contains vitamins. Unfortunately I can find no reference to this decision, and I'm not sure my memory is correct, since http://www.newsweek.com/are-vitamin-enhanced-alcohols-heathi... says \"Stampede Light Plus beer, fortified with B vitamins, is soon planning a relaunch. The beer first got its start with Jessica Simpson, who touted it in ads urging beer guzzlers to \"Be Smart, Drink Smart.\"\"\n\nBeer is low quality nutrition. Adding vitamins to beer does not make it high quality nutrition.",
+      "comments": [],
+      "id": "9055090",
+      "isDead": false,
+      "parent": "9054849",
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "7 minutes ago",
+      "submitter": "dalke"
+    },
+    {
+      "body": "\"require refocusing our diets on minimally processed foods that are naturally nutrient-rich\"Great, I'd like to start today.  What do I eat?  Where do I get it?  I already try to do this, but with all this conflicting information out there how am I supposed to know what to do exactly.\n\nToo many articles bemoan the state of nutrition, in the United States in particular, but provide no actionable guidance to the reader.",
+      "comments": [
+        "9054079",
+        "9054133",
+        "9054617",
+        "9054403",
+        "9054291"
+      ],
+      "id": "9054047",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "6 hours ago",
+      "submitter": "ianlevesque"
+    },
+    {
+      "body": "simplified cheatsheet: rice, beans, nuts, fruits, vegetables, eggs, milk (for calcium and vitamin D)prepare in variety of ways. hot or cold. add spices for taste. sometimes meat for protein and iron. walnuts for omega 3 fatty acids which brain needs but body can't produce. eat healthy snacks like washed pre-peeled carrots, etc.I'd argue this is well-solved, well-known and already well and often communicated.\n\nfor example, there are books on this topic. many. anyone can read today.",
+      "comments": [
+        "9054244"
+      ],
+      "id": "9054079",
+      "isDead": false,
+      "parent": "9054047",
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "5 hours ago",
+      "submitter": "mkramlich"
+    },
+    {
+      "body": "> milk (for calcium and vitamin D)\n\nThere's got to be some place we got this in the ancestral environment that wasn't animal milk. Our nearest animal sibling primates don't drink animal milk, and presumably have the same requirement for them that we do. So, where do they get them? Consumption of bone marrow, perhaps?",
+      "comments": [
+        "9054301",
+        "9054337",
+        "9054303",
+        "9054305",
+        "9054467",
+        "9054406"
+      ],
+      "id": "9054244",
+      "isDead": false,
+      "parent": "9054079",
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "5 hours ago",
+      "submitter": "derefr"
+    },
+    {
+      "body": "Vitamin D you get from been out in the sun (via biosynthesis)Calcium rich foods include leafy greans, beans and fish and other seafood.Lots of cultures around didn't have/don't have significant milk/dairy intake, those of us who can eat lactose into adulthood are mutants.\n\nhttp://www.nature.com/news/archaeology-the-milk-revolution-1...",
+      "comments": [],
+      "id": "9054301",
+      "isDead": false,
+      "parent": "9054244",
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "5 hours ago",
+      "submitter": "noir_lord"
+    },
+    {
+      "body": "Sunlight. We can synthesize vitamin D ourselves when exposed to sunlight.\n\nOne of the explanations I've seen for why Europeans are white is to enhance this effect, because Europe gets comparatively less sunlight than other regions in which civilization initially spread, but was warm enough due to the gulf stream to support agriculture, which produces a diet lower in vitamin D. So between the comparatively lower sunlight and agriculture, Europeans needed to evolve to be able to generate more vitamin D from sunlight, which losing pigmentation helps with.",
+      "comments": [
+        "9054391"
+      ],
+      "id": "9054337",
+      "isDead": false,
+      "parent": "9054244",
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "4 hours ago",
+      "submitter": "lambda"
+    },
+    {
+      "body": "How does losing pigmentation help? Darker skin would absorb more sunlight.",
+      "comments": [
+        "9054462",
+        "9054466"
+      ],
+      "id": "9054391",
+      "isDead": false,
+      "parent": "9054337",
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "4 hours ago",
+      "submitter": "SilasX"
+    },
+    {
+      "body": "Absorbing photons into melanin pigment and dispersing their energy as vibrational motion (heat) doesn't help synthesize vitamin D. For the synthesis you need the photons to hit an intermediate molecule in the  pathway and boost an electron into an excited state. If there's a bunch of melanin absorbing photons before they get to the synthesis pathway, the synthesis will be inhibited.",
+      "comments": [],
+      "id": "9054462",
+      "isDead": false,
+      "parent": "9054391",
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "4 hours ago",
+      "submitter": "jjoonathan"
+    },
+    {
+      "body": "Less sunlight being absorbed by eumelanin in the skin means more sunlight left to be converted to vitamin D. Window glass also blocks most of the UVB part of the sunlight that would be converted to vitamin D.",
+      "comments": [],
+      "id": "9054466",
+      "isDead": false,
+      "parent": "9054391",
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "4 hours ago",
+      "submitter": "carey"
+    },
+    {
+      "body": "For calcium: spinach, broccoli, tofu Vitamin D: fish, soy, eggs",
+      "comments": [],
+      "id": "9054303",
+      "isDead": false,
+      "parent": "9054244",
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "5 hours ago",
+      "submitter": "mikesickler"
+    },
+    {
+      "body": "Sunlight for Vit. D\n\nCalcium from several vegetables.",
+      "comments": [
+        "9054423"
+      ],
+      "id": "9054305",
+      "isDead": false,
+      "parent": "9054244",
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "4 hours ago",
+      "submitter": "raverbashing"
+    },
+    {
+      "body": "Sadly, if you live someplace like Canada or Finland the quest for sunlight in the winter is pretty difficult. I found that i do much better taking vitamin D supplements, in terms of mental state and reduction of symptoms like tingling limbs at night.",
+      "comments": [],
+      "id": "9054423",
+      "isDead": false,
+      "parent": "9054305",
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "4 hours ago",
+      "submitter": "code_duck"
+    },
+    {
+      "body": "In fact, most human beings are lactose intolerant.",
+      "comments": [],
+      "id": "9054467",
+      "isDead": false,
+      "parent": "9054244",
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "4 hours ago",
+      "submitter": "philwelch"
+    },
+    {
+      "body": "Since we basically live indoors these days, sunlight (the historical source mentioned by others) is less viable. There were historical solutions for that- for example, the Inuits who live in the dim far north, bundled in furs:Vitamins A and D are present in the oils and livers of cold-water fishes and mammals. Vitamin C is obtained through sources such as caribou liver, kelp, whale skin, and seal brain; because these foods are typically eaten raw or frozen, the vitamin C they contain, which would be destroyed by cooking, is instead preserved.\n\nBut that doesn't fit into a modern Western diet.",
+      "comments": [],
+      "id": "9054406",
+      "isDead": false,
+      "parent": "9054244",
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "4 hours ago",
+      "submitter": "sliverstorm"
+    },
+    {
+      "body": "It seems that every decade, if not more often, the consensus of what is and isn't healthy changes. Sometimes it's due to fad diets, sometimes it's due to a typo, and sometimes it's just because this is complicated and sometimes we get closer and sometimes we get further from a perfect understanding.\n\nHopefully, the general trend is to move closer, though.",
+      "comments": [
+        "9054456",
+        "9054253"
+      ],
+      "id": "9054133",
+      "isDead": false,
+      "parent": "9054047",
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "5 hours ago",
+      "submitter": "pavel_lishin"
+    },
+    {
+      "body": "I see a lot of changing guidance around what works for weight loss and what helps prevent specific diseases. However, I think the science has been relatively stable for reaching healthy levels of vitamins and minerals .",
+      "comments": [],
+      "id": "9054456",
+      "isDead": false,
+      "parent": "9054133",
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "4 hours ago",
+      "submitter": "logn"
+    },
+    {
+      "body": "\"Hopefully, the general trend is to move closer, though.\"\n\nThe general trend has always been to move toward the more profitable.  Scientific research has never been a part of the decision making process.",
+      "comments": [],
+      "id": "9054253",
+      "isDead": false,
+      "parent": "9054133",
+      "quality": 0.5490196078431373,
+      "story": "9053693",
+      "submitted": "5 hours ago",
+      "submitter": "VLM"
+    },
+    {
+      "body": "google \"eat food, mostly plants, not too much\" – it's Michael Pollan's summary of how to eat healthy. There's a long NY Times article and a short book based on it.\n\nBy \"food\" he means \"food your great-grandmother would recognise as such\". A good rule of thumb is to focus on foods that don't have an ingredients label. Anything that is green is also a good bet – leafy plants are incredibly complex chemical cocktails and the human body evolved in tandem with it.",
+      "comments": [
+        "9054864"
+      ],
+      "id": "9054617",
+      "isDead": false,
+      "parent": "9054047",
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "3 hours ago",
+      "submitter": "matt4077"
+    },
+    {
+      "body": "> By \"food\" he means \"food your great-grandmother would recognise as such\".So, no sushi, no fresh fruits except the few which were available around here circa 1900s, no African food, no Asian food, etc.> A good rule of thumb is to focus on foods that don't have an ingredients label.Yes. By all means, eat food which could contain who knows what.> leafy plants are incredibly complex chemical cocktails and the human body evolved in tandem with it.\n\nThis only applies to foods found in the Rift Valley in Africa.",
+      "comments": [],
+      "id": "9054864",
+      "isDead": false,
+      "parent": "9054617",
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "1 hour ago",
+      "submitter": "cbd1984"
+    },
+    {
+      "body": "Broccoli (5 cups), peanuts (1.5 cups), and milk (3 cups) will give you 100% of recommended intake for known nutrients/minerals/vitamins.\n\nSo too will eating a good balance of meat, vegetables, legumes, and fruit (except iodine).",
+      "comments": [],
+      "id": "9054403",
+      "isDead": false,
+      "parent": "9054047",
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "4 hours ago",
+      "submitter": "logn"
+    },
+    {
+      "body": "Actionable guidance:1. Eat high alkaline foods that are organic, non gmo and make sure your diet is 80% alkaline, 20% acidic foods.2. Fast regularly to clean out toxins3. Make sure you drink water that isn't completely fluoridated.4. Get daily exercise for a minimum of 1 hour per day5. Limit processed and animal based foods6. Don't consume any dairy products\"If man made it, don't eat it.\" (Jack LaLanne)\"You can ignore reality, but you can't ignore the consequences of reality.\" (Ayn Rand)\n\nSources: the pH Miracle by Robert & Shelly Young, Jack LaLanne, Paul Bragg, Ayn Rand (for kicks)",
+      "comments": [
+        "9054355",
+        "9054599",
+        "9054358"
+      ],
+      "id": "9054291",
+      "isDead": false,
+      "parent": "9054047",
+      "quality": 0.3176470588235294,
+      "story": "9053693",
+      "submitted": "5 hours ago",
+      "submitter": "free2rhyme214"
+    },
+    {
+      "body": "The pH of the human body is tightly regulated, your diet can't really influence it all that much. Any dietary recommendation based on food pH is almost certainly pseudoscience.\n\nIt's amazing how much pseudoscience you managed to cram into this short list. Fasting to eliminate \"toxins\" and avoiding fluoridated water are based on pseudoscience or conspiracy theories as well.",
+      "comments": [],
+      "id": "9054355",
+      "isDead": false,
+      "parent": "9054291",
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "4 hours ago",
+      "submitter": "fabian2k"
+    },
+    {
+      "body": "And then there's THIS guy.",
+      "comments": [],
+      "id": "9054599",
+      "isDead": false,
+      "parent": "9054291",
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "3 hours ago",
+      "submitter": "bobcostas55"
+    },
+    {
+      "body": "> toxins",
+      "comments": [],
+      "id": "9054358",
+      "isDead": false,
+      "parent": "9054291",
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "4 hours ago",
+      "submitter": "nether"
+    },
+    {
+      "body": "I'm surprised that roasting isn't more popular in the programming community. Supposedly, we like having devices do the work for us, and we're known for getting jazzed about emergence. Why don't more of us apply this to cooking? (As an aside, my inclination is to cite a decline in education and a distancing of knowledge from the real world, as in: http://v.cx/2010/04/feynman-brazil-education)Instead of doing a lot of fussing over our cooking, most of the time, for everyday meals, we should be sticking things into the oven with olive oil, salt, and pepper, then letting the magic of roasting magically create wonderful flavors for us. (Garlic? If you feel like changing it up, go for it! I've solved the \"garlic peeling problem\" so it's a good way to change things up. It's a mistake to be too consistent with flavoring, so garlic every time isn't necessary, needed, or wise, IMO.) Also keep in mind, that unless you are one of them, you aren't cooking to impress your \"foodie\" friends. You have a different set of priorities. So a helpful thing to do, in your own mind (NOT out loud) tell all your \"foodie\" friends to \"smeg-off!\" Go ahead and do things \"wrong.\" So long as you're okay with it. It's your relationship with food, not theirs!Steak, cauliflower, fish, asparagus...so many wonderful things to have as everyday meals, and if you approach the task with efficiency in mind, the overall wait is usually 30 to 45 minutes, but active preparation/labor time is very slight. Do very minimal prep, stick something in the oven, go and play a game or write some code, then take really yummy complexly flavored food out of the oven.Truth be told, some of us who aren't very focused on food thoughtlessly imitate people we shouldn't imitate when we cook. One example: How often do you get out a cutting board and use a full sized chef's knife? I haven't used a full sized chef's knife in over a year and get out a cutting board most often when I just need a place to set ingredients. Let's face it, we aren't chefs! We aren't pulling amazing feats of  multitasking rapid culinary excellence. We don't need such a highly specialized and versatile tool to rapidly accomplish a dozen different operations and exercise well honed skills as we zip around in a restaurant kitchen. Basically, it's the inversion of the \"teaching\" segment in Ratatouille: You are your mother! Cut your broccoli in the air over your bowl or pot. Use a really sharp knife. (Look up the Victorinox Fibrox knife http://amzn.com/B0000CFDD5 then look at this video by America's Test Kitchen. That $24 knife has the same grain size and performs as well as the top-rated $300 knife in the video, and it's cheap enough for you to simply donate and buy a new one every year.)\n\nI now cook all my own food, I roast and steam everything, and the effect is that I eat better than I ever have while doing just a fraction of the work I used to do. \"Change your relationship to food\" with Soylent? Nah. (Tried it.) An oven, judicious use of aluminum foil, a baking pan, a pot with a steamer insert, and olive oil. Use your brain and observe what you do and adjust it to your priorities. (I call it \"hyper-lazy cuisine for programmers.\")",
+      "comments": [
+        "9054703"
+      ],
+      "id": "9054569",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "3 hours ago",
+      "submitter": "stcredzero"
+    },
+    {
+      "body": "Use olive oil for dressing. For adding flavor in a broil look to lard, tallow, schmaltz, or whatever juice is poured off the meat in the main course (assuming a non vegetarian diet here). Might look to coconut oil in the case of vegetarian or vegan, though it's no sub for lard.",
+      "comments": [
+        "9054955"
+      ],
+      "id": "9054703",
+      "isDead": false,
+      "parent": "9054569",
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "2 hours ago",
+      "submitter": "ch"
+    },
+    {
+      "body": "> For adding flavor in a broil look to lard, tallow, schmaltz, or whatever juice is poured off the meat in the main course\n\nThat often makes a wonderful sauce for vegetables, for no more effort than just pouring it into a bowl or over the vegetables.",
+      "comments": [],
+      "id": "9054955",
+      "isDead": false,
+      "parent": "9054703",
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "1 hour ago",
+      "submitter": "stcredzero"
+    },
+    {
+      "body": "If the food has what we need how is it necessarily low quality?\n\nThis just sounds like the naturalistic fallacy.",
+      "comments": [
+        "9054544"
+      ],
+      "id": "9054066",
+      "isDead": false,
+      "parent": null,
+      "quality": 0.5490196078431373,
+      "story": "9053693",
+      "submitted": "6 hours ago",
+      "submitter": "cbd1984"
+    },
+    {
+      "body": "The problem is we don't know what we need.",
+      "comments": [
+        "9054847"
+      ],
+      "id": "9054544",
+      "isDead": false,
+      "parent": "9054066",
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "3 hours ago",
+      "submitter": "Brakenshire"
+    },
+    {
+      "body": "This is simply wrong.",
+      "comments": [],
+      "id": "9054847",
+      "isDead": false,
+      "parent": "9054544",
+      "quality": 1,
+      "story": "9053693",
+      "submitted": "1 hour ago",
+      "submitter": "cbd1984"
+    }
+  ],
   "story": {
     "body": null,
-    "comments": 77,
+    "comments": [
+      "9054139",
+      "9054528",
+      "9054522",
+      "9054083",
+      "9054379",
+      "9054849",
+      "9054047",
+      "9054569",
+      "9054066"
+    ],
+    "commentsCount": 77,
     "id": "9053693",
     "points": 53,
     "source": "nytimes.com",

@@ -1,7 +1,9 @@
 {
+  "comments": [],
   "story": {
     "body": null,
-    "comments": 0,
+    "comments": [],
+    "commentsCount": 0,
     "id": "9050731",
     "points": 5,
     "source": "gettwototango.com",

@@ -1,7 +1,121 @@
 {
+  "comments": [
+    {
+      "body": "You can send this graph as a valentine, or make your own at http://mathogram.desmos.com/\n\nDisclosure: I'm one of the engineers at Desmos.",
+      "comments": [],
+      "id": "9050986",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9050379",
+      "submitted": "11 hours ago",
+      "submitter": "jwmerrill"
+    },
+    {
+      "body": "Unsupported browser.Desmos works best on your version of Android if you use the Chrome Browser.\n\n(Close page in Aurora, no clue what \"Desmos\" is but I don't care by now)",
+      "comments": [],
+      "id": "9052050",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9050379",
+      "submitted": "2 hours ago",
+      "submitter": "darklajid"
+    },
+    {
+      "body": "This is very cool - both Desmos itself and the Sierpinkski Valentine example! In case you're more familar with LaTeX, you can also create similar visualizations in LaTeX using the 'lindenmayersystems' libary and TikZ. Here's a quick example: https://www.overleaf.com/latex/examples/the-first-six-levels...",
+      "comments": [],
+      "id": "9051467",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9050379",
+      "submitted": "8 hours ago",
+      "submitter": "JohnHammersley"
+    },
+    {
+      "body": "How the heck do people come up with these equations? Is it purely mathematical knowledge, knowing what functions look like when plotted?",
+      "comments": [
+        "9051141",
+        "9050996",
+        "9051714"
+      ],
+      "id": "9050974",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9050379",
+      "submitted": "11 hours ago",
+      "submitter": "splike"
+    },
+    {
+      "body": "I think it's a combination of playing around and math chops.Without any mathematical knowledge, you probably couldn't come up with something like the s(i,k,o) function (which, as far as I can tell from just looking/playing around with them briefly, seems to be the function responsible for the tessellation offset), and you might not have thought to define a system like (x=X(N,t), y=Y(N,t), 0<t<1).\n\nWithout a nontrivial amount of playing around, you probably wouldn't have found the exact constants used, like (2pi(3^i)), .2/(2^i), etc.--but knowing how altering those affects the end result takes some mathematical knowledge, so it's more guided investigation than random guessing.",
+      "comments": [
+        "9051235"
+      ],
+      "id": "9051141",
+      "isDead": false,
+      "parent": "9050974",
+      "quality": 1,
+      "story": "9050379",
+      "submitted": "10 hours ago",
+      "submitter": "electronvolt"
+    },
+    {
+      "body": "Yeah - I think it'd take some serious chops to construct this from scratch (note: it wasn't me! author: twitter.com/teachwithcode). But I've been having a blast deconstructing the equations.Here's a fun intermediate step (circles instead of hearts), with a few of the numbers parametrized as sliders:https://www.desmos.com/calculator/irg4qa2s4h\n\n[disclaimer: I work at desmos]",
+      "comments": [],
+      "id": "9051235",
+      "isDead": false,
+      "parent": "9051141",
+      "quality": 1,
+      "story": "9050379",
+      "submitted": "10 hours ago",
+      "submitter": "harmonium1729"
+    },
+    {
+      "body": "By playing around, usually.\n\nSee https://www.youtube.com/watch?v=Zkx1aKv2z8o Specifically from 4:30 to 7~",
+      "comments": [],
+      "id": "9050996",
+      "isDead": false,
+      "parent": "9050974",
+      "quality": 1,
+      "story": "9050379",
+      "submitted": "11 hours ago",
+      "submitter": "azeirah"
+    },
+    {
+      "body": "There are iterated function systems (IFS) for constructing such fractals, Sierpinski gasket is in fact quite common.",
+      "comments": [],
+      "id": "9051714",
+      "isDead": false,
+      "parent": "9050974",
+      "quality": 1,
+      "story": "9050379",
+      "submitted": "6 hours ago",
+      "submitter": "meta_pseudo"
+    },
+    {
+      "body": "can i extract an svg of this? that would let me CNC it.",
+      "comments": [],
+      "id": "9051856",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9050379",
+      "submitted": "4 hours ago",
+      "submitter": "joshu"
+    }
+  ],
   "story": {
     "body": null,
-    "comments": 9,
+    "comments": [
+      "9050986",
+      "9052050",
+      "9051467",
+      "9050974",
+      "9051856"
+    ],
+    "commentsCount": 9,
     "id": "9050379",
     "points": 64,
     "source": "desmos.com",

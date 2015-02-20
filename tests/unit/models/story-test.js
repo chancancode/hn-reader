@@ -10,7 +10,7 @@ import {
 var server;
 
 moduleForModel('story', 'Story', {
-  needs: ['adapter:story', 'serializer:story'],
+  needs: ['model:comment', 'adapter:story', 'serializer:story'],
 
   setup() {
     resetGuid();
@@ -22,8 +22,21 @@ moduleForModel('story', 'Story', {
   }
 });
 
+function toJSON(item, detailed = false) {
+  var json = item.toJSON({ includeId: true });
+
+  if (detailed === true) {
+    json.comments = (json.commentsCount === null) ? null : item.get('comments').mapBy('id');
+  } else {
+    json.body = null;
+    json.comments = null;
+  }
+
+  return json;
+}
+
 function itemsDeepEqual(actual, expected) {
-  actual = actual.map( item => item.toJSON({ includeId: true }) );
+  actual = actual.map(toJSON);
   deepEqual(actual, expected);
 }
 
@@ -34,7 +47,7 @@ function findSingle(id) {
     var promise = Ember.run( () => this.store().find('story', id) );
 
     return promise.then( result => {
-      deepEqual(result.toJSON({ includeId: true }), item.story);
+      deepEqual(toJSON(result, true), item.story);
     });
   });
 }

@@ -1,7 +1,148 @@
 {
+  "comments": [
+    {
+      "body": "Cross-posting my comment from reddit (had the article first):\n\nAsheron's Call had a similar bug, although it took a while to be discovered. There was a buried feature that allowed you to turn/rotate, your character by clicking your mouse on the screen in certain locations. Your rotation speed was controlled by how far from the origin the mouse was located and ramped up to a capped rotation speed after a certain distance. The closer you were to the origin, the slower your rotation speed. The game came out around 1998 when most people were playing on 800x600 or maybe 1024x768 screens and since the possible rotation speeds you could achieve were directly related to the pixel width of the viewport, there was effectively a limit to the slowness of your rotation. Fast forward half a decade and people are playing on dual 1600x1200 screens and you can now turn reeeally slow if you get your cursor in the right position (and enabled the rarely used feature). Well, you could combine this slow rotation with strafe-running to make your velocity vector scale out many multiples of your normal run speed. In-game, other people viewed you as essentially teleporting (game had slow updates and basic client-side prediction) huge distances at a time. Not too long after this exploit was found, they introduced a new game client (for other reasons) that didn't have the mouse turn feature (I don't think anyone ever really used it in the previous ~7 years), so it was no longer possible to use. My friend and I had some fun nights on the PK server being able to just 'disappear' from a fight at will.",
+      "comments": [
+        "9052027"
+      ],
+      "id": "9052022",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9051782",
+      "submitted": "2 hours ago",
+      "submitter": "jsprogrammer"
+    },
+    {
+      "body": "Hmm, looks like something ate my line breaks and editing/deleting isn't working...",
+      "comments": [],
+      "id": "9052027",
+      "isDead": false,
+      "parent": "9052022",
+      "quality": 1,
+      "story": "9051782",
+      "submitted": "2 hours ago",
+      "submitter": "jsprogrammer"
+    },
+    {
+      "body": "Isn't this... just a bug? Good on the players for finding it, of course; and I can even see the community agreeing to let everyone exploit bunnyhopping - but intentionally programming in this behaviour seems really odd to me.",
+      "comments": [
+        "9052214"
+      ],
+      "id": "9052133",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9051782",
+      "submitted": "46 minutes ago",
+      "submitter": "JoachimSchipper"
+    },
+    {
+      "body": "It is now considered a feature, and there are entire maps & games built with a focus on trick jumping.  It's a fun thing to learn and it really opens up new possibilities, even in maps that weren't specifically designed with trick jumping in mind.  For most games, it increases the skill cap, thus adding depth...\n\nI am so used to bunny hopping that I feel handicapped in any FPS that doesn't let me do it.  If I ever get my FPS project going, it'll sure as heck have this feature.",
+      "comments": [],
+      "id": "9052214",
+      "isDead": false,
+      "parent": "9052133",
+      "quality": 1,
+      "story": "9051782",
+      "submitted": "4 minutes ago",
+      "submitter": "clarry"
+    },
+    {
+      "body": "Source video for the gif: https://www.youtube.com/watch?v=KYEyIGLRqW0&t=47\n\nIt really shows how much of an advantage it was if you knew how to bunny hop.",
+      "comments": [],
+      "id": "9052071",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9051782",
+      "submitted": "1 hour ago",
+      "submitter": "yelnatz"
+    },
+    {
+      "body": "Not bunnyhopping, but similar idea a game called Gunz: The Duel had many animation glitches where you could cancel animation lock with higher priority move. The action would execute, but the animation would be cut in short with a shorter animation which allowed you to perform a new longer animation move.\n\nCommonly it was called kStyle or \"korean style\" in west since the game was korean and koreans came up with the bug. It made the game everyone was doing it flying through the map with swords swinging wildly it was a lot of fun and definitely raised the skill ceiling and someone how it didn't seem nearly as cheaty as the bunnyhopper in articles video.",
+      "comments": [],
+      "id": "9052047",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9051782",
+      "submitted": "2 hours ago",
+      "submitter": "Morphling"
+    },
+    {
+      "body": "So games intentionally program support for bunnyhopping, or us it a math logic bug.",
+      "comments": [
+        "9052060"
+      ],
+      "id": "9051967",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9051782",
+      "submitted": "3 hours ago",
+      "submitter": "TwoBit"
+    },
+    {
+      "body": "Both. It was originally a bug, has since turned into a feature.",
+      "comments": [
+        "9052218"
+      ],
+      "id": "9052060",
+      "isDead": false,
+      "parent": "9051967",
+      "quality": 1,
+      "story": "9051782",
+      "submitted": "1 hour ago",
+      "submitter": "scarlson"
+    },
+    {
+      "body": "Talking of other CS \"bugs\" that have turned into features, anyone who's never seen \"surfing\" should check that out.Basically, you take the same air-strafing principles from this article, add a little bunny-hopping, and another \"feature\" of counterstrike where if you land on a steep enough slope you won't take falling damage or apply friction. Give this to some insane map makers and the end result is an incredibly skill-intensive obstacle course of sorts at tremendously high speeds.Here's a good example of what I'm talking about: https://www.youtube.com/watch?v=o0Xv00yJhjs\n\nThere's a really dedicated community behind this stuff, you can find 64-man servers full of people playing this type of map in CS:GO and CS:Source.",
+      "comments": [],
+      "id": "9052218",
+      "isDead": false,
+      "parent": "9052060",
+      "quality": 1,
+      "story": "9051782",
+      "submitted": "1 minute ago",
+      "submitter": "sirclueless"
+    },
+    {
+      "body": "Haha! This is awesome! Reminds me of the good days of CS 1.6 when newbs would to be totally flabbergasted on seeing others bunnyhopping. The best times were when a sniper would get knifed by some bunnyhopper! :D\n\nThanks for sharing :)",
+      "comments": [
+        "9052176"
+      ],
+      "id": "9051948",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9051782",
+      "submitted": "3 hours ago",
+      "submitter": "krat0sprakhar"
+    },
+    {
+      "body": "If I remember correctly so was bunnyjumping fixed in version 1.5, which also started a mod of CS called classic 1.3 or something like that.",
+      "comments": [],
+      "id": "9052176",
+      "isDead": false,
+      "parent": "9051948",
+      "quality": 1,
+      "story": "9051782",
+      "submitted": "26 minutes ago",
+      "submitter": "hedwall"
+    }
+  ],
   "story": {
     "body": null,
-    "comments": 11,
+    "comments": [
+      "9052022",
+      "9052133",
+      "9052071",
+      "9052047",
+      "9051967",
+      "9051948"
+    ],
+    "commentsCount": 11,
     "id": "9051782",
     "points": 39,
     "source": "flafla2.github.io",

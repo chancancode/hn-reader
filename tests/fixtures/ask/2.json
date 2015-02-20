@@ -5,7 +5,8 @@
   "stories": [
     {
       "body": null,
-      "comments": 17,
+      "comments": null,
+      "commentsCount": 17,
       "id": "9044438",
       "points": 20,
       "source": null,
@@ -17,7 +18,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9046342",
       "points": 2,
       "source": null,
@@ -29,7 +31,8 @@
     },
     {
       "body": null,
-      "comments": 72,
+      "comments": null,
+      "commentsCount": 72,
       "id": "9043968",
       "points": 48,
       "source": null,
@@ -41,7 +44,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9044491",
       "points": 4,
       "source": null,
@@ -53,7 +57,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "8908279",
       "points": 275,
       "source": null,
@@ -65,7 +70,8 @@
     },
     {
       "body": null,
-      "comments": 58,
+      "comments": null,
+      "commentsCount": 58,
       "id": "9044131",
       "points": 27,
       "source": null,
@@ -77,7 +83,8 @@
     },
     {
       "body": null,
-      "comments": 1,
+      "comments": null,
+      "commentsCount": 1,
       "id": "9017491",
       "points": 12,
       "source": null,
@@ -89,7 +96,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9007996",
       "points": 64,
       "source": null,
@@ -101,7 +109,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9033759",
       "points": 41,
       "source": null,
@@ -113,7 +122,8 @@
     },
     {
       "body": null,
-      "comments": 8,
+      "comments": null,
+      "commentsCount": 8,
       "id": "8998571",
       "points": 10,
       "source": null,
@@ -125,7 +135,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "8861156",
       "points": 11,
       "source": null,
@@ -137,7 +148,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9045355",
       "points": 2,
       "source": null,
@@ -149,7 +161,8 @@
     },
     {
       "body": null,
-      "comments": 6,
+      "comments": null,
+      "commentsCount": 6,
       "id": "9044204",
       "points": 4,
       "source": null,
@@ -161,7 +174,8 @@
     },
     {
       "body": null,
-      "comments": 1,
+      "comments": null,
+      "commentsCount": 1,
       "id": "9045008",
       "points": 2,
       "source": null,
@@ -173,7 +187,8 @@
     },
     {
       "body": null,
-      "comments": 7,
+      "comments": null,
+      "commentsCount": 7,
       "id": "9043718",
       "points": 4,
       "source": null,
@@ -185,7 +200,8 @@
     },
     {
       "body": null,
-      "comments": 11,
+      "comments": null,
+      "commentsCount": 11,
       "id": "9043944",
       "points": 5,
       "source": null,
@@ -197,7 +213,8 @@
     },
     {
       "body": null,
-      "comments": 15,
+      "comments": null,
+      "commentsCount": 15,
       "id": "9037476",
       "points": 12,
       "source": null,
@@ -209,7 +226,8 @@
     },
     {
       "body": null,
-      "comments": 4,
+      "comments": null,
+      "commentsCount": 4,
       "id": "9043066",
       "points": 6,
       "source": null,
@@ -221,7 +239,8 @@
     },
     {
       "body": null,
-      "comments": 1,
+      "comments": null,
+      "commentsCount": 1,
       "id": "9043103",
       "points": 4,
       "source": null,
@@ -233,7 +252,8 @@
     },
     {
       "body": null,
-      "comments": 3,
+      "comments": null,
+      "commentsCount": 3,
       "id": "9042293",
       "points": 6,
       "source": null,
@@ -245,7 +265,8 @@
     },
     {
       "body": null,
-      "comments": 2,
+      "comments": null,
+      "commentsCount": 2,
       "id": "9042757",
       "points": 3,
       "source": null,
@@ -257,7 +278,8 @@
     },
     {
       "body": null,
-      "comments": 68,
+      "comments": null,
+      "commentsCount": 68,
       "id": "9038733",
       "points": 46,
       "source": null,
@@ -269,7 +291,8 @@
     },
     {
       "body": null,
-      "comments": 7,
+      "comments": null,
+      "commentsCount": 7,
       "id": "9040984",
       "points": 5,
       "source": null,
@@ -281,7 +304,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9036518",
       "points": 6,
       "source": null,

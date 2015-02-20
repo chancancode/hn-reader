@@ -1,7 +1,839 @@
 {
+  "comments": [
+    {
+      "body": "EDIT: To the author, the download and email icons are the same.This is fantastic. A feature you might not have realized is that it works well with NoScript users. With font-faces considered harmful[0], these icons can be delivered to the user, vulnerability free.\n\n[0] https://hackademix.net/2010/03/24/why-noscript-blocks-web-fo...",
+      "comments": [
+        "9047976"
+      ],
+      "id": "9047741",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9047086",
+      "submitted": "1 day ago",
+      "submitter": "chrisdotcode"
+    },
+    {
+      "body": "Thanks very much! I had no idea at all, I'll definitely look into it. Great to hear there's another positive for the project.\n\nI'll take a look back at the email and download icons, good eye.",
+      "comments": [],
+      "id": "9047976",
+      "isDead": false,
+      "parent": "9047741",
+      "quality": 1,
+      "story": "9047086",
+      "submitted": "1 day ago",
+      "submitter": "cabmaddux"
+    },
+    {
+      "body": "Looks great but the first thing we see when we load the page is a couple lines of instruction and an icon which is not obvious/ just looks like a square and it's confusing.If you want more people to use it, take the section that has the picture of ALL the icons, and move it to the top of the landing page. Just put some text like \"LittleBox something about these icons people will like\" in big letters.\n\nI almost left the page. I am glad I scrolled down because I really like them, and I can use the flags in one of my projects.",
+      "comments": [],
+      "id": "9048517",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9047086",
+      "submitted": "1 day ago",
+      "submitter": "readme"
+    },
+    {
+      "body": "So, the million dollar question: is it faster to use these, images/sprites, icon fonts? The trade-off I'm assuming is download/load speed vs. cpu load?",
+      "comments": [
+        "9047890"
+      ],
+      "id": "9047782",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9047086",
+      "submitted": "1 day ago",
+      "submitter": "Apofis"
+    },
+    {
+      "body": "Don't forget about compatibility. You can be reasonably sure that font icons will display the same everywhere. CSS-based icons are all over the map compatibility-wise (display issues across browsers).",
+      "comments": [
+        "9048089"
+      ],
+      "id": "9047890",
+      "isDead": false,
+      "parent": "9047782",
+      "quality": 1,
+      "story": "9047086",
+      "submitted": "1 day ago",
+      "submitter": "coderdude"
+    },
+    {
+      "body": "Sure, but font icons can only be one color. Can you give an example of a compatibility issue?",
+      "comments": [
+        "9048210",
+        "9050382"
+      ],
+      "id": "9048089",
+      "isDead": false,
+      "parent": "9047890",
+      "quality": 1,
+      "story": "9047086",
+      "submitted": "1 day ago",
+      "submitter": "gdix"
+    },
+    {
+      "body": "Font Awesome allows stacking: http://blog.fontawesome.io/2014/09/25/custom-file-types-with...Here's their demo but with some color added: http://codepen.io/anon/pen/VYQMeaBut yeah, you're typically stuck with one color. Here's a demo that shows off multi-color fonts (Firefox only): http://pixelambacht.nl/2014/compyx-a-multicolor-8bit-font/That technique could be used to make multi-color font icons if it were cross-browser compatible. Maybe one day. But I think SVG icons are where things are headed.\n\nAs for compatibility issues, there's one listed on this page: https://news.ycombinator.com/item?id=9047846",
+      "comments": [],
+      "id": "9048210",
+      "isDead": false,
+      "parent": "9048089",
+      "quality": 1,
+      "story": "9047086",
+      "submitted": "1 day ago",
+      "submitter": "coderdude"
+    },
+    {
+      "body": "These icons get warped in Chrome when you set the zoom level to 125%.  For example: the roof on the house in the lb-home icon is no longer centered.",
+      "comments": [],
+      "id": "9050382",
+      "isDead": false,
+      "parent": "9048089",
+      "quality": 1,
+      "story": "9047086",
+      "submitted": "15 hours ago",
+      "submitter": "elpool2"
+    },
+    {
+      "body": "First off, I think this is an awesome portfolio project.\n\nAs far as being worth continuing, I would say it's worth maintaining but not adding to (beyond compatibility) moving forward. It's a great example of what you're capable of, and maybe some might even use it seriously, but I know I'd start worrying about every little \"wish they had/did this\" comment that came my way. That leads to burnout.",
+      "comments": [],
+      "id": "9049457",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9047086",
+      "submitted": "21 hours ago",
+      "submitter": "mathgeek"
+    },
+    {
+      "body": "It looks really great, changing color via CSS is neat!maybe you could put the license information on that page! (The github page says it is MIT License for those who wonder)btw the french flag is backwards (Blue - White - Red is the good one)\n\nEDIT: Thanks for the flag fix benjamin!",
+      "comments": [
+        "9049375",
+        "9047683"
+      ],
+      "id": "9047667",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9047086",
+      "submitted": "1 day ago",
+      "submitter": "vmarsy"
+    },
+    {
+      "body": "I like it :)Something that could further ease the color customization would be to use currentColor [1] on the border colors, allowing the customization to be made simply by changing the \"color\" attribute of the element.\n\n[1] http://tympanus.net/codrops/css_reference/color_value/#secti... which I discovered with https://twitter.com/SaraSoueidan/status/564090319117881344",
+      "comments": [],
+      "id": "9049375",
+      "isDead": false,
+      "parent": "9047667",
+      "quality": 1,
+      "story": "9047086",
+      "submitted": "22 hours ago",
+      "submitter": "k_"
+    },
+    {
+      "body": "For sure, thanks for taking a look! And good eye on the French flag! I'll get that fixed up.\n\nI'll make sure to add license info to that demo/download page. Thanks again, a huge help!",
+      "comments": [
+        "9047869"
+      ],
+      "id": "9047683",
+      "isDead": false,
+      "parent": "9047667",
+      "quality": 1,
+      "story": "9047086",
+      "submitted": "1 day ago",
+      "submitter": "cabmaddux"
+    },
+    {
+      "body": "Aditionally, with the flags, I noticed that you have Switzerland as a rectangle. I know that's not an uncommon representation of it, but its flag is actually a square.\n\nJust an fyi :)",
+      "comments": [
+        "9049129"
+      ],
+      "id": "9047869",
+      "isDead": false,
+      "parent": "9047683",
+      "quality": 1,
+      "story": "9047086",
+      "submitted": "1 day ago",
+      "submitter": "tschuy"
+    },
+    {
+      "body": "And in the \"pedantic++\" category: check out flag proportions, too. See for example https://flagspot.net/flags/nl-lu.html, which explains the difference between the flags of Monaco and Indonesia (buried in a discussion about the flags of the Netherlands and Luxembourg): same colors, but different proportions.So, Belgium should be 13:15 (https://flagspot.net/flags/be.html, for US flags 10:19 seems best for all uses (https://flagspot.net/flags/us-size.html#prop), etc.\n\nBut that certainly is just a fyi :)",
+      "comments": [],
+      "id": "9049129",
+      "isDead": false,
+      "parent": "9047869",
+      "quality": 1,
+      "story": "9047086",
+      "submitted": "1 day ago",
+      "submitter": "Someone"
+    },
+    {
+      "body": "If you liked building it, then it's worth continuing.\n\nThe icons look great.",
+      "comments": [
+        "9047653"
+      ],
+      "id": "9047641",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9047086",
+      "submitted": "1 day ago",
+      "submitter": "nwenzel"
+    },
+    {
+      "body": "True, a great point. It's not a bad creative outlet.\n\nThanks for taking a look!",
+      "comments": [],
+      "id": "9047653",
+      "isDead": false,
+      "parent": "9047641",
+      "quality": 1,
+      "story": "9047086",
+      "submitted": "1 day ago",
+      "submitter": "cabmaddux"
+    },
+    {
+      "body": "I'd stay away from css to create images personally. it's just too hackish. seems like wikipedia implements some sort of svg to png conversion on the fly. that is preferable for me. css isn't even good at what it's intended for. I certainly don't see it solving more problems.",
+      "comments": [],
+      "id": "9048485",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9047086",
+      "submitted": "1 day ago",
+      "submitter": "michaelbuddy"
+    },
+    {
+      "body": "I wonder if SVG is more suited to something like this...",
+      "comments": [
+        "9048955",
+        "9048487"
+      ],
+      "id": "9048264",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9047086",
+      "submitted": "1 day ago",
+      "submitter": "jszymborski"
+    },
+    {
+      "body": "I was completely amazed when I recently checked browser support for inline SVG; almost all current browsers support them! [1] So I decided to use inline SVG for icons and logos. It's extremely fast (no separate network request, images embedded in gzipped html source), and as a bonus I can style the images easily using CSS (eg. change colors on hover/active state)Example see here: http://jsfiddle.net/Lszz5392/1/The nicest part about this is that I can use Adobe Illustrator (or any other vector editor) to create the graphics, and then paste them straight into HTML.\n\n[1]: http://caniuse.com/#feat=svg-html5",
+      "comments": [
+        "9049327"
+      ],
+      "id": "9048955",
+      "isDead": false,
+      "parent": "9048264",
+      "quality": 1,
+      "story": "9047086",
+      "submitted": "1 day ago",
+      "submitter": "jakobegger"
+    },
+    {
+      "body": "It might sound weird but I actually like to draw simple SVG images using text editor. SVG is well suited for that, it's readable and compact.",
+      "comments": [
+        "9049339"
+      ],
+      "id": "9049327",
+      "isDead": false,
+      "parent": "9048955",
+      "quality": 1,
+      "story": "9047086",
+      "submitted": "23 hours ago",
+      "submitter": "vbezhenar"
+    },
+    {
+      "body": "Yes, I've done that too. What's even nicer is that you can write scripts that generate SVG. Drawing symmetric things like a gear can be very cumbersome in a vector editor, but it's really nice if you draw it with a script. (And I was finally able to make use of all the math & geometry I learned in school)",
+      "comments": [],
+      "id": "9049339",
+      "isDead": false,
+      "parent": "9049327",
+      "quality": 1,
+      "story": "9047086",
+      "submitted": "23 hours ago",
+      "submitter": "jakobegger"
+    },
+    {
+      "body": "it's exactly what svg is suited for. I cringe anytime I see css graphics. ONe guy did an entire 3D scene using CSS and I was both awestruck and sickened when I saw the explanation of how it was done. what a pain in the ass with little reward IMO.  But if somebody wants to do something, whatevs  go for it. hack away.",
+      "comments": [],
+      "id": "9048487",
+      "isDead": false,
+      "parent": "9048264",
+      "quality": 1,
+      "story": "9047086",
+      "submitted": "1 day ago",
+      "submitter": "michaelbuddy"
+    },
+    {
+      "body": "Tested your page on an i3, all 4 cores are at 60%+   that's not very good...  probably affects only the animated ones still",
+      "comments": [
+        "9047824",
+        "9048559",
+        "9049824"
+      ],
+      "id": "9047773",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9047086",
+      "submitted": "1 day ago",
+      "submitter": "cs-"
+    },
+    {
+      "body": "That doesn't sound right. My 2520M stays at about 8%, using Firefox. That's still relatively high, but in reality there would only be a few on the screen at once.",
+      "comments": [
+        "9049840",
+        "9048213"
+      ],
+      "id": "9047824",
+      "isDead": false,
+      "parent": "9047773",
+      "quality": 1,
+      "story": "9047086",
+      "submitted": "1 day ago",
+      "submitter": "Retr0spectrum"
+    },
+    {
+      "body": "Important thing to note (and most devs forget this):\n\nOne does not simply browse only one page at a time anymore",
+      "comments": [],
+      "id": "9049840",
+      "isDead": false,
+      "parent": "9047824",
+      "quality": 1,
+      "story": "9047086",
+      "submitted": "18 hours ago",
+      "submitter": "cs-"
+    },
+    {
+      "body": "I can confirm that an i5-4200U (decent < 1000$ notebook) goes from 2-4% lowest proc frequency to 14% max proc frequency (and the fan starts). Using Firefox. It is clearly noticeable. Of course YMMV",
+      "comments": [],
+      "id": "9048213",
+      "isDead": false,
+      "parent": "9047824",
+      "quality": 1,
+      "story": "9047086",
+      "submitted": "1 day ago",
+      "submitter": "riquito"
+    },
+    {
+      "body": "Similar here, current chrome on Windows 7 pulls CPU load from ~8 to 40 % and spins up the fan noticeably.",
+      "comments": [],
+      "id": "9048559",
+      "isDead": false,
+      "parent": "9047773",
+      "quality": 1,
+      "story": "9047086",
+      "submitted": "1 day ago",
+      "submitter": "detaro"
+    },
+    {
+      "body": "update: Linux, Chrome\n\nMaybe the animated ones should be left as images so far, otherwise great work with the static icons ++",
+      "comments": [],
+      "id": "9049824",
+      "isDead": false,
+      "parent": "9047773",
+      "quality": 1,
+      "story": "9047086",
+      "submitted": "18 hours ago",
+      "submitter": "cs-"
+    },
+    {
+      "body": "I'm going to be completely honest as a UI/UX developer. I already feel completely overwhelmed with viable and awesome options. If you aren't heavily using this, at least make sure it isn't interfering with your life. This has nothing to do with what you've done, just how I feel about more icon libraries in general.",
+      "comments": [],
+      "id": "9049883",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9047086",
+      "submitted": "18 hours ago",
+      "submitter": "jbhatab"
+    },
+    {
+      "body": "Nice.. with gz transmission, looks like it's under 9kb, which isn't bad at all for an icon set.",
+      "comments": [],
+      "id": "9047720",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9047086",
+      "submitted": "1 day ago",
+      "submitter": "tracker1"
+    },
+    {
+      "body": "Nice. A comment on the flags: I find the green of Italy indistinguishable from  the blue on other flags, maybe make it lighter or something? And France is inverted: it's blue, white, red and not the other way around.",
+      "comments": [
+        "9050498"
+      ],
+      "id": "9050369",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9047086",
+      "submitted": "15 hours ago",
+      "submitter": "wazoox"
+    },
+    {
+      "body": "I do not find the green of Italy indistinguishable from the blues. Maybe you should take a color-blind test (seriously, not being a jackass).",
+      "comments": [],
+      "id": "9050498",
+      "isDead": false,
+      "parent": "9050369",
+      "quality": 1,
+      "story": "9047086",
+      "submitted": "14 hours ago",
+      "submitter": "sejje"
+    },
+    {
+      "body": "Certainly continue! I think there's a lot more you could do, and I really like them so far.",
+      "comments": [
+        "9047650"
+      ],
+      "id": "9047633",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9047086",
+      "submitted": "1 day ago",
+      "submitter": "mkeedlinger"
+    },
+    {
+      "body": "Thanks! I agree might be interesting to try to capitalize further on animating/coloring individual elements and work on scalability. Just trying to gauge how much time to invest.\n\nThe feedback is a huge help!",
+      "comments": [],
+      "id": "9047650",
+      "isDead": false,
+      "parent": "9047633",
+      "quality": 1,
+      "story": "9047086",
+      "submitted": "1 day ago",
+      "submitter": "cabmaddux"
+    },
+    {
+      "body": "It seems really well done.  However I can't help but think \"is this really a use case for CSS; or more of a neat hack?\".  Is that why you're asking if it's worth continuing?",
+      "comments": [
+        "9049006"
+      ],
+      "id": "9048153",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9047086",
+      "submitted": "1 day ago",
+      "submitter": "rbosinger"
+    },
+    {
+      "body": "True, may just be a neat hack. The opportunity to work with individual elements of an icon independently and the challenge of the constraints was the initial draw to the project. Maybe there would be a use case for the simple icons and icons that would really benefit from coloring individual elements (hence the flags), but I think there are definitely plenty of drawbacks and it's pretty hacky in some places.I also don't have a great understanding of some of the technical drawbacks and compatibility issues that have been brought up here, so this HN conversation has been an enormous help.\n\nI think you've hit on my main question. Thanks for the feedback and for taking a look!",
+      "comments": [],
+      "id": "9049006",
+      "isDead": false,
+      "parent": "9048153",
+      "quality": 1,
+      "story": "9047086",
+      "submitted": "1 day ago",
+      "submitter": "cabmaddux"
+    },
+    {
+      "body": "Nice work. I'll add 2 more to the mix (bookmarked these while searching for pure CSS icons recently). To answer the title, yes I'd definitely use one of thesehttp://nicolasgallagher.com/pure-css-gui-icons/demo/\n\nhttp://saeedalipoor.github.io/icono/",
+      "comments": [],
+      "id": "9048760",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9047086",
+      "submitted": "1 day ago",
+      "submitter": "chdir"
+    },
+    {
+      "body": "Oh yes absolutely. Theses are fantastic icons, really well done man.",
+      "comments": [
+        "9047595"
+      ],
+      "id": "9047555",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9047086",
+      "submitted": "1 day ago",
+      "submitter": "Gyonka"
+    },
+    {
+      "body": "Thanks very much, feels good to hear they hold up!",
+      "comments": [],
+      "id": "9047595",
+      "isDead": false,
+      "parent": "9047555",
+      "quality": 1,
+      "story": "9047086",
+      "submitted": "1 day ago",
+      "submitter": "cabmaddux"
+    },
+    {
+      "body": "Nice work. But your german and french flags have the wrong order of colors.",
+      "comments": [],
+      "id": "9049746",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9047086",
+      "submitted": "19 hours ago",
+      "submitter": "j29h"
+    },
+    {
+      "body": "The flag icons are super nice.As for the \"littlebox icon set\", from my standpoint (mostly designer) no. In an icon set I am looking for a) feel and b) perfect balance between each icon so everything feels connected.\n\nThat in itself is super hard to get right, even when not limiting yourself to CSS to do it. While this is an impressive feat it doesn't get there for me on either front, compared to what's available out there. So unless there was a very specific reason not to resort to an actual font and/or graphics, I wouldn't consider this one.",
+      "comments": [
+        "9049422"
+      ],
+      "id": "9049324",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9047086",
+      "submitted": "23 hours ago",
+      "submitter": "quakenul"
+    },
+    {
+      "body": "Brazil's flag looks really weird. I would say it's unusable...",
+      "comments": [],
+      "id": "9049422",
+      "isDead": false,
+      "parent": "9049324",
+      "quality": 1,
+      "story": "9047086",
+      "submitted": "22 hours ago",
+      "submitter": "henpa"
+    },
+    {
+      "body": "Really nice icons, good job !\n\nOne suggestion for animated icons: add \"animated\" and \"stopped\" states if you didn't already.",
+      "comments": [
+        "9047941"
+      ],
+      "id": "9047752",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9047086",
+      "submitted": "1 day ago",
+      "submitter": "turshija"
+    },
+    {
+      "body": "Thanks! I've tested \"stopped\" states and have it on my ToDo list, but need to just take a moment and get it done.",
+      "comments": [],
+      "id": "9047941",
+      "isDead": false,
+      "parent": "9047752",
+      "quality": 1,
+      "story": "9047086",
+      "submitted": "1 day ago",
+      "submitter": "cabmaddux"
+    },
+    {
+      "body": "Some of the currencies look a bit off for me: http://i.imgur.com/GhjPBr7.png\n\nI'm using Firefox on Arch. I guess it could be something to do with me not having the right fonts installed.",
+      "comments": [
+        "9047964"
+      ],
+      "id": "9047846",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9047086",
+      "submitted": "1 day ago",
+      "submitter": "Retr0spectrum"
+    },
+    {
+      "body": "Yeah there are three currency icons that change a lot between browsers because part of the icon is a character. Definitely doesn't really work. Having trouble finding a way to create the central shape with the 3 available elements. May need to scratch them until I can.\n\nThanks for taking a look at it!",
+      "comments": [],
+      "id": "9047964",
+      "isDead": false,
+      "parent": "9047846",
+      "quality": 1,
+      "story": "9047086",
+      "submitted": "1 day ago",
+      "submitter": "cabmaddux"
+    },
+    {
+      "body": "Continue Cabell, these are very nice set of icons with a small file size.",
+      "comments": [],
+      "id": "9047732",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9047086",
+      "submitted": "1 day ago",
+      "submitter": "cturhan"
+    },
+    {
+      "body": "Nice - although they break up a bit if you zoom the page, sadly.",
+      "comments": [],
+      "id": "9048260",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9047086",
+      "submitted": "1 day ago",
+      "submitter": "dflock"
+    },
+    {
+      "body": "Can you make a bat signal icon with animation?",
+      "comments": [],
+      "id": "9049067",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9047086",
+      "submitted": "1 day ago",
+      "submitter": "namelezz"
+    },
+    {
+      "body": "Quick PSA: The audio player on the site is an actual audio player.",
+      "comments": [],
+      "id": "9048004",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9047086",
+      "submitted": "1 day ago",
+      "submitter": "teamhappy"
+    },
+    {
+      "body": "I like the flags, but wanted to the colour of some flags issue too.",
+      "comments": [],
+      "id": "9049819",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9047086",
+      "submitted": "18 hours ago",
+      "submitter": "akldjlafkjalfk"
+    },
+    {
+      "body": "nicely done, these are pretty cool.  like anything interesting in css i'm not sure if they're practical, but they're cool regardless of the practicality.>to set your own color, simply set the icons border color in your CSS, like so: .lb-, .lb-::before .lb-*::after\n\ncould you use border-color:inherit on the :before and :after pseudo-elements, so it's just a single selector change to change the color?",
+      "comments": [
+        "9049008",
+        "9048286"
+      ],
+      "id": "9048249",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9047086",
+      "submitted": "1 day ago",
+      "submitter": "notatoad"
+    },
+    {
+      "body": "Wow, that makes a ton of sense, definitely cleaner than what I've got going now. There are plenty of places to clean it up, but that would be a big one.\n\nThanks!",
+      "comments": [],
+      "id": "9049008",
+      "isDead": false,
+      "parent": "9048249",
+      "quality": 1,
+      "story": "9047086",
+      "submitted": "1 day ago",
+      "submitter": "cabmaddux"
+    },
+    {
+      "body": "Alternatively, if you leave it off it defaults to currentColor, which means you can set the color property on it or a parent.",
+      "comments": [],
+      "id": "9048286",
+      "isDead": false,
+      "parent": "9048249",
+      "quality": 1,
+      "story": "9047086",
+      "submitted": "1 day ago",
+      "submitter": "twiss"
+    },
+    {
+      "body": "Not if this is anything more than an academic exercise. Nice effort, but SVG and, to a lesser degree, icon fonts, are better for this sort of thing.",
+      "comments": [
+        "9048045"
+      ],
+      "id": "9047928",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9047086",
+      "submitted": "1 day ago",
+      "submitter": "illicium"
+    },
+    {
+      "body": "Definitely good for working on a few weird CSS oddities and helped me get better acquainted with GitHub and Bower. I figured being able to work with individual elements within the icon might be a plus over icon fonts, but definitely not as reliable. Otherwise, I also couldn't come up with much over SVG either. Thanks for the feedback!",
+      "comments": [],
+      "id": "9048045",
+      "isDead": false,
+      "parent": "9047928",
+      "quality": 1,
+      "story": "9047086",
+      "submitted": "1 day ago",
+      "submitter": "cabmaddux"
+    },
+    {
+      "body": "Love it. Also removed bloat bc you can easily kick out icons you're not using.",
+      "comments": [],
+      "id": "9049282",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9047086",
+      "submitted": "23 hours ago",
+      "submitter": "jbverschoor"
+    },
+    {
+      "body": "Great work! Definitely worth continuing.",
+      "comments": [],
+      "id": "9050120",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9047086",
+      "submitted": "16 hours ago",
+      "submitter": "butifanu"
+    },
+    {
+      "body": "This is awesome! If there wasn't a compatibility issue, i'd use this immediately.",
+      "comments": [],
+      "id": "9048599",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9047086",
+      "submitted": "1 day ago",
+      "submitter": "bg0"
+    },
+    {
+      "body": "The swiss flag should be square.",
+      "comments": [
+        "9047932"
+      ],
+      "id": "9047701",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9047086",
+      "submitted": "1 day ago",
+      "submitter": "wereHamster"
+    },
+    {
+      "body": "True, thanks for catching that! I'll fix it up.",
+      "comments": [
+        "9048290"
+      ],
+      "id": "9047932",
+      "isDead": false,
+      "parent": "9047701",
+      "quality": 1,
+      "story": "9047086",
+      "submitted": "1 day ago",
+      "submitter": "cabmaddux"
+    },
+    {
+      "body": "There are some more problems with the flags. The colours of the french and german flag are in the wrong order. The icelandic and norwegian flags are missing the white line around the cross. The class for the netherlands shouldn't be lb-flag-holland.",
+      "comments": [],
+      "id": "9048290",
+      "isDead": false,
+      "parent": "9047932",
+      "quality": 1,
+      "story": "9047086",
+      "submitted": "1 day ago",
+      "submitter": "voidiac"
+    },
+    {
+      "body": "keep it going. They look great.",
+      "comments": [],
+      "id": "9047718",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9047086",
+      "submitted": "1 day ago",
+      "submitter": "theklr"
+    },
+    {
+      "body": "These look amazing! Keep up the awesome work! I love CSS icons.",
+      "comments": [],
+      "id": "9048402",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9047086",
+      "submitted": "1 day ago",
+      "submitter": "ravitation"
+    },
+    {
+      "body": "This is very cool",
+      "comments": [],
+      "id": "9048489",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9047086",
+      "submitted": "1 day ago",
+      "submitter": "impish19"
+    },
+    {
+      "body": "nice. lot of work!",
+      "comments": [],
+      "id": "9048844",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9047086",
+      "submitted": "1 day ago",
+      "submitter": "skynetv2"
+    },
+    {
+      "body": "These so called icons are not even images. What's the point if you cant save them do your hard disk ????",
+      "comments": [],
+      "id": "9050337",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9047086",
+      "submitted": "15 hours ago",
+      "submitter": "maxxxcohen"
+    }
+  ],
   "story": {
     "body": null,
-    "comments": 67,
+    "comments": [
+      "9047741",
+      "9048517",
+      "9047782",
+      "9049457",
+      "9047667",
+      "9047641",
+      "9048485",
+      "9048264",
+      "9047773",
+      "9049883",
+      "9047720",
+      "9050369",
+      "9047633",
+      "9048153",
+      "9048760",
+      "9047555",
+      "9049746",
+      "9049324",
+      "9047752",
+      "9047846",
+      "9047732",
+      "9048260",
+      "9049067",
+      "9048004",
+      "9049819",
+      "9048249",
+      "9047928",
+      "9049282",
+      "9050120",
+      "9048599",
+      "9047701",
+      "9047718",
+      "9048402",
+      "9048489",
+      "9048844",
+      "9050337"
+    ],
+    "commentsCount": 67,
     "id": "9047086",
     "points": 178,
     "source": "cabmaddux.com",

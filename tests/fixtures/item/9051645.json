@@ -1,7 +1,568 @@
 {
+  "comments": [
+    {
+      "body": "Despite what people may say, ES6 is turning out to be a pretty great language all around. Type coercion is still pretty annoying and is there to stay, but the new features are all mostly well done.Now if we can only get the bind operator [1] in a timely manner, everything will be awesome.\n\n[1]: http://wiki.ecmascript.org/doku.php?id=strawman:bind_operato...",
+      "comments": [
+        "9051788"
+      ],
+      "id": "9051759",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9051645",
+      "submitted": "22 hours ago",
+      "submitter": "spion"
+    },
+    {
+      "body": "Hadn't seen that proposal before. It's definitely interesting.My first impression is that it's kind of confusing to read, but I suspect I'd get used to it.\n\nSort of similar to some of the destructuring assignment stuff, e.g. `let { address: { street } } = user;`. Awkward at first, but now I'm kind of into it – although I still think people are likely to abuse it.",
+      "comments": [],
+      "id": "9051788",
+      "isDead": false,
+      "parent": "9051759",
+      "quality": 1,
+      "story": "9051645",
+      "submitted": "22 hours ago",
+      "submitter": "kevincennis"
+    },
+    {
+      "body": "Also keep in mind that Traceur adds its own global runtime, I usually recommend 6to5 instead (despite what the name suggests, it supports some ES7 features as well and even JSX).\n\nHere's a good features comparison table of common transpilers: http://6to5.org/docs/compare/#comparison-to-other-transpiler...",
+      "comments": [],
+      "id": "9052150",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9051645",
+      "submitted": "17 hours ago",
+      "submitter": "wildpeaks"
+    },
+    {
+      "body": "This is some scary shit!JavaScript is a mainstream language. That means average people like myself can be very productive with it. It is easy to learn and it's easy to find people who can maintain JS code.But it seems you need to be an academic in programming languages just to figure out what these new features do, and why they are needed. I'm afraid that the rapid development will make it harder to learn the language. And will introduce a lot of pitfalls and edge cases.\n\nOr maybe I'm just afraid of change!?",
+      "comments": [
+        "9053749",
+        "9054181"
+      ],
+      "id": "9053664",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9051645",
+      "submitted": "7 hours ago",
+      "submitter": "z3t4"
+    },
+    {
+      "body": "It honestly blows my mind that there is backlash against ES6. The new features solve so many pain points I've experienced in MVC and library development:- ridiculously verbose syntax for anonymous functions- lack of a module system- no string interpolation (seriously!)- no block scoping - super annoying- lack of language level support for immutability- clumsy 'this' management- clumsy variadic functions- competing promise implementations- competing and poorly interoperating class implementations\n\n... And so on. This is a huge step forward and it should help redefine Javascript coding style in a much better way. My only complaint is that they didn't deprecate poorly designed features of the past.",
+      "comments": [
+        "9054385"
+      ],
+      "id": "9053749",
+      "isDead": false,
+      "parent": "9053664",
+      "quality": 1,
+      "story": "9051645",
+      "submitted": "7 hours ago",
+      "submitter": "acjohnson55"
+    },
+    {
+      "body": "I've never read any programming books or taken any classes, I've just read a lot of code written by others and also written some myself. Here's my advice after 15 years of reading both brilliant and shitty JS code:a) Don't use anonymous functions ... You want your program to be easy to understand, so come up with a name for the function and put it as a sub-function at the bottom of the current function.b) I love the Nodejs implementation of modules and I would say it's the main reason behind Nodejs success. But it doesn't make sense in the HTTP world. Imagine having to download 100 dependency files each time you visit a webpage.c) I have a keyboard macro for \" +  + \". So if you don't save an extra keystroke, what's the deal? It might be useful if you have nasty habits like building HTML or SQL by concatenating strings though. (don't do that).d) Just declare your variables at the top of the function and stop worrying about scope, (while listening to Bobby McFerrin.)e) I can somewhat agree here. But where it's really needed you should make a copy or clone function. And if it's not really needed you shouldn't. Makes you write less complicated code because of laziness.f) Give it a name!  function Car() {var car = this;}   Or if you don't want people to understand your code:  var that = this;  g) You are probably trying to make your function do too much! If you Do want to have one function to rule them all, pass an object to it.h) It's possible to make async code intuitive. Stop using anonymous functions will help a lot! But it's not That easy. Promises is just another (ineffective; it just threats the symptoms) paradigm to reason with async code.i) We don't need classes. The prototype already work great. It might be hard to learn but once you understand it's brilliant! (I don't blame you if you never will, it's hard to learn an old dog to sit).\n\nI encourage you to use the paradigms you believe in, and also to try different solutions, and think outside the box. But don't force certain paradigms by changing the language itself. One exception being Node.js where you are forced into making modules. (but some people are stubborn and use Browserify to circumvent it).",
+      "comments": [],
+      "id": "9054385",
+      "isDead": false,
+      "parent": "9053749",
+      "quality": 1,
+      "story": "9051645",
+      "submitted": "4 hours ago",
+      "submitter": "z3t4"
+    },
+    {
+      "body": "this is an interesting perspective that I don't really understand and hope you will expand on. Which parts of the es6 changes do you feel you need to be an academic to understand? The es5 spec is 6 years old at this point and it feels to me like es6 is taking forever to be implemented. Most of the changes are there to make things more consistent and reduce pitfalls and edge cases - let and const to solve the problems with var, fat arrows make functions cleaner and solve the this binding problem, classes and modules formalize what everyone has been trying to do in JS for years just in different ways.  No doubt there's some learning to do, but on the whole it seems like a very conservative and solid list of enhancements.",
+      "comments": [
+        "9054580"
+      ],
+      "id": "9054181",
+      "isDead": false,
+      "parent": "9053664",
+      "quality": 1,
+      "story": "9051645",
+      "submitted": "5 hours ago",
+      "submitter": "netcraft"
+    },
+    {
+      "body": "JS is like that Indian wonder kid who wanted to come up with a cure for cancer.Then he was invited to London. Where he met C, C++ and Java, who made him  become ECMAScript.\n\nhttp://youtu.be/BSQf7SUxJVw",
+      "comments": [],
+      "id": "9054580",
+      "isDead": false,
+      "parent": "9054181",
+      "quality": 1,
+      "story": "9051645",
+      "submitted": "3 hours ago",
+      "submitter": "z3t4"
+    },
+    {
+      "body": "A lot of these features look great, and some of them are even useful. I think it's a shame that async/await has to wait for ES7. It would really give some direction to the node community and give JS an edge for async programming. Generators just look like another awkward attempt to avoid callbacks by jumping through different hoops.",
+      "comments": [
+        "9052013",
+        "9052264"
+      ],
+      "id": "9051963",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9051645",
+      "submitted": "20 hours ago",
+      "submitter": "rzimmerman"
+    },
+    {
+      "body": "Generators have long been used in the Python community for reasons other than callback avoidance (they are lazy sequences). Generators in ES6 (as well as several other features) seem to be inspired by Python.\n\nThere's no reason we'll have to wait for ES7. Seeing as how good 6 to 5 transpilers already are, I'm sure you'll be able to use await relatively soon.",
+      "comments": [
+        "9052062",
+        "9052020"
+      ],
+      "id": "9052013",
+      "isDead": false,
+      "parent": "9051963",
+      "quality": 1,
+      "story": "9051645",
+      "submitted": "19 hours ago",
+      "submitter": "aaron-lebo"
+    },
+    {
+      "body": "Generators in Python are a very useful feature (lazy sequences, like you said), so maybe I spoke to soon. However, I don't think people should be lauding this feature as some kind of solution to callback hell.\n\nI just feel like priority-wise, users would benefit most from modules (which made it), async/await, maybe class syntactic sugar, then everything else.",
+      "comments": [
+        "9052345",
+        "9052092"
+      ],
+      "id": "9052062",
+      "isDead": false,
+      "parent": "9052013",
+      "quality": 1,
+      "story": "9051645",
+      "submitted": "18 hours ago",
+      "submitter": "rzimmerman"
+    },
+    {
+      "body": "FWIW, most of the stuff I've read on using generators to wrangle async has stressed that that's not the aim of the protocol, it's just a useful side-effect. But I think you are right, which is a bit of a shame really, given how useful generators can be - most every detailed article quickly skips through pretend toy examples, then <drumroll>aaaand async",
+      "comments": [],
+      "id": "9052345",
+      "isDead": false,
+      "parent": "9052062",
+      "quality": 1,
+      "story": "9051645",
+      "submitted": "15 hours ago",
+      "submitter": "RobertKerans"
+    },
+    {
+      "body": "> I don't think people should be lauding this feature as some kind of solution to callback hell.\n\nThen async/await is no solution for it either.",
+      "comments": [
+        "9052282"
+      ],
+      "id": "9052092",
+      "isDead": false,
+      "parent": "9052062",
+      "quality": 1,
+      "story": "9051645",
+      "submitted": "18 hours ago",
+      "submitter": "masklinn"
+    },
+    {
+      "body": "I think:    app.get('/thing', function (req, res) {       try {         await user = db.get({user: req.user});         res.send({user:user});       } catch {         res.send(400);       }     });  beats the hell out of:    app.get('/thing', function (req, res) {       db.get({user: req.user}, function (err, user) {         if (err) return res.send(400);         res.send({user:user});       });     });  especially when you have conditionals or loops that can look like:    if (user.name == 'abc') {       resp = 5;     } else {       await resp = db.get_resp({user:user});     }     await db.save(something);  I suppose it doesn't get rid of callbacks, just makes them readable.",
+      "comments": [
+        "9053329",
+        "9052524"
+      ],
+      "id": "9052282",
+      "isDead": false,
+      "parent": "9052092",
+      "quality": 1,
+      "story": "9051645",
+      "submitted": "16 hours ago",
+      "submitter": "rzimmerman"
+    },
+    {
+      "body": "> I suppose it doesn't get rid of callbacks, just makes them readable.You are the one who stated generators were no solution to callback hell but async/await was, yet here's what your code looks like with generators:    app.get('/thing', function* (req, res) {         try {             let user = yield* db.get({user: req.user});             res.send({user: user});         } catch {             res.send(400);         }     });  ...",
+      "comments": [],
+      "id": "9053329",
+      "isDead": false,
+      "parent": "9052282",
+      "quality": 1,
+      "story": "9051645",
+      "submitted": "9 hours ago",
+      "submitter": "masklinn"
+    },
+    {
+      "body": "And the promise version for comparison:    app.get('/thing', function (req, res) {       db.get({user: req.user}).done(user => {         res.send({user:user});       }, error => {         res.send(400);       });     });",
+      "comments": [],
+      "id": "9052524",
+      "isDead": false,
+      "parent": "9052282",
+      "quality": 1,
+      "story": "9051645",
+      "submitted": "13 hours ago",
+      "submitter": "nawitus"
+    },
+    {
+      "body": "You can already use await [1].Also, Traceur got a patch in master for async generator functions earlier this week.\n\n[1] http://kangax.github.io/compat-table/es7/",
+      "comments": [],
+      "id": "9052020",
+      "isDead": false,
+      "parent": "9052013",
+      "quality": 1,
+      "story": "9051645",
+      "submitted": "19 hours ago",
+      "submitter": "jsprogrammer"
+    },
+    {
+      "body": "As much as it sucks that it probably won't be in v8 or iojs native for a bit.. you can use co/koa for now, or you can use 6to5 or another transpiler to get the async/await features now.",
+      "comments": [],
+      "id": "9052264",
+      "isDead": false,
+      "parent": "9051963",
+      "quality": 1,
+      "story": "9051645",
+      "submitted": "16 hours ago",
+      "submitter": "tracker1"
+    },
+    {
+      "body": "While a lot of these changes are cool, I'm worried that starting to work with javascript just got a lot harder. Although, I do appreciate the Class foo extends bar {...} syntax, now maybe we can have one simple way of doing inheritance which is readable to someone new to javascript.",
+      "comments": [
+        "9053057"
+      ],
+      "id": "9052840",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9051645",
+      "submitted": "11 hours ago",
+      "submitter": "qzcx"
+    },
+    {
+      "body": "A lot of it just feels like cleaner versions of patterns people have been using for a long time.  There's a few things I'm worried about:* Tagged template strings might have some potential to be abused in interesting ways, since it looks like the tag function doesn't actually have to return a string.* The Object destructuring/enhanced literals (and the Object rest/spread proposal in ES7) still take a lot of mental energy for me to parse.  I'm worried they could be a maintenance liability in large projects, but that remains to be seen.\n\n* Async functions/generators in ES7 will probably take a while to get used to, as well, but I felt the same way about Promises when they were first introduced, and they didn't turn out to be too bad.  I don't have an issue with normal Promises/generators, so this might just be a matter of me needing to see the async stuff as a whole instead of the sum of its parts.",
+      "comments": [
+        "9053087"
+      ],
+      "id": "9053057",
+      "isDead": false,
+      "parent": "9052840",
+      "quality": 1,
+      "story": "9051645",
+      "submitted": "10 hours ago",
+      "submitter": "mmebane"
+    },
+    {
+      "body": "> A lot of it just feels like cleaner versions of patterns people have been using for a long time.\n\nThis was a pretty explicit goal, what they called 'paving the cow path'",
+      "comments": [],
+      "id": "9053087",
+      "isDead": false,
+      "parent": "9053057",
+      "quality": 1,
+      "story": "9051645",
+      "submitted": "10 hours ago",
+      "submitter": "cwmma"
+    },
+    {
+      "body": "It seems a little odd that class functions do not need a keyword. Speaking of which it would have been nice if we could use the shorter `func` instead of `function`. But in any case, I'm just glad private class members didn't make the cut. Whomever was responsible for that, thank you!",
+      "comments": [],
+      "id": "9052717",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9051645",
+      "submitted": "12 hours ago",
+      "submitter": "transfire"
+    },
+    {
+      "body": "The ES6 transpiler \"6to5\" was renamed to \"Babel\" a few hours ago:https://news.ycombinator.com/item?id=9052478\n\nhttps://twitter.com/markdalgleish/status/566909414242660353",
+      "comments": [],
+      "id": "9052491",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9051645",
+      "submitted": "13 hours ago",
+      "submitter": "wildpeaks"
+    },
+    {
+      "body": "const map = (fn, [x, ...xs]) => (x === undefined) ? [] : [fn(x), ...map(fn, xs)];  This gives me the warm and fuzzies.",
+      "comments": [],
+      "id": "9052199",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9051645",
+      "submitted": "16 hours ago",
+      "submitter": "jarcane"
+    },
+    {
+      "body": "Maybe its just me but the only things that I really like from this document are \"Unicode\", and \"Tail Call\", though some other things may be nice, the verbosity is killing me, how many new keywords, synatic constructs, and symbols are coming in with ECMA6?  Though I have no say in the matter, for my 2 cents, I just wish they had used ECMA6 to remove things (mainly those listed here: http://johnkpaul.github.io/presentations/empirejs/javascript... and in Crockfords famous book http://archive.oreilly.com/pub/a/javascript/excerpts/javascr...) for instance.",
+      "comments": [
+        "9053489"
+      ],
+      "id": "9052295",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9051645",
+      "submitted": "16 hours ago",
+      "submitter": "jfaucett"
+    },
+    {
+      "body": "In JavaScript you can't make any backward incompatible changes, let alone remove anything. Because what browser would want to implement stuff that breaks websites for its users?",
+      "comments": [],
+      "id": "9053489",
+      "isDead": false,
+      "parent": "9052295",
+      "quality": 1,
+      "story": "9051645",
+      "submitted": "8 hours ago",
+      "submitter": "esailija"
+    },
+    {
+      "body": "I would have liked to have seen:* Skinny arrows as a shorthand for functions (for methods and constructors that don't get 'this' from outside.* Rest parameters with trailing arguments, e.g.:    function zip (...xs, f) { ... }  Seems like an oversight but I'm sure there was a reason (anyone care to comment?)...\n\nI guess arguments parsing isn't quite dead...",
+      "comments": [],
+      "id": "9052140",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9051645",
+      "submitted": "17 hours ago",
+      "submitter": "skwosh"
+    },
+    {
+      "body": "Unfortunately Symbols are not that useful when it comes to private properties in classes. A better approach would be to use use weakmaps to have private properties.\n\nThe problem with symbols is the absence of symbol literal syntax(along with the fact that one can access symbols through reflection).",
+      "comments": [],
+      "id": "9052281",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9051645",
+      "submitted": "16 hours ago",
+      "submitter": "aikah"
+    },
+    {
+      "body": "Awesome list. I'm happy to have saved it. I'd love to see a post about how to easily and quickly start transitioning without a hassle. :)",
+      "comments": [
+        "9051776"
+      ],
+      "id": "9051686",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9051645",
+      "submitted": "23 hours ago",
+      "submitter": "antjanus"
+    },
+    {
+      "body": "6to5 has been mostly pain-free for me.Getting it to play nicely with my code coverage tool was a bit tricky, but aside from that it wasn't bad at all.\n\nBear in mind that ES6 is fully backwards-compatible with ES5, so you can set up a transpiler without having to actually rewrite your whole codebase right off the bat. It's pretty easy to upgrade gradually if you need or want to.",
+      "comments": [],
+      "id": "9051776",
+      "isDead": false,
+      "parent": "9051686",
+      "quality": 1,
+      "story": "9051645",
+      "submitted": "22 hours ago",
+      "submitter": "kevincennis"
+    },
+    {
+      "body": "It's really hard to find browser support information for each of those. And every browser vendor chooses to develop every feature in different pace and order.",
+      "comments": [
+        "9052142",
+        "9052127"
+      ],
+      "id": "9052124",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9051645",
+      "submitted": "17 hours ago",
+      "submitter": "odiroot"
+    },
+    {
+      "body": "http://kangax.github.io/compat-table/es6/",
+      "comments": [
+        "9052370"
+      ],
+      "id": "9052142",
+      "isDead": false,
+      "parent": "9052124",
+      "quality": 1,
+      "story": "9051645",
+      "submitted": "17 hours ago",
+      "submitter": "oblio"
+    },
+    {
+      "body": "I know about that. But seemingly it only shows limited set of browser versions.\n\nFor me the most important thing is: what was the first version to support this feature. So I know I can actually use it -- comparing to my users' browser usage stats.",
+      "comments": [],
+      "id": "9052370",
+      "isDead": false,
+      "parent": "9052142",
+      "quality": 1,
+      "story": "9051645",
+      "submitted": "15 hours ago",
+      "submitter": "odiroot"
+    },
+    {
+      "body": "do you look into this...its gives you complete idea..\n\nsamplestitch.com.s3-website-us-east-1.amazonaws.com",
+      "comments": [],
+      "id": "9052127",
+      "isDead": false,
+      "parent": "9052124",
+      "quality": 0.6470588235294118,
+      "story": "9051645",
+      "submitted": "17 hours ago",
+      "submitter": "itsbits"
+    },
+    {
+      "body": "What's the story behind `let` becoming the new `var`? Seems odd to me to change the short hand for \"variable\" to `let`.",
+      "comments": [
+        "9052151",
+        "9052136"
+      ],
+      "id": "9052131",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9051645",
+      "submitted": "17 hours ago",
+      "submitter": "tomelders"
+    },
+    {
+      "body": "`var` is still there, but it is scoped differently - `let` scopes to blocks, e.g. if (foo) { let baz = 'quux'; ... }\n\n`let` in function scope is the same as `var`, in block scope it's narrow, it's basically the thing you want. `var` couldn't change, though, it would have broken existing code - hence `let`/",
+      "comments": [],
+      "id": "9052151",
+      "isDead": false,
+      "parent": "9052131",
+      "quality": 1,
+      "story": "9051645",
+      "submitted": "17 hours ago",
+      "submitter": "ealexhudson"
+    },
+    {
+      "body": "Math notation, Lisp. These are probably the inspiration for it.",
+      "comments": [],
+      "id": "9052136",
+      "isDead": false,
+      "parent": "9052131",
+      "quality": 1,
+      "story": "9051645",
+      "submitted": "17 hours ago",
+      "submitter": "oblio"
+    },
+    {
+      "body": "How long has it been now since the last version?",
+      "comments": [],
+      "id": "9052490",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9051645",
+      "submitted": "13 hours ago",
+      "submitter": "g8gggu89"
+    },
+    {
+      "body": "ECMAScript 6 is a messNow there's a completely new function syntax that doesn't use parens and has different scope rules    var odds = evens.map(v => v + 1);  Enhanced object literals:    // Computed (dynamic) property names     [ 'prop_' + (() => 42)() ]: 42 what?? So it uses parens if there are no params, but not otherwise?Template Strings:    `In JavaScript this is      not legal.` Seriously another String delimiter?    `Hello ${name}, how are you ${time}?` Why aren't we just using #{} like everyone else?    // Construct an HTTP request prefix is used to interpret the replacements and construction      GET`http://foo.org/bar?a=${a}&b=${b}... What??Destructuring:    var [a, , b] = [1,2,3]; Is that seriously just whitespace and another comma?Splats (spreads?)    f(...[1,2,3]) == 6 ... means destructure?This is not readable code:    let fibonacci = {       [Symbol.iterator]() {         let pre = 0, cur = 1;         return {           next() {             [pre, cur] = [cur, pre + cur];             return { done: false, value: cur }           }         }       }     }          for (var n of fibonacci) {       // truncate the sequence at 1000       if (n > 1000)         break;       print(n);     }   Symbols without a literal syntax: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Refe... Jesus Christ.Unicode:    \"𠮷\".length == 2 Awesome, still wrong.Modules are cool. Promises are cool. Tail call optimization is cool.This is not readable code:    // Proxying a normal object     var target = {};     var handler = {       get: function (receiver, name) {         return `Hello, ${name}!`;       }     };          var p = new Proxy(target, handler);     p.world === 'Hello, world!';  ES6 is a mess. Javascript just got harder.",
+      "comments": [
+        "9052103",
+        "9053545",
+        "9053678",
+        "9052252",
+        "9052531"
+      ],
+      "id": "9052064",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9051645",
+      "submitted": "18 hours ago",
+      "submitter": "shittyanalogy"
+    },
+    {
+      "body": "var odds = evens.map(v => v + 1);  Is about as readable as it gets (inspired by C#, Java8, CoffeeScript), as a benefit of succinct syntax sugar we get intuitive `this` binding - i.e. pit of success.    [ 'prop_' + (() => 42)() ]: 42  > what?? So it uses parens if there are no params, but not otherwise?Again not surprising, a leading `=>` would be a syntax error so `()` is an obvious compromise which can be naturally be extended to add args, e.g:    evens.map((v) => v + 1)   > Seriously another String delimiter?    `Hello ${name}, how are you ${time}?`  Yep, String interpolation is incredibly useful especially in JavaScript which does a lot of string munging - this will lead to more succinct, readable code. Should be obvious why they didn't want to break existing JS by re-using \"\" double-quotes.> Why aren't we just using #{} like everyone else?Who's everyone else (Ruby inspired langs)? Scala uses ${1 + 1} or $var shorthand (same as Groovy, Kotlin, JSP EL, Haxe), C# 6 uses {var}, Swift uses \\(var) whilst Python and Java have string formats that use %(var)    var [a, , b] = [1,2,3];  > Is that seriously just whitespace and another comma?It's clearly ignoring matching the second element. Some languages choose to use `_` as a special ignore placeholder, JavaScript chose not to. Either way is not unintuitive with what it does so that's ok.\n\nThe other features are extremely useful if you need them, otherwise you can happily ignore them and use the subset you're comfortable with.",
+      "comments": [],
+      "id": "9052103",
+      "isDead": false,
+      "parent": "9052064",
+      "quality": 1,
+      "story": "9051645",
+      "submitted": "18 hours ago",
+      "submitter": "mythz"
+    },
+    {
+      "body": "> Splats (spreads?)    >    f(...[1,2,3]) == 6    > ... means destructure?  No, it means something very close to \"apply\" or \"concat\", depending on the usage. That example is the same as:  f.apply(this, [1,2,3])  But it's cleaner syntax. The interesting part is that you can mix them in anywhere:  function f(x, y, z) {     return x + y + z;   }   a = [1,2];   b = [3];    [...a, ...b] == [].concat(a,b) == [1,2,3]   [0, ...a, 4, 5, ...b, 6] == [].concat([0],a,[4,5],b,[6]) == [0,1,2,4,5,3,6]   f(...a, ...b) == 6   f(1, 2, ...b) == 6   f(...a, 3) == 6   f(...b, 0, ...b) == 6   > ES6 is a mess. Javascript just got harder.Want some cheese with that whine? It got more complicated, yes. But I'm liking most of the changes, personally. A lot. Most of them are long overdue.\n\nBTW, if you open Firefox's console, you can try out many examples. Firefox already supports tons of ES6.",
+      "comments": [],
+      "id": "9053545",
+      "isDead": false,
+      "parent": "9052064",
+      "quality": 1,
+      "story": "9051645",
+      "submitted": "8 hours ago",
+      "submitter": "__david__"
+    },
+    {
+      "body": "Sure, you abuse the new syntax to make unreadable code, but most people will probably use it to abbreviate much of the syntax noise that plagues Javascript today.",
+      "comments": [],
+      "id": "9053678",
+      "isDead": false,
+      "parent": "9052064",
+      "quality": 1,
+      "story": "9051645",
+      "submitted": "7 hours ago",
+      "submitter": "acjohnson55"
+    },
+    {
+      "body": "let fibonacci = {       [Symbol.iterator]() {         let pre = 0, cur = 1;         return {           next() {             [pre, cur] = [cur, pre + cur];             return { done: false, value: cur }           }         }       }     }          for (var n of fibonacci) {       // truncate the sequence at 1000       if (n > 1000)         break;       print(n);     }  I love how the only comment is explaining what \"if (n > 1000) break;\" does",
+      "comments": [],
+      "id": "9052252",
+      "isDead": false,
+      "parent": "9052064",
+      "quality": 1,
+      "story": "9051645",
+      "submitted": "16 hours ago",
+      "submitter": "rzimmerman"
+    },
+    {
+      "body": ">So it uses parens if there are no params, but not otherwise?\n\nParams are only optional if there is a single parameter.",
+      "comments": [],
+      "id": "9052531",
+      "isDead": false,
+      "parent": "9052064",
+      "quality": 0.5490196078431373,
+      "story": "9051645",
+      "submitted": "13 hours ago",
+      "submitter": "nawitus"
+    },
+    {
+      "body": "* Slavery",
+      "comments": [],
+      "id": "9052119",
+      "isDead": false,
+      "parent": null,
+      "quality": 0.3176470588235294,
+      "story": "9051645",
+      "submitted": "17 hours ago",
+      "submitter": "user_name2"
+    }
+  ],
   "story": {
     "body": null,
-    "comments": 45,
+    "comments": [
+      "9051759",
+      "9052150",
+      "9053664",
+      "9051963",
+      "9052840",
+      "9052717",
+      "9052491",
+      "9052199",
+      "9052295",
+      "9052140",
+      "9052281",
+      "9051686",
+      "9052124",
+      "9052131",
+      "9052490",
+      "9052064",
+      "9052119"
+    ],
+    "commentsCount": 45,
     "id": "9051645",
     "points": 119,
     "source": "github.com",

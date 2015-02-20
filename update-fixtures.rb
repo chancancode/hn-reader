@@ -159,6 +159,17 @@ page.evaluate_script "LiveReload.shutDown()"
 
 sleep 5
 
+def properly_quote_string(string)
+  # This is what QUnit does. We need to try much harder than that to make it
+  # valid JSON...
+  #
+  #	function quote( str ) {
+	#	  return "\"" + str.toString().replace( /"/g, "\\\"" ) + "\"";
+	# }
+  #
+  JSON.generate(string[1...-1].gsub("\\\"", "\""), quirks_mode: true)
+end
+
 page.all(:css, ".test-diff pre").each do |el|
   diff = el.text
 
@@ -168,7 +179,7 @@ page.all(:css, ".test-diff pre").each do |el|
     File.open(file, 'w+') do |f|
       f.print el.native.text
         .gsub(/"<STUB .+>"/, '')
-        .gsub(/"(?:[^\\"]|\\.)*"/) { |d| d.gsub("\n", "\\n") }
+        .gsub(/"(?:[^\\"]|\\.)*"/) { |str| properly_quote_string(str) }
         .strip
     end
 
@@ -186,7 +197,7 @@ page.visit "http://localhost:4200/tests/index.html?nocontainer&nojshint&module=S
 
 sleep 5
 
-failed = page.all(:css, ".fail").count
+failed = page.find(:css, ".result .failed").text.to_i
 
 if failed > 0
   puts "WARNING: found #{failed} failing tests!"

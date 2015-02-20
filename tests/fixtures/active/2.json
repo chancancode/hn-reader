@@ -5,7 +5,8 @@
   "stories": [
     {
       "body": null,
-      "comments": 31,
+      "comments": null,
+      "commentsCount": 31,
       "id": "9051782",
       "points": 73,
       "source": "flafla2.github.io",
@@ -17,7 +18,8 @@
     },
     {
       "body": null,
-      "comments": 125,
+      "comments": null,
+      "commentsCount": 125,
       "id": "9049467",
       "points": 176,
       "source": "spyder.wordpress.com",
@@ -29,7 +31,8 @@
     },
     {
       "body": null,
-      "comments": 12,
+      "comments": null,
+      "commentsCount": 12,
       "id": "9054627",
       "points": 32,
       "source": "keepachangelog.com",
@@ -41,7 +44,8 @@
     },
     {
       "body": null,
-      "comments": 15,
+      "comments": null,
+      "commentsCount": 15,
       "id": "9052375",
       "points": 45,
       "source": "amasci.com",
@@ -53,7 +57,8 @@
     },
     {
       "body": null,
-      "comments": 12,
+      "comments": null,
+      "commentsCount": 12,
       "id": "9053496",
       "points": 72,
       "source": "stanford.edu",
@@ -65,7 +70,8 @@
     },
     {
       "body": null,
-      "comments": 10,
+      "comments": null,
+      "commentsCount": 10,
       "id": "9054290",
       "points": 85,
       "source": "tmwhere.com",
@@ -77,7 +83,8 @@
     },
     {
       "body": null,
-      "comments": 18,
+      "comments": null,
+      "commentsCount": 18,
       "id": "9052478",
       "points": 61,
       "source": "github.com",
@@ -89,7 +96,8 @@
     },
     {
       "body": null,
-      "comments": 14,
+      "comments": null,
+      "commentsCount": 14,
       "id": "9052168",
       "points": 311,
       "source": "doomworld.com",
@@ -101,7 +109,8 @@
     },
     {
       "body": null,
-      "comments": 16,
+      "comments": null,
+      "commentsCount": 16,
       "id": "9052607",
       "points": 28,
       "source": "bloomberg.com",
@@ -113,7 +122,8 @@
     },
     {
       "body": null,
-      "comments": 15,
+      "comments": null,
+      "commentsCount": 15,
       "id": "9052163",
       "points": 43,
       "source": "newyorker.com",
@@ -125,7 +135,8 @@
     },
     {
       "body": null,
-      "comments": 18,
+      "comments": null,
+      "commentsCount": 18,
       "id": "9050646",
       "points": 69,
       "source": "racket-lang.org",
@@ -137,7 +148,8 @@
     },
     {
       "body": null,
-      "comments": 73,
+      "comments": null,
+      "commentsCount": 73,
       "id": "9050436",
       "points": 204,
       "source": "nytimes.com",
@@ -149,7 +161,8 @@
     },
     {
       "body": null,
-      "comments": 18,
+      "comments": null,
+      "commentsCount": 18,
       "id": "9052160",
       "points": 125,
       "source": "theguardian.com",
@@ -161,7 +174,8 @@
     },
     {
       "body": null,
-      "comments": 10,
+      "comments": null,
+      "commentsCount": 10,
       "id": "9052919",
       "points": 45,
       "source": "faa.gov",
@@ -173,7 +187,8 @@
     },
     {
       "body": null,
-      "comments": 12,
+      "comments": null,
+      "commentsCount": 12,
       "id": "9052445",
       "points": 14,
       "source": "developingandstuff.com",
@@ -185,7 +200,8 @@
     },
     {
       "body": null,
-      "comments": 11,
+      "comments": null,
+      "commentsCount": 11,
       "id": "9052395",
       "points": 30,
       "source": "imgur.com",
@@ -197,7 +213,8 @@
     },
     {
       "body": null,
-      "comments": 7,
+      "comments": null,
+      "commentsCount": 7,
       "id": "9054335",
       "points": 21,
       "source": "docs.google.com",
@@ -209,7 +226,8 @@
     },
     {
       "body": null,
-      "comments": 20,
+      "comments": null,
+      "commentsCount": 20,
       "id": "9051562",
       "points": 50,
       "source": "volatileread.com",
@@ -221,7 +239,8 @@
     },
     {
       "body": null,
-      "comments": 54,
+      "comments": null,
+      "commentsCount": 54,
       "id": "9051246",
       "points": 653,
       "source": "imgur.com",
@@ -233,7 +252,8 @@
     },
     {
       "body": null,
-      "comments": 7,
+      "comments": null,
+      "commentsCount": 7,
       "id": "9054265",
       "points": 10,
       "source": null,
@@ -245,7 +265,8 @@
     },
     {
       "body": null,
-      "comments": 199,
+      "comments": null,
+      "commentsCount": 199,
       "id": "9049208",
       "points": 709,
       "source": null,
@@ -257,7 +278,8 @@
     },
     {
       "body": null,
-      "comments": 8,
+      "comments": null,
+      "commentsCount": 8,
       "id": "9052784",
       "points": 6,
       "source": null,
@@ -269,7 +291,8 @@
     },
     {
       "body": null,
-      "comments": 182,
+      "comments": null,
+      "commentsCount": 182,
       "id": "9048772",
       "points": 335,
       "source": "theguardian.com",
@@ -281,7 +304,8 @@
     },
     {
       "body": null,
-      "comments": 7,
+      "comments": null,
+      "commentsCount": 7,
       "id": "9053772",
       "points": 12,
       "source": "perfscience.com",
@@ -293,7 +317,8 @@
     },
     {
       "body": null,
-      "comments": 30,
+      "comments": null,
+      "commentsCount": 30,
       "id": "9050597",
       "points": 47,
       "source": "nytimes.com",
@@ -305,7 +330,8 @@
     },
     {
       "body": null,
-      "comments": 79,
+      "comments": null,
+      "commentsCount": 79,
       "id": "9049698",
       "points": 142,
       "source": "github.com",
@@ -317,7 +343,8 @@
     },
     {
       "body": null,
-      "comments": 5,
+      "comments": null,
+      "commentsCount": 5,
       "id": "9054650",
       "points": 10,
       "source": null,
@@ -329,7 +356,8 @@
     },
     {
       "body": null,
-      "comments": 45,
+      "comments": null,
+      "commentsCount": 45,
       "id": "9050316",
       "points": 74,
       "source": "34cross.in",
@@ -341,7 +369,8 @@
     },
     {
       "body": null,
-      "comments": 11,
+      "comments": null,
+      "commentsCount": 11,
       "id": "9052188",
       "points": 71,
       "source": "sitepoint.com",
@@ -353,7 +382,8 @@
     },
     {
       "body": null,
-      "comments": 29,
+      "comments": null,
+      "commentsCount": 29,
       "id": "9049630",
       "points": 131,
       "source": "codecapsule.com",

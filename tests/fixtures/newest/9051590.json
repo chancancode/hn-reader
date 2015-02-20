@@ -5,7 +5,8 @@
   "stories": [
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9051590",
       "points": 1,
       "source": "reuters.com",
@@ -17,7 +18,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9051574",
       "points": 2,
       "source": "powercircuits.net",
@@ -29,7 +31,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9051563",
       "points": 1,
       "source": "medium.com",
@@ -41,7 +44,8 @@
     },
     {
       "body": null,
-      "comments": 15,
+      "comments": null,
+      "commentsCount": 15,
       "id": "9051562",
       "points": 33,
       "source": "volatileread.com",
@@ -53,7 +57,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9051560",
       "points": 1,
       "source": null,
@@ -65,7 +70,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9051555",
       "points": 1,
       "source": "opensourceecology.org",
@@ -77,7 +83,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9051547",
       "points": 1,
       "source": "space.com",
@@ -89,7 +96,8 @@
     },
     {
       "body": null,
-      "comments": 11,
+      "comments": null,
+      "commentsCount": 11,
       "id": "9051540",
       "points": 71,
       "source": "businessinsider.in",
@@ -101,7 +109,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9051533",
       "points": 1,
       "source": "haiderm.com",
@@ -113,7 +122,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9051530",
       "points": 5,
       "source": "github.com",
@@ -125,7 +135,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9051526",
       "points": 1,
       "source": "technologyreview.com",
@@ -137,7 +148,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9051469",
       "points": 2,
       "source": "sfgate.com",
@@ -149,7 +161,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9051453",
       "points": 2,
       "source": "newsrule.com",
@@ -161,7 +174,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9051426",
       "points": 2,
       "source": "parveenkaler.com",
@@ -173,7 +187,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9051425",
       "points": 1,
       "source": "hackerhmb.tumblr.com",
@@ -185,7 +200,8 @@
     },
     {
       "body": null,
-      "comments": 2,
+      "comments": null,
+      "commentsCount": 2,
       "id": "9051417",
       "points": 1,
       "source": null,
@@ -197,7 +213,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9051383",
       "points": 3,
       "source": "scodub.com",
@@ -209,7 +226,8 @@
     },
     {
       "body": null,
-      "comments": 15,
+      "comments": null,
+      "commentsCount": 15,
       "id": "9051373",
       "points": 30,
       "source": "amibeingtracked.com",
@@ -221,7 +239,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9051361",
       "points": 1,
       "source": "gizmodo.com",
@@ -233,7 +252,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9051332",
       "points": 1,
       "source": "ibtimes.co.uk",
@@ -245,7 +265,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9051311",
       "points": 1,
       "source": "pocoo.org",
@@ -257,7 +278,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9051295",
       "points": 1,
       "source": "politico.com",
@@ -269,7 +291,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9051294",
       "points": 2,
       "source": "arstechnica.com",
@@ -281,7 +304,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9051290",
       "points": 1,
       "source": "newyorker.com",
@@ -293,7 +317,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9051288",
       "points": 28,
       "source": "theguardian.com",
@@ -305,7 +330,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9051285",
       "points": 1,
       "source": "tugberkugurlu.com",
@@ -317,7 +343,8 @@
     },
     {
       "body": null,
-      "comments": 7,
+      "comments": null,
+      "commentsCount": 7,
       "id": "9051271",
       "points": 32,
       "source": "bbc.co.uk",
@@ -329,7 +356,8 @@
     },
     {
       "body": null,
-      "comments": 1,
+      "comments": null,
+      "commentsCount": 1,
       "id": "9051270",
       "points": 1,
       "source": "arhack.net",
@@ -341,7 +369,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9051253",
       "points": 2,
       "source": "resobscura.blogspot.com",
@@ -353,7 +382,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9051247",
       "points": 1,
       "source": "kernel.org",

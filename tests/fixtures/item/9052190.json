@@ -1,7 +1,9 @@
 {
+  "comments": [],
   "story": {
     "body": null,
-    "comments": 0,
+    "comments": [],
+    "commentsCount": 0,
     "id": "9052190",
     "points": 2,
     "source": "wikipedia.org",

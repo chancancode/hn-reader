@@ -1,7 +1,111 @@
 {
+  "comments": [
+    {
+      "body": "You might want to look through e.g. http://en.wikipedia.org/wiki/List_of_websites_founded_before... and http://en.wikipedia.org/wiki/List_of_the_oldest_currently_re...",
+      "comments": [],
+      "id": "9048403",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9047298",
+      "submitted": "1 day ago",
+      "submitter": "cogburnd02"
+    },
+    {
+      "body": "I wouldn't be surprised if a bunch of .edu or non-US FTP servers are still running from the '80s. Hard to find and verify though.",
+      "comments": [],
+      "id": "9049081",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9047298",
+      "submitted": "1 day ago",
+      "submitter": "cromulent"
+    },
+    {
+      "body": "I'm on an iOS device so I can't inspect the headers, but how about http://ftp.arl.army.mil ?",
+      "comments": [
+        "9048186"
+      ],
+      "id": "9048162",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9047298",
+      "submitted": "1 day ago",
+      "submitter": "js2"
+    },
+    {
+      "body": "Unnamed Apache version, but serving HTTP 1.1.",
+      "comments": [],
+      "id": "9048186",
+      "isDead": false,
+      "parent": "9048162",
+      "quality": 1,
+      "story": "9047298",
+      "submitted": "1 day ago",
+      "submitter": "mcmatterson"
+    },
+    {
+      "body": "http://www.TheWorld.com Running since 1989, though I doubt it was continuous.",
+      "comments": [
+        "9047599"
+      ],
+      "id": "9047347",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9047298",
+      "submitted": "1 day ago",
+      "submitter": "franciscogarcia"
+    },
+    {
+      "body": "Currently, that's running Apache 1.2.6, which was released in March 1998.",
+      "comments": [
+        "9050487"
+      ],
+      "id": "9047599",
+      "isDead": false,
+      "parent": "9047347",
+      "quality": 1,
+      "story": "9047298",
+      "submitted": "1 day ago",
+      "submitter": "mhandley"
+    },
+    {
+      "body": "How are you qualifying the search?\n\nI update my machine all the time with new versions...",
+      "comments": [
+        "9050797"
+      ],
+      "id": "9050487",
+      "isDead": false,
+      "parent": "9047599",
+      "quality": 1,
+      "story": "9047298",
+      "submitted": "14 hours ago",
+      "submitter": "sejje"
+    },
+    {
+      "body": "I can't really impose any hard definition, but I was wondering what the oldest server is that's still running on either the original hardware or original software.  I don't mind if the software has a minor patch or two to fix bugs or security issues, or hardware has had parts replaced, but no major upgrade to newer hardware or newer versions of software.   There are plenty of DNS servers that were set up in the 1980s and still run on the original domain name, but don't run the original software or hardware.  So those wouldn't really count.  I guess I'm wondering what software or hardware was sufficiently reliable that it didn't need upgrading over all those years (at least for a limited workload).",
+      "comments": [],
+      "id": "9050797",
+      "isDead": false,
+      "parent": "9050487",
+      "quality": 1,
+      "story": "9047298",
+      "submitted": "12 hours ago",
+      "submitter": "mhandley"
+    }
+  ],
   "story": {
     "body": "One of our webservers is pretty ancient.  I configured it in 1993 running CERN/3.0, and it's still running in production use 22 years later.  Admittedly, it's not on the original Sun IPC hardware anymore; sometime in the late 1990s it was moved to a Sparcstation 4, and there it remains.  It stopped being our primary webserver about ten years back, but still handles all the staff webpages in production use:\n\nbash-3.2$ telnet www0.cs.ucl.ac.uk 80\n\n...\n\nGET /staff/M.Handley/ HTTP/1.0\n\nHTTP/1.0 200 Document follows\n\nMIME-Version: 1.0\n\nServer: CERN/3.0\n\nDate: Fri, 13 Feb 2015 21:19:43 GMT\n\n...\n\nSo, 22 year old webserver software running on 19 year old hardware.  Not bad.  But something tells me there must be even older servers out there somewhere?  Perhaps some ancient ftp server or DNS server?  So, what is the oldest continuously used server on the Internet (still running the original software or hardware - even if patched)?",
-    "comments": 8,
+    "comments": [
+      "9048403",
+      "9049081",
+      "9048162",
+      "9047347"
+    ],
+    "commentsCount": 8,
     "id": "9047298",
     "points": 34,
     "source": null,

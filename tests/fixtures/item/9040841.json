@@ -1,7 +1,1133 @@
 {
+  "comments": [
+    {
+      "body": "This looks great. Thanks for making it open-source. I've tried other self-hosted chat apps, but this one looks promising. IRC integration would be great. :)When I was experimenting with websockets, I wanted to make a simple chat app that integrates with Github projects. Of course, not nearly as feature rich, but just an experiment to learn.\n\nSource with demo: https://github.com/alfg/chathub-client",
+      "comments": [
+        "9044159",
+        "9043165",
+        "9043190",
+        "9042750",
+        "9041695"
+      ],
+      "id": "9041565",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "alfg"
+    },
+    {
+      "body": "Indeed very interesting open-source application! I agree IRC integration would be really nice, it's one of my favourite features on Slack, allowing me to communicate with my team mates without changing context when i'm inside a server context.I wrote a simple how-to to do it for Slack and would be delighted to contribute on this feature for Let's chat!\n\nhttp://www.pilgrimbreak.com/how-to-access-slack-with-command...",
+      "comments": [
+        "9044432"
+      ],
+      "id": "9044159",
+      "isDead": false,
+      "parent": "9041565",
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "1 day ago",
+      "submitter": "cellover"
+    },
+    {
+      "body": "Hey if you're IRC-foo is crazy good, it'd be amazing if you helped us out! Think about it, you could be internet batman.",
+      "comments": [],
+      "id": "9044432",
+      "isDead": false,
+      "parent": "9044159",
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "1 day ago",
+      "submitter": "hhaidar"
+    },
+    {
+      "body": "You can have a look at Waartaa - https://github.com/waartaa/waartaa",
+      "comments": [],
+      "id": "9043165",
+      "isDead": false,
+      "parent": "9041565",
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "sayanchowdhury"
+    },
+    {
+      "body": "+1 for the demo. If there's a 1click2heroku script for this, it will be golden~",
+      "comments": [],
+      "id": "9043190",
+      "isDead": false,
+      "parent": "9041565",
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "ledzep2"
+    },
+    {
+      "body": "For github projects, I've been using http://gitter.im  I've found the integration to be awesome and well thought-out.",
+      "comments": [
+        "9043154"
+      ],
+      "id": "9042750",
+      "isDead": false,
+      "parent": "9041565",
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "smhx"
+    },
+    {
+      "body": "Oh, definitely. Gitter has been great as a hosted solution!",
+      "comments": [
+        "9043551"
+      ],
+      "id": "9043154",
+      "isDead": false,
+      "parent": "9042750",
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "alfg"
+    },
+    {
+      "body": "What's with the auto-playing music when you hit their main page though? It looks like a great project, and I do love Mario and all things Nintendo, but auto-playing music is just obnoxious.",
+      "comments": [],
+      "id": "9043551",
+      "isDead": false,
+      "parent": "9043154",
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "davb"
+    },
+    {
+      "body": "That looks pretty neat.\n\nAlso +1 for having a demo!",
+      "comments": [],
+      "id": "9041695",
+      "isDead": false,
+      "parent": "9041565",
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "hhaidar"
+    },
+    {
+      "body": "Very nice work! And thanks so much for making it open source. Our company is always looking for an open-source solution that would let us move off of Hangouts, and this might just be the vehicle for that someday. XMPP, chat history, @mentions, local hosting, and open source...a great combo.\n\nThe only major thing that's missing that we'd need is private chat! Hope to see that as a feature someday.",
+      "comments": [
+        "9041155"
+      ],
+      "id": "9041122",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "Brendinooo"
+    },
+    {
+      "body": "Thanks!\n\nPrivate is pretty much first on our list for the next release. We use hangouts as well and it's definitely a pain point to juggle multiple apps.",
+      "comments": [
+        "9042828"
+      ],
+      "id": "9041155",
+      "isDead": false,
+      "parent": "9041122",
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "hhaidar"
+    },
+    {
+      "body": "Will you be using WebRTC for the chat interface?",
+      "comments": [
+        "9044412"
+      ],
+      "id": "9042828",
+      "isDead": false,
+      "parent": "9041155",
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "tracker1"
+    },
+    {
+      "body": "Possibly. I think it'll be a while before we do any audio/video stuff.We're actually just two guys with full time jobs and this is our \"10% Time\" at work, so our time is a little strained.\n\nI'm hoping to get some pull requests from strangers which I've heard are the best kind of pull requests!",
+      "comments": [],
+      "id": "9044412",
+      "isDead": false,
+      "parent": "9042828",
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "1 day ago",
+      "submitter": "hhaidar"
+    },
+    {
+      "body": "I literally just came from the Slack site to HN wondering if there was an opensource/selfhosting version of something like Slack. Well I guess that question is answered.",
+      "comments": [
+        "9042428",
+        "9041241"
+      ],
+      "id": "9041152",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "janvdberg"
+    },
+    {
+      "body": "There is also `ncat` http://www.commandlinefu.com/commands/view/13460/simple-mult...\n\n(I'll see myself to the door.)",
+      "comments": [
+        "9042542"
+      ],
+      "id": "9042428",
+      "isDead": false,
+      "parent": "9041152",
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "vortico"
+    },
+    {
+      "body": "That's actually really neat!",
+      "comments": [],
+      "id": "9042542",
+      "isDead": false,
+      "parent": "9042428",
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "hhaidar"
+    },
+    {
+      "body": "There is also Kandan App. https://github.com/kandanapp/kandan",
+      "comments": [
+        "9041289"
+      ],
+      "id": "9041241",
+      "isDead": false,
+      "parent": "9041152",
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "qznc"
+    },
+    {
+      "body": "Is Kandan still actively developed? Doesn't seem like there's been anything new for a couple of years.",
+      "comments": [
+        "9041676",
+        "9041437"
+      ],
+      "id": "9041289",
+      "isDead": false,
+      "parent": "9041241",
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "hhaidar"
+    },
+    {
+      "body": "Yep, we still are! I recently got added to the ownership team for Kandan (https://github.com/orgs/kandanapp/people) and I've been trying to respond to every issue / pull request that's been submitted. If there's a feature you are missing, let me know. Our last commit was 22 days ago, and we've added a ton of bug fixes, optimizations, security fixes, and overall tweaks in the past few years. Check us out!Recently, the thing I've been focusing on lately with the app is bug fixes, small tweaks, and upgrading Rails. There's a lot of feature requests on the backburner, but I want the app to be extremely stable before going a mile wide and an inch deep.\n\nThat being said, \"Let's Chat\" looks like it is a great approach and I look forward to the progress that comes on it. The more open source solutions, the better.",
+      "comments": [
+        "9042644"
+      ],
+      "id": "9041676",
+      "isDead": false,
+      "parent": "9041289",
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "eggbrain"
+    },
+    {
+      "body": "eggbrain,I really like Kanban and I am sad to see it isn't up to rails 4.2 yet. Are you looking for more contributors?\n\nIf so, how could I contact you to resolve a few questions so I can get the current repo up and running to work on?",
+      "comments": [
+        "9042886"
+      ],
+      "id": "9042644",
+      "isDead": false,
+      "parent": "9041676",
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "DevFactor"
+    },
+    {
+      "body": "Yes, more people contributing to Kandan would be awesome! My email is in my profile, feel free to shoot me a message and I can help you get setup (anyone else reading this message, feel free to do the same as well if you have trouble not getting Kandan working).",
+      "comments": [],
+      "id": "9042886",
+      "isDead": false,
+      "parent": "9042644",
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "eggbrain"
+    },
+    {
+      "body": "It may not be as actively developed as something like Node, but people are still submitting PRs and the original author is still making updates.",
+      "comments": [],
+      "id": "9041437",
+      "isDead": false,
+      "parent": "9041289",
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "xasos"
+    },
+    {
+      "body": "Awesome stuff @hhaidar! I'm sure a bunch of people will love the fact that logs and data exist on their servers. I'm sure it'll resolve some privacy/internal regulation concerns.\n\nAlso, hi from Toronto!   I work out of CSI at Bloor + Bathurst. Nice to see another Torontonian on here :)",
+      "comments": [
+        "9041082"
+      ],
+      "id": "9041011",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "onassar"
+    },
+    {
+      "body": "Thanks, this means a lot to us :)\n\nWe're around Adelaide and University, not too far from your neck of the woods!",
+      "comments": [],
+      "id": "9041082",
+      "isDead": false,
+      "parent": "9041011",
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "hhaidar"
+    },
+    {
+      "body": "This looks amazing - I recently had to add chat functionality to a web service (self-hosted) and was very much surprised at the crappy options out there. I ended up going with converse.js but the django support was lacking and the whole thing took a lot longer than i thought it was going to take (but then again , it always does)\n\nI might test this out and actually swap them out if it works well.",
+      "comments": [
+        "9041821"
+      ],
+      "id": "9041754",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "misiti3780"
+    },
+    {
+      "body": "Damn, I can't tell you how awesome this makes me feel.\n\nIs your service open source or public?",
+      "comments": [
+        "9042879",
+        "9042622"
+      ],
+      "id": "9041821",
+      "isDead": false,
+      "parent": "9041754",
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "hhaidar"
+    },
+    {
+      "body": "the website i had to add it to is closed-source, but as someone below indicated, converse.js is open source. the actual code base of converse.js isnt bad - but no one was responsive on github as of a few months ago - and that was a huge problem",
+      "comments": [],
+      "id": "9042879",
+      "isDead": false,
+      "parent": "9041821",
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "misiti3780"
+    },
+    {
+      "body": "S/he was talking about adding chat to one of his/her sites(or customer's sites) using conversejs[0] which is indeed opensource.\n\n[0]-https://conversejs.org/",
+      "comments": [
+        "9044445"
+      ],
+      "id": "9042622",
+      "isDead": false,
+      "parent": "9041821",
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "ZoF"
+    },
+    {
+      "body": "Ah great, thanks!",
+      "comments": [],
+      "id": "9044445",
+      "isDead": false,
+      "parent": "9042622",
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "1 day ago",
+      "submitter": "hhaidar"
+    },
+    {
+      "body": "Something similar https://github.com/JabbR/JabbR",
+      "comments": [
+        "9043333"
+      ],
+      "id": "9041247",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "mandeepj"
+    },
+    {
+      "body": "JabbR is also very neat, it's a .Net project and actively being developped.I installed it for my company (everyone here knows c# and asp.net mvc )\n\nIt's the best project that shows SignalR ( a real time js framework on the .Net platform)",
+      "comments": [],
+      "id": "9043333",
+      "isDead": false,
+      "parent": "9041247",
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "NicoJuicy"
+    },
+    {
+      "body": "Slightly off topic but everyone here seems somewhat interested in open source self hosted solutions, so check out http://selfhosted.reddit.com",
+      "comments": [],
+      "id": "9041334",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "arobertson"
+    },
+    {
+      "body": "This is great! We use Slack at work and for our uses wouldn't move away from it (we're paying and all), BUT for small teams/private projects/miscellaneous stuff, I absolutely love this.\n\nGreat work!",
+      "comments": [],
+      "id": "9041844",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "filmgirlcw"
+    },
+    {
+      "body": "I was about to say \"come on, nothing beats IRC\", but then I remembered how I always wanted IRC to have LDAP, XMPP, and a REST API.\n\nSo... can I connect with my IRC client?",
+      "comments": [
+        "9041338",
+        "9041531",
+        "9041299"
+      ],
+      "id": "9041200",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "hughes"
+    },
+    {
+      "body": "I want it the other way - let's clone all those shiny features and make a pretty, nongeek-friendly client. IRC protocol can be extended to handle all that stuff.",
+      "comments": [
+        "9042126"
+      ],
+      "id": "9041338",
+      "isDead": false,
+      "parent": "9041200",
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "TeMPOraL"
+    },
+    {
+      "body": "People have been working on stuff like that. I dunno if they are super baked yet but https://github.com/ircanywhere/ircanywhere",
+      "comments": [],
+      "id": "9042126",
+      "isDead": false,
+      "parent": "9041338",
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "unknownian"
+    },
+    {
+      "body": "If it speaks standard XMPP you can use Bitlbee to connect to it via your IRC client.",
+      "comments": [],
+      "id": "9041531",
+      "isDead": false,
+      "parent": "9041200",
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "cheald"
+    },
+    {
+      "body": "I mean, you can always fork it :)",
+      "comments": [],
+      "id": "9041299",
+      "isDead": false,
+      "parent": "9041200",
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "hhaidar"
+    },
+    {
+      "body": "Neat. What's the purpose of the \"slug\" when creating the room? I was expecting it to be the URL slug, such as http://localhost:5000/#!/room/my-room (and quickly noticed hyphens in the slug name caused a validation error...).",
+      "comments": [
+        "9041294"
+      ],
+      "id": "9041286",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "nogridbag"
+    },
+    {
+      "body": "It's mainly for XMPP (room slugs are used as the identifiers there).\n\nAlso try typing in #ROOMNAME in the textbox! You can link to rooms like that.",
+      "comments": [],
+      "id": "9041294",
+      "isDead": false,
+      "parent": "9041286",
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "hhaidar"
+    },
+    {
+      "body": "This is really great. Two big missing features preventing us from switching away from Slack are direct messages and mobile push notifications. The latter is hard to do: push is highly centralized, which is really bad for self-hosted/open source software. But DMs are totally doable.",
+      "comments": [
+        "9041674",
+        "9042254",
+        "9041270"
+      ],
+      "id": "9041266",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "sinak"
+    },
+    {
+      "body": "> The latter is hard to do: push is highly centralized, which is really bad for self-hosted/open source softwareWhy is this the case? I would have thought it's the same in principle whether it's a central Slack server, or a central FooMumble server running Let's Chat.\n\n(Difficulty of implementation might be high, but that doesn't seem to be what you're talking about?)",
+      "comments": [
+        "9042339"
+      ],
+      "id": "9041674",
+      "isDead": false,
+      "parent": "9041266",
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "scott_karana"
+    },
+    {
+      "body": "There are basically two options and they both suck. Either publish one app and distribute the push notification cert (terrible idea) or each hosted site needs it's own cert and thus an Apple account/published app (pain in the ass).",
+      "comments": [
+        "9045365"
+      ],
+      "id": "9042339",
+      "isDead": false,
+      "parent": "9041674",
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "thedufer"
+    },
+    {
+      "body": "Gotcha, I didn't realize that APNS was involved here. :)",
+      "comments": [],
+      "id": "9045365",
+      "isDead": false,
+      "parent": "9042339",
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "1 day ago",
+      "submitter": "scott_karana"
+    },
+    {
+      "body": "Push is fairly easy to do. There are JS libs for both Google and Apple push services. The hardest part is getting all of your Apple certs setup correctly. Then you just create a simple Cordova app to register devices.",
+      "comments": [],
+      "id": "9042254",
+      "isDead": false,
+      "parent": "9041266",
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "driverdan"
+    },
+    {
+      "body": "Private/direct messaging is the next big feature we will be adding :)",
+      "comments": [],
+      "id": "9041270",
+      "isDead": false,
+      "parent": "9041266",
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "sibartlett"
+    },
+    {
+      "body": "Live Demo: http://chat.sagivo.com",
+      "comments": [],
+      "id": "9041985",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "sagivo"
+    },
+    {
+      "body": "Is there a way to change user avatars? The screenshot has them but I can't find it in 0.3.2.\n\nBTW the wiki page for Docker references release/0.3.0, but you don't have that branch naming prefix (release/).",
+      "comments": [
+        "9042360",
+        "9042461",
+        "9042397",
+        "9042357"
+      ],
+      "id": "9042352",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "Poiesis"
+    },
+    {
+      "body": "I think they are using Gravatar (https://en.gravatar.com/) to pull them in based on your email as it surprised me for a second when I set it up locally, registered and then my current profile photo was already there.",
+      "comments": [
+        "9042417"
+      ],
+      "id": "9042360",
+      "isDead": false,
+      "parent": "9042352",
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "jaymzcampbell"
+    },
+    {
+      "body": "Yup, Let's Chat uses Gravatar!",
+      "comments": [],
+      "id": "9042417",
+      "isDead": false,
+      "parent": "9042360",
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "hhaidar"
+    },
+    {
+      "body": "We should add that we are using Gravatar to our Wiki. It's not obvious for people who aren't already using Gravatar what's going on.",
+      "comments": [],
+      "id": "9042461",
+      "isDead": false,
+      "parent": "9042352",
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "rambot"
+    },
+    {
+      "body": "Whoops, I forgot to answer your first question. But yes, we are using Gravatar.",
+      "comments": [
+        "9044326"
+      ],
+      "id": "9042397",
+      "isDead": false,
+      "parent": "9042352",
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "notsrg"
+    },
+    {
+      "body": "Ah, I assume the reason we all get identical avatars is that gravatar api access gets stopped by the corporate proxy.  Any chance that's easily configurable?  You're probably going to see a lot of corporate use by places who insist on self hosting everything so you might want to consider dealing with avatars yourself.",
+      "comments": [
+        "9044465"
+      ],
+      "id": "9044326",
+      "isDead": false,
+      "parent": "9042397",
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "1 day ago",
+      "submitter": "Poiesis"
+    },
+    {
+      "body": "Yea it's something we're thinking about. Right now we just assume it'll be ran somewhere internet-aware.\n\nCan you do me a huge favour and file a PR in github? https://github.com/sdelements/lets-chat/issues",
+      "comments": [],
+      "id": "9044465",
+      "isDead": false,
+      "parent": "9044326",
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "1 day ago",
+      "submitter": "hhaidar"
+    },
+    {
+      "body": "0.3.0 is now merged into master",
+      "comments": [],
+      "id": "9042357",
+      "isDead": false,
+      "parent": "9042352",
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "notsrg"
+    },
+    {
+      "body": "I've reviewed the code of this project here: http://hackhat.com/p/130/lets-chat-analysis/Topics:     - Code organization;      - Deployment;      - Migrootions (mongoose migrations);      - Templates;      - Module loader;      - CSS;",
+      "comments": [
+        "9043899"
+      ],
+      "id": "9043737",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "1 day ago",
+      "submitter": "ttty"
+    },
+    {
+      "body": "You are, perhaps, somewhat overusing various graphical effects on that page. Consider toning it down.\n\nAt least for me, reading it was too annoying so I stopped. I realize this makes me superficial but I prefer my reading material to STAND STILL so I can look at it. I feel so old.",
+      "comments": [
+        "9044173",
+        "9044059"
+      ],
+      "id": "9043899",
+      "isDead": false,
+      "parent": "9043737",
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "1 day ago",
+      "submitter": "unwind"
+    },
+    {
+      "body": "You are not alone. When I go to a blog article, I expect to read the blog article, rather than have my reading experience jarringly interrupted every paragraph by an image taking over the entire screen.",
+      "comments": [],
+      "id": "9044173",
+      "isDead": false,
+      "parent": "9043899",
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "1 day ago",
+      "submitter": "bovermyer"
+    },
+    {
+      "body": "oh geez.  I could not agree more.",
+      "comments": [],
+      "id": "9044059",
+      "isDead": false,
+      "parent": "9043899",
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "1 day ago",
+      "submitter": "masukomi"
+    },
+    {
+      "body": "I just deployed to Heroku with the button and the home page gives me a \"Moved temporarily\". Later a 503 application error.",
+      "comments": [
+        "9041325",
+        "9041254",
+        "9041242"
+      ],
+      "id": "9041204",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "fiatjaf"
+    },
+    {
+      "body": "Thanks for letting us know about the issue! It's now fixed if you wish to try again :)",
+      "comments": [],
+      "id": "9041325",
+      "isDead": false,
+      "parent": "9041204",
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "sibartlett"
+    },
+    {
+      "body": "Same here.  Looks like \"TypeError: secret required\" from the heroku logs.",
+      "comments": [],
+      "id": "9041254",
+      "isDead": false,
+      "parent": "9041204",
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "chrishas35"
+    },
+    {
+      "body": "You should probably file it as a bug or ask for support on github rather than HN! :)",
+      "comments": [],
+      "id": "9041242",
+      "isDead": false,
+      "parent": "9041204",
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "ehsanf"
+    },
+    {
+      "body": "Could anyone tell me whether this supports markdown and whether it supports syntax highlighting? (kanban too if anyone knows). I tried reading on the respective github project pages but couldn't see anything related to those two questions.",
+      "comments": [],
+      "id": "9043629",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "mijoharas"
+    },
+    {
+      "body": "i like the auto heroku deploy. brilliant move by heroku.  a note - in chrome canery the browser crushes after login.",
+      "comments": [],
+      "id": "9041948",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "sagivo"
+    },
+    {
+      "body": "I think you guys should change the behaviour regarding the focus of the text box. If I start typing in the chat window, and my cursor didn't activate the text box, it doesn't type.",
+      "comments": [
+        "9044467"
+      ],
+      "id": "9042659",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "jdcaron"
+    },
+    {
+      "body": "Oh weird, what browsing are you using?",
+      "comments": [],
+      "id": "9044467",
+      "isDead": false,
+      "parent": "9042659",
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "1 day ago",
+      "submitter": "hhaidar"
+    },
+    {
+      "body": "This is great, good work. I just have one small quibble: did it HAVE to look identical to Slack? Branding and all, you know.",
+      "comments": [],
+      "id": "9044178",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "1 day ago",
+      "submitter": "bovermyer"
+    },
+    {
+      "body": "You guys should mention MIT license in the title, I didn't click earlier today because I thought it was a paid hosted solution.\n\n(Nothing against paid, I'm just browsing as tinkering me atm : )",
+      "comments": [
+        "9042023",
+        "9042115"
+      ],
+      "id": "9042012",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "eitland"
+    },
+    {
+      "body": "And, yes, I really liked the text, specially \"A real live 10% time project!\"",
+      "comments": [
+        "9042080"
+      ],
+      "id": "9042023",
+      "isDead": false,
+      "parent": "9042012",
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "eitland"
+    },
+    {
+      "body": "Haha, fixed. Thanks for bringing it up :P",
+      "comments": [],
+      "id": "9042080",
+      "isDead": false,
+      "parent": "9042023",
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "hhaidar"
+    },
+    {
+      "body": "I was hoping the fork ribbon and source code link would be enough. I'll look into adding something more explicit though.",
+      "comments": [],
+      "id": "9042115",
+      "isDead": false,
+      "parent": "9042012",
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "hhaidar"
+    },
+    {
+      "body": "I setup lets chat at a small start up I was at about 2 years and it worked very well then and im happy that it looks even better now. Will definitely consider it in the future.",
+      "comments": [],
+      "id": "9042225",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "trevordev"
+    },
+    {
+      "body": "Basically an open-source version of Slack. Nice work! https://slack.com/",
+      "comments": [
+        "9044523"
+      ],
+      "id": "9043652",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "1 day ago",
+      "submitter": "reinhardt1053"
+    },
+    {
+      "body": "We started the project back in 2012. It's an open source version of Campfire. :)",
+      "comments": [],
+      "id": "9044523",
+      "isDead": false,
+      "parent": "9043652",
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "1 day ago",
+      "submitter": "rambot"
+    },
+    {
+      "body": "This is really some great piece of software",
+      "comments": [
+        "9044394"
+      ],
+      "id": "9044360",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "1 day ago",
+      "submitter": "schuettla"
+    },
+    {
+      "body": "You're pretty great yourself :D",
+      "comments": [],
+      "id": "9044394",
+      "isDead": false,
+      "parent": "9044360",
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "1 day ago",
+      "submitter": "hhaidar"
+    },
+    {
+      "body": "Nice. My team uses mobile phones a lot for messaging. I will try to wrap it into a native mobile app so that people can get notification",
+      "comments": [],
+      "id": "9043210",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "maxwin"
+    },
+    {
+      "body": "This is so so awesome!",
+      "comments": [
+        "9042278"
+      ],
+      "id": "9042203",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "Yadi"
+    },
+    {
+      "body": "Damn. What's wrong with Hacker News today? Everyone is being amazing!",
+      "comments": [
+        "9042593"
+      ],
+      "id": "9042278",
+      "isDead": false,
+      "parent": "9042203",
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "hhaidar"
+    },
+    {
+      "body": "Hah! No for real! Iove this, while ago I worked on something similar based on Rails for a startup, but I left it half way through.\n\nAny plans to provide updates and take it to the next step?",
+      "comments": [
+        "9042646"
+      ],
+      "id": "9042593",
+      "isDead": false,
+      "parent": "9042278",
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "Yadi"
+    },
+    {
+      "body": "Our actual job is working on SD Elements (http://securitycompass.com/sdelements/). Let's Chat is just a side project, but it's also something we use internally everyday. The features you wish were there we also wish were there, no doubt. Lots of the developers here like working on it. I expect there will be updates from us for the foreseeable future. Hopefully we'll start getting more external pull requests as well.\n\nI doubt we are going to pivot to a free chat client company any time soon.",
+      "comments": [
+        "9045242"
+      ],
+      "id": "9042646",
+      "isDead": false,
+      "parent": "9042593",
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "rambot"
+    },
+    {
+      "body": "That sounds good my friend!",
+      "comments": [],
+      "id": "9045242",
+      "isDead": false,
+      "parent": "9042646",
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "1 day ago",
+      "submitter": "Yadi"
+    },
+    {
+      "body": "> Let<span class=\"lc-love\">'</span>s\n\nThat's why the ' in Let's is red!",
+      "comments": [],
+      "id": "9043543",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "ttty"
+    },
+    {
+      "body": "Any plans for search functionality?",
+      "comments": [
+        "9041812"
+      ],
+      "id": "9041743",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "calebm"
+    },
+    {
+      "body": "Yup, it's in the works for the next release.",
+      "comments": [],
+      "id": "9041812",
+      "isDead": false,
+      "parent": "9041743",
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "hhaidar"
+    },
+    {
+      "body": "Anyone ever tried kato.im? It seems free.",
+      "comments": [],
+      "id": "9043068",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "aagha"
+    },
+    {
+      "body": "migrootions? :-)",
+      "comments": [
+        "9041143"
+      ],
+      "id": "9041115",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "jMyles"
+    },
+    {
+      "body": "Yea I know, adorably hilarious!",
+      "comments": [],
+      "id": "9041143",
+      "isDead": false,
+      "parent": "9041115",
+      "quality": 1,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "hhaidar"
+    },
+    {
+      "body": "> Let's Chat is a persistent messaging application that runs on Node.js and MongoDB\n\nnope nope nope",
+      "comments": [],
+      "id": "9042182",
+      "isDead": false,
+      "parent": null,
+      "quality": 0.3176470588235294,
+      "story": "9040841",
+      "submitted": "2 days ago",
+      "submitter": "jonsterling"
+    }
+  ],
   "story": {
     "body": null,
-    "comments": 90,
+    "comments": [
+      "9041565",
+      "9041122",
+      "9041152",
+      "9041011",
+      "9041754",
+      "9041247",
+      "9041334",
+      "9041844",
+      "9041200",
+      "9041286",
+      "9041266",
+      "9041985",
+      "9042352",
+      "9043737",
+      "9041204",
+      "9043629",
+      "9041948",
+      "9042659",
+      "9044178",
+      "9042012",
+      "9042225",
+      "9043652",
+      "9044360",
+      "9043210",
+      "9042203",
+      "9043543",
+      "9041743",
+      "9043068",
+      "9041115",
+      "9042182"
+    ],
+    "commentsCount": 90,
     "id": "9040841",
     "points": 340,
     "source": "sdelements.github.io",

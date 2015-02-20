@@ -5,7 +5,8 @@
   "stories": [
     {
       "body": null,
-      "comments": 4,
+      "comments": null,
+      "commentsCount": 4,
       "id": "9050979",
       "points": 14,
       "source": "salon.com",
@@ -17,7 +18,8 @@
     },
     {
       "body": null,
-      "comments": 48,
+      "comments": null,
+      "commentsCount": 48,
       "id": "9050343",
       "points": 172,
       "source": null,
@@ -29,7 +31,8 @@
     },
     {
       "body": null,
-      "comments": 2,
+      "comments": null,
+      "commentsCount": 2,
       "id": "9052451",
       "points": 7,
       "source": "carrotmuseum.co.uk",
@@ -41,7 +44,8 @@
     },
     {
       "body": null,
-      "comments": 2,
+      "comments": null,
+      "commentsCount": 2,
       "id": "9052971",
       "points": 1,
       "source": null,
@@ -53,7 +57,8 @@
     },
     {
       "body": null,
-      "comments": 1,
+      "comments": null,
+      "commentsCount": 1,
       "id": "9053136",
       "points": 2,
       "source": "7xter.com",
@@ -65,7 +70,8 @@
     },
     {
       "body": null,
-      "comments": 2,
+      "comments": null,
+      "commentsCount": 2,
       "id": "9053115",
       "points": 4,
       "source": "gauravbits.com",
@@ -77,7 +83,8 @@
     },
     {
       "body": null,
-      "comments": 6,
+      "comments": null,
+      "commentsCount": 6,
       "id": "9050468",
       "points": 20,
       "source": "hmarco.org",
@@ -89,7 +96,8 @@
     },
     {
       "body": null,
-      "comments": 7,
+      "comments": null,
+      "commentsCount": 7,
       "id": "9049945",
       "points": 68,
       "source": "marc.info",
@@ -101,7 +109,8 @@
     },
     {
       "body": null,
-      "comments": 2,
+      "comments": null,
+      "commentsCount": 2,
       "id": "9052774",
       "points": 3,
       "source": null,
@@ -113,7 +122,8 @@
     },
     {
       "body": null,
-      "comments": 198,
+      "comments": null,
+      "commentsCount": 198,
       "id": "9044805",
       "points": 385,
       "source": "bloomberg.com",
@@ -125,7 +135,8 @@
     },
     {
       "body": null,
-      "comments": 21,
+      "comments": null,
+      "commentsCount": 21,
       "id": "9049317",
       "points": 69,
       "source": "aphyr.com",
@@ -137,7 +148,8 @@
     },
     {
       "body": null,
-      "comments": 4,
+      "comments": null,
+      "commentsCount": 4,
       "id": "9049619",
       "points": 9,
       "source": null,
@@ -149,7 +161,8 @@
     },
     {
       "body": null,
-      "comments": 1,
+      "comments": null,
+      "commentsCount": 1,
       "id": "9054854",
       "points": 8,
       "source": "theregister.co.uk",
@@ -161,7 +174,8 @@
     },
     {
       "body": null,
-      "comments": 1,
+      "comments": null,
+      "commentsCount": 1,
       "id": "9055094",
       "points": 1,
       "source": "medium.com",
@@ -173,7 +187,8 @@
     },
     {
       "body": null,
-      "comments": 1,
+      "comments": null,
+      "commentsCount": 1,
       "id": "9050721",
       "points": 6,
       "source": "twitter.com",
@@ -185,7 +200,8 @@
     },
     {
       "body": null,
-      "comments": 1,
+      "comments": null,
+      "commentsCount": 1,
       "id": "9053808",
       "points": 1,
       "source": "ma.ttias.be",
@@ -197,7 +213,8 @@
     },
     {
       "body": null,
-      "comments": 10,
+      "comments": null,
+      "commentsCount": 10,
       "id": "9050379",
       "points": 72,
       "source": "desmos.com",
@@ -209,7 +226,8 @@
     },
     {
       "body": null,
-      "comments": 1,
+      "comments": null,
+      "commentsCount": 1,
       "id": "9054988",
       "points": 1,
       "source": "qz.com",
@@ -221,7 +239,8 @@
     },
     {
       "body": null,
-      "comments": 1,
+      "comments": null,
+      "commentsCount": 1,
       "id": "9054866",
       "points": 9,
       "source": "wikipedia.org",
@@ -233,7 +252,8 @@
     },
     {
       "body": null,
-      "comments": 1,
+      "comments": null,
+      "commentsCount": 1,
       "id": "9054785",
       "points": 2,
       "source": "wildlyinaccurate.com",
@@ -245,7 +265,8 @@
     },
     {
       "body": null,
-      "comments": 1,
+      "comments": null,
+      "commentsCount": 1,
       "id": "9054803",
       "points": 1,
       "source": "radul.name",
@@ -257,7 +278,8 @@
     },
     {
       "body": null,
-      "comments": 1,
+      "comments": null,
+      "commentsCount": 1,
       "id": "9054452",
       "points": 12,
       "source": "php.net",
@@ -269,7 +291,8 @@
     },
     {
       "body": null,
-      "comments": 1,
+      "comments": null,
+      "commentsCount": 1,
       "id": "9054678",
       "points": 2,
       "source": null,
@@ -281,7 +304,8 @@
     },
     {
       "body": null,
-      "comments": 1,
+      "comments": null,
+      "commentsCount": 1,
       "id": "9054919",
       "points": 1,
       "source": "datasociety.net",
@@ -293,7 +317,8 @@
     },
     {
       "body": null,
-      "comments": 1,
+      "comments": null,
+      "commentsCount": 1,
       "id": "9053974",
       "points": 1,
       "source": "themindunleashed.org",
@@ -305,7 +330,8 @@
     },
     {
       "body": null,
-      "comments": 63,
+      "comments": null,
+      "commentsCount": 63,
       "id": "9043756",
       "points": 99,
       "source": "plus.google.com",
@@ -317,7 +343,8 @@
     },
     {
       "body": null,
-      "comments": 1,
+      "comments": null,
+      "commentsCount": 1,
       "id": "9054819",
       "points": 1,
       "source": "analyse.asia",
@@ -329,7 +356,8 @@
     },
     {
       "body": null,
-      "comments": 1,
+      "comments": null,
+      "commentsCount": 1,
       "id": "9054772",
       "points": 2,
       "source": "devdocs.io",
@@ -341,7 +369,8 @@
     },
     {
       "body": null,
-      "comments": 1,
+      "comments": null,
+      "commentsCount": 1,
       "id": "9054685",
       "points": 5,
       "source": "anyplace.io",
@@ -353,7 +382,8 @@
     },
     {
       "body": null,
-      "comments": 1,
+      "comments": null,
+      "commentsCount": 1,
       "id": "9054364",
       "points": 3,
       "source": "codejar.org",

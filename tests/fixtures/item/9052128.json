@@ -1,7 +1,747 @@
 {
+  "comments": [
+    {
+      "body": "Where there's people working there are bound to be mistakes. Don't sweat it, this is a free service after all and the service level for a non-advertising supported free service is absolutely incredible. I'd be more than happy to pay for HN as it is, you guys are doing a better job than most paid services when it comes to customer support, uptime and courtesy combined.",
+      "comments": [
+        "9052463",
+        "9052230",
+        "9052310"
+      ],
+      "id": "9052219",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052128",
+      "submitted": "16 hours ago",
+      "submitter": "jacquesm"
+    },
+    {
+      "body": "Hacker News is most definitely supported by ads. Perhaps you just don't realize it.\n\nhttps://news.ycombinator.com/jobs",
+      "comments": [
+        "9052564",
+        "9053040",
+        "9053133"
+      ],
+      "id": "9052463",
+      "isDead": false,
+      "parent": "9052219",
+      "quality": 1,
+      "story": "9052128",
+      "submitted": "14 hours ago",
+      "submitter": "switz"
+    },
+    {
+      "body": "I'm fairly certain those companies don't pay for those job listings.",
+      "comments": [
+        "9052691",
+        "9052910"
+      ],
+      "id": "9052564",
+      "isDead": false,
+      "parent": "9052463",
+      "quality": 1,
+      "story": "9052128",
+      "submitted": "13 hours ago",
+      "submitter": "thomasfoster96"
+    },
+    {
+      "body": "Just because they give them out for free (to a very small specific group of companies) doesn't mean they don't have value.",
+      "comments": [
+        "9052695"
+      ],
+      "id": "9052691",
+      "isDead": false,
+      "parent": "9052564",
+      "quality": 1,
+      "story": "9052128",
+      "submitted": "12 hours ago",
+      "submitter": "smackfu"
+    },
+    {
+      "body": "Oh yes they certainly have value - but Those job listings aren't ads that pay for servers and bandwidth for hacker news.",
+      "comments": [
+        "9052703",
+        "9053114"
+      ],
+      "id": "9052695",
+      "isDead": false,
+      "parent": "9052691",
+      "quality": 1,
+      "story": "9052128",
+      "submitted": "12 hours ago",
+      "submitter": "thomasfoster96"
+    },
+    {
+      "body": "Depends how you look at it.",
+      "comments": [],
+      "id": "9052703",
+      "isDead": false,
+      "parent": "9052695",
+      "quality": 1,
+      "story": "9052128",
+      "submitted": "12 hours ago",
+      "submitter": "eli"
+    },
+    {
+      "body": "Whether that value directly pays for servers or intangibly-or-directly increases their own startups' value doesn't seem like an important distinction.",
+      "comments": [],
+      "id": "9053114",
+      "isDead": false,
+      "parent": "9052695",
+      "quality": 1,
+      "story": "9052128",
+      "submitted": "10 hours ago",
+      "submitter": "benologist"
+    },
+    {
+      "body": "Well, they are YC companies so they pay YC with a pretty significant portion of their equity.",
+      "comments": [],
+      "id": "9052910",
+      "isDead": false,
+      "parent": "9052564",
+      "quality": 1,
+      "story": "9052128",
+      "submitted": "11 hours ago",
+      "submitter": "kyleblarson"
+    },
+    {
+      "body": "Sure, and Harvard is supported by ads, you just don't realize it.(sell an education->create wealthy people->ask them to contribute->get endowment whose returns account for the largest source of its operating revenue[1])but I find your semantics frankly ridiculous.  yes hacker news belongs to ycombinator.  but you can't just use the word ad however you want. No, not everything's an ad, and in particular you can't 'buy' a job ad on HN.  It's not a good description of the situation.\n\n[1] http://www.harvard.edu/about-harvard/harvard-glance/endowmen... \"The endowment remains the largest source of revenue supporting the University budget.\"",
+      "comments": [],
+      "id": "9053040",
+      "isDead": false,
+      "parent": "9052463",
+      "quality": 1,
+      "story": "9052128",
+      "submitted": "10 hours ago",
+      "submitter": "logicallee"
+    },
+    {
+      "body": "Are you the same switz from #r/GlobalOffensive?",
+      "comments": [],
+      "id": "9053133",
+      "isDead": false,
+      "parent": "9052463",
+      "quality": 0.38823529411764707,
+      "story": "9052128",
+      "submitted": "9 hours ago",
+      "submitter": "DadFoundMy"
+    },
+    {
+      "body": "Seriously. I use HN as my \"am I connected to the internet?\" check, as it always loads instantly even when Google takes a while.",
+      "comments": [
+        "9052242",
+        "9052270",
+        "9052670",
+        "9053831"
+      ],
+      "id": "9052230",
+      "isDead": false,
+      "parent": "9052219",
+      "quality": 1,
+      "story": "9052128",
+      "submitted": "16 hours ago",
+      "submitter": "mintplant"
+    },
+    {
+      "body": "I personally use : http://perdu.com (up since 1998) Which translate into:\n\nLost on the Internet? Don't worry, we will help * <----- you are here",
+      "comments": [
+        "9052314",
+        "9052296"
+      ],
+      "id": "9052242",
+      "isDead": false,
+      "parent": "9052230",
+      "quality": 1,
+      "story": "9052128",
+      "submitted": "16 hours ago",
+      "submitter": "ponytech"
+    },
+    {
+      "body": "What fast IP do you use when you suspect you're connected to the internet but can't resolve DNS? I'm looking for a good non-Google IP (because China)",
+      "comments": [
+        "9052362",
+        "9053107"
+      ],
+      "id": "9052314",
+      "isDead": false,
+      "parent": "9052242",
+      "quality": 1,
+      "story": "9052128",
+      "submitted": "16 hours ago",
+      "submitter": "imjustsaying"
+    },
+    {
+      "body": "Level3's DNS is easy to remember at 4.2.2.1.  Or is that Verizon's?",
+      "comments": [
+        "9052449",
+        "9052418"
+      ],
+      "id": "9052362",
+      "isDead": false,
+      "parent": "9052314",
+      "quality": 1,
+      "story": "9052128",
+      "submitted": "15 hours ago",
+      "submitter": "nitrogen"
+    },
+    {
+      "body": "You should only use 4.2.2.1 or 4.2.2.2 if you're an actual Level3 customer. While they do respond to public requests, they're not intended for public use, unlike Google's 8.8.8.8 and 8.8.4.4 servers.",
+      "comments": [
+        "9052721"
+      ],
+      "id": "9052449",
+      "isDead": false,
+      "parent": "9052362",
+      "quality": 1,
+      "story": "9052128",
+      "submitted": "14 hours ago",
+      "submitter": "vinceguidry"
+    },
+    {
+      "body": "https://news.ycombinator.com/item?id=7120248Level3's VP says they're public.\n\n(They go up to 4.2.2.6 too, I think.)",
+      "comments": [
+        "9053402"
+      ],
+      "id": "9052721",
+      "isDead": false,
+      "parent": "9052449",
+      "quality": 1,
+      "story": "9052128",
+      "submitted": "12 hours ago",
+      "submitter": "userbinator"
+    },
+    {
+      "body": "Interesting.  I seen to remember that at one point the reverse lookup for one of the 4.2.2.x addresses was \"dont-steal-service-etc.somebody\".  I just send an ICMP ping when I need an IP to check a connection.  I also seem to recall reading that the 4.2.2.x resolvers were multi-homed, but in both cases my memory could be faulty.",
+      "comments": [],
+      "id": "9053402",
+      "isDead": false,
+      "parent": "9052721",
+      "quality": 1,
+      "story": "9052128",
+      "submitted": "8 hours ago",
+      "submitter": "nitrogen"
+    },
+    {
+      "body": "Or google's at 8.8.8.8 and 8.8.4.4 ?",
+      "comments": [],
+      "id": "9052418",
+      "isDead": false,
+      "parent": "9052362",
+      "quality": 1,
+      "story": "9052128",
+      "submitted": "14 hours ago",
+      "submitter": "wattengard"
+    },
+    {
+      "body": "I still ping the IP address of my college's DNS server, all these years later. Muscle memory dies hard.",
+      "comments": [],
+      "id": "9053107",
+      "isDead": false,
+      "parent": "9052314",
+      "quality": 1,
+      "story": "9052128",
+      "submitted": "10 hours ago",
+      "submitter": "pcl"
+    },
+    {
+      "body": "I'd love to see their stats. They have basically 0 content and I hit them 10 times a day.",
+      "comments": [],
+      "id": "9052296",
+      "isDead": false,
+      "parent": "9052242",
+      "quality": 1,
+      "story": "9052128",
+      "submitted": "16 hours ago",
+      "submitter": "tux3"
+    },
+    {
+      "body": "Hah, glad it's not just me.  It's also the thing I hit if I'm trying to think of what I was doing/am idle for a moment... typing 'news.' just seems to flow from my fingers if they're unoccupied.",
+      "comments": [
+        "9052422",
+        "9052575",
+        "9052331",
+        "9052407"
+      ],
+      "id": "9052270",
+      "isDead": false,
+      "parent": "9052230",
+      "quality": 1,
+      "story": "9052128",
+      "submitted": "16 hours ago",
+      "submitter": "iamwithnail"
+    },
+    {
+      "body": "Ctrl-T, N, Enter :/",
+      "comments": [
+        "9053065"
+      ],
+      "id": "9052422",
+      "isDead": false,
+      "parent": "9052270",
+      "quality": 1,
+      "story": "9052128",
+      "submitted": "14 hours ago",
+      "submitter": "joefreeman"
+    },
+    {
+      "body": "same here, I visit this site so much that only typing 'N' does the job.",
+      "comments": [],
+      "id": "9053065",
+      "isDead": false,
+      "parent": "9052422",
+      "quality": 1,
+      "story": "9052128",
+      "submitted": "10 hours ago",
+      "submitter": "asadlionpk"
+    },
+    {
+      "body": "There used to be a race between Google news (news.google.com) and Hacker News to be the top suggestion for me, hacker news has pulled away to a strong lead recently.",
+      "comments": [],
+      "id": "9052575",
+      "isDead": false,
+      "parent": "9052270",
+      "quality": 1,
+      "story": "9052128",
+      "submitted": "13 hours ago",
+      "submitter": "thomasfoster96"
+    },
+    {
+      "body": "Yep, same for me. I'll be staring at the screen in thought, then up pops a Hacker News tab.",
+      "comments": [],
+      "id": "9052331",
+      "isDead": false,
+      "parent": "9052270",
+      "quality": 1,
+      "story": "9052128",
+      "submitted": "15 hours ago",
+      "submitter": "mintplant"
+    },
+    {
+      "body": "I have this habit too and it's deeply disturbing.  Actively fighting it!",
+      "comments": [
+        "9053279"
+      ],
+      "id": "9052407",
+      "isDead": false,
+      "parent": "9052270",
+      "quality": 1,
+      "story": "9052128",
+      "submitted": "14 hours ago",
+      "submitter": "vehementi"
+    },
+    {
+      "body": "Why fight it? Visiting a technological/intellectual inspiration source definitely goes in my list of positive habits.",
+      "comments": [],
+      "id": "9053279",
+      "isDead": false,
+      "parent": "9052407",
+      "quality": 1,
+      "story": "9052128",
+      "submitted": "9 hours ago",
+      "submitter": "megalodon"
+    },
+    {
+      "body": "I use HN because I can never trust whether anymore whether Google is really loading from a remote source or is just doing some aggressive caching magic (or whether Chrome just has the Google homepage baked in now).",
+      "comments": [],
+      "id": "9052670",
+      "isDead": false,
+      "parent": "9052230",
+      "quality": 1,
+      "story": "9052128",
+      "submitted": "12 hours ago",
+      "submitter": "bpodgursky"
+    },
+    {
+      "body": "In terms of uptime, HN has been hosted on a single server (until recently... I saw mention of a failover server). If you are just looking for a lightweight site to load, example.com is great.",
+      "comments": [],
+      "id": "9053831",
+      "isDead": false,
+      "parent": "9052230",
+      "quality": 1,
+      "story": "9052128",
+      "submitted": "6 hours ago",
+      "submitter": "logn"
+    },
+    {
+      "body": "it's perhaps worth remembering the service isn't 100% altruistic... though I agree it is indeed awesome and I'd probably be happy to pay for it too.",
+      "comments": [
+        "9052545"
+      ],
+      "id": "9052310",
+      "isDead": false,
+      "parent": "9052219",
+      "quality": 1,
+      "story": "9052128",
+      "submitted": "16 hours ago",
+      "submitter": "math"
+    },
+    {
+      "body": "Could you give some good examples of 100% altruistic?",
+      "comments": [
+        "9053276",
+        "9052558"
+      ],
+      "id": "9052545",
+      "isDead": false,
+      "parent": "9052310",
+      "quality": 1,
+      "story": "9052128",
+      "submitted": "13 hours ago",
+      "submitter": "akshatpradhan"
+    },
+    {
+      "body": "groklaw.net was close enough for me.",
+      "comments": [],
+      "id": "9053276",
+      "isDead": false,
+      "parent": "9052545",
+      "quality": 1,
+      "story": "9052128",
+      "submitted": "9 hours ago",
+      "submitter": "spacemanmatt"
+    },
+    {
+      "body": "These are probably debatable, but I'd suggest Wikipedia and Archive.org would come close.",
+      "comments": [],
+      "id": "9052558",
+      "isDead": false,
+      "parent": "9052545",
+      "quality": 1,
+      "story": "9052128",
+      "submitted": "13 hours ago",
+      "submitter": "Intermernet"
+    },
+    {
+      "body": "Saved comments throws an error trying to view page 2 of saved comments.(change the below to your own ID ofc.)https://news.ycombinator.com/saved?id=eterm&comments=yes&p=2\n\nActually, it looks like page 2 of saved stories also breaks? Is it just finding something not cached and the site is currently broken for non-cached content?",
+      "comments": [
+        "9052304"
+      ],
+      "id": "9052256",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052128",
+      "submitted": "16 hours ago",
+      "submitter": "eterm"
+    },
+    {
+      "body": "Thanks! We were trying to track down an error message we were seeing, and you found it.",
+      "comments": [],
+      "id": "9052304",
+      "isDead": false,
+      "parent": "9052256",
+      "quality": 1,
+      "story": "9052128",
+      "submitted": "16 hours ago",
+      "submitter": "kogir"
+    },
+    {
+      "body": "That's ok - you did it while I was asleep :)\n\nI seem to remember that last year there was talk of re-doing the markup for HN so that it would be more mobile-friendly. What came of that idea?",
+      "comments": [
+        "9052205"
+      ],
+      "id": "9052200",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052128",
+      "submitted": "17 hours ago",
+      "submitter": "colinramsay"
+    },
+    {
+      "body": "We've been working on it lately and don't expect it to take too much longer, so stay tuned.",
+      "comments": [
+        "9052289"
+      ],
+      "id": "9052205",
+      "isDead": false,
+      "parent": "9052200",
+      "quality": 1,
+      "story": "9052128",
+      "submitted": "16 hours ago",
+      "submitter": "dang"
+    },
+    {
+      "body": "Great, thanks!",
+      "comments": [],
+      "id": "9052289",
+      "isDead": false,
+      "parent": "9052205",
+      "quality": 1,
+      "story": "9052128",
+      "submitted": "16 hours ago",
+      "submitter": "colinramsay"
+    },
+    {
+      "body": "And I missed it in code review and testing. Sorry!",
+      "comments": [
+        "9052184"
+      ],
+      "id": "9052145",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052128",
+      "submitted": "17 hours ago",
+      "submitter": "kogir"
+    },
+    {
+      "body": "And now I'm doubling down. HN is once again running an entirely new HTTP pipeline.\n\nPlease let us know if you run into any issues, especially related to cookies and logging in/out.",
+      "comments": [],
+      "id": "9052184",
+      "isDead": false,
+      "parent": "9052145",
+      "quality": 1,
+      "story": "9052128",
+      "submitted": "17 hours ago",
+      "submitter": "kogir"
+    },
+    {
+      "body": "When is the responsive style sheet coming :)?",
+      "comments": [
+        "9052454"
+      ],
+      "id": "9052250",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052128",
+      "submitted": "16 hours ago",
+      "submitter": "deanclatworthy"
+    },
+    {
+      "body": "Oh lord, I hope it will not force some annoyingly huge text on us. I am perfectly happy with the site as it is, works well with text-reflow.",
+      "comments": [
+        "9052725",
+        "9053634"
+      ],
+      "id": "9052454",
+      "isDead": false,
+      "parent": "9052250",
+      "quality": 1,
+      "story": "9052128",
+      "submitted": "14 hours ago",
+      "submitter": "aw3c2"
+    },
+    {
+      "body": "Agreed. I am free to zoom around and scroll through as much as I want right now and makes it very easy for me to use the site. Just take a look at Craigslist to see how terrible it cn be to have no ability to view all content.",
+      "comments": [],
+      "id": "9052725",
+      "isDead": false,
+      "parent": "9052454",
+      "quality": 1,
+      "story": "9052128",
+      "submitted": "12 hours ago",
+      "submitter": "partisan"
+    },
+    {
+      "body": "As a fierce advocate for information density on Hacker News I can pretty well guarantee you it will never have annoyingly huge text.",
+      "comments": [],
+      "id": "9053634",
+      "isDead": false,
+      "parent": "9052454",
+      "quality": 1,
+      "story": "9052128",
+      "submitted": "7 hours ago",
+      "submitter": "dang"
+    },
+    {
+      "body": "\"Saved Comments\" is valuable and long wished-for, thanks for adding the feature!\n\nWill it be possible to extract these as JSON, e.g. via the API?",
+      "comments": [
+        "9053644"
+      ],
+      "id": "9052415",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052128",
+      "submitted": "14 hours ago",
+      "submitter": "walterbell"
+    },
+    {
+      "body": "Good idea. The API doesn't support all the lists (edit: and logged-in state) properly yet, and when we fix that, it should be natural to include both variants of /saved.",
+      "comments": [],
+      "id": "9053644",
+      "isDead": false,
+      "parent": "9052415",
+      "quality": 1,
+      "story": "9052128",
+      "submitted": "7 hours ago",
+      "submitter": "dang"
+    },
+    {
+      "body": "I love how ironic your account name is in this context :)",
+      "comments": [
+        "9052238"
+      ],
+      "id": "9052221",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052128",
+      "submitted": "16 hours ago",
+      "submitter": "blackhole"
+    },
+    {
+      "body": "Yup. https://news.ycombinator.com/item?id=7494093",
+      "comments": [],
+      "id": "9052238",
+      "isDead": false,
+      "parent": "9052221",
+      "quality": 1,
+      "story": "9052128",
+      "submitted": "16 hours ago",
+      "submitter": "dang"
+    },
+    {
+      "body": "Ah, you clearly need a proper review process!\n\nJust joking - thanks for the work you guys put in, this is definitely one of the most interesting place on the web :)",
+      "comments": [],
+      "id": "9052197",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052128",
+      "submitted": "17 hours ago",
+      "submitter": "andrea_s"
+    },
+    {
+      "body": "If only there was some way to quickly get told when production hiccups... And if only there was some way to prove each feature works automatically... :-)",
+      "comments": [],
+      "id": "9053290",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052128",
+      "submitted": "9 hours ago",
+      "submitter": "jwatte"
+    },
+    {
+      "body": "You were experimenting with code on the production server? If not, do you have automated tests?",
+      "comments": [],
+      "id": "9053533",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052128",
+      "submitted": "8 hours ago",
+      "submitter": "ugh123"
+    },
+    {
+      "body": "Nice to see test-driven development at the height of its powers. :-)",
+      "comments": [],
+      "id": "9052366",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052128",
+      "submitted": "15 hours ago",
+      "submitter": "bencollier49"
+    },
+    {
+      "body": "Curious what effect this will have on comment upvotes.",
+      "comments": [],
+      "id": "9053156",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052128",
+      "submitted": "9 hours ago",
+      "submitter": "thisjepisje"
+    },
+    {
+      "body": "I noticed saved stories but why are comments showing up twice on the account page.",
+      "comments": [
+        "9052203"
+      ],
+      "id": "9052196",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052128",
+      "submitted": "17 hours ago",
+      "submitter": "dkarapetyan"
+    },
+    {
+      "body": "It's the comments you've upvoted, as opposed to those you've posted. I just changed the label to make that clearer.\n\nhttps://news.ycombinator.com/item?id=9050374",
+      "comments": [
+        "9052240"
+      ],
+      "id": "9052203",
+      "isDead": false,
+      "parent": "9052196",
+      "quality": 1,
+      "story": "9052128",
+      "submitted": "16 hours ago",
+      "submitter": "dang"
+    },
+    {
+      "body": "It'll be interesting to see whether this has an effect on the nature of upvoting. If saved comments were slightly more structured, rather than just one big list, I could imagine them comprising some sort of 'personal knowledgebase'. In turn, that might decrease the amount of 'I agree with that' opinion upvoting, in favour of 'that's useful information'. Whether that's to be encouraged is, of course, a personal opinion.",
+      "comments": [
+        "9052317"
+      ],
+      "id": "9052240",
+      "isDead": false,
+      "parent": "9052203",
+      "quality": 1,
+      "story": "9052128",
+      "submitted": "16 hours ago",
+      "submitter": "oneeyedpigeon"
+    },
+    {
+      "body": "Interesting point. HN mostly is a collection of lists. You might almost call it a list processor.",
+      "comments": [
+        "9052562"
+      ],
+      "id": "9052317",
+      "isDead": false,
+      "parent": "9052240",
+      "quality": 1,
+      "story": "9052128",
+      "submitted": "16 hours ago",
+      "submitter": "dang"
+    },
+    {
+      "body": "What a brilliant idea! A \"List Processor\"!\n\nOh, wait...",
+      "comments": [],
+      "id": "9052562",
+      "isDead": false,
+      "parent": "9052317",
+      "quality": 1,
+      "story": "9052128",
+      "submitted": "13 hours ago",
+      "submitter": "Intermernet"
+    },
+    {
+      "body": "Easily done! :)",
+      "comments": [],
+      "id": "9052376",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052128",
+      "submitted": "15 hours ago",
+      "submitter": "vegancap"
+    }
+  ],
   "story": {
     "body": "Experimenting with some code this evening and got so into it, I didn't notice that I broke story submission for two hours. Argh!\n\nSorry everyone.\n\nEdit: While you're here... you can now view the comments you've upvoted by clicking on \"saved comments\" in your profile. It works like \"saved stories\". Thanks to porker for the suggestion: https://news.ycombinator.com/item?id=9050374.",
-    "comments": 59,
+    "comments": [
+      "9052219",
+      "9052256",
+      "9052200",
+      "9052145",
+      "9052250",
+      "9052415",
+      "9052221",
+      "9052197",
+      "9053290",
+      "9053533",
+      "9052366",
+      "9053156",
+      "9052196",
+      "9052376"
+    ],
+    "commentsCount": 59,
     "id": "9052128",
     "points": 147,
     "source": null,

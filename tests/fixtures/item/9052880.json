@@ -1,7 +1,702 @@
 {
+  "comments": [
+    {
+      "body": "Trying to 'cure' ageing is strange and unnatural.We're just another species of primate, we age and we die, and we rot, and then we're nothing. Worms and pinochle and whatnot.\n\nThe only thing we should try to cure is our self-delusion and our fear. It only wastes what little time we have. If some of us start living to 120, we'll still moan that it isn't enough. It's never enough.",
+      "comments": [
+        "9054865",
+        "9054214",
+        "9054208"
+      ],
+      "id": "9054161",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052880",
+      "submitted": "5 hours ago",
+      "submitter": "krapp"
+    },
+    {
+      "body": "An unhandled, appeal to nature, as a blatant coping mechanism. It's is escapist.  IE \" lets ignore the problem \".This common of a fallacy is the top rated comment ... on HN. Please let that sink in.\n\nNothing more needs to be said.  This forum is supposed to represent the top echelons of silicon valley thought.  Not some echo chamber of common ( \"well always want more\" ... really?) memes.",
+      "comments": [
+        "9054901"
+      ],
+      "id": "9054865",
+      "isDead": false,
+      "parent": "9054161",
+      "quality": 1,
+      "story": "9052880",
+      "submitted": "1 hour ago",
+      "submitter": "delinquentme"
+    },
+    {
+      "body": "Several people have disagreed with me here. I don't have the patience to wait for you to keep reediting your comment into something that no longer reads like it was written by a raging child on 4chan. Maybe you should read the other comments to see what an intelligent response is.\n\nI'm not appealing to nature anyway, i'm appealing to physics.",
+      "comments": [
+        "9054908"
+      ],
+      "id": "9054901",
+      "isDead": false,
+      "parent": "9054865",
+      "quality": 0.6470588235294118,
+      "story": "9052880",
+      "submitted": "1 hour ago",
+      "submitter": "krapp"
+    },
+    {
+      "body": "I am certain you aren't a physicist.",
+      "comments": [
+        "9054916"
+      ],
+      "id": "9054908",
+      "isDead": false,
+      "parent": "9054901",
+      "quality": 1,
+      "story": "9052880",
+      "submitted": "1 hour ago",
+      "submitter": "delinquentme"
+    },
+    {
+      "body": "You don't have to be a physicist to know that what entropy is.",
+      "comments": [
+        "9054948"
+      ],
+      "id": "9054916",
+      "isDead": false,
+      "parent": "9054908",
+      "quality": 0.6470588235294118,
+      "story": "9052880",
+      "submitted": "1 hour ago",
+      "submitter": "krapp"
+    },
+    {
+      "body": "Dont forget the hayflick limit !",
+      "comments": [
+        "9054976"
+      ],
+      "id": "9054948",
+      "isDead": false,
+      "parent": "9054916",
+      "quality": 1,
+      "story": "9052880",
+      "submitted": "1 hour ago",
+      "submitter": "delinquentme"
+    },
+    {
+      "body": "I can't tell if you're still trying (and failing) to mock me or if you've tried to contribute something of value.",
+      "comments": [],
+      "id": "9054976",
+      "isDead": false,
+      "parent": "9054948",
+      "quality": 1,
+      "story": "9052880",
+      "submitted": "55 minutes ago",
+      "submitter": "krapp"
+    },
+    {
+      "body": "That's only partially true. For instance, if I knew I was going to live to 120, it'd be much easier to decide whether to have kids (20 yr opportunity cost), do a PhD (4-7 yr opportunity cost), etc. Currently, you can have about 2-3 careers if you want them, but if you lived for 120 years, you could have 4-5. Basically, it makes commitment less costly in a very real way that makes several choices fall below various \"go\" thresholds.",
+      "comments": [],
+      "id": "9054214",
+      "isDead": false,
+      "parent": "9054161",
+      "quality": 1,
+      "story": "9052880",
+      "submitted": "5 hours ago",
+      "submitter": "SapphireSun"
+    },
+    {
+      "body": "The improbability of immortality does not mean that life extension is worthless. Is striving to reach 80 asinine because we'll just want more? Should we have been satisfied at 40? The status quo is no argument for what we should want to achieve.\n\nIn fact, I'll argue that any serious life extension will have to come with a similarly extended lease on quality. Senesence will need to be stemmed upstream, so more of your 120 years will be good years.",
+      "comments": [
+        "9054644",
+        "9054292"
+      ],
+      "id": "9054208",
+      "isDead": false,
+      "parent": "9054161",
+      "quality": 1,
+      "story": "9052880",
+      "submitted": "5 hours ago",
+      "submitter": "photonic28"
+    },
+    {
+      "body": "Except there might be unseen consequences. It's all very hard to predict, but here's one example. Suppose human life is extended by 20 years. For some, it might be enough to start a second (or third) career. For others -- maybe not. Which means that people will need to remain in their career for a much longer duration, which might cause them considerable distress. Then again, maybe not.",
+      "comments": [
+        "9054985"
+      ],
+      "id": "9054644",
+      "isDead": false,
+      "parent": "9054208",
+      "quality": 1,
+      "story": "9052880",
+      "submitted": "3 hours ago",
+      "submitter": "pron"
+    },
+    {
+      "body": "There will almost certainly be unseen consequences. Some may be negative, but I believe the aggregate will be more positive (assuming senescence remains at least proportional to lifespan). As Newton stated, we may see further by standing on the shoulders of giants. As our species acquires more knowledge, the time it takes to learn what has previously been discovered often increases. Our average lifespan may become (or already be) a bottleneck to faster technological innovation.\n\nImagine those at age 100 preparing for the second half of their lives rather than expecting to die in the very near future. That may spawn a new phase of maturation that doesn't exist today. What if, generations from now, people recall how young and dumb they were before they turned 100?",
+      "comments": [],
+      "id": "9054985",
+      "isDead": false,
+      "parent": "9054644",
+      "quality": 1,
+      "story": "9052880",
+      "submitted": "50 minutes ago",
+      "submitter": "scobar"
+    },
+    {
+      "body": "I'm not saying it's worthless, i'm saying we shouldn't act as if aging or death are diseases to be cured.",
+      "comments": [
+        "9054427",
+        "9054903",
+        "9054415",
+        "9054402"
+      ],
+      "id": "9054292",
+      "isDead": false,
+      "parent": "9054208",
+      "quality": 1,
+      "story": "9052880",
+      "submitted": "5 hours ago",
+      "submitter": "krapp"
+    },
+    {
+      "body": "Why not? Aging is just one more of the imperfections of nature that we are trying to fix.To give an example:\n\nThe fact that it might be impossible to \"fix\" aging is no reason to not fight against it. Just like the conservation of energy law and the 2nd law of thermodynamics are no reason for us not to try to inch closer and closer to the theoretical limits of efficiency in clean energy production.",
+      "comments": [],
+      "id": "9054427",
+      "isDead": false,
+      "parent": "9054292",
+      "quality": 1,
+      "story": "9052880",
+      "submitted": "4 hours ago",
+      "submitter": "krastanov"
+    },
+    {
+      "body": "no. we should absolutely, act as if aging and death is something to be cured.A rose by any other name, is just as sweet.  I mean to say, all of the STUFF associated with malady is there.  So how / why does death/aging ... with all its symptoms ... differ?\n\nIt doesn't.",
+      "comments": [
+        "9054996"
+      ],
+      "id": "9054903",
+      "isDead": false,
+      "parent": "9054292",
+      "quality": 1,
+      "story": "9052880",
+      "submitted": "1 hour ago",
+      "submitter": "delinquentme"
+    },
+    {
+      "body": "It differs in that it can't be cured. Although I suppose you could consider it a terminal illness then by definition.Life can be extended, perhaps. Made more productive, certainly. But a cure for death? Show me one organism in nature anywhere near as complex as a human being with the capacity for unlimited aging and I'll believe it's possible. Technologically extending life for a few decades on average with a battery of complex and expensive medical treatments is not a cure.Otherwise, looking at death or aging as a disease, while it might provide the catalyst for any number of worthwhile medical advances, also provides false hope. It's like waiting for the Singularity to happen so we can all upload our minds into the Eschaton. It's just another form of hoping for an afterlife.\n\nYes, absolutely act as if it can be cured, but don't believe it can.",
+      "comments": [],
+      "id": "9054996",
+      "isDead": false,
+      "parent": "9054903",
+      "quality": 1,
+      "story": "9052880",
+      "submitted": "44 minutes ago",
+      "submitter": "krapp"
+    },
+    {
+      "body": "Why should any disease be cured if not to extend the life and quality of life of the person suffering it?",
+      "comments": [],
+      "id": "9054415",
+      "isDead": false,
+      "parent": "9054292",
+      "quality": 1,
+      "story": "9052880",
+      "submitted": "4 hours ago",
+      "submitter": "photonic28"
+    },
+    {
+      "body": "You don't have to. Some other people doing so might find out something useful along the way.",
+      "comments": [],
+      "id": "9054402",
+      "isDead": false,
+      "parent": "9054292",
+      "quality": 1,
+      "story": "9052880",
+      "submitted": "4 hours ago",
+      "submitter": "lotsofmangos"
+    },
+    {
+      "body": "The truth is we have no idea how to stop aging. That is why it is better to fund the heck out of basic science. When you don't know where to start, then you have to wait on that amazing breakthrough. No one really knows where that may come from.",
+      "comments": [
+        "9054108"
+      ],
+      "id": "9053987",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052880",
+      "submitted": "6 hours ago",
+      "submitter": "jostmey"
+    },
+    {
+      "body": "Various factions within the scientific community have a lot of very good ideas as to exactly how, in great detail, to go about research and development with a high probability of producing effective treatments for aging at the end of the day. For example, these laundry lists:SENS: http://sens.org/research/introduction-to-sens-researchHallmarks of Aging: http://dx.doi.org/10.1016/j.cell.2013.05.039\n\nSeven Pillars: http://buckinstitute.org/CellCommentary",
+      "comments": [],
+      "id": "9054108",
+      "isDead": false,
+      "parent": "9053987",
+      "quality": 1,
+      "story": "9052880",
+      "submitted": "5 hours ago",
+      "submitter": "reasonattlm"
+    },
+    {
+      "body": "A million dollars doesn't seem like much of a prize considering the result.  For that kind of money, we should be X-Prize Kickstarter projects.",
+      "comments": [
+        "9053778",
+        "9053841"
+      ],
+      "id": "9053105",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052880",
+      "submitted": "10 hours ago",
+      "submitter": "melling"
+    },
+    {
+      "body": "Obviously, the market value of such a result is in the order of billions, if not trillions.",
+      "comments": [],
+      "id": "9053778",
+      "isDead": false,
+      "parent": "9053105",
+      "quality": 1,
+      "story": "9052880",
+      "submitted": "7 hours ago",
+      "submitter": "ekr"
+    },
+    {
+      "body": "I'm not sure that financial prizes give much of an incentive either way for people trying to stop aging.",
+      "comments": [
+        "9054082"
+      ],
+      "id": "9053841",
+      "isDead": false,
+      "parent": "9053105",
+      "quality": 1,
+      "story": "9052880",
+      "submitted": "6 hours ago",
+      "submitter": "lotsofmangos"
+    },
+    {
+      "body": "Financial prizes have worked for centuries. Have to be specific on a goal.\n\nhttp://en.m.wikipedia.org/wiki/Longitude_%28book%29",
+      "comments": [
+        "9054281"
+      ],
+      "id": "9054082",
+      "isDead": false,
+      "parent": "9053841",
+      "quality": 1,
+      "story": "9052880",
+      "submitted": "5 hours ago",
+      "submitter": "melling"
+    },
+    {
+      "body": "Is a good book, but I think you miss my point. Measuring longitude is exactly the sort of thing a cash prize helps with, elixirs of life already have such strong incentives attached that you might as well just award a nice cake and a balloon saying \"Well Done\".",
+      "comments": [],
+      "id": "9054281",
+      "isDead": false,
+      "parent": "9054082",
+      "quality": 1,
+      "story": "9052880",
+      "submitted": "5 hours ago",
+      "submitter": "lotsofmangos"
+    },
+    {
+      "body": "Mortality is the #1 bug of human hardware (with cancer a close #2). It may have been a feature a few thousand years ago, with limited resources, but it's now hampering our progress.I don't want mankind achievements to be limited by our limited lifespan. The first 20 to 30 years are wasted on learning - almost like 1/3 of a average life. But with linespans in the 200 to 300 years, that would be 10% - and these added productive years could bring so many more good things. Imagine if Feynman and Einstein were still alive today, having new ideas, discovering new things. Imagine if we still learn during 1/3 of the lifespan - the amount of knowledge that would be acquired, and the marvels we could achieve with it.For those who will lament on how this would be bad/capitalism/not respecting nature or (insert your favorite deity), nobody will force you do to anything. Die of old age at 90 if you want.\n\nPersonally, I want extended life or immortality to do crazy thing when I'm still young in my early 200 (or young again thanks to cures we can't even imagine at the moment)",
+      "comments": [
+        "9054026",
+        "9054089",
+        "9053943"
+      ],
+      "id": "9053855",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052880",
+      "submitted": "6 hours ago",
+      "submitter": "guylhem"
+    },
+    {
+      "body": "I agree in the long run.\n\nBut you don't have to get very old before it's obvious that a lot of ageing is an accumulation of small infirmities that build up over time. There may well be a switch that can turn on or off the dramatic downturn that occurs in old age (perhaps to do with telomeres, or lossy DNA replication, or whatever), but it seems unlikely the same switch will also reverse that accumulation of infirmities. Returning a 60 year old body to the same maintenance processes as a 20 year old body won't fix torn cartilage, sciatica, or cardiovascular damage. So obviously we should be investigating the former processes, but the techniques for the latter small problems must be substantially fixed beforehand, or else we'll end up in this nightmarish middle zone of people getting more and more unwell, but not dying.",
+      "comments": [
+        "9054076"
+      ],
+      "id": "9054026",
+      "isDead": false,
+      "parent": "9053855",
+      "quality": 1,
+      "story": "9052880",
+      "submitted": "6 hours ago",
+      "submitter": "Brakenshire"
+    },
+    {
+      "body": "My limited understanding is that the repair processes also play a big part. For example bones become brittle because stem cells no longer fill the gaps as quickly as they appear. The body also fully replaces every cell every seven years. If they could find a way to just restore the repair mechanisms a whole host of problems could slowly start to disappear.",
+      "comments": [
+        "9054131"
+      ],
+      "id": "9054076",
+      "isDead": false,
+      "parent": "9054026",
+      "quality": 1,
+      "story": "9052880",
+      "submitted": "5 hours ago",
+      "submitter": "ENGNR"
+    },
+    {
+      "body": "Bones also suffer from other processes that damage the structural properties of the extracellular matrix such as cross-linking by hard to break down sugar compounds. There is also a process of growing cellular dysregulation wherein the ongoing bone remodeling favors destruction over construction, and that is distinct from stem cell decline. Every tissue is impacted by multiple forms of damage beyond loss of maintenance via stem cell function, some of which, like the cross-linking, accumulate slowly and cannot be repaired by our biochemistry. Clearance of some sort will be needed.\n\nThe body does not replace all of its cells; different tissues have different turnover rates. Many of the cells in your central nervous system will be with you for your entire life. There is research to suggest that even some of the individual proteins in those cells are never replaced either.",
+      "comments": [],
+      "id": "9054131",
+      "isDead": false,
+      "parent": "9054076",
+      "quality": 1,
+      "story": "9052880",
+      "submitted": "5 hours ago",
+      "submitter": "reasonattlm"
+    },
+    {
+      "body": "But there will surely be other Feynmans and Einsteins. What difference does it make if that's the same person? Also, why do you assume that we'll acquire more knowledge than we already have? It makes sense to think (as the human brain is a huge energy sink), that our brains are just large enough to process information for one human lifetime. I don't remember most of what I learned at university, and that wasn't even two decades ago.",
+      "comments": [],
+      "id": "9054089",
+      "isDead": false,
+      "parent": "9053855",
+      "quality": 1,
+      "story": "9052880",
+      "submitted": "5 hours ago",
+      "submitter": "pron"
+    },
+    {
+      "body": "My only concern is overpopulation. What about that?",
+      "comments": [
+        "9054006",
+        "9054258"
+      ],
+      "id": "9053943",
+      "isDead": false,
+      "parent": "9053855",
+      "quality": 0.6470588235294118,
+      "story": "9052880",
+      "submitted": "6 hours ago",
+      "submitter": "manmal"
+    },
+    {
+      "body": "Intuitively it seems to be an issue. The mathematics, however, say not! The trouble with mathematics being correct is it doesn't convince most people, imo. Really it needs someone who people trust to tell them life extension is OK. Possibly a film star. Anyway, since we're on HN, here's a paper.'Demographic Consequences of Defeating Aging'[0].'A common objection against starting a large-scale biomedical war on aging is the fear of catastrophic population consequences (overpopulation). This fear is only exacerbated by the fact that no detailed demographic projections for radical life extension scenario have been conducted so far. This study explores different demographic scenarios and population projections, in order to clarify what could be the demographic consequences of a successful biomedical war on aging. A general conclusion of this study is that population changes are surprisingly slow in their response to a dramatic life extension. For example, we applied the cohort-component method of population projections to 2005 Swedish population for several scenarios of life extension and a fertility schedule observed in 2005. Even for very long 100-year projection horizon, with the most radical life extension scenario (assuming no aging at all after age 60), the total population increases by 22% only (from 9.1 to 11.0 million). Moreover, if some members of society reject to use new anti-aging technologies for some religious or any other reasons (inconvenience, non-compliance, fear of side effects, costs, etc.), then the total population size may even decrease over time. Thus, even in the case of the most radical life extension scenario, population growth could be relatively slow and may not necessarily lead to overpopulation. Therefore, the real concerns should be placed not on the threat of catastrophic population consequences (overpopulation), but rather on such potential obstacles to a success of biomedical war on aging, as scientific, organizational, and financial limitations.'\n\n[0] http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3192186/",
+      "comments": [
+        "9054069"
+      ],
+      "id": "9054006",
+      "isDead": false,
+      "parent": "9053943",
+      "quality": 1,
+      "story": "9052880",
+      "submitted": "6 hours ago",
+      "submitter": "forloop"
+    },
+    {
+      "body": "As that paper very first assumption is both unlikely and shows a complete lack of imagination, I think its results are dubious. In addition, I seriously doubt that we hae the math to be able to predict this.Here is what the paper says:Let us start with the worst-case scenario (for overpopulation)—physical immortality...  Consider a situation, when parents produce less than 2 children on average, so that each next generation is smaller than the previous one... This conclusion does not require any complex calculations and questionable assumptions, but follows directly from the calculus, and the property of infinite geometric series to convergeWell, I beg to differ with the \"questionable assumption\" part. Why would anyone think that in infinite time, parents will have, on average, less than two children?And here's the lack of imagination: the whole (cultural) concept of \"parents\" and family dissolves when there's no death. If you marry at 1000, and stay married to your wife for 5000 years (producing one child), chances are that by the time you're 50000 you've likely forgotten your wife's name, and your only child's too. In fact, you won't even remember that happened (well, maybe you'll remember your first time around, but by your 200th marriage, you won't remember how many children you had with your 37th wife).\n\nOf course, I may be suffering from lack of imagination, and the structure of society will be completely different. The point is that making any assumption on human behavior after such a revolution of much of what makes us human, is preposterous. Immortal humans will behave in ways that we cannot predict, and we therefore cannot predict how the population will grow.",
+      "comments": [
+        "9054151"
+      ],
+      "id": "9054069",
+      "isDead": false,
+      "parent": "9054006",
+      "quality": 1,
+      "story": "9052880",
+      "submitted": "5 hours ago",
+      "submitter": "pron"
+    },
+    {
+      "body": "From the paper: 'Even for very long 100-year projection horizon, with the most radical life extension scenario (assuming no aging at all after age 60), the total population increases by 22% only (from 9.1 to 11.0 million).'That stat is for Sweden—in case anyone wonders where the numbers are from.\n\nAnyway, that's for the next 100 years. In 5000 years one would hope the human race will be multi-planetary. Looking at the time-scale, concern is still misplaced.",
+      "comments": [
+        "9054166"
+      ],
+      "id": "9054151",
+      "isDead": false,
+      "parent": "9054069",
+      "quality": 1,
+      "story": "9052880",
+      "submitted": "5 hours ago",
+      "submitter": "forloop"
+    },
+    {
+      "body": "That number only makes sense of people are unable to reproduce as they age. There is probably no correlation between population growth of mortal humans and immortal humans. They may have 100x more children, and they may have almost none. You can't extrapolate after such a bifurcation in the model.\n\nIn 5000 years the human race might be multi-planetary, or extinct. We have absolutely no information to make such predictions or even estimate their likelihood.",
+      "comments": [
+        "9054294"
+      ],
+      "id": "9054166",
+      "isDead": false,
+      "parent": "9054151",
+      "quality": 1,
+      "story": "9052880",
+      "submitted": "5 hours ago",
+      "submitter": "pron"
+    },
+    {
+      "body": "Yes. In 5000 or 50000 years there may be a problem with overpopulation—or not.When someone expresses concern for overpopulation due to life extension, what time span are they referring to? 50000 years? Probably not. Looking at population growth for 100 years as per the model, the conclusion of the paper holds:\n\n> Therefore, the real concerns should be placed not on the threat of catastrophic population consequences (overpopulation), but rather on such potential obstacles to the success of a biomedical war on aging, such as scientific, organizational, and financial limitations.",
+      "comments": [],
+      "id": "9054294",
+      "isDead": false,
+      "parent": "9054166",
+      "quality": 1,
+      "story": "9052880",
+      "submitted": "5 hours ago",
+      "submitter": "forloop"
+    },
+    {
+      "body": "If longevity becomes so prolific that overpopulation becomes a credible concern, then the right of the living will supercede the right of nonexistant future people. It makes a lot more sense to ration birthrates than it does to ask someone to die so that they may make room.",
+      "comments": [],
+      "id": "9054258",
+      "isDead": false,
+      "parent": "9053943",
+      "quality": 1,
+      "story": "9052880",
+      "submitted": "5 hours ago",
+      "submitter": "photonic28"
+    },
+    {
+      "body": "The prize site:http://paloaltoprize.com/The heart rate variability thing is an interesting take on a biomarker for aging. I'm not sure I agree with its utility, but the prize should at the very least inspire enough attention to figure out whether you can artificially tinker with heart rate variability without having much of an impact on anything else. I'd expect that to be possible given (a) the existence of various heart function targeted drugs, and (b) the fact that aging results from the downstream consequences of cellular and molecular damage that is in and of itself many steps removed from large-scale systems level functions like heart beat regulation.Some thoughts on prizes in aging-related medical research and why it is that we don't have more of them even though we should:------------------Establishing a research prize is a form of investment in progress only available in the philanthropic world. At the very high level it is easy to say that philanthropists pay people to work on specific tasks. This is simple enough for smaller amounts: transfer a few thousand dollars to a research group and you have bought a very small slice of the time and equipment needed to achieve any particular goal. When we start talking about much larger amounts of money, millions or tens of millions, then there are important secondary effects that occur when making such investments. In these amounts money has gravity, money makes people talk, and money changes behavior and expectations in a far larger demographic than just the recipients. This is well known, and thus investment activities, philanthropic and otherwise, become structured to best take advantage of this halo of effects. Most of the experience in doing this comes from the for-profit world: it doesn't take too long spent following the venture capital industry to see that investment is a lot more complicated than choosing a target and writing a check, and this is exactly because there are many secondary effects of a large investment that can be structured and harvested if investors go about it in the right way.I theorize that the reason why research prizes remain comparatively rare is that firstly they are an investment strategy restricted to philanthropy, and thus people with the money to burn have little direct experience, and secondly the whole point of the exercise is not in fact paying people to do things directly, but rather creating a situation in which near all of the benefit is realized through the secondary effects generated by the highly publicized existence of a large sum of money. A research prize works by being a sort of extended publicity drive and networking event conducted over a span of years, a beacon to draw attention to teams laboring in obscurity, attract new teams, and raise their odds of obtaining funding. Connections are made and newly invigorated initiatives run beneath the light of a large sum of prize money, but at the end of the day that money becomes more or less irrelevant. It wasn't the important thing, it was merely the ignition point for a much greater blaze of investment and publicity. By the time a team wins, they are typically in a position to raise far more funding than the prize amount provides.The ideal end result is that a field of science and technology is rejuvenated, taken from obscurity and thrust into the public eye, made attractive to investors, and numerous groups are given the attention and funding they need to carry on independently. This is how it worked for the Ansari X Prize for suborbital flight, and more quietly, for the Mprize for longevity science: in both cases the entire field changed as a result of the existence of the prize and the efforts of the prize organization to draw attention, change minds, and build new networks. But the award of money wasn't the transformative act, and in fact that award didn't really occur at all for the Mprize, but rather change was created through the sum of all of the surrounding effects.So consider this: people who arrive at the state of being wealthy and wanting to change the world through philanthropy, often after decades of for-profit investment participation, don't have much in the way of comparable experience to guide them in the establishment and operation of research prizes. Thus creation of a research prize falls low in the list of strategies under consideration by high net worth philanthropists. Few people do it, and so there are few examples from which others can learn. It is the standard vicious circle of development, in which steady, grinding bootstrapping is the only way to create change.\n\nWhy care? Because research prizes work well. They work exceedingly well. Depending on how you care to plug numbers into equations, a well-run prize of $10 million will generate $150 to $500 million in investment in an industry, and that is just the easily measured result. Just as important is the following change and growth enabled by that initial burst of attention and funding. The Ansari X Prize spawned a number of other prizes in various industries, but I think it remains the case that medicine and biotechnology is poorly served in this respect. Outside of the efforts of the X Prize Foundation, the New Organ prizes, and other independent efforts such as the Palo Alto Longevity Prize, there is little going on. Given the proven utility of prizes there should be many more of them, and yet there are not.",
+      "comments": [
+        "9053561"
+      ],
+      "id": "9053289",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052880",
+      "submitted": "9 hours ago",
+      "submitter": "reasonattlm"
+    },
+    {
+      "body": "> Given the proven utility of prizes there should be many more of them, and yet there are not.Economically speaking, if the utility of a prize is greater than its cost, that is an arbitrage opportunity. Once enough people take advantage of that opportunity to create prizes, there will be far more prizes to choose from and the utility of the effort spent towards each prize will drop to equal its cost.\n\nA prize is somewhat like a dollar auction, but the result of any effort you bid is more random.",
+      "comments": [],
+      "id": "9053561",
+      "isDead": false,
+      "parent": "9053289",
+      "quality": 1,
+      "story": "9052880",
+      "submitted": "8 hours ago",
+      "submitter": "klipt"
+    },
+    {
+      "body": "Warning: autoplay video with sound not muted.",
+      "comments": [
+        "9053364"
+      ],
+      "id": "9053320",
+      "isDead": false,
+      "parent": null,
+      "quality": 0.6470588235294118,
+      "story": "9052880",
+      "submitted": "9 hours ago",
+      "submitter": "CalRobert"
+    },
+    {
+      "body": "It's YouTube. They have autoplay on vids, unless you disable it.",
+      "comments": [],
+      "id": "9053364",
+      "isDead": false,
+      "parent": "9053320",
+      "quality": 1,
+      "story": "9052880",
+      "submitted": "8 hours ago",
+      "submitter": "forloop"
+    },
+    {
+      "body": "I'm kind of with Gate's with this one.  Work on alleviating pain and suffering we can cure today?  Maybe work on making  the process of death less painful.  My fathers death was beyond painful.  He had good insurance, and under the care of Hospice?  It's like they sent him home and didn't give him enough medication.  When the doctor says, \"Sorry--I can't do anything.  Look into getting your affairs in order.\".  You shouldn't need to ask a doctor for more Pallitive care medications?  You should be able write your own scripts.  No wonder people commit suicide when diagnosed with a disease--even a manageable one?  It's not always clinical depression. I think about a guy I knew who was given a few months;  He went right to the streets to buy herioin.  He felt it was easier than waiting until a doctor who felt his pain/anxiety warranted a script?  My best friend died of COPD, and something else.  That something else was never diagnosed.  He  was racked with pain until he died in his sleep.  I did take him to one of the best pain clinics in San Franciso.  He got in my car and said, \"They don't prescribe pain pills?\"  \"They  offered to cut some nerve?\"  I still don't get it.  Yes, people abuse the system, but look beyond your stereotypes and  alleviate the pain that's sitting in front of you?  It's just  going to get worse now that politicians are looking into prescription drug abuse.  It's fine and dandy until you are the one seeking real relief from misery?\n\nHappy Sunday-",
+      "comments": [],
+      "id": "9053719",
+      "isDead": false,
+      "parent": null,
+      "quality": 0.38823529411764707,
+      "story": "9052880",
+      "submitted": "7 hours ago",
+      "submitter": "marincounty"
+    },
+    {
+      "body": "I thought Silicon Valley was phasing out old people, not 'curing ageing'",
+      "comments": [
+        "9053851"
+      ],
+      "id": "9053784",
+      "isDead": false,
+      "parent": null,
+      "quality": 0.5490196078431373,
+      "story": "9052880",
+      "submitted": "7 hours ago",
+      "submitter": "pcthrowaway"
+    },
+    {
+      "body": "Silicon Valley billionaires are getting older, too.",
+      "comments": [],
+      "id": "9053851",
+      "isDead": false,
+      "parent": "9053784",
+      "quality": 1,
+      "story": "9052880",
+      "submitted": "6 hours ago",
+      "submitter": "pgeorgi"
+    },
+    {
+      "body": "Perhaps the Valley should figure out it's housing problem before exacerbating the issue.",
+      "comments": [
+        "9053295",
+        "9053860"
+      ],
+      "id": "9053270",
+      "isDead": false,
+      "parent": null,
+      "quality": 0.3176470588235294,
+      "story": "9052880",
+      "submitted": "9 hours ago",
+      "submitter": "cpursley"
+    },
+    {
+      "body": "You are of course being facetious, but as for any objection to working on extension of healthy life, you should ask yourself how exactly your speculative problem is worse than the real problem of 100,000 horrible deaths every day, as well as the ongoing pain and suffering of hundreds of millions of people trapped in failing bodies.",
+      "comments": [
+        "9053554"
+      ],
+      "id": "9053295",
+      "isDead": false,
+      "parent": "9053270",
+      "quality": 1,
+      "story": "9052880",
+      "submitted": "9 hours ago",
+      "submitter": "reasonattlm"
+    },
+    {
+      "body": "Extension of healthy life doesn't solve the problems you mention, it merely delays them (unless the extension is forever, which is impossible given our current understanding of physics).\n\nAnd population will be an issue - but I think that's largely self correcting. If everyone lives 1000 years, it may well take 500 of those to be financially stable enough to have kids, because you're competing against other people who can also plan on 1000 year spans.",
+      "comments": [
+        "9053651",
+        "9053765"
+      ],
+      "id": "9053554",
+      "isDead": false,
+      "parent": "9053295",
+      "quality": 1,
+      "story": "9052880",
+      "submitted": "8 hours ago",
+      "submitter": "klipt"
+    },
+    {
+      "body": "It also seems weird to focus on longevity when there are so many low hanging fruit that strike people down before they've had a chance to enjoy a long life.My aunt just died in her early 40s of cancer. Maybe one can argue that there's already enough money flowing into cancer research, ok, how about parasites, tuberculosis, malaria, the more general problem of drug resistance in infectious diseases? While we're being bold how about research into the causes of and solutions to violent behavior?\n\nThere's really some truth in advertising in calling this the \"Palo Alto prize\" as its impetus is clearly not really to make the world a better place or to solve serious problems affecting many millions (billions?) of people but to assuage the minds of the privileged class of soft-livers sitting in their suburban pleasure dome agonizing about the slow encroachment of inevitability.",
+      "comments": [
+        "9053915"
+      ],
+      "id": "9053651",
+      "isDead": false,
+      "parent": "9053554",
+      "quality": 1,
+      "story": "9052880",
+      "submitted": "7 hours ago",
+      "submitter": "jordanb"
+    },
+    {
+      "body": "> its impetus is clearly not really to make the world a better place or to solve serious problems affecting many millions (billions?) of people but toAre you suggesting millions (billions?) of people don't have a problem with death/cancer/dementia? Because that's obviously incorrect!What do you think would happen if top research scientists lived longer and maintained their intellectual capabilities?What would happen if people stopped thinking so much in the short term, because they expected to face the consequences of the more distant future?What would happen to the resources that are currently being spent on diseases of ageing? Heart disease, cancer, dementia.How much wealth would be created by an increased number of experienced people working?\n\nResource allocation to lifespan/healthspan doesn't seem zero-sum. Despite the temptation to create a dichotomy, there is none!",
+      "comments": [],
+      "id": "9053915",
+      "isDead": false,
+      "parent": "9053651",
+      "quality": 1,
+      "story": "9052880",
+      "submitted": "6 hours ago",
+      "submitter": "forloop"
+    },
+    {
+      "body": "> unless the extension is forever, which is impossible given our current understanding of physics\n\nIf our problem moves from \"how do we live longer than ~120 years or so\" to \"how do we outlive the heat death of the universe\", that's a rather impressive improvement, and it gives us a lot more time to solve the admittedly harder problem.",
+      "comments": [],
+      "id": "9053765",
+      "isDead": false,
+      "parent": "9053554",
+      "quality": 1,
+      "story": "9052880",
+      "submitted": "7 hours ago",
+      "submitter": "JoshTriplett"
+    },
+    {
+      "body": "Easy. Just pass a law requiring immortals to take jobs constructing orbital habitats after they reach their 100th birthday.",
+      "comments": [],
+      "id": "9053860",
+      "isDead": false,
+      "parent": "9053270",
+      "quality": 0.6470588235294118,
+      "story": "9052880",
+      "submitted": "6 hours ago",
+      "submitter": "lotsofmangos"
+    },
+    {
+      "body": "Listen. As a 473 year old vampire, I can tell you it's really not all that it's cracked up to be.",
+      "comments": [
+        "9054036"
+      ],
+      "id": "9054019",
+      "isDead": false,
+      "parent": null,
+      "quality": 0.3176470588235294,
+      "story": "9052880",
+      "submitted": "6 hours ago",
+      "submitter": "owly"
+    },
+    {
+      "body": "That's just the hormones speaking. Once you pass your first millenia, you gain a perspective on things that significantly improves your life.",
+      "comments": [],
+      "id": "9054036",
+      "isDead": false,
+      "parent": "9054019",
+      "quality": 0.4666666666666667,
+      "story": "9052880",
+      "submitted": "6 hours ago",
+      "submitter": "GuiA"
+    },
+    {
+      "body": "I think that before we get to be immortal we have to fix the basic vagaries of the human mind. I feel like the only way we can advance as human beings is by having the old with their backwards ideas (apartheid, anti-homosexuality) die and be replaced by new people with new ideas.\n\nIf we can fix the mind first then I'm all for immortality but not before.",
+      "comments": [
+        "9054891"
+      ],
+      "id": "9054212",
+      "isDead": false,
+      "parent": null,
+      "quality": 0.4666666666666667,
+      "story": "9052880",
+      "submitted": "5 hours ago",
+      "submitter": "ggamecrazy"
+    },
+    {
+      "body": "What if aging in the brain is the reason old people aren't disproving and correcting their invalid ideas?",
+      "comments": [],
+      "id": "9054891",
+      "isDead": false,
+      "parent": "9054212",
+      "quality": 1,
+      "story": "9052880",
+      "submitted": "1 hour ago",
+      "submitter": "prodigal_erik"
+    },
+    {
+      "body": "While population growth is one obvious concern, I am actually more worried about more immediate effects (pretending, for the sake of discussion that the feat of significant lifespan extension, or even immortality is possible).Although the outcome where the poor have more time to accumulate wealth is possible, I think that the more likely scenario is a significant increase in the gap between the haves and the have-nots. Estate taxes will have a much smaller (or no effect), while low income families won't be able to bequeath their houses to their children.\n\nOf course, it's hard for us to imagine the how things might play out after such a complete revolution of human life, but it would be interesting to at least explore and investigate the possible ramifications.",
+      "comments": [],
+      "id": "9054247",
+      "isDead": false,
+      "parent": null,
+      "quality": 0.4666666666666667,
+      "story": "9052880",
+      "submitted": "5 hours ago",
+      "submitter": "pron"
+    }
+  ],
   "story": {
     "body": null,
-    "comments": 55,
+    "comments": [
+      "9054161",
+      "9053987",
+      "9053105",
+      "9053855",
+      "9053289",
+      "9053320",
+      "9053719",
+      "9053784",
+      "9053270",
+      "9054019",
+      "9054212",
+      "9054247"
+    ],
+    "commentsCount": 55,
     "id": "9052880",
     "points": 45,
     "source": "telegraph.co.uk",

@@ -1,7 +1,23 @@
 {
+  "comments": [
+    {
+      "body": "Ha,Ha,ha!, fantastic. I love what these people did. Fixed the broken clock surreptitiously. Its a pity the building's administrator got fired though.",
+      "comments": [],
+      "id": "9052208",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052160",
+      "submitted": "5 minutes ago",
+      "submitter": "arjn"
+    }
+  ],
   "story": {
     "body": null,
-    "comments": 1,
+    "comments": [
+      "9052208"
+    ],
+    "commentsCount": 1,
     "id": "9052160",
     "points": 9,
     "source": "theguardian.com",

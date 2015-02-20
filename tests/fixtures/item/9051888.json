@@ -1,7 +1,72 @@
 {
+  "comments": [
+    {
+      "body": "You've made it harder to work for government contractors and probably some other \"old\" industry corporations, but you'll be fine. A former coworker spent 5 years in prison for a pretty bad felony (being coy to protect the guilty) but now works for a major tech company.\n\nWhile this probably won't derail your career, please don't drink and drive. I'm suren are probably mortified at yourself already and I'm just piling on, I don't want to end this post implying drunk driving is consequence-less. It's not.",
+      "comments": [],
+      "id": "9051970",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9051888",
+      "submitted": "3 hours ago",
+      "submitter": "topkai22"
+    },
+    {
+      "body": "What job are you applying for, as a software engineer, that has an application that you fill out?Also, assuming you are in the US, they only ask about felonies, not misdemeanors.But, I can't remember, in my 20 years of experience, of ever being asked about a criminal record (don't have one) or having to even disclose it in any way.  I mean the typical hiring scenario is sending a CV, doing an interview, signing a contract, start working.  Though maybe larger firms will do a background check depending on the industry.\n\nBut I don't think a misdemeanor means anything.",
+      "comments": [
+        "9051964",
+        "9051941"
+      ],
+      "id": "9051904",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9051888",
+      "submitted": "4 hours ago",
+      "submitter": "jawngee"
+    },
+    {
+      "body": "I surely hope you guys are correct!However, there has been a checkbox on my previous applications that says \"have you ever been convicted of a felony or misdemeanor?\" A DUI is a misdemeanor.My concern in hunting for work is bringing this up - in my previous jobs, I've sent my CV, done my interview and in signing the contract I've filled out an application and seen this checkbox. I'd hate to end up in a situation where I accept a new job and then end up with an offer rescinded because of this!\n\nIt's amazing how one really bad week can follow you for the rest of your life. I am grateful nobody was hurt and it wasn't serious (in my defense, the car was parked in my parking lot at the time)",
+      "comments": [],
+      "id": "9051964",
+      "isDead": false,
+      "parent": "9051904",
+      "quality": 1,
+      "story": "9051888",
+      "submitted": "3 hours ago",
+      "submitter": "amiscrewed"
+    },
+    {
+      "body": "This is correct. You'll be alright.",
+      "comments": [],
+      "id": "9051941",
+      "isDead": false,
+      "parent": "9051904",
+      "quality": 1,
+      "story": "9051888",
+      "submitted": "3 hours ago",
+      "submitter": "joeblau"
+    },
+    {
+      "body": "You'll be fine; be ready to say a sentence or two about how you were in a bad place and are much better now.\n\nThat said, really don't do this again; DUI is hardly the worst thing anyone has ever done, but drunk drivers still kill lots and lots of people.",
+      "comments": [],
+      "id": "9052144",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9051888",
+      "submitted": "41 minutes ago",
+      "submitter": "JoachimSchipper"
+    }
+  ],
   "story": {
     "body": "Last year, I ushered in my mid-thirties with a personal crisis culminating in a first offense, misdemeanor DUI. How much is this going to impact my career?\n\nI'm a software engineer with a reasonably good resume, advanced degree from a well known school and I'm highly productive.\n\nI know every job I apply for in the future is going to have a checkbox about misdemeanors on the application. How much do I need to fear it?\n\nHas anyone had experience with applying for software jobs with a record?",
-    "comments": 5,
+    "comments": [
+      "9051970",
+      "9051904",
+      "9052144"
+    ],
+    "commentsCount": 5,
     "id": "9051888",
     "points": 2,
     "source": null,

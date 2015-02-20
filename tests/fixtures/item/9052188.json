@@ -1,7 +1,23 @@
 {
+  "comments": [
+    {
+      "body": "I miss Jesse's work. He hasn't blogged or tweeted in a very long time, but always put out great stuff.",
+      "comments": [],
+      "id": "9052212",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052188",
+      "submitted": "4 minutes ago",
+      "submitter": "petercooper"
+    }
+  ],
   "story": {
     "body": null,
-    "comments": 1,
+    "comments": [
+      "9052212"
+    ],
+    "commentsCount": 1,
     "id": "9052188",
     "points": 4,
     "source": "sitepoint.com",

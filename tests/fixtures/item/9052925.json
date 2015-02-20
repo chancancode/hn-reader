@@ -1,7 +1,686 @@
 {
+  "comments": [
+    {
+      "body": "Look. :)Yeah, the build machine churns a lot.  But that work should be primarily done by the FS cache, by buffers.  Yes, it's going to write out those small files, but if DragonflyBSD has any kind of respectable kernel, though should be a solid curve, not lots of bursts.I would love if my old colleague Przemek from Wikia would talk about the SSD wear on our MySQL servers which had about 100k-200k databases per shard.We wore the _fuck_ out of some SSDs.You should replace your HDDs with SSDs, though, for a number of reasons, and take the long view, as kryptistk noted the OP is doing.  Really compare the cost of SAS 15k drives and Intel 320s or 530s.But I think in his place, you can take the words of the inimitable Mr. Bergman:  https://www.youtube.com/watch?v=H7PJ1oeEyGg  Stop wasting your life.  But don't expect a machine that does lots of random IO, like a database, to have 1-2% SSD wear after two years.  It might not last two years.  If it does, use it more.  Aren't you making money with these drives? ;)",
+      "comments": [
+        "9053791",
+        "9053821",
+        "9053712"
+      ],
+      "id": "9053542",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052925",
+      "submitted": "8 hours ago",
+      "submitter": "justizin"
+    },
+    {
+      "body": "There are several sites doing SSD stress tests. This one claims to have written 2 Petabytes to a drive without failing:\n\nhttp://techreport.com/review/27436/the-ssd-endurance-experim...",
+      "comments": [
+        "9054894",
+        "9054917"
+      ],
+      "id": "9053791",
+      "isDead": false,
+      "parent": "9053542",
+      "quality": 1,
+      "story": "9052925",
+      "submitted": "7 hours ago",
+      "submitter": "Jabbles"
+    },
+    {
+      "body": "2 petabates while validating write RIGHT AFTER it happens, and never powering that drive down. Its great when all you need is a dev/null, not so much if you need to power down from time to time and retrieve useful data later.",
+      "comments": [
+        "9054920"
+      ],
+      "id": "9054894",
+      "isDead": false,
+      "parent": "9053791",
+      "quality": 1,
+      "story": "9052925",
+      "submitted": "1 hour ago",
+      "submitter": "rasz_pl"
+    },
+    {
+      "body": "I believe they have powered them down. It's not solely a drive write cache test.",
+      "comments": [],
+      "id": "9054920",
+      "isDead": false,
+      "parent": "9054894",
+      "quality": 1,
+      "story": "9052925",
+      "submitted": "1 hour ago",
+      "submitter": "awfag4y44444"
+    },
+    {
+      "body": "Not all written bytes are equally expensive to the flash. Single-stream sequential writes are going to give you a lot longer lifetime than tons of random small IO with zero TRIM.",
+      "comments": [],
+      "id": "9054917",
+      "isDead": false,
+      "parent": "9053791",
+      "quality": 1,
+      "story": "9052925",
+      "submitted": "1 hour ago",
+      "submitter": "awfag4y44444"
+    },
+    {
+      "body": "Yea, many people look at SSDs with a dollar for longevity number, which is a terrible metric for them. In $ per IOP SSDs kill hard drives. The amount of IOPS you can fit in a 4U rack with SSDs is insane and destroys hard drive in performance per watt when you consider all the extra controllers, cases, and power supplies needed to get anywhere close to the same performance.",
+      "comments": [
+        "9053986"
+      ],
+      "id": "9053821",
+      "isDead": false,
+      "parent": "9053542",
+      "quality": 1,
+      "story": "9052925",
+      "submitted": "6 hours ago",
+      "submitter": "pixl97"
+    },
+    {
+      "body": "And don't forget the expensive labor, if you have 20x the number of spindles to meet latency targets, you will get 20x the number of failures (roughly) over time, 20x the labor to set it all up, etc.",
+      "comments": [],
+      "id": "9053986",
+      "isDead": false,
+      "parent": "9053821",
+      "quality": 1,
+      "story": "9052925",
+      "submitted": "6 hours ago",
+      "submitter": "VLM"
+    },
+    {
+      "body": "But don't expect a machine that does lots of random IO, like a database, to have 1-2% SSD wear after two years.\n\nIt rather depends upon the database, no? A 512GB Samsung 850 Pro would last 29 years with 100GB of writes a day in a horrendous, worst case 3x write amplification scenario. Very, very few databases write more than 100GB of data a day, and most are magnitudes less.",
+      "comments": [
+        "9054906",
+        "9053834"
+      ],
+      "id": "9053712",
+      "isDead": false,
+      "parent": "9053542",
+      "quality": 1,
+      "story": "9052925",
+      "submitted": "7 hours ago",
+      "submitter": "engendered"
+    },
+    {
+      "body": "Reading also wears out nand flash. SSD have read counters next to erase counters, too many reads and drive forces whole sector rewrite to mitigate data degradation.",
+      "comments": [],
+      "id": "9054906",
+      "isDead": false,
+      "parent": "9053712",
+      "quality": 1,
+      "story": "9052925",
+      "submitted": "1 hour ago",
+      "submitter": "rasz_pl"
+    },
+    {
+      "body": "To be clear here, what the poster means is that piecemeal database writes of, say, 128-byte records can cause a huge amount of write amplification, so 100GB/day worth of database writes can end up being 1000GB/day worth of flash rewrites.  This issue largely goes away if the database backend appends replacement records rather then rewriting them in place, and uses the index to point to the new copy of the record.  At that point the battery-backed ram the RAID system has combined with the appends results in much lower write amplification and a SSD could probably handle it.\n\n-Matt",
+      "comments": [
+        "9053890"
+      ],
+      "id": "9053834",
+      "isDead": false,
+      "parent": "9053712",
+      "quality": 1,
+      "story": "9052925",
+      "submitted": "6 hours ago",
+      "submitter": "dillondf"
+    },
+    {
+      "body": "I know of no database products that write 128-byte blocks. Most are at least 2KB, if not larger (SQL Server and pgsql are 8KB blocks). Yes, you could conceivably imagine up some hypothetical situation that would be bad for an SSD, but it is incredibly unlikely. And when I say 100GB of writes, I mean, literally, 100GB of writes, which in actual source data is generally much, much, much, much smaller.",
+      "comments": [
+        "9054027"
+      ],
+      "id": "9053890",
+      "isDead": false,
+      "parent": "9053834",
+      "quality": 1,
+      "story": "9052925",
+      "submitted": "6 hours ago",
+      "submitter": "engendered"
+    },
+    {
+      "body": "You do understand that flash erase blocks are around 128KB now, right?  Random writes to a SSD can only be write-combined to a point.  Once the SSD has to actually start erasing blocks and doing collections of those randomly combined sectors things can get dicey real fast in the face of further random writes.  It doesn't have a magic wand.  The point is that the SSD has no way to determine ahead of time what the rewrite order is going to be as random blocks continue to get written.  You can rationalize it all you want, the write amplification is going to happen everywhere in the chain to one degree or another.  For that matter, filesystems are ganging blocks together now too (and have been for a long time).  It is not uncommon to see 16KB-64KB filesystem block sizes.Nobody gives a shit about a mere 100GB in physical writes to a storage subsystem in a day.  A single consumer 512GB crucial can handle a rate like that for almost 30 years.Write amplification effects are not to be underestimated, but fortunately there are only a very few situations where it's an issue.  And as I said, the situations can be largely mitigated by database writers getting off their butts and fixing their backends to push the complexity to the indexes and away from trying to optimize the linear layout of the database by seek-writing into it.\n\n-Matt",
+      "comments": [
+        "9054157",
+        "9054056"
+      ],
+      "id": "9054027",
+      "isDead": false,
+      "parent": "9053890",
+      "quality": 0.6470588235294118,
+      "story": "9052925",
+      "submitted": "6 hours ago",
+      "submitter": "dillondf"
+    },
+    {
+      "body": "4KB random writes should have a WAF of 2-7 depending on over provisioning and assuming random writes. But real workload are not purely random so it will be better than that.",
+      "comments": [],
+      "id": "9054157",
+      "isDead": false,
+      "parent": "9054027",
+      "quality": 1,
+      "story": "9052925",
+      "submitted": "5 hours ago",
+      "submitter": "pkaye"
+    },
+    {
+      "body": "You do understand that flash erase blocks are around 128KB now, right?How is that relevant to your wrong claim about database 128-byte writes? You word that as if you're correcting me.I don't even know what point you're trying to make anymore, but you're trying to buttress your argument with what can best be described as diversions.\n\nMost people write far less than they think. Databases aren't particularly magical, any more than the web server log file that is written to a line at a time. Yes, people \"give a shit\" about a \"mere\" 100GB of writes, because the vast majority of real projects, including at major corporations, write far less than that per day. So are we just talking about dick measuring now?",
+      "comments": [
+        "9054201",
+        "9054639"
+      ],
+      "id": "9054056",
+      "isDead": false,
+      "parent": "9054027",
+      "quality": 1,
+      "story": "9052925",
+      "submitted": "6 hours ago",
+      "submitter": "engendered"
+    },
+    {
+      "body": "A block might be 8KB, but the actual update you're making to the block might be much smaller.  I imagine by '128 byte write' he's talking about a lot of random row updates, where each row is 128 bytes.  Now, if you're not too unlucky, many updates will be combined on the same page per checkpoint, but that's not a given.  On the other hand, it's reasonably likely that several updates will be combined per erase block per checkpoint.  A heavily indexed table can exhibit some pretty random write patterns, though.\n\nAdditionally, the WAL has to be synced to disk every commit (unlike a web server log file), and WAL records can be very small.  WAL is of course append-only, so you'd hope that a good SSD with a battery/cap backup would cache the writes and flush on the SSD erase block filling up.",
+      "comments": [],
+      "id": "9054201",
+      "isDead": false,
+      "parent": "9054056",
+      "quality": 1,
+      "story": "9052925",
+      "submitted": "5 hours ago",
+      "submitter": "AlisdairO"
+    },
+    {
+      "body": "The point is that even writing in 8kB chunks will lead to a lot of write amplification when the erase block size is at least 128kB and the flash page size is 16kB. 8kB writes are definitely less bad than 128B writes, but it's still not enough write combining to pass either of the relevant thresholds.",
+      "comments": [],
+      "id": "9054639",
+      "isDead": false,
+      "parent": "9054056",
+      "quality": 1,
+      "story": "9052925",
+      "submitted": "3 hours ago",
+      "submitter": "wtallis"
+    },
+    {
+      "body": "\"At some point in the next few years we are going to start getting HDD     failures on our blade server.  It has ~30 hard drives plugged into it     after all (and ~12 SSDs as well).  When that begins to happen I will     probably do a wholesale replacement of all HDDs with SSDs.  Once that     is done I really expect failure rates to drop to virtually nil for the     next ~20-30 years.  And the blade server is so ridiculously fast that we     probably won't have any good reason to replace it for at least a decade,     or ever (though perhaps we will add a second awesome blade server at     some point, who knows?).\"\n\nThat's taking the long view. :-)",
+      "comments": [
+        "9054924",
+        "9053574"
+      ],
+      "id": "9053484",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052925",
+      "submitted": "8 hours ago",
+      "submitter": "kryptiskt"
+    },
+    {
+      "body": "No, thats naive view. SSDs do fail, and they tend to do it without any warning. Author thinks he discovered magic.\n\nParadoxically SSDs from two years ago have better endurance than brand new drives now, and a lot better than SSDs in 5 years (unless something big happens).",
+      "comments": [
+        "9055058"
+      ],
+      "id": "9054924",
+      "isDead": false,
+      "parent": "9053484",
+      "quality": 1,
+      "story": "9052925",
+      "submitted": "1 hour ago",
+      "submitter": "rasz_pl"
+    },
+    {
+      "body": "It reminds me of the \"burnable CDs will keep your data for 30 years!\" phase we went through. Turns out that's not so reliable after all.",
+      "comments": [],
+      "id": "9055058",
+      "isDead": false,
+      "parent": "9054924",
+      "quality": 1,
+      "story": "9052925",
+      "submitted": "23 minutes ago",
+      "submitter": "vacri"
+    },
+    {
+      "body": "Is hardware (motherboard, CPU, memory) that good nowadays that one can expect it to last 30 years. I don't think it's designed with that kind of lifetime in mind.",
+      "comments": [
+        "9053610",
+        "9053639",
+        "9053631"
+      ],
+      "id": "9053574",
+      "isDead": false,
+      "parent": "9053484",
+      "quality": 1,
+      "story": "9052925",
+      "submitted": "7 hours ago",
+      "submitter": "Jolijn"
+    },
+    {
+      "body": "I mean, this is server hardware. One of the major differences between server hardware and desktop hardware is build quality. I've got a ten-year-old 1/2U rack server sitting in a closet that I bought for pennies at a surplus auction that still runs great.",
+      "comments": [
+        "9054044",
+        "9054449",
+        "9054187"
+      ],
+      "id": "9053610",
+      "isDead": false,
+      "parent": "9053574",
+      "quality": 1,
+      "story": "9052925",
+      "submitted": "7 hours ago",
+      "submitter": "dperny"
+    },
+    {
+      "body": "Server hardware is usually obsolete long before it stops working.",
+      "comments": [],
+      "id": "9054044",
+      "isDead": false,
+      "parent": "9053610",
+      "quality": 1,
+      "story": "9052925",
+      "submitted": "6 hours ago",
+      "submitter": "jethro_tell"
+    },
+    {
+      "body": "I've seen DL380 G5 giving in a few years ago already. (I still love those machines except they seem to boot slower each generation.)",
+      "comments": [],
+      "id": "9054449",
+      "isDead": false,
+      "parent": "9053610",
+      "quality": 1,
+      "story": "9052925",
+      "submitted": "4 hours ago",
+      "submitter": "eitland"
+    },
+    {
+      "body": "But would it really last 30 years with such things as lead-free solder?",
+      "comments": [
+        "9054594",
+        "9054670"
+      ],
+      "id": "9054187",
+      "isDead": false,
+      "parent": "9053610",
+      "quality": 1,
+      "story": "9052925",
+      "submitted": "5 hours ago",
+      "submitter": "mahyarm"
+    },
+    {
+      "body": "We will probably have to wait 30 years to really know.FWIW, lots of hardware from ~30 years ago still works. I have a 27 year old Amiga500 that still boots fine (many of the floppy disks have become unreadable, though).\n\nYou can buy fully working vintage computers much older than that on eBay.",
+      "comments": [
+        "9055051"
+      ],
+      "id": "9054594",
+      "isDead": false,
+      "parent": "9054187",
+      "quality": 1,
+      "story": "9052925",
+      "submitted": "3 hours ago",
+      "submitter": "moe"
+    },
+    {
+      "body": "30 years of constant/daily use is different from a few years of use, then pulling out of mothballs as a curio every now and then.",
+      "comments": [],
+      "id": "9055051",
+      "isDead": false,
+      "parent": "9054594",
+      "quality": 1,
+      "story": "9052925",
+      "submitted": "25 minutes ago",
+      "submitter": "vacri"
+    },
+    {
+      "body": "A server that's 10 years old now was likely made with leaded solder.",
+      "comments": [],
+      "id": "9054670",
+      "isDead": false,
+      "parent": "9054187",
+      "quality": 1,
+      "story": "9052925",
+      "submitted": "3 hours ago",
+      "submitter": "sokoloff"
+    },
+    {
+      "body": "we don't exactly run the biggest operation, but in our experience the most common failure items in thousands-of-years-of-cumulative-uptime is network interface cards (or on-motherboard network interfaces) and hdd's.RAID controllers fail left and right.  we keep tons of spares around.ssd's fail few and far between, cpus basically do not fail, and memory can go bad but it's exceedingly rare and easy to fix.  psu's fail but are easy to fix in modern computers as well (slide-out, redundant, etc.)\n\nhaving said all that, heat is the primary killer of hardware.  if you run a lot of equipment in a dense environment, get a laser thermometer and find your hot spots and fix them with some industrial fans or move your gear around.  once your stuff gets hot anything can fail in weird and mysterious ways.",
+      "comments": [
+        "9053679",
+        "9053809",
+        "9053782"
+      ],
+      "id": "9053639",
+      "isDead": false,
+      "parent": "9053574",
+      "quality": 1,
+      "story": "9052925",
+      "submitted": "7 hours ago",
+      "submitter": "beachstartup"
+    },
+    {
+      "body": "How do network cards fail? Simply as if you cut the link? Or can you see error counters increasing and sporadic frame loss that gets worse over time?",
+      "comments": [
+        "9053764",
+        "9054572",
+        "9053818"
+      ],
+      "id": "9053679",
+      "isDead": false,
+      "parent": "9053639",
+      "quality": 1,
+      "story": "9052925",
+      "submitted": "7 hours ago",
+      "submitter": "Matumio"
+    },
+    {
+      "body": "Depends on which bit fails, but increases in packet loss are a common early symptom of small components no longer acting within their specs.Network cards are subject to lots of signal phenomena that are rare inside the chassis.  Long cables are pretty good antennas for certain types of RF signals, so there are all kinds of electrical noises, induced power spikes and other miscellaneous garbage that the network card has to tolerate.  Well-shielded cables can help protect the card, but it's definitely one interface that's subject to a bit more electrical abuse than the rest.Components that have been stressed beyond their tolerances a few times can result in things like signal filters having a lower noise threshold, which makes it harder for the card to pick out the signal from the noise, which leads to more packet loss.  After enough abuse, the threshold drops below the usable level and communications halt.\n\nThere are lots of factors involved, such as shielding, proximity to nearby radiators, bend radius in cables, cable length, temperature, etc, etc.  Whenever I delve into this world, I'm often amazed that anything works at all.",
+      "comments": [],
+      "id": "9053764",
+      "isDead": false,
+      "parent": "9053679",
+      "quality": 1,
+      "story": "9052925",
+      "submitted": "7 hours ago",
+      "submitter": "danpat"
+    },
+    {
+      "body": "> How do network cards fail?All ways they can.  I've found them with blown transistors, dead rats attached, no physical imperfections, etc.\n\nUsually for me it's been some kind of hard failure, eg completely dead.",
+      "comments": [],
+      "id": "9054572",
+      "isDead": false,
+      "parent": "9053679",
+      "quality": 1,
+      "story": "9052925",
+      "submitted": "3 hours ago",
+      "submitter": "GalacticDomin8r"
+    },
+    {
+      "body": "failure modes are all over the map.  sometimes they just start dropping more and more packets, sometimes it \"looks like it's working\" but there's no layer 1 link light, sometimes it's incredibly high latency, sometimes the entire card just disappears from view.\n\nthis mostly happens with the on-board controllers.  nics don't fail as often, but we do use high end nics (intel 10g and 4x 1g)",
+      "comments": [
+        "9054412"
+      ],
+      "id": "9053818",
+      "isDead": false,
+      "parent": "9053679",
+      "quality": 1,
+      "story": "9052925",
+      "submitted": "6 hours ago",
+      "submitter": "beachstartup"
+    },
+    {
+      "body": "High-end consumer motherboards often include 2 integrated NICs.  Over the last decade I've owned four and had one of the NICs fail after 2-3 years on every single motherboard.  Glad to know it's endemic, and Danpat's explanation is fascinating.",
+      "comments": [],
+      "id": "9054412",
+      "isDead": false,
+      "parent": "9053818",
+      "quality": 1,
+      "story": "9052925",
+      "submitted": "4 hours ago",
+      "submitter": "EarthLaunch"
+    },
+    {
+      "body": "Network cards? HDDs and power supplies are my most common deaths in the server room.",
+      "comments": [],
+      "id": "9053809",
+      "isDead": false,
+      "parent": "9053639",
+      "quality": 1,
+      "story": "9052925",
+      "submitted": "7 hours ago",
+      "submitter": "pixl97"
+    },
+    {
+      "body": "> RAID controllers fail left and right. we keep tons of spares around.\n\nKind of scary. I would guess the replacement should be perfectly identical, to the last firmware bit (... and giving  thanks that no subtle circuit timing factors are involved).",
+      "comments": [],
+      "id": "9053782",
+      "isDead": false,
+      "parent": "9053639",
+      "quality": 1,
+      "story": "9052925",
+      "submitted": "7 hours ago",
+      "submitter": "ableal"
+    },
+    {
+      "body": "To my knowledge, the most common guarantee target is 5 years. Equipment can last much longer or much shorter, both as a function of chance and of workload.\n\n30 years would be exceptional if the machine spent its life at the 5-year-target load.",
+      "comments": [],
+      "id": "9053631",
+      "isDead": false,
+      "parent": "9053574",
+      "quality": 1,
+      "story": "9052925",
+      "submitted": "7 hours ago",
+      "submitter": "sliverstorm"
+    },
+    {
+      "body": "Love this quote: \"This is the first time I've actually contemplated NOT replacing production hardware any time soon.\"\n\nThere are two things that benefit from the turnover of machines, one is that Intel stays profitable, the other is that hardware standards have a chance to evolve. The move from ISA->PCI->VESA->AGP->PCIe on video cards would not have been possible had people been holding on to their machines for 3 - 5 years before buying new ones.",
+      "comments": [
+        "9054284",
+        "9054193"
+      ],
+      "id": "9054129",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052925",
+      "submitted": "5 hours ago",
+      "submitter": "ChuckMcM"
+    },
+    {
+      "body": "Running a small datacenter for the last few years, I can totally identify with that quote.On the storage side, I can't help but wonder if it's partially due to incumbent vendors pushing flash as a  high markup premium product. I suspect that I am not the only one who has thought, \"Well, why replace this array with more already-obsolete magnetic disk that won't be any faster? Wait a year or three, flash markups will come down. Maintenance renewal is cheap.\"Now, I realize that cheap flash is dangerous to incumbent pricing structures, so $100K for an all flash tray makes sense when it can replace 10 trays of $30K disk. So maybe they've seen no other choice, business model wise. Maybe it even makes sense to milk a once-per-generation technology disruption for all it's worth for a couple of years before commoditizing it.\n\nBut it has kept me happy with what I've already got, since the pricing of the alternative was, for my use cases, hilarious. As opposed to, say, this is somewhat more expensive but we can justify it.",
+      "comments": [],
+      "id": "9054284",
+      "isDead": false,
+      "parent": "9054129",
+      "quality": 1,
+      "story": "9052925",
+      "submitted": "5 hours ago",
+      "submitter": "johnwfinigan"
+    },
+    {
+      "body": "> ISA->PCI->VESA->AGP->PCIe\n\nThat's one way to look at it.  Another is that we might have gone ISA->PCI->PCIe in a shorter overall timeframe b/c there were no distractions to get short-term stuff to market.",
+      "comments": [
+        "9054487"
+      ],
+      "id": "9054193",
+      "isDead": false,
+      "parent": "9054129",
+      "quality": 1,
+      "story": "9052925",
+      "submitted": "5 hours ago",
+      "submitter": "diydsp"
+    },
+    {
+      "body": "True but the relative market size growth has an impact. Had we skipped VESA and AGP for example, there would thousands more ISA slots (longer time in market) and so the next generation, PCI in your example, has to burn more cash getting \"into\" the space.\n\nThe obvious principle here is that innovation happens more rapidly in a market where their his a large demand for improvement and a low friction for upgrades. Pull back on either of those and it slows down the rate of innovation.",
+      "comments": [],
+      "id": "9054487",
+      "isDead": false,
+      "parent": "9054193",
+      "quality": 1,
+      "story": "9052925",
+      "submitted": "4 hours ago",
+      "submitter": "ChuckMcM"
+    },
+    {
+      "body": "Not sure why you'd want to buy 10-year capable storage for a server.I buy for reliability. If I can plug something in and just forget about it (except for patches) for 3-4 years, we're done and whatever new thing I can buy will pay for itself in power savings.I'm happy that an SSD will last that long, but it's not something I worry about.I have had to rebuild servers because of abject SSD failure, and will no longer buy those brands. Failure seems to be quite highly correlated with trying to save a buck by getting non-top-tier drives (whereupon it's me, or someone like me, picking up the pieces when I could be writing code. Screw that).\n\nIf a drive was happily at 90% wear after two years, I'd just provision more of the same drive. Yay! :-)",
+      "comments": [
+        "9054050"
+      ],
+      "id": "9053948",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052925",
+      "submitted": "6 hours ago",
+      "submitter": "kabdib"
+    },
+    {
+      "body": "Basically only buy SSD brands who either are chip fabs or have a relationship with a single chip fab.  So.  Intel, Crucial, Samsung, maybe one or two others. And that's it.  And frankly I have to say that only Intel and Crucial have been really proactive about engineered fixes for failure cases.  Never buy SSDs from second-tier vendors such as Kingston who always use the cheapest third-party flash chips they can find.  There are literally dozens of those sorts of vendors.  Hundreds, even.\n\n-Matt",
+      "comments": [
+        "9054124"
+      ],
+      "id": "9054050",
+      "isDead": false,
+      "parent": "9053948",
+      "quality": 1,
+      "story": "9052925",
+      "submitted": "6 hours ago",
+      "submitter": "dillondf"
+    },
+    {
+      "body": "Micron is the name behind Crucial.\n\nKingston has gotten very good (and they used to suck) at least in the eMMC space (not quite a SSD, but close).",
+      "comments": [
+        "9054938"
+      ],
+      "id": "9054124",
+      "isDead": false,
+      "parent": "9054050",
+      "quality": 1,
+      "story": "9052925",
+      "submitted": "5 hours ago",
+      "submitter": "gonzo"
+    },
+    {
+      "body": ">Kingston has gotten very good\n\n...at ninja swapping components under same model name, google V300",
+      "comments": [],
+      "id": "9054938",
+      "isDead": false,
+      "parent": "9054124",
+      "quality": 1,
+      "story": "9052925",
+      "submitted": "1 hour ago",
+      "submitter": "rasz_pl"
+    },
+    {
+      "body": "There are certainly workloads that will wear out a SSD, random database writes being the most common.  But that is only a very small portion of the storage ecosystem, not to mention that there are plenty of ways to retool SQL backends to not do random writes any more, particularly since it doesn't gain you anything on a modern copy-on-write style filesystem verses indexing the new record yourself as an append.  So I expect this particular issue will take care of itself in the future.  It's a matter of not blindly using someones database backend and expecting it to be nice.The vast majority of information stored these days is write-once-read-never, followed by write-once-read-occasionally.  I expected our developer box which is chock full of uncompressed crash dumps and many, many copies of the source tree in various states to have more wear on it than it did, but after thinking about it a bit I realized that most of that data was write-once-read-hardly-at-all.In terms of hardware life, for servers there are only a few things which might cut short a computer's life, otherwise it would easily last 50 years.  (1) Electrolytic capacitors.  (2) Any spinning media or low frequency transformers.  (3) On-mobo flash or e2 that cannot be updated.(1) Electrolytic capacitors have largely disappeared from motherboards in favor of solid caps which, if not over-volted, should last 30 years.  Electrolytic caps are not sealed well and evaporate over time, as well as slowly burn holes in the insulator.  They generally go bad 10-30 years later depending on how much you undervolt them (the more you undervolt, the longer they last).  Even so I still have boards with 30+ year old electrolytics in them that work.(2) Spinning media obviously has a limited life.  That's what we are getting rid of now :-).  Low frequency transformers have mostly gone away.  Transformers in general... anything with windings that is, have a limited life due to the wire insulation breaking down over time but most modern use cases in a computer (if there are any at all) likely have huge errors of margin.(3) Firmware stored in E2 and flash, or OTP eprom, rather than fuse-based proms, will become corrupt over time.  10 years is a minimum life, 20-30 years is more common.  It depends on a number of factors.Other than that there isn't much left that can go bad.  All motherboards these days have micro coatings which effectively seal even the chip leads, so corrosion isn't as big a factor as it was 20 years ago.  The actual chip logic basically will not fail and since the high-speed clocks on the whole mobo can be controlled, so aging effects which degrade junction performance for most of the chip can be mitigated.  I suppose an ethernet port might go bad if it gets hit by lightning but I've never had a mobo ethernet go bad in my life.  Switch ethernet ports going bad is usually just due to poor parts selection or overvolting which would not be present in a colocation facility or machine room.In anycase, there is no reason under the sun that a modern computer with a SSD wouldn't last 30 years with only fan, real-time clock battery, and PSU replacements.\n\n-Matt",
+      "comments": [
+        "9055012",
+        "9054496"
+      ],
+      "id": "9053824",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052925",
+      "submitted": "6 hours ago",
+      "submitter": "dillondf"
+    },
+    {
+      "body": "There are still a few other things that will limit the life of modern computers.1. That waxy thermal pad material certainly dries out and becomes ineffective in less than 10 years.2. Power supplies still have large electrolytic capacitors right next to heatsinks3. BGA parts with lead-free solder are still going to have a limited amount of thermal cycles they can withstand before the solder balls become brittle.4. I notice an increasing use of conductive glue to attach flat flex cables in computer parts, especially ultrabooks, and this also has a limited number of thermal cycles before it starts to degrade. (Anyone who bought a Samsung TV between 2005 and 2008 might already be aware of this.) This is probably the worst issue since it isn't going to be fixable for a hobbyist.Also, I wouldn't even guarantee that firmware in Flash that isn't rewritten often will last 10 years. There are a lot of dead Nintendo Wiis already due to bad blocks in the flash.\n\nI currently own a 30 year old PC-XT and a 40 year old stereo receiver, but they didn't make it to that age without maintenance and replaced components. I'm afraid that in 30 years many of today's devices will have failed in ways that are impossible to get at or repair.",
+      "comments": [],
+      "id": "9055012",
+      "isDead": false,
+      "parent": "9053824",
+      "quality": 1,
+      "story": "9052925",
+      "submitted": "41 minutes ago",
+      "submitter": "grapeshot"
+    },
+    {
+      "body": "> I suppose an ethernet port might go bad if it gets hit by lightning but I've never had a mobo ethernet go bad in my life.\n\nBeen there, record thunderstorm centered directly above a client's building. Several switch and mobo ports died. The fact that said client \"saved\" on cabling by running UTP between buildings probably had something to do with it.",
+      "comments": [],
+      "id": "9054496",
+      "isDead": false,
+      "parent": "9053824",
+      "quality": 1,
+      "story": "9052925",
+      "submitted": "4 hours ago",
+      "submitter": "mato"
+    },
+    {
+      "body": "None of those drives show evidence of regularly-scheduled self tests.  They must not really care about them.",
+      "comments": [
+        "9053967"
+      ],
+      "id": "9053816",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052925",
+      "submitted": "6 hours ago",
+      "submitter": "unluckier"
+    },
+    {
+      "body": "What sort of self-testing do you think is needed?",
+      "comments": [
+        "9054011"
+      ],
+      "id": "9053967",
+      "isDead": false,
+      "parent": "9053816",
+      "quality": 1,
+      "story": "9052925",
+      "submitted": "6 hours ago",
+      "submitter": "wtallis"
+    },
+    {
+      "body": "Daily short tests and weekly long tests seems reasonable.  These drives show that they've gone thousands of hours since the last test.",
+      "comments": [
+        "9054602",
+        "9054550"
+      ],
+      "id": "9054011",
+      "isDead": false,
+      "parent": "9053967",
+      "quality": 1,
+      "story": "9052925",
+      "submitted": "6 hours ago",
+      "submitter": "unluckier"
+    },
+    {
+      "body": "Tests of what? The ability to read and write data without corruption? Ordinary usage with wear leveling takes care of that, and these SSDs are definitely being used full-time.",
+      "comments": [],
+      "id": "9054602",
+      "isDead": false,
+      "parent": "9054011",
+      "quality": 1,
+      "story": "9052925",
+      "submitted": "3 hours ago",
+      "submitter": "wtallis"
+    },
+    {
+      "body": "It's really unclear whether explicitly initiated tests actually help for a SSD.  The SSD has its own internal mechanisms to scan the flash chips which (I presume) is unrelated to SMART, since they are required for normal operation... primarily detecting weak cells before the bits actually go bad.  Whole chips can go bad out of the box but after an SSD has been running for a few months there isn't much left that can go south other than normal wear or a firmware failure.firmware issues dominated SSD problems in the early years.  Those issues are far less prevalent today though Samsung got its ass bitten by not adding enough redundancy and having data go bad on some of its newer offerings.  Strictly a firmware issue.  Which is another way of saying that one should always buy the not-so-bleeding edge technologies that have had the kinks worked out of them rather than the bleeding-edge-technologies that haven't.If it starts to bite me I may change my tune.  But until that happens I put it in the wasted-cycled category.\n\n-Matt",
+      "comments": [],
+      "id": "9054550",
+      "isDead": false,
+      "parent": "9054011",
+      "quality": 1,
+      "story": "9052925",
+      "submitted": "3 hours ago",
+      "submitter": "dillondf"
+    },
+    {
+      "body": "Wear failure on SSDs is often a silly thing to worry about.  The number of write-out cycles is roughly 10,000 and a modern spinning disk takes like 4 hours to write out, so it would take like 5 years of continuous writing to see an advantage for traditional HDs.  In practice, you only have to worry about it, if the workload could never be considered on a traditional HD.\n\nWhen faced with the choice between a Fiesta and a Ferrari, there are many reasons to choose one over the other, but it is ridiculous to say \"I picked the Fiesta because the Ferrari has a known tire problem when going 200+ MPH\".",
+      "comments": [],
+      "id": "9054862",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052925",
+      "submitted": "1 hour ago",
+      "submitter": "jcampbell1"
+    },
+    {
+      "body": "Since it wasn't immediately clear to me how the percentages were pulled from the smartctl output, I'll note that \"Perc_Rated_Life_Used\" is the relevant readout.\n\n(Some online sources mention \"Wear_Leveling_Count\", and even misreport that as a percentage – but in fact that seems to be an absolute count of the number of times each single block has been rewritten. The percentage is presumably this Wear_Leveling_Count divided by the rated number of cycles.)",
+      "comments": [],
+      "id": "9054436",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052925",
+      "submitted": "4 hours ago",
+      "submitter": "gojomo"
+    }
+  ],
   "story": {
     "body": null,
-    "comments": 54,
+    "comments": [
+      "9053542",
+      "9053484",
+      "9054129",
+      "9053948",
+      "9053824",
+      "9053816",
+      "9054862",
+      "9054436"
+    ],
+    "commentsCount": 54,
     "id": "9052925",
     "points": 112,
     "source": "dragonflybsd.org",

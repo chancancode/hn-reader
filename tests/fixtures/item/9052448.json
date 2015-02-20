@@ -1,7 +1,1914 @@
 {
+  "comments": [
+    {
+      "body": "So, to offset a Bitcoin, plant 1.6 trees and keep them alive for a century [1].\n\n[1] \"On average, one broad leaf tree will absorb in the region of 1 tonne of carbon dioxide during its full life-time (approximately 100 years).\" http://www.carbonfootprint.com/plantingtrees.html",
+      "comments": [
+        "9052655",
+        "9052686",
+        "9052629",
+        "9052631",
+        "9052754",
+        "9052974",
+        "9052640",
+        "9052826"
+      ],
+      "id": "9052547",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "13 hours ago",
+      "submitter": "pavlov"
+    },
+    {
+      "body": "Shameless plug: you can help by using Ecosia -- https://www.ecosia.org/Ecosia is helping people help the environment. Currently planting trees in Burkina Faso as a part of Great Green Wall.\n\nFull disclosure: I work at Ecosia.",
+      "comments": [
+        "9052694"
+      ],
+      "id": "9052655",
+      "isDead": false,
+      "parent": "9052547",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "12 hours ago",
+      "submitter": "odiroot"
+    },
+    {
+      "body": "Just a heads up, the video on /what doesn't work on Chrome+Win8.1",
+      "comments": [
+        "9053099",
+        "9052842"
+      ],
+      "id": "9052694",
+      "isDead": false,
+      "parent": "9052655",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "12 hours ago",
+      "submitter": "tinco"
+    },
+    {
+      "body": "Doesn't work on Chrome / Linux, too.",
+      "comments": [],
+      "id": "9053099",
+      "isDead": false,
+      "parent": "9052694",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "10 hours ago",
+      "submitter": "TheHippo"
+    },
+    {
+      "body": "Thank you, I will pass it to the main site devs.",
+      "comments": [
+        "9053076"
+      ],
+      "id": "9052842",
+      "isDead": false,
+      "parent": "9052694",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "11 hours ago",
+      "submitter": "odiroot"
+    },
+    {
+      "body": "Same for Chrome on Windows 10",
+      "comments": [
+        "9054561"
+      ],
+      "id": "9053076",
+      "isDead": false,
+      "parent": "9052842",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "10 hours ago",
+      "submitter": "Farox"
+    },
+    {
+      "body": "Thanks, probably our player just broke. Huge oops.",
+      "comments": [],
+      "id": "9054561",
+      "isDead": false,
+      "parent": "9053076",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "3 hours ago",
+      "submitter": "odiroot"
+    },
+    {
+      "body": "Carbon is what gives trees their mass, so no need to wait 100 years -- just until it's fully grown :)",
+      "comments": [
+        "9053705"
+      ],
+      "id": "9052686",
+      "isDead": false,
+      "parent": "9052547",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "12 hours ago",
+      "submitter": "dlss"
+    },
+    {
+      "body": "Actually, trees grow faster and sequester more carbon the older they get: http://www.sciencedaily.com/releases/2014/01/140115132740.ht...",
+      "comments": [],
+      "id": "9053705",
+      "isDead": false,
+      "parent": "9052686",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "7 hours ago",
+      "submitter": "perrygeo"
+    },
+    {
+      "body": "Yes, do that every 25 second as they github repo says that is how often a bitcoin is released.",
+      "comments": [
+        "dead-0"
+      ],
+      "id": "9052629",
+      "isDead": false,
+      "parent": "9052547",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "12 hours ago",
+      "submitter": "kevinsimper"
+    },
+    {
+      "body": null,
+      "comments": [
+        "9052685"
+      ],
+      "id": "dead-0",
+      "isDead": true,
+      "parent": "9052629",
+      "quality": null,
+      "story": "9052448",
+      "submitted": null,
+      "submitter": null
+    },
+    {
+      "body": "And that is on average 1 Bitcoin every 24 seconds.",
+      "comments": [],
+      "id": "9052685",
+      "isDead": false,
+      "parent": "dead-0",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "12 hours ago",
+      "submitter": "danbruc"
+    },
+    {
+      "body": "Personally, I'd recommend just planting two. I can never work out which 0.4 of the tree not to plant.",
+      "comments": [],
+      "id": "9052631",
+      "isDead": false,
+      "parent": "9052547",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "12 hours ago",
+      "submitter": "Intermernet"
+    },
+    {
+      "body": "Isn't the problem that trees do not permanently bind the CO2? You would have to burry the trees when they die so that the carbon does not get released into the atmosphere again. (I might be wrong though.)",
+      "comments": [
+        "9052799",
+        "9053028"
+      ],
+      "id": "9052754",
+      "isDead": false,
+      "parent": "9052547",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "11 hours ago",
+      "submitter": "rndn"
+    },
+    {
+      "body": "If you take an area without forest and plant a forest on it then when the tree dies a new one grows in its place. A mature forest is roughly carbon neutral but reflorestation is taking a bunch of carbon from the atmosphere and converting it to tree trunks.",
+      "comments": [
+        "9052817"
+      ],
+      "id": "9052799",
+      "isDead": false,
+      "parent": "9052754",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "11 hours ago",
+      "submitter": "ufo"
+    },
+    {
+      "body": "Does that mean that the Amazon rainforest is carbon neutral?",
+      "comments": [
+        "9052946",
+        "9054279"
+      ],
+      "id": "9052817",
+      "isDead": false,
+      "parent": "9052799",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "11 hours ago",
+      "submitter": "lgieron"
+    },
+    {
+      "body": "It was a major carbon sink, but as the climate warms up trees die earlier and release more carbon so it's becoming a carbon emitter.  It's obviously hard to calculate an exact plus or minus, but it's not looking good, especially with the amount of deforestation occurring.",
+      "comments": [],
+      "id": "9052946",
+      "isDead": false,
+      "parent": "9052817",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "10 hours ago",
+      "submitter": "nols"
+    },
+    {
+      "body": "For now, the biggest contribution of the amazon rainforest in terms of climate is improving rainfall. If you cut down all that trees that regious would pretty quickly turn into a big desert (in fact, the forest is actually recent in geological terms)",
+      "comments": [],
+      "id": "9054279",
+      "isDead": false,
+      "parent": "9052817",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "5 hours ago",
+      "submitter": "ufo"
+    },
+    {
+      "body": "Most green things add to topsoil which  has to be heavily carbon.  E.g., from my experience growing up, a healthy front lawn can add ballpark one inch of topsoil in 15 years.  Similarly for prairies and forests.Also a major  fraction of trees, ballpark 50+%, have leaves and drop them once a year, and the leaves contribute to topsoil.Even if a forest burns, the burned trees create ash which has carbon and adds to topsoil.Some of the topsoil gets washed into rivers and lakes, becomes mud, gets covered over by more mud, and, thus, essentially buries its carbon.There is more that is similar: a major fraction of the surface of the earth has, within 1000 feet deep, a lot of limestone, and that is partly, largely, or mostly just old sea shells where the animals pulled carbon from the water or what it ate and converted it to calcium carbonate, that is, buried the carbon (disclaimer, I'm no geologist).In simple terms, basically, net, the earth's biosphere grabs and buries a lot of carbon including CO2 from the atmosphere.\n\nNote:  Nowhere here have I made a  remark of any kind about the effects on climate  of CO2 in the atmosphere.",
+      "comments": [],
+      "id": "9053028",
+      "isDead": false,
+      "parent": "9052754",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "10 hours ago",
+      "submitter": "graycat"
+    },
+    {
+      "body": "> ~1602 kg of CO2 by May 1st 2015\n\nYou'd have to plant 1.6 trees every year, in perpetuity and keep all of them alive for a century.",
+      "comments": [
+        "9053345"
+      ],
+      "id": "9052974",
+      "isDead": false,
+      "parent": "9052547",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "10 hours ago",
+      "submitter": "panarky"
+    },
+    {
+      "body": "I think this calls for a planting trees as a service company. Ideally delivered via drones. Talk about efficiently planting the trees needed ;)",
+      "comments": [
+        "9053878"
+      ],
+      "id": "9053345",
+      "isDead": false,
+      "parent": "9052974",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "8 hours ago",
+      "submitter": "andrewdietrich"
+    },
+    {
+      "body": "There is such a company: Viskogen or viagroforestry (sounds like spam doesn't it)  They plants-trees-as-a-service. In 2013, 4,118,064 trees were planted\n\nhttp://www.viagroforestry.org/what-we-do/agroforestry/",
+      "comments": [],
+      "id": "9053878",
+      "isDead": false,
+      "parent": "9053345",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "6 hours ago",
+      "submitter": "draugadrotten"
+    },
+    {
+      "body": "And then bury it so it doesn't rot and rerelease the CO2. Otherwise you're just moving the problem to the future.",
+      "comments": [
+        "9052679",
+        "9053224"
+      ],
+      "id": "9052640",
+      "isDead": false,
+      "parent": "9052547",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "12 hours ago",
+      "submitter": "kaybe"
+    },
+    {
+      "body": "Unless the tree burns down you realize that it incorporates the CO2 in its structure right?",
+      "comments": [
+        "9052769"
+      ],
+      "id": "9052679",
+      "isDead": false,
+      "parent": "9052640",
+      "quality": 0.6470588235294118,
+      "story": "9052448",
+      "submitted": "12 hours ago",
+      "submitter": "zitterbewegung"
+    },
+    {
+      "body": "Most trees die at a certain age (or due to other factors). By default this leads to the tree falling over and starting to decompose, a process which releases most of the CO2 formerly stored in that tree.\n\nThe obvious solution is to plant an entire forest to ensure that new trees grow to replace old trees.",
+      "comments": [],
+      "id": "9052769",
+      "isDead": false,
+      "parent": "9052679",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "11 hours ago",
+      "submitter": "wongarsu"
+    },
+    {
+      "body": "If you kept planting and burying trees you'd be taking oxygen out of the atmosphere in addition to carbon, which would cause other problems.",
+      "comments": [
+        "9054199"
+      ],
+      "id": "9053224",
+      "isDead": false,
+      "parent": "9052640",
+      "quality": 0.5490196078431373,
+      "story": "9052448",
+      "submitted": "9 hours ago",
+      "submitter": "avar"
+    },
+    {
+      "body": "https://en.wikipedia.org/wiki/Photosynthesisn CO2 + n H2O + photons → (CH2O)n + n O2carbon dioxide + water + light energy → carbohydrate + oxygenEven if the single oxygen per carbon stayed buried, we'd lose a maximum of 400ppm[1] of oxygen, of currently 20.95 % volume of oxygen. That does not even affect the last digit of that rounded number, and the number is normally not given with more digits because it changes with the season and stuff.No carbon dioxide in the atmosphere would probably be really bad for further tree growth (among other things), so it is naturally limited.\n\n[1]http://www.esrl.noaa.gov/gmd/ccgg/trends/#mlo",
+      "comments": [],
+      "id": "9054199",
+      "isDead": false,
+      "parent": "9053224",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "5 hours ago",
+      "submitter": "kaybe"
+    },
+    {
+      "body": "yeah, but i want to make a billion bitcoins?",
+      "comments": [
+        "9052917",
+        "9052838"
+      ],
+      "id": "9052826",
+      "isDead": false,
+      "parent": "9052547",
+      "quality": 0.5490196078431373,
+      "story": "9052448",
+      "submitted": "11 hours ago",
+      "submitter": "taf2"
+    },
+    {
+      "body": "There will only ever be 21 million bitcoins, and we will be about 90% of the way there by 2025.",
+      "comments": [],
+      "id": "9052917",
+      "isDead": false,
+      "parent": "9052826",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "10 hours ago",
+      "submitter": "zanny"
+    },
+    {
+      "body": "Well I guess it is too bad for you that they're capped at 21 million.",
+      "comments": [],
+      "id": "9052838",
+      "isDead": false,
+      "parent": "9052826",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "11 hours ago",
+      "submitter": "williamcotton"
+    },
+    {
+      "body": "And so will AC systems in local banks.\n\nThe problem is not that something consumes energy if there are people willing to pay for that energy. The problem is how we generate electricity. It's getting better, but it has nothing to do with bitcoin.",
+      "comments": [
+        "9052752",
+        "9052682",
+        "9052583",
+        "9052743",
+        "9053327",
+        "9052578",
+        "9052707"
+      ],
+      "id": "9052555",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "13 hours ago",
+      "submitter": "comboy"
+    },
+    {
+      "body": "The point about Bitcoin in particular is that it is deliberately consuming vast amounts of computing power.The mathematics behind the individual transactions and ledger maintenance are relatively simple. Getting computers to do this part requires almost no effort. It's the deliberate 'find a needle in a haystack' part of the protocol (which is there to ratelimit the creation of bitcoins) that wastes all of the energy.\n\nThe fact that this needle-finding task is deliberately difficult, wasteful and time-consuming is the horrific part.",
+      "comments": [
+        "9052768",
+        "9053334"
+      ],
+      "id": "9052752",
+      "isDead": false,
+      "parent": "9052555",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "11 hours ago",
+      "submitter": "joosters"
+    },
+    {
+      "body": "It's only wasteful if there is a better alternative, which there isn't so it's not. If you don't understand bitcoin it is easy to make the mistake that the electricity is just used to generate bitcoins, however it is also used to secure an international low cost payment network.",
+      "comments": [
+        "9052785",
+        "9052791",
+        "9053225"
+      ],
+      "id": "9052768",
+      "isDead": false,
+      "parent": "9052752",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "11 hours ago",
+      "submitter": "celticninja"
+    },
+    {
+      "body": "> secure an international low cost payment networkThat's something which is actually handled fine in fiat, believe it or not.Nor is Bitcoin \"low cost\": Even with the price in the dumps recently a Bitcoin transaction still averages about $10 per transaction.\n\nNor can Bitcoin feasibly handle international commerce, given that it's still capped in theory to 7 transactions per second, and in practice to 2-3 transactions per second, and this total capacity also has to support non-remittance transfers such as the normal exchange hackings (like BTER today) and SatoshiDice (which can take up about half of all Bitcoin protocol capacity on some days).",
+      "comments": [
+        "9053539",
+        "9052888",
+        "9052928"
+      ],
+      "id": "9052785",
+      "isDead": false,
+      "parent": "9052768",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "11 hours ago",
+      "submitter": "mpyne"
+    },
+    {
+      "body": ">That's something which is actually handled fine in fiat, believe it or not.\n\nNot if you're Wikileaks. Bitcoin was (probably) built to solve the kind of problems they had getting money transferred to them. there's a cost associated with a low-trust network.",
+      "comments": [
+        "9054304"
+      ],
+      "id": "9053539",
+      "isDead": false,
+      "parent": "9052785",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "8 hours ago",
+      "submitter": "A_COMPUTER"
+    },
+    {
+      "body": "Since bitcoin has a public ledger, its possible to envision a system where the authorities punish anyone that sends bitcoin to addresses controlled by wikileaks or accepts bitcoins from them.",
+      "comments": [],
+      "id": "9054304",
+      "isDead": false,
+      "parent": "9053539",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "4 hours ago",
+      "submitter": "ufo"
+    },
+    {
+      "body": ">a Bitcoin transaction still averages about $10 per transaction.How does this make it not low cost? Transferring that $10 still only costs $.02>capped in theory to 7 transactions per second\n\nNot 7 transactions but 7 settlements per second, which clear in under 60 minutes. You can have as many binding transactions per second as you want off the chain.",
+      "comments": [
+        "9054318",
+        "9053052"
+      ],
+      "id": "9052888",
+      "isDead": false,
+      "parent": "9052785",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "11 hours ago",
+      "submitter": "unabridged"
+    },
+    {
+      "body": "> Not 7 transactions but 7 settlements per second, which clear in under 60 minutes. You can have as many binding transactions per second as you want off the chain.If you're willing to engage in transactions off-chain then you might as well use PayPal or other fiat. The blockchain and the protocol surrounding its maintenance is central to Bitcoin and its philosophy, it's not merely some 'nice-to-have' feature that should be jettisoned as soon as it becomes inconvenient.After all, the blockchain is the one and only authoritative Bitcoin ledger, everything else in Bitcoin is an IOU, no matter how sensible it might seem, which is why Bitcoin itself will reject a transaction if it's not included into a mined block in time.\n\nAnd either way, way to ignore the in-practice 2-3 transaction per second limit.",
+      "comments": [],
+      "id": "9054318",
+      "isDead": false,
+      "parent": "9052888",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "4 hours ago",
+      "submitter": "mpyne"
+    },
+    {
+      "body": "> How does this make it not low cost? Transferring that $10 still only costs $.02Assuming max TPS rate of 3tps, a 10-minute block will contain 3 * 60 * 10 = 1800 transactions. Each block generates 25btc, which is equivalent $6125 at the current $245 price.Each transaction therefore costs $6125 / 1800 = $3.40.\n\nOf this only a small amount is paid for the by the person who creates the transaction, the rest of paid for by those who hold Bitcoin.",
+      "comments": [
+        "9054302"
+      ],
+      "id": "9053052",
+      "isDead": false,
+      "parent": "9052888",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "10 hours ago",
+      "submitter": "inoop"
+    },
+    {
+      "body": "> Of this only a small amount is paid for the by the person who creates the transaction, the rest of paid for by those who hold Bitcoin.\n\nI always find it ironic that the illusion of low fees per transaction in Bitcoin is subsidized by the ongoing inflation of the money supply. Apparently inflation is acceptable when it helps evangelize the product you're trying to sell, but it's not acceptable monetary policy in any other situation.",
+      "comments": [],
+      "id": "9054302",
+      "isDead": false,
+      "parent": "9053052",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "5 hours ago",
+      "submitter": "mpyne"
+    },
+    {
+      "body": "> That's something which is actually handled fine in fiat, believe it or not\n\nHow? Are we comparing transaction fees?",
+      "comments": [],
+      "id": "9052928",
+      "isDead": false,
+      "parent": "9052785",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "10 hours ago",
+      "submitter": "atom-morgan"
+    },
+    {
+      "body": "Its not low cost if you need to emit tons of CO2 to maintain the network though.\n\nThe issue with bitcoin when it comes to cost is that unlike traditional centralized systems, cheaper energy or more efficient computers don't translate to making it cheaper to run the network. What happens is that miners get to afford more hashes per second and the overall hashrate goes up, with the mining difficulty also going up to compensate, making mining even more wasteful.",
+      "comments": [],
+      "id": "9052791",
+      "isDead": false,
+      "parent": "9052768",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "11 hours ago",
+      "submitter": "ufo"
+    },
+    {
+      "body": "\"It's only wasteful if there is a better alternative, which there isn't so it's not.\"The alternative is to get by without it. There are fiat currencies, proof of stake and much more.\n\nCapitalism of any kind always seeks to exploit externalities. The cost of producing electricity is currently not reflective of the true future cost of the pollution. That is the externality. Every metric in a capitalistic system is designed to reward the exploitation of externalities.",
+      "comments": [],
+      "id": "9053225",
+      "isDead": false,
+      "parent": "9052768",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "9 hours ago",
+      "submitter": "EGreg"
+    },
+    {
+      "body": "But that's what makes it work.  The energy is required.  Just because it doesn't use the energy in some cool mechanical way doesn't mean it's being wasted.  If you look at it as a black box, then it's a perfectly reasonable expense.\n\nYou could look at a space heater and say: wow, it just wastes all this electricity, deliberately causing resistive elements to heat up.  Well, of course, the heat is intended.  With bitcoins, the extra calculations are a part of what makes everything work.",
+      "comments": [
+        "9053363"
+      ],
+      "id": "9053334",
+      "isDead": false,
+      "parent": "9052752",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "9 hours ago",
+      "submitter": "lifeformed"
+    },
+    {
+      "body": "Consensus can be achieved with much lower power consumption. Don't blindly accept a solution just because you agree with the outcome.",
+      "comments": [],
+      "id": "9053363",
+      "isDead": false,
+      "parent": "9053334",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "8 hours ago",
+      "submitter": "kordless"
+    },
+    {
+      "body": "And the computer systems that run the bank. And the disaster recovery systems that back up the bank. And the cars that come to the bank to do banking. And the construction vehicles that build ATM's, bank vaults, bank buildings. And the furniture production systems that supply the bank with furniture...\n\nIt goes on and on. Most of that stuff, bitcoin doesn't have to do at all.",
+      "comments": [
+        "9053754"
+      ],
+      "id": "9052682",
+      "isDead": false,
+      "parent": "9052555",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "12 hours ago",
+      "submitter": "altoz"
+    },
+    {
+      "body": "I see this argument all the time.The point is that you cold achieve blockhain consensus without all that wasted energy and polluting the planet.",
+      "comments": [],
+      "id": "9053754",
+      "isDead": false,
+      "parent": "9052682",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "7 hours ago",
+      "submitter": "oco101"
+    },
+    {
+      "body": "While I'll be interested to see how the blockchain gets exploited for new tech, there are a couple of problems with your statement. First, right now there is a problem with how we generate energy, and a centralized banking system should be a lot more efficient in that regard, for all its other flaws - Bitcoin relies on the calculations being difficult and therefore compute/energy intensive, after all. Second, even if we had perfectly clean energy generation, there is a limit to how much we can use unless we get into really crazy future tech like exhausting energy into space via refrigerant/laser system: see http://physics.ucsd.edu/do-the-math/2012/04/economist-meets-.... (also the `Sundiver' sci-fi!).",
+      "comments": [],
+      "id": "9052583",
+      "isDead": false,
+      "parent": "9052555",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "13 hours ago",
+      "submitter": "TimSAstro"
+    },
+    {
+      "body": "The difference is that you can optimize the current banking system for lower power consumption. Bitcoin mining will always be a race on who can waste the most resources/electricity for mining.",
+      "comments": [
+        "9053082",
+        "9052764"
+      ],
+      "id": "9052743",
+      "isDead": false,
+      "parent": "9052555",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "11 hours ago",
+      "submitter": "skrause"
+    },
+    {
+      "body": "It's not exactly that. More energy-effective systems allow you to mine the same bitcoins with lower electricity expenses. When bitcoin mining will hit the wall of physical restrictions, they will start to optimize energy efficiency.",
+      "comments": [],
+      "id": "9053082",
+      "isDead": false,
+      "parent": "9052743",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "10 hours ago",
+      "submitter": "vbezhenar"
+    },
+    {
+      "body": "That is right, but does not take into account, that by construction, the system is becoming more efficient over time. The rise in computing power for every Bitcoin is reflecting that more transactions are done per Bitcoin over time. So, more and more efficient hardware is used and thus the relative energy needed per transaction is dropping.",
+      "comments": [
+        "9052796",
+        "9052813"
+      ],
+      "id": "9052764",
+      "isDead": false,
+      "parent": "9052743",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "11 hours ago",
+      "submitter": "PythonicAlpha"
+    },
+    {
+      "body": "But that doesn't take into account that Bitcoin price increases (since we're assuming for the sake of argument that the price will actually reach insane heights again) cause mining hashrate to go up, which causes network difficulty to go up, which is by definition less efficient.\n\nIn essence, Bitcoin's harm to the ecosystem is almost directly proportional to Bitcoin price.",
+      "comments": [
+        "9053110"
+      ],
+      "id": "9052796",
+      "isDead": false,
+      "parent": "9052764",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "11 hours ago",
+      "submitter": "mpyne"
+    },
+    {
+      "body": "It does. The rate of transactions is growing faster than the Bitcoin price.",
+      "comments": [
+        "9054293"
+      ],
+      "id": "9053110",
+      "isDead": false,
+      "parent": "9052796",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "10 hours ago",
+      "submitter": "PythonicAlpha"
+    },
+    {
+      "body": "My fingernails are growing faster than Bitcoin's price... the bigger concern is that Bitcoin is already near its practical transaction-per-second. Just a couple of weeks ago there were a few whole blocks' worth of unconfirmed transactions hanging out, and while that may have improved in the meantime it's just a harbinger of problems to come.",
+      "comments": [],
+      "id": "9054293",
+      "isDead": false,
+      "parent": "9053110",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "5 hours ago",
+      "submitter": "mpyne"
+    },
+    {
+      "body": "With more and more efficient hardware you'll just get a higher number of hashes per second and an increased difficulty. At least someone else will reinvest that saved electricity into more hardware, so you have to do the same to compete.\n\nJust imagine everyone using this more efficient hardware to save money on electricity, not increasing the mining difficulty. Eventually you'll have the risk of a single entity (e.g. a government organization) just buying enough hardware to have more than 50% of the hashing power, taking over the whole blockchain.",
+      "comments": [
+        "9053125"
+      ],
+      "id": "9052813",
+      "isDead": false,
+      "parent": "9052764",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "11 hours ago",
+      "submitter": "skrause"
+    },
+    {
+      "body": "I do not know exactly, how the mining difficulty is set up, but to my understanding, more and more transactions are possible with not so fast growing energy effort. And the number that is really interesting is the number of transactions per energy unit.\n\nThe second argument is something that is independent from the energy problem. The danger always exists, that some entity is taking over the blockchain.",
+      "comments": [
+        "9054329"
+      ],
+      "id": "9053125",
+      "isDead": false,
+      "parent": "9052813",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "10 hours ago",
+      "submitter": "PythonicAlpha"
+    },
+    {
+      "body": "Bitcoin adds a new block to the blockchain every 10 minutes. The difficulty rate is roughly proportional to the total network hash power and is there to keep that constant speed of block generation.",
+      "comments": [],
+      "id": "9054329",
+      "isDead": false,
+      "parent": "9053125",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "4 hours ago",
+      "submitter": "ufo"
+    },
+    {
+      "body": "It would be interesting to see a comparison of CO2 emission by banks and by Bitcoins, keeping in mind (1) the relative scale of what they provide and (2) that Bitcoin provides only a payment system, and one whose security features are not well suited for most people, while the banking system provides much more than a payment system.",
+      "comments": [],
+      "id": "9053327",
+      "isDead": false,
+      "parent": "9052555",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "9 hours ago",
+      "submitter": "nhaehnle"
+    },
+    {
+      "body": "And so will AC systems in local banks.You can essentially include the entirety of operations of the bank, and the lifestyle of the people employed by the bank. There are literally millions and millions of people throughout the world who do nothing more than manage and monitor a system that moves numbers around and deals with proxy derivatives like bills and coins.\n\nNot that bitcoin is a panacea -- personally it seems completely untenable -- but if we want to talk waste, the current regime is extraordinarily wasteful.",
+      "comments": [
+        "9052656"
+      ],
+      "id": "9052578",
+      "isDead": false,
+      "parent": "9052555",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "13 hours ago",
+      "submitter": "engendered"
+    },
+    {
+      "body": "But how much (dare I say little?) of it would be unneeded if bitcoin succeeded?",
+      "comments": [
+        "9052710",
+        "9052771"
+      ],
+      "id": "9052656",
+      "isDead": false,
+      "parent": "9052578",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "12 hours ago",
+      "submitter": "ncza"
+    },
+    {
+      "body": "It can't succeed. Cryptocurrencies might succeed, but not bitcoin. It's not even inflationary; it's a cross between a payment system and a pyramid scheme.\n\nIts a bit pedantic, but please don't say bitcoin when you mean cryptocurrency, as bitcoin is a pretty bad one.",
+      "comments": [
+        "9053217",
+        "9052963"
+      ],
+      "id": "9052710",
+      "isDead": false,
+      "parent": "9052656",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "12 hours ago",
+      "submitter": "tormeh"
+    },
+    {
+      "body": "> It's not even inflationaryAnd that's exactly the whole point, and is the very reason it's working.> a pyramid scheme\n\nThen every other successful investment is a pyramid scheme. Gold is a pyramid scheme! Storing food for catastrophes is a pyramid scheme! Paintings are a pyramid scheme!",
+      "comments": [
+        "9054345"
+      ],
+      "id": "9053217",
+      "isDead": false,
+      "parent": "9052710",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "9 hours ago",
+      "submitter": "oafitupa"
+    },
+    {
+      "body": "Not every investment has to be a pyramid scheme. If you are generating value or selling a product then you end up with more money than what your investors are putting in.\n\nWhat makes bitcoin into kind of a pyramid scheme is that right now a big part of the reward for miners is the 25 bitcoin you get from mining a block. Only a very small fraction comes from the transaction fees. The only way to keep bitcoin stable is by having a constant supply of new users buying into bitcoin by acquiring those fresh bitcoins from the miners.",
+      "comments": [],
+      "id": "9054345",
+      "isDead": false,
+      "parent": "9053217",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "4 hours ago",
+      "submitter": "ufo"
+    },
+    {
+      "body": "Maybe a naïve question, but are there any good ones we should support instead?",
+      "comments": [],
+      "id": "9052963",
+      "isDead": false,
+      "parent": "9052710",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "10 hours ago",
+      "submitter": "calinet6"
+    },
+    {
+      "body": "I don't see a world in which Bitcoin would safe even only a single person in the traditional banking world.  Bitcoin can neither replace banks nor creditcards.  It might replace the ACH.",
+      "comments": [],
+      "id": "9052771",
+      "isDead": false,
+      "parent": "9052656",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "11 hours ago",
+      "submitter": "the_mitsuhiko"
+    },
+    {
+      "body": "I think that answer is more than a little flip.  Certainly when you consider it's the highest up-voted answer.  For such an answer, I'd like to see a broader discussion over value stores (gold, fiat, crypto).  I know gold mining is very resource intensive with lots of undesirable by products.  That being said, once you mine an ounce of gold, like bitcoin, it last forever.  Fiat money, of course, takes almost zero energy to create.  It's just a journal entry on some central bank's ledger system.\n\nThat's just the creation side.  On the use side, there are broadly different costs in using and maintaining gold-based, crypto-based and fiat-based money systems.  I would like to see others way in on this.",
+      "comments": [],
+      "id": "9052707",
+      "isDead": false,
+      "parent": "9052555",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "12 hours ago",
+      "submitter": "jgalt212"
+    },
+    {
+      "body": "This is one of the reasons that people are working on proof-of-stake, which secures a cryptocurrency without mining. There are some good technical articles on the ethereum blog, eg:https://blog.ethereum.org/2014/07/05/stake/\n\nhttps://blog.ethereum.org/2015/01/10/light-clients-proof-sta...",
+      "comments": [
+        "9055028",
+        "9052780",
+        "9052995",
+        "9052789"
+      ],
+      "id": "9052770",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "11 hours ago",
+      "submitter": "DennisP"
+    },
+    {
+      "body": "Proof of stake is not distributed consensus. It falls back to trust-based consensus in an attack scenario.",
+      "comments": [],
+      "id": "9055028",
+      "isDead": false,
+      "parent": "9052770",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "32 minutes ago",
+      "submitter": "aminok"
+    },
+    {
+      "body": "Sadly, proof-of-stake has some fundamental flaws undermining its reliability as a consensus mechanism: https://download.wpsoftware.net/bitcoin/pos.pdf",
+      "comments": [
+        "9052807"
+      ],
+      "id": "9052780",
+      "isDead": false,
+      "parent": "9052770",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "11 hours ago",
+      "submitter": "Adlai"
+    },
+    {
+      "body": ">if you are tired of opponents of proof of stake pointing you to this article by Andrew Poelstra, feel free to link them here in responsehttps://blog.ethereum.org/2015/01/28/p-epsilon-attack/\n\nAchievement unlocked!",
+      "comments": [
+        "9053780"
+      ],
+      "id": "9052807",
+      "isDead": false,
+      "parent": "9052780",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "11 hours ago",
+      "submitter": "ikeboy"
+    },
+    {
+      "body": "I'm tired this is another article that address nothing as stake argument. Nothing at Stake - Nothing to Fear : http://bytemaster.bitshares.org/article/2015/01/08/Nothing-a...",
+      "comments": [],
+      "id": "9053780",
+      "isDead": false,
+      "parent": "9052807",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "7 hours ago",
+      "submitter": "oco101"
+    },
+    {
+      "body": "Proof of Stake is fundamentally broken.If there's a chain fork (which is the important corner case that Proof of Work is excellent at dealing with), there is no incentive for a Proof of Stake holder not to \"vote\" on both forks. This reduces network security substantially.It also leads to the rich gaining more and more wealth over time.Proof of Work leads to moderate energy consumption, but it's negligible compared to the utility of a Bitcoin.\n\nI wonder how much CO2 it takes to make around $250 in cash?",
+      "comments": [
+        "9053143"
+      ],
+      "id": "9052995",
+      "isDead": false,
+      "parent": "9052770",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "10 hours ago",
+      "submitter": "wyager"
+    },
+    {
+      "body": "Tendermint proposed a solution to the 'nothing at stake' problem with the concept of bond deposit. Check out the whitepaper at http://tendermint.com/",
+      "comments": [],
+      "id": "9053143",
+      "isDead": false,
+      "parent": "9052995",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "9 hours ago",
+      "submitter": "tabrischen"
+    },
+    {
+      "body": "Doesn't proof of stake fundamentally ensure that the \"rich get richer\"?",
+      "comments": [
+        "9052810"
+      ],
+      "id": "9052789",
+      "isDead": false,
+      "parent": "9052770",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "11 hours ago",
+      "submitter": "higherpurpose"
+    },
+    {
+      "body": "At least in theory, the poor get richer at the same rate, so it's more like inflation. Practical problems make it not that easy, but it's not a fundamental flaw of the idea.",
+      "comments": [
+        "9052864"
+      ],
+      "id": "9052810",
+      "isDead": false,
+      "parent": "9052789",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "11 hours ago",
+      "submitter": "wongarsu"
+    },
+    {
+      "body": "Isn't that more like deflation? Where each monetary unit becomes worth more over time?",
+      "comments": [
+        "9052904"
+      ],
+      "id": "9052864",
+      "isDead": false,
+      "parent": "9052810",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "11 hours ago",
+      "submitter": "headShrinker"
+    },
+    {
+      "body": "That's not what deflation means.  Deflation is a decrease in the number of monetary units.  Thus, one effect of inflation is that each monetary unit becomes worth more.Similarly, rising prices is an effect of inflation, and not inflation itself.Your confusion is understandable: over the last decade or so, several high profile \"macro-economists\" have subtly but suddenly began misusing these terms as you just did, so much so that dictionaries and textbooks have begun to follow suit.\n\nIn any case, most proof-of-stake coins inflate per their mechanism, and do so at a generally faster pace than proof-of-work coins.  Moreover, proof-of-stake advocates believe that their coins' mechanisms favor a healthier and more predictable distribution of units, rather than the volatile arms race of proof-of-work.",
+      "comments": [
+        "9053204"
+      ],
+      "id": "9052904",
+      "isDead": false,
+      "parent": "9052864",
+      "quality": 0.5490196078431373,
+      "story": "9052448",
+      "submitted": "11 hours ago",
+      "submitter": "jMyles"
+    },
+    {
+      "body": "No, deflation can also mean that the same amount of money is chasing a greater number of goods and services in a growing economy. Actually deflation meaning the price of money keeps going up is a good definition.",
+      "comments": [
+        "9053432"
+      ],
+      "id": "9053204",
+      "isDead": false,
+      "parent": "9052904",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "9 hours ago",
+      "submitter": "EGreg"
+    },
+    {
+      "body": "Normatively, it may or may not be a good definition.  Empirically, it is a redefinition; it is not the traditional use of the word. http://en.wikipedia.org/wiki/Inflation#Related_definitions",
+      "comments": [],
+      "id": "9053432",
+      "isDead": false,
+      "parent": "9053204",
+      "quality": 0.6470588235294118,
+      "story": "9052448",
+      "submitted": "8 hours ago",
+      "submitter": "jMyles"
+    },
+    {
+      "body": "This kind of project speaks to a major strength of Bitcoin. The transparency that is built in to the Bitcoin protocol allows us to actually understand (albeit through rough estimation at this point) the complete resource cost of the network.This transparency allows us (humanity) to actually have discussions on how we can go about managing our resources in the 21st century.What is the total CO2 cost of <Large Payment Processor X>? No one knows - the network is opaque since that kind of information is a competitive advantage. Which is fine, the core competency of the payment processor isn't understanding their CO2 footprint.\n\nHowever, from a policy maker point of view, a system where total resource cost is verifiable by a third party audit makes for a compelling argument in favour of the open network.",
+      "comments": [
+        "9053501"
+      ],
+      "id": "9053351",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "8 hours ago",
+      "submitter": "antiics"
+    },
+    {
+      "body": "It's an odd thing but transparency of this sort often causes a bias in criticism because the problems are apparent.   Wikipedia has a similar issue, with the perennial comments about the information being unreliable.   People interpret a known level of unreliability as more unreliable.  Similarly with bitcoin, a known cost is assumed to be more than a hidden cost.",
+      "comments": [],
+      "id": "9053501",
+      "isDead": false,
+      "parent": "9053351",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "8 hours ago",
+      "submitter": "Lerc"
+    },
+    {
+      "body": "The most important take away I think is that computing uses a helluva lot of more energy compared to what people think it does. Loading Facebook on your phone and seeing a newsfeed uses a fair bit more power than just the fraction of a percent of your battery's storage. Multiply that by 1.3 billion users and by a few thousand request per user per month - I suspect that's a lot of energy.\n\nI think a lot of climate change action includes to a degree a reduction in energy usage - but I don't see that happening any time soon. Unless computers get dramatically more efficient in their energy usage, energy demand will continue to grow. Renewable energy source growth will have to beat it.",
+      "comments": [
+        "9052920",
+        "9052734"
+      ],
+      "id": "9052627",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "12 hours ago",
+      "submitter": "thomasfoster96"
+    },
+    {
+      "body": "A Google data center near my home uses the equivalent of 1.5% of a nearby coal-fired generating plant's output to produce nothing but zeros and ones. To be fair, Google spends extra money to get electricity from renewable sources, and I'm happy to have them because I like their service. But that's a lot of electricity! Amazon, Microsoft, and other large data centers are similar.",
+      "comments": [],
+      "id": "9052920",
+      "isDead": false,
+      "parent": "9052627",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "10 hours ago",
+      "submitter": "xpda"
+    },
+    {
+      "body": ">  Unless computers get dramatically more efficient in their energy usage...\n\nOr developers get dramatically better at writing efficient code. Or both.",
+      "comments": [
+        "9054658"
+      ],
+      "id": "9052734",
+      "isDead": false,
+      "parent": "9052627",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "11 hours ago",
+      "submitter": "s_kilk"
+    },
+    {
+      "body": "I don't think many developers optimise ( or would know how to optimise) for less energy usage. :)",
+      "comments": [],
+      "id": "9054658",
+      "isDead": false,
+      "parent": "9052734",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "3 hours ago",
+      "submitter": "thomasfoster96"
+    },
+    {
+      "body": "How much CO2 is released hauling bags of coins and notes around?How much is released keeping the rest of the currency system running?\n\nBitcoin may or may not win on these questions, but if we're going to ask them about Bitcoin, we should also ask them about the way we're doing it now.",
+      "comments": [
+        "9052947"
+      ],
+      "id": "9052927",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "10 hours ago",
+      "submitter": "fnordfnordfnord"
+    },
+    {
+      "body": "I dunnow, but when I carry around £150 it's not usually in coins, just a few notes..",
+      "comments": [
+        "9053112",
+        "9054087"
+      ],
+      "id": "9052947",
+      "isDead": false,
+      "parent": "9052927",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "10 hours ago",
+      "submitter": "stuaxo"
+    },
+    {
+      "body": "I was thinking more about this: http://commons.wikimedia.org/wiki/File:Dunbar_armored_car.JP...",
+      "comments": [],
+      "id": "9053112",
+      "isDead": false,
+      "parent": "9052947",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "10 hours ago",
+      "submitter": "fnordfnordfnord"
+    },
+    {
+      "body": "But there _are_ coins, wether you carry them around or not is irrelevant, someone does.",
+      "comments": [],
+      "id": "9054087",
+      "isDead": false,
+      "parent": "9052947",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "5 hours ago",
+      "submitter": "div"
+    },
+    {
+      "body": "The waste is incredible. It seems like the nash-equilibria of a currency are far, far from a social optimum. In other words, the price of anarchy is very high. This has always been an off-putting aspect of bitcoin to me.",
+      "comments": [
+        "9052572",
+        "9052586",
+        "9053073",
+        "9052574",
+        "9053240"
+      ],
+      "id": "9052559",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "13 hours ago",
+      "submitter": "Kenji"
+    },
+    {
+      "body": "I sincerely don't understand why do people call it wasted energy.If your car runs on electricity, is taking your from place A to B waste of energy?\n\nThat energy is used to secure transactions. And even with its decentralized nature which is usually less efficient that centralized systems (but more reliable, and without single point of failure), it seems to be so far doing it more efficiently than banking systems.",
+      "comments": [
+        "9052702",
+        "9052589",
+        "9053798",
+        "9052615"
+      ],
+      "id": "9052572",
+      "isDead": false,
+      "parent": "9052559",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "13 hours ago",
+      "submitter": "comboy"
+    },
+    {
+      "body": "Well, in a way the whole financial system is a \"waste\" of energy - but we unfortunately need it. I'd rather use the word \"upkeep\" here.Financial systems is one of those things we do because as human beings, we're handicapped in terms of coordinating with each other. We depend on external feedback loops to do anything as a big group. Perhaps if we were smarter, we could all just agree to do things for common benefit. But we're not that smart, and hence we need an economy. Maintaining it takes energy, but it should be seen as civilization upkeep costs - something we have to pay, but would do well to reduce as much as possible. It's a trade-off between amount of energy we use and the utility we get from it, and so it's fair to call unneccessary energy expenditure a waste.The reason people call Bitcoin a waste of energy is that because it makes it clear how ridiculous the whole thing is - you're literally throwing away useful resources to generate abstract numbers that exist solely because we suck at coordinating with each other. In case of traditional banking the energy expenditure is hidden under many layers of indirection (the mentioned AC costs, for example), so it's not that obvious to people.The other problem with Bitcoin is that resource usage is - as far as I understand the mechanics of that cryptocurrency - locked in a zero-sum game. You need to throw more and more electricity away just to keep up with other people doing exactly the same thing. This is the worst case of waste imaginable - because you can scale up your energy use ad infinitum without any marginal benefit. That's why also political campaign and advertising is mostly waste - everyone's effort just goes to cancel out the effort of everyone elses.\n\nWe'd do well as a civilization to reduce our upkeep to the minimum required.",
+      "comments": [
+        "9053388"
+      ],
+      "id": "9052702",
+      "isDead": false,
+      "parent": "9052572",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "12 hours ago",
+      "submitter": "TeMPOraL"
+    },
+    {
+      "body": "Efficiencies take care of themselves - setting intent is pointless in that regard. Human based consensus already takes tons of power and is excessively wasteful when it breaks. Credit card theft is wasteful for example.  And besides, money has always been about storing work.",
+      "comments": [],
+      "id": "9053388",
+      "isDead": false,
+      "parent": "9052702",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "8 hours ago",
+      "submitter": "kordless"
+    },
+    {
+      "body": "It is wasting energy because a Raspberry Pi could easily handle one or two transaction per second(1). If you are worried about having a single point of failure, use ten or a hundred. Bitcoin is paying an enormous price for its decentralized nature.\n\n(1) I am of course ignorant of peak loads here.",
+      "comments": [
+        "9052635",
+        "9052612",
+        "9052739"
+      ],
+      "id": "9052589",
+      "isDead": false,
+      "parent": "9052572",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "13 hours ago",
+      "submitter": "danbruc"
+    },
+    {
+      "body": "Those rasps still have a single point of failure: their operator. Bitcoin is decentralized, resilient, trustless, and actually managed to see some adoption. If anyone can do better, they should.",
+      "comments": [
+        "9052673"
+      ],
+      "id": "9052635",
+      "isDead": false,
+      "parent": "9052589",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "12 hours ago",
+      "submitter": "blfr"
+    },
+    {
+      "body": "What about for example Mt. Gox? Until you can use Bitcoin without ever having to go through an exchange you still have these kinds of trust in the chain. And even then there is still the risk of a mining pool achieving more than fifty percent of the hash rate and you have to trust them that they will not abuse this power or voluntarily split up.",
+      "comments": [
+        "9052684"
+      ],
+      "id": "9052673",
+      "isDead": false,
+      "parent": "9052635",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "12 hours ago",
+      "submitter": "danbruc"
+    },
+    {
+      "body": "You can use Bitcoin without an exchange. Have you ever heard of the #bitcoin-otc IRC channel? It is a peer-to-peer marketplace.[0]\n\n[0]http://bitcoin-otc.com/",
+      "comments": [
+        "9052698"
+      ],
+      "id": "9052684",
+      "isDead": false,
+      "parent": "9052673",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "12 hours ago",
+      "submitter": "grubles"
+    },
+    {
+      "body": "You still have to trust the other party.",
+      "comments": [
+        "9052850",
+        "9052797"
+      ],
+      "id": "9052698",
+      "isDead": false,
+      "parent": "9052684",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "12 hours ago",
+      "submitter": "danbruc"
+    },
+    {
+      "body": "You don't, however, have to trust a central entity with your government ID, utility bill, etc.",
+      "comments": [],
+      "id": "9052850",
+      "isDead": false,
+      "parent": "9052698",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "11 hours ago",
+      "submitter": "grubles"
+    },
+    {
+      "body": "You can meet the other party in person (e.g. https://localbitcoins.com/). That should reduce the amount of trust needed to a minimum.",
+      "comments": [
+        "9053096"
+      ],
+      "id": "9052797",
+      "isDead": false,
+      "parent": "9052698",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "11 hours ago",
+      "submitter": "wongarsu"
+    },
+    {
+      "body": "Doesn't that actually increase the amount of trust required? What if the other party »convinces« you using a gun to hand over the money without giving the Bitcoins to you?",
+      "comments": [
+        "9053228"
+      ],
+      "id": "9053096",
+      "isDead": false,
+      "parent": "9052797",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "10 hours ago",
+      "submitter": "danbruc"
+    },
+    {
+      "body": "Then perhaps you also ought to have a friend and some weapons to guarantee your personal safety too. Alternatively, meet up in a relatively safe, public, conspicuous area where that is unlikely to happen.",
+      "comments": [
+        "9053271"
+      ],
+      "id": "9053228",
+      "isDead": false,
+      "parent": "9053096",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "9 hours ago",
+      "submitter": "haneefmubarak"
+    },
+    {
+      "body": "I will just keep trusing my bank.",
+      "comments": [],
+      "id": "9053271",
+      "isDead": false,
+      "parent": "9053228",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "9 hours ago",
+      "submitter": "danbruc"
+    },
+    {
+      "body": "Peak as in mountain peak. To reach a peak, or top.Not peek as in to look.\n\nThis is one of those annoying misspellings that is making the rounds recently, especially on reddit.",
+      "comments": [
+        "9052648"
+      ],
+      "id": "9052612",
+      "isDead": false,
+      "parent": "9052589",
+      "quality": 0.6470588235294118,
+      "story": "9052448",
+      "submitted": "12 hours ago",
+      "submitter": "mattmanser"
+    },
+    {
+      "body": "Of course, fixed. Confusing heterographs is quite easy if you are not writing in your native language so maybe don't be to harsh with them.",
+      "comments": [],
+      "id": "9052648",
+      "isDead": false,
+      "parent": "9052612",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "12 hours ago",
+      "submitter": "danbruc"
+    },
+    {
+      "body": "OK, let's go with it. Apart from the fact that people are happily paying for the energy bitcoin is using (so if people want something it is not wasted). Let's try to take this idea seriously.The task is not to have some spreadsheet with transactions that you could have of course on the oldest computers. The task is to provide a global payment system that people trust.So obviously we're not going to use RPi. We need some solid machine. No problem, best server is cheap for the global payment system.Well we also need reliability. So at least a few of these machines.Real reliability, so actually they must be in some separate geographical locations.At this point there are already some problems with consensus but they can be solved since we control the whole system. Cool.But what if one location is compromised? We have to care about that, our global payment system must not be destroyed by servers being compromised in any way.So first, we need some really good software security. Solvable, it can be open source, maybe people who depend on it will review it. Then we need hardware security. Security at these locations must be really good. It's global so we might actually want to be able to protect ourselves from some country's army - that bumps cost of these facilities a bit. Actually, a bit too much. We want to be independent from governments. They have a lot of money, it's really hard to protect physical locations.Then there's the trust problem. Who runs it? Some organization I assume that have some cut of the cost of the whole operation. I won't even dive into details here. Throughout human history there probably was not a single organization that could be trusted, objective and rational once it gained enough power.And to make it complete, unrelated to your comment, some people are mentioning proof of stake. Apart from the fact that it doesn't seem to provide any provable security, you have a trust problem again. Proof of stake is based on the assumption that most holders (in terms of money) want bright future for the currency. I wouldn't assume that. I'm happy that it is completely irrelevant for me who is Satoshi and what is she going to do with her coins.And then, there's initial distribution problem...I don't really see any more efficient solution to what Bitcoin currently provides. It is of course probable that such solution will appear in the future, but the network effect is huge. It's really first time in history we have such kind of money and Patrick Byrne (overstock CEO) explains it nicely in some of his talks. So even if such technology appears, I think it will get implemented in what is currently called Bitcoin (sidechains seem to be some baby steps of that).\n\n(OK, I got a bit of topic, but these WASD keyboards are such a pleasure to type on.)",
+      "comments": [],
+      "id": "9052739",
+      "isDead": false,
+      "parent": "9052589",
+      "quality": 0.5490196078431373,
+      "story": "9052448",
+      "submitted": "11 hours ago",
+      "submitter": "comboy"
+    },
+    {
+      "body": "I agree but how about you take the same car and it will take you from place A to B but instead you only use just 5% of the energy you used before? Witch electric car you would chose ?",
+      "comments": [],
+      "id": "9053798",
+      "isDead": false,
+      "parent": "9052572",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "7 hours ago",
+      "submitter": "oco101"
+    },
+    {
+      "body": "It's a waste because Bitcoin's entire transaction volume could easily be handled by a single raspberry pi on a Starbucks Wi-Fi connection.\n\nThe price of Bitcoin is dictated by greed and speculation, not by its utility.",
+      "comments": [],
+      "id": "9052615",
+      "isDead": false,
+      "parent": "9052572",
+      "quality": 0.6470588235294118,
+      "story": "9052448",
+      "submitted": "12 hours ago",
+      "submitter": "inoop"
+    },
+    {
+      "body": "How wasteful is people flying all the way around the world  to watch a football game in the middle of a desert? How wasteful is it to try to host a football game in the middle of doggone nowhere Qatar in a godforsaken climate controlled stadium?\n\nOn a scale of one to ridiculous, bitcoin does not even come close to the stuff crazy people do.",
+      "comments": [
+        "9052628"
+      ],
+      "id": "9052586",
+      "isDead": false,
+      "parent": "9052559",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "13 hours ago",
+      "submitter": "thanksgiving"
+    },
+    {
+      "body": "just because there are more ridiculous things doesn't make bitcoin less ridiculous on some axes",
+      "comments": [
+        "9052642",
+        "9052654"
+      ],
+      "id": "9052628",
+      "isDead": false,
+      "parent": "9052586",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "12 hours ago",
+      "submitter": "rtpg"
+    },
+    {
+      "body": "And now I'm thinking of doing PCA in the ridiculousness space. I wonder how many dimensions it has?",
+      "comments": [],
+      "id": "9052642",
+      "isDead": false,
+      "parent": "9052628",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "12 hours ago",
+      "submitter": "kaybe"
+    },
+    {
+      "body": "Also Qatar can't scale up the way Bitcoin usage can.",
+      "comments": [],
+      "id": "9052654",
+      "isDead": false,
+      "parent": "9052628",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "12 hours ago",
+      "submitter": "TeMPOraL"
+    },
+    {
+      "body": "The prince can as easily be attributed to the modern banking system as it can be to anarchy. Banks used to offer simple bailment, where people could deposit money for safeguard and convenience. The money or gold was still the property of the bailor, and the whole deal was a private arrangement between the bank and their customers.Today, if I go to the bank and request a large withdraw from my savings account, I am required to provide a explanation for the withdraw and the teller can deny the withdraw at their discretion. They can at any point close accounts and hold money indefinite. They collect private and highly sensitive information about customers lives in secret for purposes of data mining and sharing it with private organizations and governments.\n\nThe price of the modern banking system is to me very high, higher than the waste from e-currencies. If it was an option, I would use the banks of old.",
+      "comments": [],
+      "id": "9053073",
+      "isDead": false,
+      "parent": "9052559",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "10 hours ago",
+      "submitter": "belorn"
+    },
+    {
+      "body": "This is one of many reasons why you're seeing a lot of people in the crypto space favoring \"proof of stake\" recently, which doesn't have this cost (though this is very controversial still)",
+      "comments": [],
+      "id": "9052574",
+      "isDead": false,
+      "parent": "9052559",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "13 hours ago",
+      "submitter": "drcode"
+    },
+    {
+      "body": "I don't see you complaining about these:\n\nhttp://commons.wikimedia.org/wiki/File:Dunbar_armored_car.JP...",
+      "comments": [],
+      "id": "9053240",
+      "isDead": false,
+      "parent": "9052559",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "9 hours ago",
+      "submitter": "oafitupa"
+    },
+    {
+      "body": "For me this tells that we as a species are still horrible at producing electricity in an environmentally balanced way. Especially stuff that's on the grid (like stationary computers) should be easy to run on regenerative energy and as Bitcoin is a global currency, it should not be a problem to do so 24/7 (the sun always shines somewhere). On a related note: why is fusion still 50 years away? Nobody seems to put proportional effort in that sector.\n\nps: I think a satellite that is dedicated to compute Bitcoin with solar energy (no atmosphere/night to bother out there) would be awesome!",
+      "comments": [
+        "9053919",
+        "9053269"
+      ],
+      "id": "9053162",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "9 hours ago",
+      "submitter": "skriticos2"
+    },
+    {
+      "body": "I'm not an astronomer, but presumably a satellite would still have night to contend with. Anything orbiting the earth is going to spend half its time in Earth's shadow, right? I remember a Radiolab [1] where they describe the ISS going from daytime to nighttime every 45 minutes.\n\n[1] http://www.radiolab.org/story/242184-dark-side-earth/",
+      "comments": [],
+      "id": "9053919",
+      "isDead": false,
+      "parent": "9053162",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "6 hours ago",
+      "submitter": "theOnliest"
+    },
+    {
+      "body": "> On a related note: why is fusion still 50 years away? Nobody seems to put proportional effort in that sector.Why is P=NP unsolved? Nobody seems to put proportional effort in that.\n\nOh wait, they do, but J. Random Citizen doesn't know about it...? Huh!",
+      "comments": [
+        "9053348"
+      ],
+      "id": "9053269",
+      "isDead": false,
+      "parent": "9053162",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "9 hours ago",
+      "submitter": "eropple"
+    },
+    {
+      "body": "I did not mean to say that it's an easy problem to solve, just that I don't see an overwhelming political or societal will to push for a solution here.Flying to the moon was also a hard problem, but resources got allocated and things got done.If I'd see that 5% GDP would go into the project with proper focus and aim, I have the feeling it'd be faster.\n\nPS: and the money could be made with carbon taxation to push fossil fuel cost into perspective.",
+      "comments": [
+        "9053370"
+      ],
+      "id": "9053348",
+      "isDead": false,
+      "parent": "9053269",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "8 hours ago",
+      "submitter": "skriticos2"
+    },
+    {
+      "body": "You're criticizing people for not gosh-darn inventing things fast enough when we don't even know that it's possible. There are things we know are possible, which people are doing, while other people are researching blue-sky technologies.",
+      "comments": [],
+      "id": "9053370",
+      "isDead": false,
+      "parent": "9053348",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "8 hours ago",
+      "submitter": "eropple"
+    },
+    {
+      "body": "Creating Bitcoins is a side effect of processing transactions. I don't know how many transactions are currently processed when one Bitcoin is generated. But that would be the interesting figure.What I would find interesting is to compare the power consumption per bitcoin transaction with other currencies.Power consumption per transaction will probably always stay pretty low. Because one way or another the users of Bitcoin have to pay for them. And they won't use it, if it is expensive.\n\nEnergy efficiency is one of the few areas I think should be handled by the government rather then by the individual. If using up energy is cheap but bad for the environment: tax energy higher. Everything will fall into place then in just the right proportion.",
+      "comments": [
+        "9052713"
+      ],
+      "id": "9052665",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "12 hours ago",
+      "submitter": "xyby"
+    },
+    {
+      "body": "> Creating Bitcoins is a side effect of processing transactions.I don't think that's a particularly useful characterisation of the situation. It makes it seem like some kind of \"processing\" on the transactions is where the real computationally expensive work occurs, with a side-effect of creating bitcoins.In reality, mining is pure mathematical busywork. A miner spends time trying to find a valid block (a valid hash with enough zeros at the start, as determined by the current difficulty level). This is a mathematical task unrelated to any \"processing\" of transactions, and is independent of the number of transactions or their complexity.While the miner is performing this busywork (trying hash after hash waiting for a valid one to come up) a number of transactions are occurring and are flying around the network. The miner is noticing these and caching them up. Eventually, if the miner should \"find\" a valid block, he publishes it to the network, and crams into it all his cached up transactions.So creating bitcoins isn't really a side-effect of processing transactions, per se. Rather, both the approval of transactions and the creation of bitcoins are side-effects of running a mathematical algorithm (mining).As such I probably wouldn't usually describe transactions as being \"processed\" at all (which would tend to imply computation related to the transactions themselves), but that they get \"included\" into a mined block.>I don't know how many transactions are currently processed when one Bitcoin is generatedhttps://blockchain.info/charts/n-transactions-per-blockThat graph shows the number of transactions per block over time. You could then divide by the block reward to find transactions-mined-per-bitcoin-generated figure.>Power consumption per transaction will probably always stay pretty low. Because one way or another the users of Bitcoin have to pay for them. And they won't use it, if it is expensive.\n\nWell the mining \"difficulty\" level (which essentially dictates how much power is needed on average to find a block) is controlled by rules programmed into the bitcoin system, in such a way that the higher the total mining power contributing to the network, the higher the difficulty (adjusted every 2016 blocks, so that the entire mining network on average discovers a block every 10 minutes). Here is a graph of how difficulty has evolved over time, as the aggregate mining power has ebbed and flowed https://blockchain.info/charts/difficulty",
+      "comments": [],
+      "id": "9052713",
+      "isDead": false,
+      "parent": "9052665",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "12 hours ago",
+      "submitter": "jamestnz"
+    },
+    {
+      "body": "This model is fundamentally flawed. It assumes (highly) exponential increases in hash rate with time but constant energy efficiency. However it is nearly entirely increases in efficiency that have driven the higher hash rates. If those efficiencies stop increasing (and we've probably picked the low hanging fruit already with ASICs), then hash rate growth rate will dramatically slow.",
+      "comments": [],
+      "id": "9053214",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "9 hours ago",
+      "submitter": "DavidSJ"
+    },
+    {
+      "body": "When first investigating Bitcoin in 2011 I was highly concerned with it's energy consumption for the sake of crunching arbitrary calculations. It's a huge waste of natural resources.This is one of the main reasons I have been a big supporter of Peercoin. Peercoin eliminates the need for massive energy consumption and dedicated server farms. Both of these features will be very important in the future.http://en.wikipedia.org/wiki/PeercoinBitcoin is a huge innovation, but it can be considered the first major crypto-currency. In the long-run, alternate solutions like Peercoin will play a larger role in the market.\n\nFull disclosure: I have investments in both Bitcoin and Peercoin.",
+      "comments": [],
+      "id": "9053707",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "7 hours ago",
+      "submitter": "_Marak_"
+    },
+    {
+      "body": "I would love to see bitcoin having zero waste and impact on our environment but even now in it's current state it is much cheaper and environmentally friendly [1] than other methods like Gold Mining, Gold Recycling, Banking System Electricity Use, Paper Currency & Minting.\n\n[1] https://www.academia.edu/7666373/An_Order-of-Magnitude_Estim...",
+      "comments": [
+        "9052611"
+      ],
+      "id": "9052591",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "13 hours ago",
+      "submitter": "h43z"
+    },
+    {
+      "body": "I have not fully read the text you linked to, but it is not necessary to do so to reject at least the part about the Banking System Electricity use: common sense suffices. Sure, the system requires much more energy, but it also does much, much more than Bitcoin. In fact, almost everything it does is not related to the currency itself and would still be required if Bitcoin were to become popular.",
+      "comments": [],
+      "id": "9052611",
+      "isDead": false,
+      "parent": "9052591",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "12 hours ago",
+      "submitter": "quonn"
+    },
+    {
+      "body": "I would have thought miners are more likely to set up in areas with hydro, because electricity is dirt cheap in those places.",
+      "comments": [
+        "9052637"
+      ],
+      "id": "9052623",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "12 hours ago",
+      "submitter": "alextgordon"
+    },
+    {
+      "body": "Some have. One datacenter that I am aware of is the Toomim Brothers Bitcoin Mining Concern Ltd.[0] which uses hydro-electric power.\n\n[0] http://toom.im/",
+      "comments": [],
+      "id": "9052637",
+      "isDead": false,
+      "parent": "9052623",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "12 hours ago",
+      "submitter": "grubles"
+    },
+    {
+      "body": "It seems to me that this should be easily addressable with a proof-of-burn system (c.f. https://en.bitcoin.it/wiki/Proof_of_burn).  This simulates the property of burning energy to have a chance of generating coins by instead burning coins to have a chance of generating coins (I don't think it's a pyramid scheme: rather, it'd incentivise burners to contribute to the network, just as miners are incentivised).\n\nAnyway, it's a very neat idea, and it'd make all this much more energy-efficient while still costing burners quite a lot (and hence making it expensive to try to attack the network).",
+      "comments": [],
+      "id": "9052794",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "11 hours ago",
+      "submitter": "wtbob"
+    },
+    {
+      "body": "I'm sure the Chinese bitcoin farms are buying high-quality carbon offsets, so no worries.",
+      "comments": [],
+      "id": "9052601",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "12 hours ago",
+      "submitter": "jrockway"
+    },
+    {
+      "body": "Color me skeptical.I believe the author merely looked at the mean of the CO2/KWh stats on Wikipedia for all generation. That leads to misleading numbers. For example, I recall hearing that a large number of miners have set up shop in Iceland, where the electricity is all low-impact geothermal (and cheap).\n\nTo get accurate numbers, one would need to figure out what types of electricity sources the miners are ACTUALLY using.",
+      "comments": [],
+      "id": "9053194",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "9 hours ago",
+      "submitter": "joncp"
+    },
+    {
+      "body": "How is it comparing to mining and melting gold into bricks?",
+      "comments": [
+        "9052787"
+      ],
+      "id": "9052762",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "11 hours ago",
+      "submitter": "leni536"
+    },
+    {
+      "body": "http://www.coindesk.com/microscope-true-costs-gold-productio...",
+      "comments": [
+        "9052972"
+      ],
+      "id": "9052787",
+      "isDead": false,
+      "parent": "9052762",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "11 hours ago",
+      "submitter": "Adlai"
+    },
+    {
+      "body": "So it is roughly 20t/kg CO2 emission. 1kg gold is roughly 5 BTC at the moment, so normalized to BTC it's already 4t/BTC CO2 emission for producing gold.",
+      "comments": [],
+      "id": "9052972",
+      "isDead": false,
+      "parent": "9052787",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "10 hours ago",
+      "submitter": "leni536"
+    },
+    {
+      "body": "How much CO2 is released to mine an ounce of gold?",
+      "comments": [],
+      "id": "9052755",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "11 hours ago",
+      "submitter": "shillster"
+    },
+    {
+      "body": "There's the argument that fiat money enables wars because nobody pays for them directly. The rise in bitcoin could bring this to an end. The wars in Afghanistan and Iraq supposedly matched as much oil as India uses each day to run. I think in order to examine Bitcoins Co2 impact you need to look at the alternatives in great detail.",
+      "comments": [
+        "9053338"
+      ],
+      "id": "9052841",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "11 hours ago",
+      "submitter": "johndevor"
+    },
+    {
+      "body": "That argument doesn't make sense.I think about the wars of Alexander III of Macedon, the Mongolian wars, and the wars of Rome, and wonder how they could have existed without fiat money. Or is the argument that they would have been more successful with fiat money? For that matter, how would the Spanish conquest of the Aztecs and Incans been enabled by fiat money when the accumulated wealth of those empires effectively gave Spain the ability to mint its own commodity money?\n\nIn \"Debt: The First 5, 000 Years\", David Graeber makes a convincing argument that the introduction of commodity money helped the king raise larger armies. The king pays soldiers in gold or silver, then requires people to pay taxes in the same. Otherwise the soldiers, who are effectively strangers, don't have access to the credit economy of small communities.",
+      "comments": [],
+      "id": "9053338",
+      "isDead": false,
+      "parent": "9052841",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "9 hours ago",
+      "submitter": "dalke"
+    },
+    {
+      "body": "Thing is - as all that is being produced is information, you could generate all this power in the desert with solar power, run the machines out there, and just send the information along fibre-optic or microwave channels. There's absolutely no need for the operation to have a high carbon footprint, no matter how much power it needs. You can't say that about most things.",
+      "comments": [
+        "9052658"
+      ],
+      "id": "9052653",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "12 hours ago",
+      "submitter": "Tycho"
+    },
+    {
+      "body": "Solar has its own environmental impact too. Don't forget the factories and mining and energy requirements to produce photovoltaics.",
+      "comments": [
+        "9052737",
+        "9053711"
+      ],
+      "id": "9052658",
+      "isDead": false,
+      "parent": "9052653",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "12 hours ago",
+      "submitter": "brianbreslin"
+    },
+    {
+      "body": "Not all solar power systems are photovoltaic though. And the same argument holds for any other green power source.",
+      "comments": [],
+      "id": "9052737",
+      "isDead": false,
+      "parent": "9052658",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "11 hours ago",
+      "submitter": "Tycho"
+    },
+    {
+      "body": "Which you can manufacture them with solar energy if you start storing A LOT of them now.",
+      "comments": [],
+      "id": "9053711",
+      "isDead": false,
+      "parent": "9052658",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "7 hours ago",
+      "submitter": "yeukhon"
+    },
+    {
+      "body": "Note that the assumption of 500 gCO2/KWHe comes from an IPCC report which, according to another wikipedia article, has had its fair amount of criticism. http://en.wikipedia.org/wiki/Criticism_of_the_IPCC_Fourth_As...",
+      "comments": [],
+      "id": "9052697",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "12 hours ago",
+      "submitter": "larrydag"
+    },
+    {
+      "body": "How much energy do ATMs, banking mainframes, security trucks, HFT, chip & pin machines, accounting PCs, minting etc. consume?\n\nLet's compare like to like.",
+      "comments": [
+        "9053779"
+      ],
+      "id": "9053771",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "7 hours ago",
+      "submitter": "yarrel"
+    },
+    {
+      "body": "It's not the same economy scale though.",
+      "comments": [],
+      "id": "9053779",
+      "isDead": false,
+      "parent": "9053771",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "7 hours ago",
+      "submitter": "alex_duf"
+    },
+    {
+      "body": "Maybe some of the \"waste\" heat could be used to heat homes:  https://medium.com/re-form/heat-your-home-with-data-ab27fe7d...",
+      "comments": [],
+      "id": "9052922",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "10 hours ago",
+      "submitter": "uptown"
+    },
+    {
+      "body": "There are alternatives, Proof of Stake for example, or gridcoin, where the computing power to \"mine\" gridcoin goes towards scientific projects via BOINC.",
+      "comments": [
+        "9053232"
+      ],
+      "id": "9052949",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "10 hours ago",
+      "submitter": "nctr"
+    },
+    {
+      "body": "Yeah, there are also bottle caps which can be used as currency!\n\nBut seriously, don't call those \"alternatives\" if they are not secure. There is no known replacement for PoW.",
+      "comments": [
+        "9053658"
+      ],
+      "id": "9053232",
+      "isDead": false,
+      "parent": "9052949",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "9 hours ago",
+      "submitter": "oafitupa"
+    },
+    {
+      "body": "Why does Proof of Stake not work in your opinion?",
+      "comments": [],
+      "id": "9053658",
+      "isDead": false,
+      "parent": "9053232",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "7 hours ago",
+      "submitter": "nctr"
+    },
+    {
+      "body": "More interesting than the CO2 release per Bitcoin is the CO2 release per transaction.I guess this is still substantially higher than for normal bank transactions -- but how much? Normal money and living also releases CO2. When you use your big car to drive to the bakery 0.2 miles away, you release a lot of CO2 and all to buy some rolls worth 0.0...? Bitcoin.\n\nWhen I understand the system right, the number of transactions possible per generated Bitcoin should also rise in the same speed (or higher?) as the CO2 release does.",
+      "comments": [],
+      "id": "9052669",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "12 hours ago",
+      "submitter": "PythonicAlpha"
+    },
+    {
+      "body": "As the price of mining goes up, the difficulty goes down. Was that taken into account?\n\nI still think that using proof of work as a part of a consensus algorithm is terribly wasteful. The rich get richer by way of buying energy in an arms race and the externality is pollution.",
+      "comments": [],
+      "id": "9053187",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "9 hours ago",
+      "submitter": "EGreg"
+    },
+    {
+      "body": "r. o. f. l.",
+      "comments": [
+        "9052900"
+      ],
+      "id": "9052548",
+      "isDead": false,
+      "parent": null,
+      "quality": 0.3176470588235294,
+      "story": "9052448",
+      "submitted": "13 hours ago",
+      "submitter": "sova"
+    },
+    {
+      "body": "I know, save the planet, speculate on virtual currency.  Hilarious.",
+      "comments": [],
+      "id": "9052900",
+      "isDead": false,
+      "parent": "9052548",
+      "quality": 1,
+      "story": "9052448",
+      "submitted": "11 hours ago",
+      "submitter": "oldpond"
+    }
+  ],
   "story": {
     "body": null,
-    "comments": 151,
+    "comments": [
+      "9052547",
+      "9052555",
+      "9052770",
+      "9053351",
+      "9052627",
+      "9052927",
+      "9052559",
+      "9053162",
+      "9052665",
+      "9053214",
+      "9053707",
+      "9052591",
+      "9052623",
+      "9052794",
+      "9052601",
+      "9053194",
+      "9052762",
+      "9052755",
+      "9052841",
+      "9052653",
+      "9052697",
+      "9053771",
+      "9052922",
+      "9052949",
+      "9052669",
+      "9053187",
+      "9052548"
+    ],
+    "commentsCount": 151,
     "id": "9052448",
     "points": 157,
     "source": "github.com",

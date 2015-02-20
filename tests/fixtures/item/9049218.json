@@ -1,7 +1,657 @@
 {
+  "comments": [
+    {
+      "body": "I've been using Ansible + Homebrew + Vagrant/VirtualBox for the past couple years, and am now able to provision a new Mac for myself in about an hour (with all my apps and settings in place for development) with a good internet connection.See: https://github.com/geerlingguy/mac-dev-playbook\n\nOnce you start using VMs and/or containers for your development, you'll stop worrying about environments and breaking things :)",
+      "comments": [],
+      "id": "9049637",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9049218",
+      "submitted": "20 hours ago",
+      "submitter": "geerlingguy"
+    },
+    {
+      "body": "Don't install server-side stuff directly on your Mac.  If you are working on server-side projects, then use virtual machines.  Vagrant in combination with a configuration management system (e.g. Puppet) is very helpful here.Use Homebrew to install command-line tools.  Use Homebrew Cask to install GUI tools that aren't on the Mac App Store.Lots of people find it useful to check their environment's configuration files into version control – check out popular dotfiles repositories.  On OS X, this also includes scripts that call `defaults write` for integration with OS X preferences.\n\nAs far as multiple unix users are concerned, just create them and use them.  There's no special trick you need.",
+      "comments": [
+        "9049521",
+        "9050827",
+        "9049922"
+      ],
+      "id": "9049391",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9049218",
+      "submitted": "22 hours ago",
+      "submitter": "JimDabell"
+    },
+    {
+      "body": "Vagrant has been a much bigger time sink for me than benefit.  The ssh-agent never works while provisioning for nix servers, only during ssh (which I can do using the -- -A regardless).  It often gets confused and the machines need to be destroyed and re-created after 1-2 provisioning attempts.  Packers (The tool used to create vagrant boxes) lack of support for winrm on windows systems has also been a bone of contention.  It requires a number of workarounds (like installing open-ssh) on the windows VM that in no way would be viable on a production windows server.  And that divergence allows for the \"It works on my machine\" bugs which is really the whole point of using Vagrant.  I use chef for provisioning, and Vagrant also downloads the chef provisioner every single provision, I suspect it does this with puppet as well, so if you're developing on the go and need to re-provision, you're either out of luck or require an unlimited data plan.Homebrew Cask also has no oversight for breaking changes, so use this only as a convenience, not a tool to be relied upon.  It frequently looses track of applications, and I can't even find where it decides to put some error logs if they're created at all.\n\nSome of these problems could be my lack of experience in operations, but the documentation for these is far from complete.  A VM with snapshots and a good backup strategy will serve you better in the short term.  This changes if you're attempting to support multiple dev, but if you're a lone guy, then snapshots are far far less buggy.",
+      "comments": [
+        "9049944",
+        "9049584",
+        "9049648",
+        "9049627"
+      ],
+      "id": "9049521",
+      "isDead": false,
+      "parent": "9049391",
+      "quality": 1,
+      "story": "9049218",
+      "submitted": "21 hours ago",
+      "submitter": "keslag"
+    },
+    {
+      "body": "Windows is, admittedly, a second class citizen for Vagrant. That said, with one install and one config file change, vagrant is as usable on Windows as it is on the Mac. I keep a number of exploratory Vagrant instances on a USB key (just the files, the boxes default to your \"home\" directory on the machine), and work on them regularly on both a Mac and Windows.A quick google search for 'vagrant windows' will lead you to one of many blog posts like this one [1], which point out that your Vagrant experience on Windows will be better if you install Git. This places 'ssh' and 'scp' on your path, and then everything about Vagrant just works, including vagrant ssh. I still prefer to use PuTTY to connect when on Windows, but that's my personal preference.As for the chef re-provisioning, it is more likely an issue with the environment, not Chef of Vagrant. When Vagrant sees that the Chef binaries are already in place, it will note that and continue with the provisioning. Try it again when you have the git command line tools in your path and see if its still an issue.However, these problems are with your Windows setup of Vagrant, not Vagrant itself. Vagrant on a Mac requires no such workaround to get the unix tools in place, and casting your aspersions against Vagrant from your experience on Windows when it works out of the box on a Mac is unfair to the tool.\n\n[1] https://eamann.com/tech/vagrant-windows/",
+      "comments": [
+        "9050357"
+      ],
+      "id": "9049944",
+      "isDead": false,
+      "parent": "9049521",
+      "quality": 1,
+      "story": "9049218",
+      "submitted": "18 hours ago",
+      "submitter": "falcolas"
+    },
+    {
+      "body": "I'm talking about running windows inside of Vagrant and having these issues on a Mac.  The problems I've detailed have long standing issue logs on github, some closed without resolution.  I'm not casting aspersions, I'm explaining my use and my experience.  This is valid, regardless of whether you have had the same experience.  Regardless, the tool sells itself as working on windows, so it is not only fair, but apt.  Providing a counter example is a good rebuttal, but saying my experience is invalid reeks of fanboyism.",
+      "comments": [],
+      "id": "9050357",
+      "isDead": false,
+      "parent": "9049944",
+      "quality": 1,
+      "story": "9049218",
+      "submitted": "15 hours ago",
+      "submitter": "keslag"
+    },
+    {
+      "body": "I haven't experienced any of that, but then I wouldn't use it for Windows in the first place and it doesn't sound like the kind of thing the OP is doing either.The Salt provisioner doesn't bootstrap Salt every time, so it may be a bug with the Chef provisioner rather than something that's true of all provisioning.  Isn't Chef installed by default on most base boxes anyway though?  It sounds like you've hit an edge case that you can work around by installing Chef in your base box.Snapshots and backing up VMs sounds a lot more hassle than Vagrant.\n\nSame goes with Cask – I've never had it lose track of applications.  It's hard to see how this could happen, as this mechanic is pretty simple – if it's in the directory, it's present, otherwise it's absent.",
+      "comments": [],
+      "id": "9049584",
+      "isDead": false,
+      "parent": "9049521",
+      "quality": 1,
+      "story": "9049218",
+      "submitted": "20 hours ago",
+      "submitter": "JimDabell"
+    },
+    {
+      "body": "> I use chef for provisioning, and Vagrant also downloads the chef provisioner every single provision, I suspect it does this with puppet as well, so if you're developing on the go and need to re-provision, you're either out of luck or require an unlimited data plan.Vagrant won't install Chef or Puppet for you - your provisioning scripts need to do this.\n\nIf you're seeing Chef being downloaded every single time you provision, then your scripts are broken and you should fix them, or your 3rd party scripts are broken and you should report a bug.",
+      "comments": [
+        "9049714"
+      ],
+      "id": "9049648",
+      "isDead": false,
+      "parent": "9049521",
+      "quality": 1,
+      "story": "9049218",
+      "submitted": "20 hours ago",
+      "submitter": "jtreminio"
+    },
+    {
+      "body": "The chef provisioner which comes as part of vagrant does indeed install chef on the target VM.  To say that vagrant is not doing this is splitting hairs.",
+      "comments": [
+        "9049885"
+      ],
+      "id": "9049714",
+      "isDead": false,
+      "parent": "9049648",
+      "quality": 1,
+      "story": "9049218",
+      "submitted": "19 hours ago",
+      "submitter": "keslag"
+    },
+    {
+      "body": "I've never used Chef, with or without Vagrant, but I have used Puppet.It's generally better to have a shell script install your provisioning tool, or use a box that already has it installed, than depending on Vagrant to do anything for you.\n\nHere's a simple example: https://github.com/puphpet/puphpet/blob/master/archive/puphp...",
+      "comments": [
+        "9049968"
+      ],
+      "id": "9049885",
+      "isDead": false,
+      "parent": "9049714",
+      "quality": 1,
+      "story": "9049218",
+      "submitted": "18 hours ago",
+      "submitter": "jtreminio"
+    },
+    {
+      "body": "...or switch to a provisioning tool that doesn't need to be installed on guest VMs (e.g. Ansible), saving a little time every time you provision.\n\nOtherwise, another option is to either use prebuilt Vagrant boxes with your CM tool already installed, or build your own using Packer.",
+      "comments": [
+        "9051299"
+      ],
+      "id": "9049968",
+      "isDead": false,
+      "parent": "9049885",
+      "quality": 1,
+      "story": "9049218",
+      "submitted": "17 hours ago",
+      "submitter": "geerlingguy"
+    },
+    {
+      "body": "I liked Ansible a lot; during our evaluation I had a single Ansible file provisioning a sample dev setup in around 50 lines.  We need to support windows servers primarily, much to my objection, so the 'blessing' of the machine to automate Ansible on windows required a manual step at the time, which wasn't acceptable for our use case.  We ended up picking chef, both for it's more agnostic approach to OS's, but also it's much more developer friendly, regardless of it's overly verbose generators, git repository litter, and quirks that still have me scratching my head.",
+      "comments": [],
+      "id": "9051299",
+      "isDead": false,
+      "parent": "9049968",
+      "quality": 1,
+      "story": "9049218",
+      "submitted": "9 hours ago",
+      "submitter": "keslag"
+    },
+    {
+      "body": "> Vagrant has been a much bigger time sink for me than benefit.\n\nThis has been my experience as well... and I would really, really like to have a system in place where I could painlessly spin up VMs to do development in, so that I could leave my Mac as is.",
+      "comments": [
+        "9050346",
+        "9049887",
+        "9049660"
+      ],
+      "id": "9049627",
+      "isDead": false,
+      "parent": "9049521",
+      "quality": 1,
+      "story": "9049218",
+      "submitted": "20 hours ago",
+      "submitter": "Quequau"
+    },
+    {
+      "body": "Build a custom box for Vagrant.  I did this and now can spin up a CentOS 7 image with Apache, MySQL (Mariadb), RVM (ruby version manager) and a bunch of utilities (wget, curl, git, etc.) in a matter of minutes.  I wrote up a how-to on my blog (in profile).  I've tried Puppet but it just seemed like more trouble - that would be useful for 10's or 100's of nodes.\n\nAs an example, I wanted to try out Ghost to see if I liked that better than Jekyll/Octopress for a blog, so after 'vagrant init centos7' I had a VM running and I could screw up a ton of stuff then and not care.",
+      "comments": [],
+      "id": "9050346",
+      "isDead": false,
+      "parent": "9049627",
+      "quality": 1,
+      "story": "9049218",
+      "submitted": "15 hours ago",
+      "submitter": "matt_s"
+    },
+    {
+      "body": "You might be interested in my FOSS that aims to do just that: https://puphpet.com",
+      "comments": [],
+      "id": "9049887",
+      "isDead": false,
+      "parent": "9049627",
+      "quality": 1,
+      "story": "9049218",
+      "submitted": "18 hours ago",
+      "submitter": "jtreminio"
+    },
+    {
+      "body": "It's called Docker.",
+      "comments": [
+        "9049708",
+        "9049728"
+      ],
+      "id": "9049660",
+      "isDead": false,
+      "parent": "9049627",
+      "quality": 1,
+      "story": "9049218",
+      "submitted": "19 hours ago",
+      "submitter": "mateuszf"
+    },
+    {
+      "body": "Docker just spins up a VM on OS X with boot2docker so you don't get any real benefit here.",
+      "comments": [
+        "9049902"
+      ],
+      "id": "9049708",
+      "isDead": false,
+      "parent": "9049660",
+      "quality": 1,
+      "story": "9049218",
+      "submitted": "19 hours ago",
+      "submitter": "keslag"
+    },
+    {
+      "body": "Yep, although it creates only one you can run a bunch of containers in it.It feels almost as a native support, but the hack is betrayed by the networking setup.\n\nI wish it would be possible to just expose ports on the real localhost.",
+      "comments": [
+        "9051249"
+      ],
+      "id": "9049902",
+      "isDead": false,
+      "parent": "9049708",
+      "quality": 1,
+      "story": "9049218",
+      "submitted": "18 hours ago",
+      "submitter": "ithkuil"
+    },
+    {
+      "body": "Absolutely, I should have specified 'a single vm' in my response.  I didn't understand that when I was first trying to understand boot2docker, and now I'm using imprecise language to help confuse others.  Thanks for clarifying.",
+      "comments": [],
+      "id": "9051249",
+      "isDead": false,
+      "parent": "9049902",
+      "quality": 1,
+      "story": "9049218",
+      "submitted": "9 hours ago",
+      "submitter": "keslag"
+    },
+    {
+      "body": "Docker is not a VM and only works on Linux.",
+      "comments": [],
+      "id": "9049728",
+      "isDead": false,
+      "parent": "9049660",
+      "quality": 1,
+      "story": "9049218",
+      "submitted": "19 hours ago",
+      "submitter": "Jean-Philipe"
+    },
+    {
+      "body": "As I understand it App Store apps are 'sandboxed' - so is there any way to use this to create light, snapshottable containers isolated from the main filesystem?I've been using Vagrant and Virtualbox, but the lack of speed is painful. And the overhead with a couple running at once.\n\nIt just strikes me as odd that Ruby has rbenv, Python has virtualenv - but there's nothing language agnostic and native to the Operating System, that I can use to try out new languages/tools, and nuke if all goes wrong without messing up my OS X filesystem (or versions of installed programs).",
+      "comments": [],
+      "id": "9050827",
+      "isDead": false,
+      "parent": "9049391",
+      "quality": 1,
+      "story": "9049218",
+      "submitted": "12 hours ago",
+      "submitter": "pbowyer"
+    },
+    {
+      "body": "recommend homebrew cask too, but there's also http://getmacapps.com for the slightly less power user...kind of like a GUI for homebrew cask",
+      "comments": [],
+      "id": "9049922",
+      "isDead": false,
+      "parent": "9049391",
+      "quality": 1,
+      "story": "9049218",
+      "submitted": "18 hours ago",
+      "submitter": "kelv"
+    },
+    {
+      "body": "I don't think you will find multiple OSX user accounts viable/enjoyable. OSX puts a lot of important preferences (keyboard/mouse settings for example) within the user account, so you will end up having a nightmare keeping things in sync and sane. You won't be able to rely on a lot of important tools like dropbox or 1password easily. Just stick with 1 user. Use docker or virtualbox/vagrant for stuff you don't want to run as your OSX user.Here are some of my tools and tips.- homebrew is great - homebrew cask is helpful, too - 1password or similar - virtualbox can give you clean playgrounds and test environments that match your servers - boot2docker is handy for quickly starting and running services like databases without polluting your mac directly too much - I also get a lot of use out of vagrant but YMMV - I've lately started using project-specific instances of chrome (created with the chrome SSB script). This lets me keep lots of tabs separate and easily pause work and resume later - The chrome Tabs Outliner plugin is also really key\n\nHere's my recent  blog post with more details: http://peterlyons.com/problog/2015/02/osx-development-setup",
+      "comments": [
+        "9049991"
+      ],
+      "id": "9049950",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9049218",
+      "submitted": "17 hours ago",
+      "submitter": "focusaurus"
+    },
+    {
+      "body": "> I don't think you will find multiple OSX user accounts viable/enjoyable. OSX puts a lot of important preferences (keyboard/mouse settings for example) within the user account, so you will end up having a nightmare keeping things in sync and sane.I've used multiple user accounts for years and I found multiple user accounts very useful when there are clear separations between projects (e.g. multiple freelance clients).The settings you refer to are the kinds of things that belong in your dotfile repo.  I can set up a new account and import all my settings in a matter of seconds this way – not a nightmare at all.> I've lately started using project-specific instances of chrome (created with the chrome SSB script). This lets me keep lots of tabs separate and easily pause work and resume later\n\nThis is what multiple user accounts are for, except they work with all applications, not just Chrome.",
+      "comments": [],
+      "id": "9049991",
+      "isDead": false,
+      "parent": "9049950",
+      "quality": 1,
+      "story": "9049218",
+      "submitted": "17 hours ago",
+      "submitter": "JimDabell"
+    },
+    {
+      "body": "I use vagrant + virtualbox myself and spin up development environments on the fly. It really is \"the way to go\". Work actually provides vmware fusion (and a license for vagrant), which also works pretty well. Fusion offers more networking options (like if you're working on pxe boot images), but I found that it's easier to track and support virtualbox images.\n\nOne thing that I've thought about trying though, is Boxen. Github supports hundreds of developer macs and they built this framework to do so. It looks pretty incredible. https://github.com/blog/1345-introducing-boxen",
+      "comments": [],
+      "id": "9049935",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9049218",
+      "submitted": "18 hours ago",
+      "submitter": "ytjohn"
+    },
+    {
+      "body": "I use pkgin on my Mac instead of brew, but that all doesn't matter much since I do everything in VMs with Vagrant like most others here.\n\nDefinitely don't use your Mac in single-user mode though.  Not that complicated to set up.",
+      "comments": [],
+      "id": "9049837",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9049218",
+      "submitted": "18 hours ago",
+      "submitter": "busterarm"
+    },
+    {
+      "body": "Everyone is suggesting VM's but I found them far too much of a pain. Homebrew has been able to install all databases and other dependencies for me.",
+      "comments": [
+        "9049956",
+        "9050015",
+        "9049673",
+        "9049726"
+      ],
+      "id": "9049633",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9049218",
+      "submitted": "20 hours ago",
+      "submitter": "amalag"
+    },
+    {
+      "body": "I really like the idea of a VM on mac OS too, but recently I've been experiencing nothing but trouble... I use to develop on a Ubuntu machine and having everything running natively, then I started to work from a co-working space, so I setup my Mac with Vagrant, Virtualbox, Ansible (for provision), to run my Django app, and after that I noticed that all my browser calls to the local development server were taking between 1 ~ 5 seconds (with tons of involuntary context switches in the debug toolbar), when they take 300 ms on my Ubuntu machine... I've heard that last Mac os has trouble with DNS, maybe that's what it is but I don't really know what to do. So as much as I like how clean it is to build a VM and separate it from the rest of your system, the overhead and the network latency is too much for me, I'll stick to installing everything with brew and virtualenv locally.",
+      "comments": [
+        "9050020"
+      ],
+      "id": "9049956",
+      "isDead": false,
+      "parent": "9049633",
+      "quality": 1,
+      "story": "9049218",
+      "submitted": "17 hours ago",
+      "submitter": "von_tenia"
+    },
+    {
+      "body": "Search \"Mac fix DNS\" and you'll find what to do.\n\nHere's an example: http://arstechnica.com/apple/2015/01/why-dns-in-os-x-10-10-i...",
+      "comments": [],
+      "id": "9050020",
+      "isDead": false,
+      "parent": "9049956",
+      "quality": 1,
+      "story": "9049218",
+      "submitted": "17 hours ago",
+      "submitter": "coldtea"
+    },
+    {
+      "body": "I'd say go with VMs.It's only a pain if you don't invest a week or so to master their use (which a knowledgable unix dev can also do in 1-2 days).Installing \"all databases and dependencies\" on the Mac with Homebrew is not scalable, and it's not repeatable, and it's too kludgy. And when multiple versions of libs and such start to be needed, it wont even work.(For small scale stuff, like some Wordpress development, it might be ok. But it would still be better to use a VM).You won't deploy on a Mac in the end, but on some Linux box, so develop on a VM offering the same environment.\n\nNote that I would still develop on a VM even if I was using Linux as a desktop -- you should not mix your desktop machine with your development environment.",
+      "comments": [],
+      "id": "9050015",
+      "isDead": false,
+      "parent": "9049633",
+      "quality": 1,
+      "story": "9049218",
+      "submitted": "17 hours ago",
+      "submitter": "coldtea"
+    },
+    {
+      "body": "IMHO, having a VM in hand may help you align both your dev and production environments.",
+      "comments": [
+        "9049952"
+      ],
+      "id": "9049673",
+      "isDead": false,
+      "parent": "9049633",
+      "quality": 1,
+      "story": "9049218",
+      "submitted": "19 hours ago",
+      "submitter": "ttflee"
+    },
+    {
+      "body": "I agree with this. Having the same environment in production as you have in dev will help avoid a lot of integration issues and specialized configurations which you have to maintain. I've had many production issues pop up in the past which were solely due to assuming things in production were similar to my development box.Plus, many of the available database installs are much more fragile (and use older versions) on my Mac than they are on a VM.\n\nThe only time I see local development working particularly well is for front end development, where the part that matters is in the browser, not the server.",
+      "comments": [],
+      "id": "9049952",
+      "isDead": false,
+      "parent": "9049673",
+      "quality": 1,
+      "story": "9049218",
+      "submitted": "17 hours ago",
+      "submitter": "falcolas"
+    },
+    {
+      "body": "How do people find the battery life overhead? A quick test showed a Flask dev server tool 25% in a VM compared to less than 2% natively.\n\nThat would seriously restrict my ability to develop on the move or away from my desk.",
+      "comments": [
+        "9050025"
+      ],
+      "id": "9049726",
+      "isDead": false,
+      "parent": "9049633",
+      "quality": 1,
+      "story": "9049218",
+      "submitted": "19 hours ago",
+      "submitter": "andybak"
+    },
+    {
+      "body": "First, 25% of the VM's CPU (seen in the VM's \"top\") is not the same as 25% of the host CPU.\n\nSecond, do you develop on the move unplugged for large stretches of time? Where is that place that doesn't have a plug?",
+      "comments": [],
+      "id": "9050025",
+      "isDead": false,
+      "parent": "9049726",
+      "quality": 1,
+      "story": "9049218",
+      "submitted": "17 hours ago",
+      "submitter": "coldtea"
+    },
+    {
+      "body": "In regards to Python and Ruby (on Rails), have you found the tools pyenv and rbenv (or rvm)? Node also has a similar tool, nvm. These all allow you to manage separate version of languages and sets of package dependencies. I have found them invaluable in keeping concerns separated.I lean more towards local installation for software that can handle multiple applications/connections from one install (e.g. Postgres) unless I'm preparing my staging environment. Sometimes I use Docker containers for local services (e.g. ZeroMQ) while developing so I don't incur a large overhead for every service my application requires. VMs are used for staging.\n\nI follow this pattern on Linux and OSX.",
+      "comments": [
+        "9050461"
+      ],
+      "id": "9049740",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9049218",
+      "submitted": "19 hours ago",
+      "submitter": "BrandonBradley"
+    },
+    {
+      "body": "I tend to agree. Most of my web development work lately has been with Rails, although a bit has been with Node, and a bunch in Python in the past. Rbenv is wonderful for managing different versions, npm takes care of local dependency installs quite nicely, and virtualenv solves the problem for Python too. I generally just install a local copy of postgresql and redis, and I'm good to go without having to mess with a bunch of different VMs and things like that.",
+      "comments": [],
+      "id": "9050461",
+      "isDead": false,
+      "parent": "9049740",
+      "quality": 1,
+      "story": "9049218",
+      "submitted": "14 hours ago",
+      "submitter": "tonyarkles"
+    },
+    {
+      "body": "It is interesting to see everybody using VM's and containers.Personally I have a web server I do all my work on, so I can get to that from my mac over: http, ftp, ssh, and vnc.I do all my work online so I can easily point any device (or ask a friend with an exotic device to click a link to test something) and I can also work from any device with an internet connection.\n\nThis setup has let me be flexible, travel, work, and get things done for the past two years. I highly recommend a dev environment thats also already online so when your laptop lid is shut, your ability to work isnt!",
+      "comments": [
+        "9052143"
+      ],
+      "id": "9049995",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9049218",
+      "submitted": "17 hours ago",
+      "submitter": "err4nt"
+    },
+    {
+      "body": "That's what git is for, I don't see how a webserver could replace several vagrang boxes",
+      "comments": [],
+      "id": "9052143",
+      "isDead": false,
+      "parent": "9049995",
+      "quality": 1,
+      "story": "9049218",
+      "submitted": "39 minutes ago",
+      "submitter": "baby"
+    },
+    {
+      "body": "Use one VM per project, not Mac OS X. Unless of course you're deploying on Mac OS X.Use snapshots and switch between them when disk space becomes an issue.\n\nThe big advantage is that, either through careful notes or configuration management, you'll actually be able to recreate your development environment in the future.",
+      "comments": [
+        "9049529"
+      ],
+      "id": "9049338",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9049218",
+      "submitted": "23 hours ago",
+      "submitter": "bensummers"
+    },
+    {
+      "body": "Even if you're deploying to mac, you should use a mac vm.  If you manage to get a buggy or corrupt package, it's much easier to revert to a snapshot or reprovision a vm than to reprovision your machine.",
+      "comments": [],
+      "id": "9049529",
+      "isDead": false,
+      "parent": "9049338",
+      "quality": 1,
+      "story": "9049218",
+      "submitted": "21 hours ago",
+      "submitter": "keslag"
+    },
+    {
+      "body": "Remember, OS X is a UNIX based operating system. Most of the best practices that apply to say an operating system like Linux also apply to OS X! All my UNIX configurations are somewhat the same and this allows my workspaces to be uniform regardless of the specificity of the underlying OS (I mostly use OS X and Linux!). I think you need to tinker and find out what work environment suits you best, and its not a static situation. As you go on you will change and tweak things, thats the beauty of it all!",
+      "comments": [],
+      "id": "9049987",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9049218",
+      "submitted": "17 hours ago",
+      "submitter": "jdefr89"
+    },
+    {
+      "body": "I use vagrant + virtualbox (runs ubuntu via vagrant setup) + ansible to bootstrap the VM.\n\nI've had this setup for 2 years now. No issues and I get to use sublime to edit files locally while they are shared with the VM.",
+      "comments": [
+        "9049483",
+        "9049430"
+      ],
+      "id": "9049377",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9049218",
+      "submitted": "22 hours ago",
+      "submitter": "halayli"
+    },
+    {
+      "body": "I do the same, but I've had trouble with the overhead of virtual machines (admittedly on an older laptop). Have you not found this to be a problem at all?\n\nAs deployments get simpler and the usefulness of Ansible for server config declines, I'm thinking about abandoning the VMs and going back to running things in OS X.",
+      "comments": [
+        "9049971",
+        "9050467"
+      ],
+      "id": "9049483",
+      "isDead": false,
+      "parent": "9049377",
+      "quality": 1,
+      "story": "9049218",
+      "submitted": "21 hours ago",
+      "submitter": "somewhatoff"
+    },
+    {
+      "body": "> Have you not found this to be a problem at all?Not myself. The VMs are never doing anything so taxing that they incur significant overhead. I can regularly keep 3-4 running concurrently without an issue.> usefulness of Ansible for server config declinesI don't ever see this being the case. Configuration is becoming more challenging, not easier. Even if you use a tool like Docker perfectly for all of your services (which is ironically very hard without some kind of CM tool beside dockerfiles), you still have to: install packages, change configuration files, run commands, enable services, change permissions, change firewall rules, modify DB users, manage SELinux, setup log file rotation...\n\nServers are hard to set up and maintain in a coordinated fashion without some kind of CM tool. And while PAAS providers can handle quite a few lightweight services without requiring you to use any CM tools, there comes a point where they no longer scale the way you need them to, and you're back to provisioning VMs or even bare metal.",
+      "comments": [],
+      "id": "9049971",
+      "isDead": false,
+      "parent": "9049483",
+      "quality": 1,
+      "story": "9049218",
+      "submitted": "17 hours ago",
+      "submitter": "falcolas"
+    },
+    {
+      "body": "haven't hit this problem much. But I do have a solid iMac that I use for development.",
+      "comments": [],
+      "id": "9050467",
+      "isDead": false,
+      "parent": "9049483",
+      "quality": 1,
+      "story": "9049218",
+      "submitted": "14 hours ago",
+      "submitter": "halayli"
+    },
+    {
+      "body": "Vagrant with shared folders is really nice. The specific feature is 'synced folders': https://docs.vagrantup.com/v2/synced-folders/basic_usage.htm...",
+      "comments": [],
+      "id": "9049430",
+      "isDead": false,
+      "parent": "9049377",
+      "quality": 1,
+      "story": "9049218",
+      "submitted": "22 hours ago",
+      "submitter": "clebio"
+    },
+    {
+      "body": "In my opinion, learn to use boot2docker and just spin up each dev environment with its own containers as you need them. Automate everything so that you run one command to switch between projects.",
+      "comments": [],
+      "id": "9049345",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9049218",
+      "submitted": "23 hours ago",
+      "submitter": "mathgeek"
+    },
+    {
+      "body": "I installed Ubuntu as a second OS since lots of the linux open source stuff just does work much better natively than with homebrew.For server stuff I would use docker. For docker it's the same story, linux native is better than OS-X with boot2docker.\n\nIf you need a lot IDE's then OS-X might be the better choice since retina support is not yet as good on Ubuntu. On the other hand Sublimetext is perfect on linux with retina.",
+      "comments": [],
+      "id": "9049414",
+      "isDead": false,
+      "parent": null,
+      "quality": 0.6470588235294118,
+      "story": "9049218",
+      "submitted": "22 hours ago",
+      "submitter": "binaryanomaly"
+    },
+    {
+      "body": "Is the prevailing opinion then that OS X really just isn't a good development environment? Seems like most of the suggestions so far are \"install one or more Linux VMs\". As someone who develops on a MacBook Pro everyday, I know I definitely fall in the Linux VM camp.",
+      "comments": [
+        "9049599",
+        "9049505",
+        "9049579"
+      ],
+      "id": "9049491",
+      "isDead": false,
+      "parent": null,
+      "quality": 0.6470588235294118,
+      "story": "9049218",
+      "submitted": "21 hours ago",
+      "submitter": "robmccoll"
+    },
+    {
+      "body": "No, it doesn't matter what platform you are developing on or deploying to, if you are working on server-side stuff, use a VM.It's not about needing tools from Linux, it's about keeping your development environment and your deployment environment separate.  Otherwise all sorts of unwanted dependencies can creep in and it's difficult to reproduce the correct deployment environment outside of your development environment.  If you manage your deployment correctly from the start, it's a hell of a lot easier.For instance, if you install a web server in your case-insensitive development environment, write a load of code, then deploy to a case-sensitive deployment environment, then you may inadvertently introduce errors because you got the case wrong somewhere in your code.  You introduced a dependency upon a development environment property that wasn't present in your deployment environment and things broke.\n\nThe environment you write code in and the environment you have to execute that code in are often very different things.  Mixing them up is bad news – that's where virtual machines help you out by keeping the two separate.",
+      "comments": [],
+      "id": "9049599",
+      "isDead": false,
+      "parent": "9049491",
+      "quality": 1,
+      "story": "9049218",
+      "submitted": "20 hours ago",
+      "submitter": "JimDabell"
+    },
+    {
+      "body": "It is a good dev environment, but you shouldn't just install server stuff on your mac, that's what the VMs are for (so that all developers would have identical server setup).",
+      "comments": [],
+      "id": "9049505",
+      "isDead": false,
+      "parent": "9049491",
+      "quality": 1,
+      "story": "9049218",
+      "submitted": "21 hours ago",
+      "submitter": "bndr"
+    },
+    {
+      "body": "I think OSX is a great development environment, it supports a great many toolsets and frameworks, and so on .. you don't have to go exclusively the Apple way, though that is changing more and more .. it is still a user-controlled Platform.But the overlooked thing in this discussion is that its mostly about hardware.  If someone made a hardware, physical device, that was as comfortable and life-friendly as a Macbook Pro, I'd switch to it in an instance.  The Google pixel laptop looked promising, but was hobbled by sub-standard specs and a 'meh' attitude, it seems, but the point is whats overlooked is the physical experience that comes with using OSX.\n\nSo I'm with you, there's nothing quite like having the slab ramped up with some fat VM's.  Linux works great in that environment, too ..",
+      "comments": [],
+      "id": "9049579",
+      "isDead": false,
+      "parent": "9049491",
+      "quality": 1,
+      "story": "9049218",
+      "submitted": "20 hours ago",
+      "submitter": "fit2rule"
+    },
+    {
+      "body": "Vagrant + provision.sh scripting is as simple and powerful as it gets.",
+      "comments": [],
+      "id": "9049444",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9049218",
+      "submitted": "22 hours ago",
+      "submitter": "tmikaeld"
+    }
+  ],
   "story": {
     "body": "I'm about to get a new Mac and will be starting fresh on a new drive. I would like to know if there are any best practices in regards to creating multiple user accounts, with different permissions for my scattered development work.\n\nI spend time with node, python, and RoR. I like cloning projects from github and taking them for a spin. I test out bitcoin projects, and send GPG emails, and ssh into multiple servers. And I do all of this on my main user account that has sudo.\n\nIs there some best practice that I should be aware of that would have me use multiple unix users on my new Mac?",
-    "comments": 52,
+    "comments": [
+      "9049637",
+      "9049391",
+      "9049950",
+      "9049935",
+      "9049837",
+      "9049633",
+      "9049740",
+      "9049995",
+      "9049338",
+      "9049987",
+      "9049377",
+      "9049345",
+      "9049414",
+      "9049491",
+      "9049444"
+    ],
+    "commentsCount": 52,
     "id": "9049218",
     "points": 52,
     "source": null,

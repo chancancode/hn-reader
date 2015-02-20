@@ -5,7 +5,8 @@
   "stories": [
     {
       "body": null,
-      "comments": 2,
+      "comments": null,
+      "commentsCount": 2,
       "id": "9050979",
       "points": 11,
       "source": "salon.com",
@@ -17,7 +18,8 @@
     },
     {
       "body": null,
-      "comments": 18,
+      "comments": null,
+      "commentsCount": 18,
       "id": "9045352",
       "points": 71,
       "source": "github.com",
@@ -29,7 +31,8 @@
     },
     {
       "body": null,
-      "comments": 11,
+      "comments": null,
+      "commentsCount": 11,
       "id": "9045354",
       "points": 70,
       "source": "pepijndevos.nl",
@@ -41,7 +44,8 @@
     },
     {
       "body": null,
-      "comments": 25,
+      "comments": null,
+      "commentsCount": 25,
       "id": "9044637",
       "points": 59,
       "source": "npr.org",
@@ -53,7 +57,8 @@
     },
     {
       "body": null,
-      "comments": 13,
+      "comments": null,
+      "commentsCount": 13,
       "id": "9044539",
       "points": 50,
       "source": "akka.io",
@@ -65,7 +70,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9050290",
       "points": 3,
       "source": "bbc.com",
@@ -77,7 +83,8 @@
     },
     {
       "body": null,
-      "comments": 624,
+      "comments": null,
+      "commentsCount": 624,
       "id": "9045305",
       "points": 1149,
       "source": "gizmodo.com",
@@ -89,7 +96,8 @@
     },
     {
       "body": null,
-      "comments": 14,
+      "comments": null,
+      "commentsCount": 14,
       "id": "9048909",
       "points": 94,
       "source": "nostarch.com",
@@ -101,7 +109,8 @@
     },
     {
       "body": null,
-      "comments": 105,
+      "comments": null,
+      "commentsCount": 105,
       "id": "9049988",
       "points": 95,
       "source": "nytimes.com",
@@ -113,7 +122,8 @@
     },
     {
       "body": null,
-      "comments": 1,
+      "comments": null,
+      "commentsCount": 1,
       "id": "9051626",
       "points": 3,
       "source": "youtube.com",
@@ -125,7 +135,8 @@
     },
     {
       "body": null,
-      "comments": 8,
+      "comments": null,
+      "commentsCount": 8,
       "id": "9047298",
       "points": 34,
       "source": null,
@@ -137,7 +148,8 @@
     },
     {
       "body": null,
-      "comments": 52,
+      "comments": null,
+      "commentsCount": 52,
       "id": "9049218",
       "points": 52,
       "source": null,
@@ -149,7 +161,8 @@
     },
     {
       "body": null,
-      "comments": 171,
+      "comments": null,
+      "commentsCount": 171,
       "id": "9026025",
       "points": 480,
       "source": "crockpotveggies.com",
@@ -161,7 +174,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9049533",
       "points": 5,
       "source": "vwh.net",
@@ -173,7 +187,8 @@
     },
     {
       "body": null,
-      "comments": 20,
+      "comments": null,
+      "commentsCount": 20,
       "id": "9041877",
       "points": 30,
       "source": "lemery.io",
@@ -186,6 +201,7 @@
     {
       "body": null,
       "comments": null,
+      "commentsCount": null,
       "id": "job-0",
       "points": null,
       "source": "grnh.se",
@@ -197,7 +213,8 @@
     },
     {
       "body": null,
-      "comments": 7,
+      "comments": null,
+      "commentsCount": 7,
       "id": "9043295",
       "points": 55,
       "source": "colorpipe.org",
@@ -209,7 +226,8 @@
     },
     {
       "body": null,
-      "comments": 4,
+      "comments": null,
+      "commentsCount": 4,
       "id": "9034690",
       "points": 53,
       "source": "youtube.com",
@@ -221,7 +239,8 @@
     },
     {
       "body": null,
-      "comments": 47,
+      "comments": null,
+      "commentsCount": 47,
       "id": "9040423",
       "points": 85,
       "source": "portalplatform.net",
@@ -233,7 +252,8 @@
     },
     {
       "body": null,
-      "comments": 35,
+      "comments": null,
+      "commentsCount": 35,
       "id": "9034319",
       "points": 147,
       "source": "geoffralston.com",
@@ -245,7 +265,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9044214",
       "points": 11,
       "source": "videlalvaro.github.io",
@@ -257,7 +278,8 @@
     },
     {
       "body": null,
-      "comments": 2,
+      "comments": null,
+      "commentsCount": 2,
       "id": "9050405",
       "points": 8,
       "source": "github.com",
@@ -269,7 +291,8 @@
     },
     {
       "body": null,
-      "comments": 4,
+      "comments": null,
+      "commentsCount": 4,
       "id": "9050431",
       "points": 3,
       "source": null,
@@ -281,7 +304,8 @@
     },
     {
       "body": null,
-      "comments": 1,
+      "comments": null,
+      "commentsCount": 1,
       "id": "9050993",
       "points": 4,
       "source": "nih.gov",
@@ -294,6 +318,7 @@
     {
       "body": null,
       "comments": null,
+      "commentsCount": null,
       "id": "job-1",
       "points": null,
       "source": "lever.co",
@@ -305,7 +330,8 @@
     },
     {
       "body": null,
-      "comments": 6,
+      "comments": null,
+      "commentsCount": 6,
       "id": "9050279",
       "points": 4,
       "source": null,
@@ -317,7 +343,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9050396",
       "points": 4,
       "source": "medium.com",
@@ -329,7 +356,8 @@
     },
     {
       "body": null,
-      "comments": 28,
+      "comments": null,
+      "commentsCount": 28,
       "id": "9038170",
       "points": 188,
       "source": "gnupg.org",
@@ -341,7 +369,8 @@
     },
     {
       "body": null,
-      "comments": 3,
+      "comments": null,
+      "commentsCount": 3,
       "id": "9050091",
       "points": 3,
       "source": null,
@@ -353,7 +382,8 @@
     },
     {
       "body": null,
-      "comments": 4,
+      "comments": null,
+      "commentsCount": 4,
       "id": "9051592",
       "points": 4,
       "source": null,

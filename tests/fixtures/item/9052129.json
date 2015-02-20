@@ -1,7 +1,1220 @@
 {
+  "comments": [
+    {
+      "body": "I started the tutorial. Then I got stuck in the second step - Let's try something completely different. Type in your name like this: \"chris\".\n\nThe problem is: the input box doesn't get the quotes I write on my Mac. I tried double (\") and single (') quotes",
+      "comments": [],
+      "id": "9055103",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "1 minute ago",
+      "submitter": "gbonetti"
+    },
+    {
+      "body": "I'm new to Haskell, and I like this page. So, wanting to get a feel for it, I tried typing the sieve example from the top of the page into the \"Type Haskell expressions in here.\" box right beneath it.First, I got    <hint>:1:8: parse error on input `='  Hm so apparently definitions aren't expressions? Or something?I decided to remove the `primes = ` part, which made my browser really slow and had no result. I'm assuming it was computing all primes in the background.Now, of course, maybe I should try to understand the sieve example before running it, but isn't the whole point of having a REPL box on the front page that you can facilitate people who learn the other way around? It would be great if there'd be some code or expressions available at my fingertips that would actually work in that REPL.In other words, maybe make the first example be something that actually terminates?Please read this as constructive criticism, which is how it is intended.\n\nEDIT: Only now I'm noticing that exactly the things I ask for are listed to the right of the \"try\" box. Pardon my lazy reading, I'm really enjoying the tutorial right now. Still, making the `sieve` example terminate would be nice. But I believe my nitpick is maybe a bit much of a nitpick now.",
+      "comments": [
+        "9052474",
+        "9052299",
+        "9053189",
+        "9053239",
+        "9052294"
+      ],
+      "id": "9052290",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "16 hours ago",
+      "submitter": "skrebbel"
+    },
+    {
+      "body": "The biggest problem isn't what others have said. The biggest problem is that the try box doesn't let you define your own functions or variables.Therefore, even if you were an old hand at GHC and GHCi and so on, you'd still be unable to run the code it shows at the top of the page.\n\nThis is probably bad website design. Especially since the website still lets randoms burn themselves by entering non-terminating code that makes their browsers slow.",
+      "comments": [
+        "9053474",
+        "9053238"
+      ],
+      "id": "9052474",
+      "isDead": false,
+      "parent": "9052290",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "14 hours ago",
+      "submitter": "cbd1984"
+    },
+    {
+      "body": "The code doesn't run in-browser. It runs in a sandboxed environment elsewhere.",
+      "comments": [],
+      "id": "9053474",
+      "isDead": false,
+      "parent": "9052474",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "8 hours ago",
+      "submitter": "sclv"
+    },
+    {
+      "body": "I agree with the problems but am curious how you would solve the non-terminating code problem?",
+      "comments": [
+        "9053568"
+      ],
+      "id": "9053238",
+      "isDead": false,
+      "parent": "9052474",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "9 hours ago",
+      "submitter": "nightski"
+    },
+    {
+      "body": "> I agree with the problems but am curious how you would solve the non-terminating code problem?I thought it was running on the browser, based on what the OP said, so that would entail opcode-counting or, if you can use multiple threads, watchdog timers. That is, don't try to solve the halting problem, just enforce an arbitrary limit to how long code can run.\n\nHowever, if the code is being run on the server, you could enforce CPU and RAM quotas to do the same thing with the OS's help.",
+      "comments": [],
+      "id": "9053568",
+      "isDead": false,
+      "parent": "9053238",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "8 hours ago",
+      "submitter": "cbd1984"
+    },
+    {
+      "body": "Two problems:1. multi-line expressions aren't supported by the REPL.2. You will need to use `let x = ..` syntax in the REPL  (This is because the REPL are just so called IO-actions and the `let` syntax defines variables within its lexical scope)You could try this:    > let sieve (p:xs) =  p : sieve [x | x <- xs, x `mod` p /= 0]     > let primes = sieve [2..]     > primes !! 3     > primes !! 4  Nice part abou this code is eventhough you express calculating ALL primes. It will only calculate upto the 3rd and the 4th prime due to lazy evaluation. This is one of the great strengths of haskell.",
+      "comments": [
+        "9052413"
+      ],
+      "id": "9052299",
+      "isDead": false,
+      "parent": "9052290",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "16 hours ago",
+      "submitter": "arianvanp"
+    },
+    {
+      "body": "This online REPL does not support `let` either.\n\n`let x = 4` is not an expression there.",
+      "comments": [
+        "9052498"
+      ],
+      "id": "9052413",
+      "isDead": false,
+      "parent": "9052299",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "14 hours ago",
+      "submitter": "pasta-driven"
+    },
+    {
+      "body": "At the online REPL, you have to write something like:    let primes = sieve [2..] where sieve (p:xs) = p : sieve [x| x <- xs, x `mod` p /= 0] in primes  Which is rather annoying.",
+      "comments": [
+        "9053796"
+      ],
+      "id": "9052498",
+      "isDead": false,
+      "parent": "9052413",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "13 hours ago",
+      "submitter": "tomjakubowski"
+    },
+    {
+      "body": "Not only that, but you have to do something like    let primes = ... in take 5 primes  ... if you want the computation to complete without hanging the browser. It would be nice if the REPL supported multi-line expressions.",
+      "comments": [],
+      "id": "9053796",
+      "isDead": false,
+      "parent": "9052498",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "7 hours ago",
+      "submitter": "yawaramin"
+    },
+    {
+      "body": "Yeah, the online REPL is definitely not very useful or intuitive yet.As it says, you can evaluate a single line Haskell \"expression\" and top-level declarations (like the sieve example) are not expressions. In addition, the sieve example declares an infinite list so there's no sensible way to print it.You can fix all the above by using a let-expression on single line and only evaluating a finite part of the list using the 'take' function.    let { primes = sieve [2..]; sieve (p:xs) = p : sieve [x | x <- xs, x `mod` p /= 0] } in take 10 primes",
+      "comments": [],
+      "id": "9053189",
+      "isDead": false,
+      "parent": "9052290",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "9 hours ago",
+      "submitter": "shangaslammi"
+    },
+    {
+      "body": "In a normal ghci repl, you would be able to use the syntax \"let name = expr\", but this repl doesn't seem to support that.\n\nMy best guess is that it's because it's implemented as an HTTP service that happens not to retain the ghci process between expressions.",
+      "comments": [],
+      "id": "9053239",
+      "isDead": false,
+      "parent": "9052290",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "9 hours ago",
+      "submitter": "implicit"
+    },
+    {
+      "body": "You need to check syntax, or try some more basic examples first. In this case you pasted piece of code that won't work itself.\n\nIf you want to get know more about it: http://learnyouahaskell.com/syntax-in-functions",
+      "comments": [
+        "9052320"
+      ],
+      "id": "9052294",
+      "isDead": false,
+      "parent": "9052290",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "16 hours ago",
+      "submitter": "vmiroshnikov"
+    },
+    {
+      "body": "Sure, but my point is that maybe the top example should be one that'd work verbatim in the REPL, to not scare noobs like me away.",
+      "comments": [
+        "9052346",
+        "9052624",
+        "9053511"
+      ],
+      "id": "9052320",
+      "isDead": false,
+      "parent": "9052294",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "15 hours ago",
+      "submitter": "skrebbel"
+    },
+    {
+      "body": "Yeah, the REPL story's a bit of a mess, but Haskellers tend to forget that.",
+      "comments": [],
+      "id": "9052346",
+      "isDead": false,
+      "parent": "9052320",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "15 hours ago",
+      "submitter": "moomin"
+    },
+    {
+      "body": "Oops, I missed that. Indeed example is not REPL ready.",
+      "comments": [],
+      "id": "9052624",
+      "isDead": false,
+      "parent": "9052320",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "12 hours ago",
+      "submitter": "vmiroshnikov"
+    },
+    {
+      "body": "I totally agree with you.",
+      "comments": [],
+      "id": "9053511",
+      "isDead": false,
+      "parent": "9052320",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "8 hours ago",
+      "submitter": "codygman"
+    },
+    {
+      "body": "I really like the new design. The old site was certainly showing its age--very dense and hard to navigate. Never mind the lovely 1990s motif. This is far more welcoming and user-friendly, especially to those who might be curious about Haskell.It's exciting to witness Haskell gain traction within industry. Facebook announced last week that its building an entirely new Haskell team to focus on distributed systems, data mining, and machine learning. They're also hiring for a second team to support Haxl [1].For those eager to use Haskell in the workplace, I imagine the new design should make it easier to formulate a compelling business case. Being able to point your project manager and/or colleagues to a website that clearly explains what Haskell is--and what sets it apart--is a big plus.The source code for the site can be found on GitHub [2]. Awesome work by Chris Done, who kicked this off last year; see his blog post about the motivation for the new site [3].[1] http://www.reddit.com/r/haskell/comments/2useoq/haskell_oppo...[2] https://github.com/haskell-infra/hl\n\n[3] http://chrisdone.com/posts/haskell-lang",
+      "comments": [],
+      "id": "9052355",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "15 hours ago",
+      "submitter": "qubitcoder"
+    },
+    {
+      "body": "This new, awesome site is using the framework Yesod[0], which is kinda like the Rails of the Haskell world, only it can do rad stuff like prevent XSS and 404s at compile time. Yes, you read that right.\n\n[0] http://www.yesodweb.com/",
+      "comments": [
+        "9052322",
+        "9052285",
+        "9052973",
+        "9052347",
+        "9054321",
+        "9052325"
+      ],
+      "id": "9052279",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "16 hours ago",
+      "submitter": "chrisdotcode"
+    },
+    {
+      "body": "You know what is REALLY cool?  Almost all haskell web frameworks use the Web Application Interface[0]. Which is a unified interface for haskell web applications. This means you can mount web applications written in OTHER frameworks under your routes and vica versa.\n\n[0] http://www.stackage.org/package/wai",
+      "comments": [
+        "9052467",
+        "9052874"
+      ],
+      "id": "9052322",
+      "isDead": false,
+      "parent": "9052279",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "15 hours ago",
+      "submitter": "arianvanp"
+    },
+    {
+      "body": "Yeah, wsgi was also cool when it appeared for Python, back in 2003.",
+      "comments": [],
+      "id": "9052467",
+      "isDead": false,
+      "parent": "9052322",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "14 hours ago",
+      "submitter": "icebraining"
+    },
+    {
+      "body": "Is WAI that popular? I thought Yesod/Scotty used it, but Snap/Happstack did not.",
+      "comments": [],
+      "id": "9052874",
+      "isDead": false,
+      "parent": "9052322",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "11 hours ago",
+      "submitter": "MaxGabriel"
+    },
+    {
+      "body": "Btw, there's also a sinatra inspired framework – scotty (https://github.com/scotty-web/scotty)",
+      "comments": [
+        "9055048"
+      ],
+      "id": "9052285",
+      "isDead": false,
+      "parent": "9052279",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "16 hours ago",
+      "submitter": "vmiroshnikov"
+    },
+    {
+      "body": "\"Bare\" snap (snap-core and snap-server) are Sinatra-like too.",
+      "comments": [],
+      "id": "9055048",
+      "isDead": false,
+      "parent": "9052285",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "26 minutes ago",
+      "submitter": "spopejoy"
+    },
+    {
+      "body": "It sounds like the feature you're highlighting here is static checking at compile-time of how routes are going to resolve at run-time. Is that right?Afaict Perl 6 covers this case:http://jnthn.net/papers/2015-fosdem-static-dynamic.pdf#page=...\n\nOr am I missing something?",
+      "comments": [],
+      "id": "9052973",
+      "isDead": false,
+      "parent": "9052279",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "10 hours ago",
+      "submitter": "raiph"
+    },
+    {
+      "body": "Yesod is a real gem, been using it for most of our web applications and I discover new great things about it every day.",
+      "comments": [],
+      "id": "9052347",
+      "isDead": false,
+      "parent": "9052279",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "15 hours ago",
+      "submitter": "akurilin"
+    },
+    {
+      "body": "How does it prevent XSS?",
+      "comments": [
+        "9054362"
+      ],
+      "id": "9054321",
+      "isDead": false,
+      "parent": "9052279",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "4 hours ago",
+      "submitter": "runeks"
+    },
+    {
+      "body": "2. XSS injection. Any html coming back from a form will be efficiently sanitized just once on arrival. Unsanitized strings will be sanitized before being displayed.http://www.yesodweb.com/page/about\n\nI suspect this is accomplished through safe vs. unsafe types. Imagine the only function from `unsafe___` to `safe___` is the escape function, and all functions giving text back in responses is require to be of type `safe___`.",
+      "comments": [],
+      "id": "9054362",
+      "isDead": false,
+      "parent": "9054321",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "4 hours ago",
+      "submitter": "QuixoticChris"
+    },
+    {
+      "body": "Tell me more about preventing 404 at compile time. I call http://www.yesodweb.com/bullshit",
+      "comments": [
+        "9052363",
+        "9052337"
+      ],
+      "id": "9052325",
+      "isDead": false,
+      "parent": "9052279",
+      "quality": 0.3176470588235294,
+      "story": "9052129",
+      "submitted": "15 hours ago",
+      "submitter": "rimantas"
+    },
+    {
+      "body": "Presumably the idea is that you can prevent your site having broken internal links by constructing links with data types and checking the links when creating them at compile time. You could actually do something similar in most languages, even dynamic ones, so I don't see what is specific to haskell about it, e.g. rails has link_to and friends which require you to have a route set up in order to link to it (though not compile time). Golang has similar protection for XSS and reverse routes on routers if you require it so again not specific to Haskell.\n\nClearly you won't be able to prevent (nor would you want to) links like yours above from being a 404, so perhaps no more internal 404s would be more accurate.",
+      "comments": [
+        "9052997",
+        "9054090"
+      ],
+      "id": "9052363",
+      "isDead": false,
+      "parent": "9052325",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "15 hours ago",
+      "submitter": "grey-area"
+    },
+    {
+      "body": "Let's be fair here, while you can detect invalid internal links in dynamic languages at runtime, the end result is basically the same for the user - a 404 or a 503 are equally bad in this case.\n\nThat's the advantage of compiled languages over dynamic ones in these kinds of scenarios: you sacrifice immediate feedback during development to gain a guarantee from the compiler that all invariants you embedded in the application uphold. And the more powerful the language/compiler combination, the more compile-time guarantees you can specify.",
+      "comments": [
+        "9054190"
+      ],
+      "id": "9052997",
+      "isDead": false,
+      "parent": "9052363",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "10 hours ago",
+      "submitter": "dmit"
+    },
+    {
+      "body": "Users of dynamic languages tend to use tests to check for errors that stronger types might catch (like broken links), but I agree having a formal guarantee is a slight advantage, though not specific to Haskell. Golang for example could easily provide similar checking.\n\nThe linked website is beautifully done, and the language does look interesting, I just find the hyperbole about static types making websites magically secure a little over-egged - it's still easy to mess up security or create subtle bugs even if you have strong guarantees about some parts of your code at compile time provided by types.",
+      "comments": [],
+      "id": "9054190",
+      "isDead": false,
+      "parent": "9052997",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "5 hours ago",
+      "submitter": "grey-area"
+    },
+    {
+      "body": "Well, for me broken internal links and a claim that some framework magically avoids 404 errors are worlds apart.",
+      "comments": [],
+      "id": "9054090",
+      "isDead": false,
+      "parent": "9052363",
+      "quality": 0.5490196078431373,
+      "story": "9052129",
+      "submitted": "5 hours ago",
+      "submitter": "rimantas"
+    },
+    {
+      "body": "http://www.yesodweb.com/book/shakespearean-templates#shakesp...If you're used to only programming in dynamic languages, it can be a shock, but yes, a good type system can do things you never thought possible.\n\nIf you were the downvoter, I'll take my vote back now.",
+      "comments": [
+        "9053310"
+      ],
+      "id": "9052337",
+      "isDead": false,
+      "parent": "9052325",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "15 hours ago",
+      "submitter": "chrisdotcode"
+    },
+    {
+      "body": "I don't know who the downvoter is but I think it's a silly claim to be proud of. Anything more complex than a simple template system can enforce referential integrity of internal links by making the programmer refer to other pages on the site with some kind of handle. It's not rocket science and doing it with the (elaborate) type system isn't necessarily a selling point, in my opinion.",
+      "comments": [],
+      "id": "9053310",
+      "isDead": false,
+      "parent": "9052337",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "9 hours ago",
+      "submitter": "theoh"
+    },
+    {
+      "body": "Interestingly, my love for Haskell was re-kindled today and I went to the site to download the latest platform. There is so much wrong with the new site -1. Earlier, there was a lot of information on the Home Page. Now there's almost nothing. Yes the earlier page was a bit too busy, but crucially comprised simple HTML links and was fast to load. 2. Now there's a big banner saying \"Open Source Community Effort for 20 Years\" with Vimeo links, which itself is a bad idea. What happened to simple HTML anymore? Anyway, I don't care about the effort - show me the results e.g. Hackage, Hoogle, IDEs, etc. all of which was readily available in the old page but not anymore. 3. Earlier, it was easy to locate the Haskell platform for Windows. Now it takes to a cryptic download page and I am not sure what I am downloading. What is MinGHC?\n\nThese are just my initial impressions. Anyway, I wonder why people don't realize that not everything needs to be converted to the \"modern web\". Sometimes the old web is vastly superior to any modern alternatives.",
+      "comments": [
+        "9052273",
+        "9052278",
+        "9052271"
+      ],
+      "id": "9052169",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "17 hours ago",
+      "submitter": "radmuzom"
+    },
+    {
+      "body": "A new website will never be perfect. Luckily They're very open to suggestions and criticism . There seems to be an active issue tracker here [0] that is used to keep track of feedback. Pull requests seem to be welcomed as well.  Quite the friendly community it seems.By the way. the old website moved to https://wiki.haskell.org/Haskell\n\n[0] https://github.com/haskell-infra/hl/issues",
+      "comments": [],
+      "id": "9052273",
+      "isDead": false,
+      "parent": "9052169",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "16 hours ago",
+      "submitter": "arianvanp"
+    },
+    {
+      "body": "There are couple of ways to introduce anything 'new' -You can a sit in a small cubic room and whisper about yours ideas all day long, hoping that someday somebody will notice your thoughts and work on it further.Or you can put up somewhere and present it in a way that causes least drag, so anyone with a slight interest can pick on it.Or you can use a combination of both.\n\nToday in our fast society, I think it's the balance that matters the most. If you have something interesting to talk about and you are not working hard to let others know about it, then you are doing everybody a disservice.",
+      "comments": [],
+      "id": "9052278",
+      "isDead": false,
+      "parent": "9052169",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "16 hours ago",
+      "submitter": "iamcreasy"
+    },
+    {
+      "body": "Something like http://okmij.org/ftp/ ?",
+      "comments": [],
+      "id": "9052271",
+      "isDead": false,
+      "parent": "9052169",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "16 hours ago",
+      "submitter": "agumonkey"
+    },
+    {
+      "body": "The new web site looks better than the old one but it also makes everything harder: finding documentation, downloading the compiler, explaining the environment and tool chain, etc... All these very important tasks are now hidden behind links to links to links.\n\nI wouldn't be surprised that the average time that users spend on haskell.org goes down as a result (assuming the Haskell team even cares about measuring these things).",
+      "comments": [],
+      "id": "9053250",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "9 hours ago",
+      "submitter": "zak_mc_kracken"
+    },
+    {
+      "body": "I don't understand why they want to use this codeprimes = sieve [2..]    where sieve (p:xs) =            p : sieve [x | x <- xs, x `mod` p /= 0]As their first example of Haskell. It's a prime generator based on trial division. And not even trial division up to sqrt of the number you test, but all the way up.\n\nI like the idea of a small snippet showing of the power of haskell, but there are many much better examples imho. Perhaps the website could just choose one at random at each load?",
+      "comments": [
+        "9052581",
+        "9052649"
+      ],
+      "id": "9052514",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "13 hours ago",
+      "submitter": "thomasahle"
+    },
+    {
+      "body": "If the point is to show the power and elegance of the language, why would they complicate the expression with optimizations? The sqrt example is obvious to anyone who understands that line anyway.",
+      "comments": [
+        "9052869"
+      ],
+      "id": "9052581",
+      "isDead": false,
+      "parent": "9052514",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "13 hours ago",
+      "submitter": "pervycreeper"
+    },
+    {
+      "body": "What is the point of demonstrating the power an elegance with an example that will (hopefully!) never appear in any real world code? Better to show how the language is still powerful and elegant when taking into account the edge cases and common optimizations.\n\nWriting elegant non-real-world code is much easier (in any language!) than writing real code.",
+      "comments": [],
+      "id": "9052869",
+      "isDead": false,
+      "parent": "9052581",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "11 hours ago",
+      "submitter": "dkersten"
+    },
+    {
+      "body": "It's the Sieve of Eratosthenes, which is a fairly classic algorithm.",
+      "comments": [
+        "9052884"
+      ],
+      "id": "9052649",
+      "isDead": false,
+      "parent": "9052514",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "12 hours ago",
+      "submitter": "sigilion"
+    },
+    {
+      "body": "No it's not. It is only superficially[1].The sieve of Eratosthenes goes like this:1) Mark 2 as prime. Let it be n.2) Mark all numbers of the form i times n as composite, where i  is a positive integer. (We can do this by stepping over multiples of n. No multiplication needs to take place.3) The next unmarked number is prime. Let it be n. Goto 2Notice how this alogorithm does not use division. Division in modern CPUs is slow.The algorithm presented uses the `mod` operator, which does division. This algorithm is equivalent to the Trial Division Algorithm. Instead of \"deleting\" multiples of n as composite, this algorithm tests all numbers greater than n for divisibilty by n, and then only does it \"delete\" the number.For a more detailed explanation, see http://www.cs.hmc.edu/~oneill/papers/Sieve-JFP.pdf\n\n[1] https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes#Trial_di...",
+      "comments": [],
+      "id": "9052884",
+      "isDead": false,
+      "parent": "9052649",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "11 hours ago",
+      "submitter": "Moyamo"
+    },
+    {
+      "body": "If I go to downloads for Windows, I get the opportunity to download an installer for something called MinGHC with no indication of what version it is, and no indication if it is a 32 or 64 bit GHC. Whichever it is, if I want the other one, I'm apparently out of luck.The Haskell Platform is nowhere to be seen, why?\n\nIt looks nice on the surface, but the actual content needs work. And the link to more content is well-hidden at the absolute bottom of the page.",
+      "comments": [],
+      "id": "9052616",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "12 hours ago",
+      "submitter": "kryptiskt"
+    },
+    {
+      "body": "λ do line <- getLine; putStrLn line> лmueval-core: Imports.hs: removeLink: does not exist (No such file or directory) ExitFailure 1\n\nWhat did I do wrong?",
+      "comments": [
+        "9054603",
+        "9053281",
+        "9053195"
+      ],
+      "id": "9053178",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "9 hours ago",
+      "submitter": "iopq"
+    },
+    {
+      "body": "You did nothing wrong, the hundreds of active users due to announcement buzz is a little outside the scope of the sandbox's capabilities, it has some race condition under heavy load. We considered spending time optimizing this in anticipating of the announcement, but more pressing issues took priority. Re-running the line should work.",
+      "comments": [],
+      "id": "9054603",
+      "isDead": false,
+      "parent": "9053178",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "3 hours ago",
+      "submitter": "chrisdone"
+    },
+    {
+      "body": "Seems like a bug to me.",
+      "comments": [],
+      "id": "9053281",
+      "isDead": false,
+      "parent": "9053178",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "9 hours ago",
+      "submitter": "tel"
+    },
+    {
+      "body": "You need to use curly braces in single-line do-expressions:    do { line <- getLine; putStrLn line }",
+      "comments": [
+        "9053257"
+      ],
+      "id": "9053195",
+      "isDead": false,
+      "parent": "9053178",
+      "quality": 0.6470588235294118,
+      "story": "9052129",
+      "submitted": "9 hours ago",
+      "submitter": "shangaslammi"
+    },
+    {
+      "body": "First of all, I took that example from the webpage. And it works in ghci (if printing ? back to me \"works\", then I guess it works)",
+      "comments": [
+        "9053448"
+      ],
+      "id": "9053257",
+      "isDead": false,
+      "parent": "9053195",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "9 hours ago",
+      "submitter": "iopq"
+    },
+    {
+      "body": "Ah, right, sorry. I completely misread your post.\n\nI guess there's something funky in the unicode handling on the site.",
+      "comments": [],
+      "id": "9053448",
+      "isDead": false,
+      "parent": "9053257",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "8 hours ago",
+      "submitter": "shangaslammi"
+    },
+    {
+      "body": "I found a bug in the tutorial that introduces map.\n\nTyping in: map(+1) [1..5] won't advance to the next step (even though the interpreter handles it fine), but map (+1) [1..5] will (note the space after map).",
+      "comments": [],
+      "id": "9054498",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "4 hours ago",
+      "submitter": "shakeel_mohamed"
+    },
+    {
+      "body": "It looks good, but they have to get rid of the out of focus photo. Photos that are entirely out of focus are really annoying and give a lot of people headaches.Usually out of focus areas should be used to bring the eye to an object in the photo that is in focus. But if such an object does not exist, then the eye wanders and tries to adjust itself to focus (the eye has its own focusing mechanism). But of course it cannot do so, so what you get as a result is strain on the eye and a headache.\n\nOut of focus photos have no business in what hopes to be a mainstream website.",
+      "comments": [
+        "9054618",
+        "9053630",
+        "9054107"
+      ],
+      "id": "9053379",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "8 hours ago",
+      "submitter": "hristov"
+    },
+    {
+      "body": "That's because I'm waiting for the photographer to get me the full size version. This one I cribbed a low-res version of the net, but it's easily one of the best Haskell conference photos in its original form.",
+      "comments": [],
+      "id": "9054618",
+      "isDead": false,
+      "parent": "9053379",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "3 hours ago",
+      "submitter": "chrisdone"
+    },
+    {
+      "body": "Wow, I’d never heard of this, but apparently it’s a thing. I just see the photo as blurred and that’s that; my eyes don’t try to adjust, maybe because the blurring just seems flat on my monitor. Do you happen to suffer from migraines or vision problems?",
+      "comments": [],
+      "id": "9053630",
+      "isDead": false,
+      "parent": "9053379",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "7 hours ago",
+      "submitter": "evincarofautumn"
+    },
+    {
+      "body": "I agree... I didn't even realize there was a videos section between the \"Try it\" and the \"Features\" section until I read your comment.",
+      "comments": [],
+      "id": "9054107",
+      "isDead": false,
+      "parent": "9053379",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "5 hours ago",
+      "submitter": "pilgrim689"
+    },
+    {
+      "body": "great!  I love the fact that \"try it\" takes center stage. Though there was a lot more information on the old site, I feel the new one does  good job of breaking it up into more meaningfully grouped segments.\n\nThe sponsors section is confusing to me though, are these actual sponsors or just services that haskell.org uses? Its not actually clear to me based on the text and the relative prominence each is given.",
+      "comments": [],
+      "id": "9052251",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "16 hours ago",
+      "submitter": "jfaucett"
+    },
+    {
+      "body": "Out of curiosity:\n\nWho has written Haskell & deployed to production in the last 24h and if yes for what kind of app?",
+      "comments": [
+        "9052277",
+        "9053042",
+        "9054407",
+        "9053649",
+        "9052326",
+        "9052696",
+        "9052305",
+        "9053901",
+        "9052342",
+        "9052298",
+        "9053527",
+        "9052507",
+        "9052275",
+        "9052831"
+      ],
+      "id": "9052269",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "16 hours ago",
+      "submitter": "bonn1"
+    },
+    {
+      "body": "I know Amsterdam startup http://www.silk.co has their entire backend written in Haskell. I'm not sure they deploy in weekends though.\n\nTheir CEO Salar told me that that, among other things, it gives them a hiring edge. People move to Amsterdam from all kinds of places just so they can write Haskell professionally.",
+      "comments": [
+        "9052472",
+        "9052374",
+        "9052489"
+      ],
+      "id": "9052277",
+      "isDead": false,
+      "parent": "9052269",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "16 hours ago",
+      "submitter": "skrebbel"
+    },
+    {
+      "body": "As someone who moved to Amsterdam to write Haskell (and JavaScript) for Silk, I can confirm that the combination of a beautiful bike-friendly European city, a Haskell backend, and exceedingly cool co-workers makes for a very pleasant working environment.\n\nI'm off on other adventures now, but I have no skepticism about deploying Haskell in production. Yeah, it's still a bit obscure, but if you're looking for smart and eager programmers, Haskell is good bait.",
+      "comments": [],
+      "id": "9052472",
+      "isDead": false,
+      "parent": "9052277",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "14 hours ago",
+      "submitter": "mbrock"
+    },
+    {
+      "body": "No we usually don't deploy in weekends. Only if we break stuff just before the weekend. :)",
+      "comments": [
+        "9052387"
+      ],
+      "id": "9052374",
+      "isDead": false,
+      "parent": "9052277",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "15 hours ago",
+      "submitter": "sfvisser"
+    },
+    {
+      "body": "Indeed! So you didn't deploy Haskell in the last 24h so you don't count :-)",
+      "comments": [],
+      "id": "9052387",
+      "isDead": false,
+      "parent": "9052374",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "15 hours ago",
+      "submitter": "skrebbel"
+    },
+    {
+      "body": "My impression is that there's nothing wrong with Amsterdam. Nice and liberal under a good state.",
+      "comments": [],
+      "id": "9052489",
+      "isDead": false,
+      "parent": "9052277",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "13 hours ago",
+      "submitter": "tormeh"
+    },
+    {
+      "body": "Not in the last 24h, but I pushed to production on Friday.  We use Haskell at IMVU to power some of our web services and persistent stateful servers like the matchmaker.\n\nhttp://engineering.imvu.com/2014/03/24/what-its-like-to-use-...",
+      "comments": [],
+      "id": "9053042",
+      "isDead": false,
+      "parent": "9052269",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "10 hours ago",
+      "submitter": "chadaustin"
+    },
+    {
+      "body": "I have, for data-flow analysis software.Haskell gets used in the oddest places, where one of two things is true:    1. Nothing else works (with reasonable LOC *and* performance)     2. The safety of an advanced type system is required  I'm not optimistic about Haskell appearing anywhere else for the time being, so I think it will stay an \"exotic\" language for awhile longer.",
+      "comments": [],
+      "id": "9054407",
+      "isDead": false,
+      "parent": "9052269",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "4 hours ago",
+      "submitter": "ghc"
+    },
+    {
+      "body": "Facebook’s site integrity rules are written in Haskell (using Haxl: https://github.com/facebook/haxl) and are deployed every few minutes.",
+      "comments": [],
+      "id": "9053649",
+      "isDead": false,
+      "parent": "9052269",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "7 hours ago",
+      "submitter": "evincarofautumn"
+    },
+    {
+      "body": "I work for http://fynder.io - our entire backend stack is Haskell (libraries, PostgreSQL interface, email sending daemons, API server)",
+      "comments": [],
+      "id": "9052326",
+      "isDead": false,
+      "parent": "9052269",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "15 hours ago",
+      "submitter": "ocharles"
+    },
+    {
+      "body": "We use Haskell at SimplyRETS (https://simplyrets.com).\n\nThe core api service is written in Yesod and various other components are written in Scotty and WAI.",
+      "comments": [],
+      "id": "9052696",
+      "isDead": false,
+      "parent": "9052269",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "12 hours ago",
+      "submitter": "creichert"
+    },
+    {
+      "body": "Elsewhere on the front page: http://hasura.io/ - https://news.ycombinator.com/item?id=9050316",
+      "comments": [],
+      "id": "9052305",
+      "isDead": false,
+      "parent": "9052269",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "16 hours ago",
+      "submitter": "dons"
+    },
+    {
+      "body": "The Lamdu project I'm working on is in Haskell.Our build system for a large C project at work is written in Haskell.\n\nVarious other tools we use (cgrep, resolve-trivial-conflicts, etc) are in Haskell.",
+      "comments": [],
+      "id": "9053901",
+      "isDead": false,
+      "parent": "9052269",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "6 hours ago",
+      "submitter": "Peaker"
+    },
+    {
+      "body": "We use Haskell at https://www.frontrowed.com/ for most of our web applications, internal tools, email senders, API etc.",
+      "comments": [],
+      "id": "9052342",
+      "isDead": false,
+      "parent": "9052269",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "15 hours ago",
+      "submitter": "akurilin"
+    },
+    {
+      "body": "Haven't pushed to the repo yet, but https://github.com/bluepeppers/highhockwho is my contribution :) Little tool to poll the docker daemon and push records to etcd in a skydns compatible format. In production, and seems to be fairly stable so far.",
+      "comments": [],
+      "id": "9052298",
+      "isDead": false,
+      "parent": "9052269",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "16 hours ago",
+      "submitter": "lclarkmichalek"
+    },
+    {
+      "body": "Our core services at https://circuithub.com is built on Haskell.",
+      "comments": [],
+      "id": "9053527",
+      "isDead": false,
+      "parent": "9052269",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "8 hours ago",
+      "submitter": "RehnoLindeque"
+    },
+    {
+      "body": "I recently launched http://geohangout.com. The entire backend service is written in Haskell (Yesod).",
+      "comments": [],
+      "id": "9052507",
+      "isDead": false,
+      "parent": "9052269",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "13 hours ago",
+      "submitter": "haskman"
+    },
+    {
+      "body": "Ad traffic anit-fraud platform (api servers, data mining workers)",
+      "comments": [],
+      "id": "9052275",
+      "isDead": false,
+      "parent": "9052269",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "16 hours ago",
+      "submitter": "vmiroshnikov"
+    },
+    {
+      "body": "My company, FanJam.com, is built using Haskell for our backend stack & Ember on the frontend",
+      "comments": [],
+      "id": "9052831",
+      "isDead": false,
+      "parent": "9052269",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "11 hours ago",
+      "submitter": "twog"
+    },
+    {
+      "body": "Small thing but the favicon should be updated to look crisp on retina displays.",
+      "comments": [
+        "9054585"
+      ],
+      "id": "9054525",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "3 hours ago",
+      "submitter": "shaunxcode"
+    },
+    {
+      "body": "Huh, thanks for noticing. I have a retina display but on Linux Chrome and Firefox both ignore any kind of global font size settings for their tabs, so the icons are tiny and look crisp, didn't realise. That kind of thing bugs me too. The rest of the layout itself should be retina-friendly, though, as I developed it like that.",
+      "comments": [
+        "9054677"
+      ],
+      "id": "9054585",
+      "isDead": false,
+      "parent": "9054525",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "3 hours ago",
+      "submitter": "chrisdone"
+    },
+    {
+      "body": "Yeah that is the only reason I mentioned it as the rest of the site was spot on.",
+      "comments": [],
+      "id": "9054677",
+      "isDead": false,
+      "parent": "9054585",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "3 hours ago",
+      "submitter": "shaunxcode"
+    },
+    {
+      "body": "This is a step backwards imho. The fit and finish of this site betrays much about the language and its amazing community.\n\nThis feels amateurish, with enough people complaining about the interactive repl and lacking information, this should have gone through more iterations and feedback loops with people outside the Haskell community.",
+      "comments": [
+        "9053504"
+      ],
+      "id": "9052941",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "10 hours ago",
+      "submitter": "Ixiaus"
+    },
+    {
+      "body": "Luckily for everyone, the current discussion here is just such an iteration!",
+      "comments": [],
+      "id": "9053504",
+      "isDead": false,
+      "parent": "9052941",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "8 hours ago",
+      "submitter": "sclv"
+    },
+    {
+      "body": "Looks neat, although I don't feel it's some big news. But there's some new weird font in \"Haskell\" logo now, isn't it?\n\nAnyways, I'll always remember that cute cherry-flower (I guess) background on the old front page. It was nice first impression somehow.",
+      "comments": [],
+      "id": "9052248",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "16 hours ago",
+      "submitter": "krick"
+    },
+    {
+      "body": "The old site moved to https://wiki.haskell.org",
+      "comments": [],
+      "id": "9053340",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "8 hours ago",
+      "submitter": "frik"
+    },
+    {
+      "body": "\"advanced\" purely-functional. Does -advanced- actually means something?.",
+      "comments": [],
+      "id": "9053672",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "7 hours ago",
+      "submitter": "chorizos22"
+    },
+    {
+      "body": "Rakspace logo that appear on the footer should be light or white version, so it can match with the footer background",
+      "comments": [],
+      "id": "9052898",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "11 hours ago",
+      "submitter": "peeyek"
+    },
+    {
+      "body": "It's a good start to make people want to try it out, but I feel the tutorial could go a bit further.. chaining functions together? defining functions? map functions and branching?",
+      "comments": [],
+      "id": "9052259",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "16 hours ago",
+      "submitter": "m_mueller"
+    },
+    {
+      "body": null,
+      "comments": [
+        "9052823"
+      ],
+      "id": "dead-0",
+      "isDead": true,
+      "parent": null,
+      "quality": null,
+      "story": "9052129",
+      "submitted": null,
+      "submitter": null
+    },
+    {
+      "body": "Don't think the syntax examples on the main page are about teaching complexity. Try the wiki for that.  E.g. https://wiki.haskell.org/The_Fibonacci_sequence#Naive_defini...",
+      "comments": [],
+      "id": "9052823",
+      "isDead": false,
+      "parent": "dead-0",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "11 hours ago",
+      "submitter": "dons"
+    },
+    {
+      "body": "This appears to be broken in my browser. Screenshot: http://m.imgur.com/uXcS2ZS",
+      "comments": [],
+      "id": "9052343",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "15 hours ago",
+      "submitter": "afandian"
+    },
+    {
+      "body": "Dam this is cool.",
+      "comments": [],
+      "id": "9052643",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "12 hours ago",
+      "submitter": "talnet"
+    },
+    {
+      "body": "Nice new design!",
+      "comments": [],
+      "id": "9052711",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "12 hours ago",
+      "submitter": "lion_del"
+    },
+    {
+      "body": "\"Hi there, [name]! That's a pretty name. Honest. You're getting the hang of this!\"\n\nI fear that this style of childish and somewhat condescending tutorial content is becoming fashionable. Was it the best fit for the audience?",
+      "comments": [
+        "9052939"
+      ],
+      "id": "9052641",
+      "isDead": false,
+      "parent": null,
+      "quality": 0.5490196078431373,
+      "story": "9052129",
+      "submitted": "12 hours ago",
+      "submitter": "doctorstupid"
+    },
+    {
+      "body": "The tutorial is 5 years old, so I guess that makes me a hipster tutorial writer because I was doing it back when it wasn't fashionable? =p",
+      "comments": [],
+      "id": "9052939",
+      "isDead": false,
+      "parent": "9052641",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "10 hours ago",
+      "submitter": "chrisdone"
+    },
+    {
+      "body": "This redesign appears to take the position: the first page on haskell.org is for people who are brand new to the language, not for people who are already learning the language or currently use the language. I don't like that choice. I think the page should be trying to be the most useful for users of the language with a link to an About or Getting Started page that is geared toward new users. To me, a user of the language visits the site dozens or hundreds of times over the course of a career, while the average brand new user only visits it (I'm guessing here) 1.1 times. But I can appreciate the difference of opinion and priorities and from the creator's perspective I think the page does an ok job.It makes me wonder though, what if news.ycombinator.com took that position. What if it were a page describing what Hacker News is, how posting and commenting and voting works, and how long the community had been around, etc. And then there were a link in a menu that said \"Submissions\" that took you to the actual content.For someone currently learning the language (past the first 5 minutes) or that uses the language regularly, the only useful things on this front page are the four links along the top.As for improvements, I think some sections (e.g. community banner) should be removed. I think the videos should, given the focus on brand new users, probably be removed too. The community banner is, I believe, only there to facilitate displaying the titles when people click on the videos. I haven't watched any of the videos, but from their titles I am skeptical that they should be watched before the next section (Features) is read, so they should, at a minimum, be moved further down the page. I don't like the alternating dark/light sections, so moving them further down would give you a more traditional dark header, light content, dark footer look.I assume the videos are not going to change regularly, because they appear to all be from a single Vimeo account that has more recent videos than those that are displayed. If the videos are kept, I think the titles should be visible without clicking on the video, because I thought (which means some others will think) that clicking on the video would start playing it. Hovering one by one to see the title is not a good solution.\n\nCongrats to the people who built and deployed this, I'm sure it took a long time to get it live (since I remember seeing this page hosted elsewhere many months ago).",
+      "comments": [
+        "9052930",
+        "9054310",
+        "9052778"
+      ],
+      "id": "9052381",
+      "isDead": false,
+      "parent": null,
+      "quality": 0.4666666666666667,
+      "story": "9052129",
+      "submitted": "15 hours ago",
+      "submitter": "scottjad"
+    },
+    {
+      "body": "> This redesign appears to take the position: the first page on haskell.org is for people who are brand new to the language, not for people who are already learning the language or currently use the language.Correct! See here for a complete report on the motivations behind each design decision: http://chrisdone.com/posts/haskell-lang#the-audience> To me, a user of the language visits the site dozens or hundreds of times over the course of a career, while the average brand new user only visits it (I'm guessing here) 1.1 times.\n\nIn practice this isn't true—it's generally agreed in the Haskell community: nobody goes to the home page, they go to either Hackage, Hoogle or google something and reach a page on the Wiki.",
+      "comments": [],
+      "id": "9052930",
+      "isDead": false,
+      "parent": "9052381",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "10 hours ago",
+      "submitter": "chrisdone"
+    },
+    {
+      "body": "Obviously they want to stop any thoughts that haskell is a dated language, and they want to hook new people in at a faster rate.\n\nVeteran users don't need any more encouragement.",
+      "comments": [],
+      "id": "9054310",
+      "isDead": false,
+      "parent": "9052381",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "4 hours ago",
+      "submitter": "andrewchambers"
+    },
+    {
+      "body": "So basically you are saying \"Don't be geared towards new users, because I am too lazy to set a bookmark to the pages I need and I want to save clicks...\"",
+      "comments": [],
+      "id": "9052778",
+      "isDead": false,
+      "parent": "9052381",
+      "quality": 1,
+      "story": "9052129",
+      "submitted": "11 hours ago",
+      "submitter": "bresc"
+    }
+  ],
   "story": {
     "body": null,
-    "comments": 97,
+    "comments": [
+      "9055103",
+      "9052290",
+      "9052355",
+      "9052279",
+      "9052169",
+      "9053250",
+      "9052514",
+      "9052616",
+      "9053178",
+      "9054498",
+      "9053379",
+      "9052251",
+      "9052269",
+      "9054525",
+      "9052941",
+      "9052248",
+      "9053340",
+      "9053672",
+      "9052898",
+      "9052259",
+      "dead-0",
+      "9052343",
+      "9052643",
+      "9052711",
+      "9052641",
+      "9052381"
+    ],
+    "commentsCount": 97,
     "id": "9052129",
     "points": 301,
     "source": "haskell.org",

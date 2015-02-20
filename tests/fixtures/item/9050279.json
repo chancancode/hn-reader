@@ -1,7 +1,85 @@
 {
+  "comments": [
+    {
+      "body": "If you are a Python person (very popular language in the data sciences realm these days).  Your gateway drug to linguistic and textual analysis is going to be NLTK.http://www.nltk.org/The free book and tutorials are great and you can get up and running pretty quickly.NLTK's lower learning curve is great for getting your head around NLP concepts.  Once you start looking for increased function or performance... you'll find yourself graduating to a SciKit-Learn (http://scikit-learn.org/stable/).\n\nIn the Java world... I think Mahout is/was popular.  Quite a bit more setup to get through in order get this up and running.",
+      "comments": [
+        "9050375"
+      ],
+      "id": "9050358",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9050279",
+      "submitted": "15 hours ago",
+      "submitter": "whitej125"
+    },
+    {
+      "body": "I'm actually a dyed-in-the-wool Node/js acolyte (which I used for the scraper), but I've played around with Python, and I'm sure it would be worth learning as a second language (I don't count my very-out-of-date Ruby).\n\nThanks for the tip!",
+      "comments": [],
+      "id": "9050375",
+      "isDead": false,
+      "parent": "9050358",
+      "quality": 1,
+      "story": "9050279",
+      "submitted": "15 hours ago",
+      "submitter": "CoreSet"
+    },
+    {
+      "body": "Stanford NLP is pretty good, if you are on java - http://nlp.stanford.edu/software/corenlp.shtml\n\nYou might also want to look at word2vec (implemented in most of the popular languages) - https://code.google.com/p/word2vec/",
+      "comments": [],
+      "id": "9051154",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9050279",
+      "submitted": "10 hours ago",
+      "submitter": "manidoraisamy"
+    },
+    {
+      "body": "This text summarizer will be open sourced soon: http://genopharmix.com/TuataraSum",
+      "comments": [],
+      "id": "9051274",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9050279",
+      "submitted": "9 hours ago",
+      "submitter": "biomimic"
+    },
+    {
+      "body": "This seems to have some good starting pointers:\n\nhttp://blog.datadive.net/which-topics-get-the-upvote-on-hack...",
+      "comments": [
+        "9050383"
+      ],
+      "id": "9050342",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9050279",
+      "submitted": "15 hours ago",
+      "submitter": "wallflower"
+    },
+    {
+      "body": "Thanks! Yeah, this helps confirm the utility of picking up some Python.",
+      "comments": [],
+      "id": "9050383",
+      "isDead": false,
+      "parent": "9050342",
+      "quality": 1,
+      "story": "9050279",
+      "submitted": "15 hours ago",
+      "submitter": "CoreSet"
+    }
+  ],
   "story": {
     "body": "I'm looking to do linguistic/textual analysis on a large amount of text I've scraped for a research project, finding stats like: frequently used words, associated topic clusters, gender estimations.\n\nI wrote the scraper myself, but the language analysis is something it seems it'd be easier to find OS and use out of the box or slightly modified.\n\nAnyone have any ideas/leads? Preference is for a script or process I can run from the CL to output the vitals.",
-    "comments": 6,
+    "comments": [
+      "9050358",
+      "9051154",
+      "9051274",
+      "9050342"
+    ],
+    "commentsCount": 6,
     "id": "9050279",
     "points": 4,
     "source": null,

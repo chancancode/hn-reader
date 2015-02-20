@@ -1,7 +1,835 @@
 {
+  "comments": [
+    {
+      "body": "Seems like HN could do well with an introduction to Arlie Hochschild and \"The Managed Heart\" http://www.amazon.com/The-Managed-Heart-Commercialization-Fe....Here's a bit of the blurb from Amazon:\"In private life, we try to induce or suppress love, envy, and anger through deep acting or \"emotion work,\" just as we manage our outer expressions of feeling through surface acting. In trying to bridge a gap between what we feel and what we \"ought\" to feel, we take guidance from \"feeling rules\" about what is owing to others in a given situation. Based on our private mutual understandings of feeling rules, we make a \"gift exchange\" of acts of emotion management. We bow to each other not simply from the waist, but from the heart.\n\nBut what occurs when emotion work, feeling rules, and the gift of exchange are introduced into the public world of work? In search of the answer, Arlie Russell Hochschild closely examines two groups of public-contact workers: flight attendants and bill collectors. The flight attendant’s job is to deliver a service and create further demand for it, to enhance the status of the customer and be \"nicer than natural.\" The bill collector’s job is to collect on the service, and if necessary, to deflate the status of the customer by being \"nastier than natural.\" Between these extremes, roughly one-third of American men and one-half of American women hold jobs that call for substantial emotional labor. In many of these jobs, they are trained to accept feeling rules and techniques of emotion management that serve the company’s commercial purpose.\"",
+      "comments": [],
+      "id": "9055083",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9053255",
+      "submitted": "13 minutes ago",
+      "submitter": "unclesaamm"
+    },
+    {
+      "body": "Here in the Czech Republic, there is no forced smile. It is not a part of the culture, people generally don't do it, and people here generally see americans (especially americans) as fake, superficial, and insincere.I'm a bit on the fence about it. Central Europeans, including Czechs are a rather gloomy bunch :-) especially in the winter. Americans are definitely more cheerful, and it is not fake. Ok, sometimes it is but generally speaking Americans are in fact more cheerful and optimistic. Ok, Czechs have five centuries of being conquered and subjugated of course, so let's not draw too many conclusions.\n\nIn terms of smiling strangers, well, I'd like a bit more of it than we have here in the Czech Republic (where there is very little)",
+      "comments": [
+        "9054025",
+        "9054062",
+        "9053641",
+        "9053635",
+        "9053757"
+      ],
+      "id": "9053605",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9053255",
+      "submitted": "7 hours ago",
+      "submitter": "nakedrobot2"
+    },
+    {
+      "body": "As a Slav, I actually really enjoy giving and receiving smiles (from strangers and friends). Also, I find Americans (especially in the service sector) a lot more smiley and cheery than Canadians, so it's more than US vs Europe, I think it's a uniquely US trait (I lived in all three)I found this bit interesting: \"Admittedly, the dynamism of Western capitalism depends upon people who work with missionary zeal, who refuse to accept that a job is merely a job. It must be something more — a vocation, an adventure, a journey to higher heights.\"\n\nHe has something there. Easiest way to make people your slaves (this is a metaphor, in case it's not obvious) it's to convince them that pushing papers in some dreary cubicle for peanuts is somehow a mission, a source of pride.",
+      "comments": [
+        "9054241"
+      ],
+      "id": "9054025",
+      "isDead": false,
+      "parent": "9053605",
+      "quality": 1,
+      "story": "9053255",
+      "submitted": "6 hours ago",
+      "submitter": "goodJobWalrus"
+    },
+    {
+      "body": "In the immortal words of Antoine de Saint-Exupery:\n\n“If you want to build a ship, don’t drum up the men to gather wood, divide the work, and give orders. Instead, teach them to yearn for the vast and endless sea.”",
+      "comments": [],
+      "id": "9054241",
+      "isDead": false,
+      "parent": "9054025",
+      "quality": 1,
+      "story": "9053255",
+      "submitted": "5 hours ago",
+      "submitter": "NickPollard"
+    },
+    {
+      "body": "We are? I mean, perhaps, on the tram, people are neutral. And cashiers don't smile, ever.But whenever you see a group of Czechs doing something, we are all laughs and smiles. Friends, colleagues, coworkers ... even at work, we spend a lot of time telling stupid jokes, laughing and goofing around.\n\nThere's no forced smile, no, but there's a lot of fun.",
+      "comments": [],
+      "id": "9054062",
+      "isDead": false,
+      "parent": "9053605",
+      "quality": 1,
+      "story": "9053255",
+      "submitted": "6 hours ago",
+      "submitter": "glogla"
+    },
+    {
+      "body": "In terms of cultural comparison, I find that the Anglo-Saxon culture is more about making friends, not discussing iffy topics etc. While as Czechs we will totally argue. Maybe that's where the gloomy/smiley split comes from.",
+      "comments": [
+        "9053761"
+      ],
+      "id": "9053641",
+      "isDead": false,
+      "parent": "9053605",
+      "quality": 1,
+      "story": "9053255",
+      "submitted": "7 hours ago",
+      "submitter": "agilebyte"
+    },
+    {
+      "body": "I don't know how we are in relation to Czechs, but one of things I hear as an American is that we are often too quick to talk about politics. Whereas, in many cultures, politics is considered almost taboo to talk about with all but the closest friends and family.",
+      "comments": [
+        "9053785",
+        "9054068"
+      ],
+      "id": "9053761",
+      "isDead": false,
+      "parent": "9053641",
+      "quality": 1,
+      "story": "9053255",
+      "submitted": "7 hours ago",
+      "submitter": "RK"
+    },
+    {
+      "body": "Huh, I guess maybe it only applies to British, Canadians and Kiwis?\n\nI have a friend who consciously does not want to talk about taboo topics because then she could find out her friends are assholes...",
+      "comments": [],
+      "id": "9053785",
+      "isDead": false,
+      "parent": "9053761",
+      "quality": 1,
+      "story": "9053255",
+      "submitted": "7 hours ago",
+      "submitter": "agilebyte"
+    },
+    {
+      "body": "I tell this to Americans because I don't want to hear their views on politics.",
+      "comments": [],
+      "id": "9054068",
+      "isDead": false,
+      "parent": "9053761",
+      "quality": 1,
+      "story": "9053255",
+      "submitted": "6 hours ago",
+      "submitter": "kjjw"
+    },
+    {
+      "body": "Ha, five centuries! We Slovenians have had 12. From 828 AD to 1991 AD.But yes, us Slavs are a gloomy bunch. But only on the outside and only to strangers. Particularly Americans. Whenever I'm in the States I commonly get accused of being emotionless and of having a deadpan face. At the same time, I feel everybody I meet there is a clown and I always make sure to tune down their enthusiasm. If an American says something is super awesome and the best thing ever, it's probably kinda okayish.Anyway, the interesting thing I've found comparing Slavs to Americans is that while Slavs are weary of strangers, they open up much sooner. You can be friends with Americans for months and years, but if you haven't gone to the same kindergarten together, you will never be a true friend. Whereas with Slavs, you could have met at a bar three hours ago, and already you're confessing your deepest darkest secrets to each other and are practically best friends.Source: having lived in the States for some time\n\nPS: to be fair, most Europeans I've met both in Europe and in the US share this immediately friends trait. So far none of the Americans I've met have, possibly because of The Big City effect.",
+      "comments": [
+        "9053680"
+      ],
+      "id": "9053635",
+      "isDead": false,
+      "parent": "9053605",
+      "quality": 1,
+      "story": "9053255",
+      "submitted": "7 hours ago",
+      "submitter": "Swizec"
+    },
+    {
+      "body": "you're european, so you can make instant-friends with europeans quite easily.i'm american, and i can make instant friends with americans.  i did it throughout my 20s when traveling here in the US and overseas.  in fact i've done it all over 4 continents now.  this doesn't seem to be a racial or cultural trait.  some people are friendly, some aren't.\n\nperhaps the fact that you describe yourself as 'gloomy' is the reason americans do not find it easy to befriend you even after a few drinks.",
+      "comments": [
+        "9053745"
+      ],
+      "id": "9053680",
+      "isDead": false,
+      "parent": "9053635",
+      "quality": 1,
+      "story": "9053255",
+      "submitted": "7 hours ago",
+      "submitter": "beachstartup"
+    },
+    {
+      "body": "> perhaps the fact that you describe yourself as 'gloomy' is the reason americans do not find it easy to befriend you even after a few drinks.Funnily, Europeans have started labeling me as too cheery, smiley, and direct. Too American.And yes, it could well be the sense of common cultural heritage at play here. But Europeans in general don't have as much of a common heritage as Americans do, and we all grew up on American culture anyway. Particularly for everyone growing up in the 90's when American stuff was extremely popular here as we were trying to be less like The Old System (tm) and embrace The Capitalism (tm).Although there are a lot of differences in observing a culture and actually living it. I'll grant you that.\n\nAt the end of the day, this is anecdata. Your mileage may vary.",
+      "comments": [
+        "9053868"
+      ],
+      "id": "9053745",
+      "isDead": false,
+      "parent": "9053680",
+      "quality": 1,
+      "story": "9053255",
+      "submitted": "7 hours ago",
+      "submitter": "Swizec"
+    },
+    {
+      "body": "I'm a gloomy American and it's typical for me to make friends with Slavs, but I'm not really a \"fast friends\" kind of person.",
+      "comments": [],
+      "id": "9053868",
+      "isDead": false,
+      "parent": "9053745",
+      "quality": 1,
+      "story": "9053255",
+      "submitted": "6 hours ago",
+      "submitter": "busterarm"
+    },
+    {
+      "body": "One thing I have found interesting is that as you go more north in the US, a culture of explicit niceness becomes palpable. I have always though weather may have some relationship, as Canada by reputation would fit this view.",
+      "comments": [
+        "9053845"
+      ],
+      "id": "9053757",
+      "isDead": false,
+      "parent": "9053605",
+      "quality": 1,
+      "story": "9053255",
+      "submitted": "7 hours ago",
+      "submitter": "threatofrain"
+    },
+    {
+      "body": "Interesting, my experience has been the opposite. On the west coast I find that people from San Diego are, on average, a bit more cheery than people from Seattle. Similarly, the average resident of New Orleans seems to have a rosier outlook on life than the average Manhattanite or Montrealer.",
+      "comments": [
+        "9053881"
+      ],
+      "id": "9053845",
+      "isDead": false,
+      "parent": "9053757",
+      "quality": 1,
+      "story": "9053255",
+      "submitted": "6 hours ago",
+      "submitter": "santaclaus"
+    },
+    {
+      "body": "As a Northerner living in the South, I will tell you that Northerners are painfully conscious of how they treat and are perceived by others and try to minimize their impact on other people.  Southern Hospitality is mostly fake and really more about trying to size you up and figure out details about your life (but yes, in some areas people will go way out of their way to help you out with stuff).\n\nNew Orleans residents are outliers.  They are far and away the friendliest people I've met anywhere in the US, but at the same time it's a tourist economy and everyone seems to have a hustle.  Much love for New Orleans.",
+      "comments": [
+        "9054933"
+      ],
+      "id": "9053881",
+      "isDead": false,
+      "parent": "9053845",
+      "quality": 1,
+      "story": "9053255",
+      "submitted": "6 hours ago",
+      "submitter": "busterarm"
+    },
+    {
+      "body": "As a Northern living in the South, I've found the exact opposite. People seem to be more friendlier down here.\n\nLet's make some more generalizations.",
+      "comments": [],
+      "id": "9054933",
+      "isDead": false,
+      "parent": "9053881",
+      "quality": 1,
+      "story": "9053255",
+      "submitted": "1 hour ago",
+      "submitter": "shorttime"
+    },
+    {
+      "body": "This article starts to touch on something profound but then mostly skims over an in-depth discussion with reasoning.At its core, this is really about human social response and compelled social behavior.  The article could be about \"bitchy resting face\" or tipping, or any other form of compelled social niceity and it could delve into the same topics.People see certain social cues, and they interpret them based on past experience.  People who smile at you, and talk in a certain frequency range, and use certain words, must be nice and want to help you.  Anyone who owns a business wants all customers to feel that emotion whenever they associate with your business, and implicit social contracts evolve that basically codify that.It's like \"The Game\" in some respects.   There are certain social cues / responses that most people have internalized so deeply that they're barely aware they respond to them.  Most people interpret offhand compliments from a person with apparent detatched interest as intriguing.  They interpret questions about them as interest.  Easy smiles as confidence.  Ect...With the aforementioned tipping, it's a similar mechanism that reinforces certain behavior in wait staff.  In a sense, it's a way that those with money can compel behavior from those that don't.  An aspect of the symbolic power that wealth effectively represents.\n\nAnyhow, lunch arrived, so I'm done, and I'll have to make that very choice in a few moments.",
+      "comments": [],
+      "id": "9053665",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9053255",
+      "submitted": "7 hours ago",
+      "submitter": "araes"
+    },
+    {
+      "body": "In the USA, unemployment was elevated for several years, and is only now coming down to reasonable levels. More so, if you lack a college degree (and 74% of the USA population lacks a college degree) then your chance of getting a good job is non-existent. In Europe, the unemployment rate is still elevated in most of the 27 countries in the EU. So what could possibly justify this sentence:\"Admittedly, the dynamism of Western capitalism depends upon people who work with missionary zeal, who refuse to accept that a job is merely a job.\"\n\nIs it the \"the dynamism of Western capitalism\" that causes people to pretend to like their job, or is it the scarcity of good jobs, which forces workers to engage in an exaggerated pantomime of missionary zeal?",
+      "comments": [
+        "9053595",
+        "9053571",
+        "9053612"
+      ],
+      "id": "9053440",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9053255",
+      "submitted": "8 hours ago",
+      "submitter": "lisa_henderson"
+    },
+    {
+      "body": "Thanks for an interesting comment.I wonder if it's true that the unemployment rate is coming down to reasonable levels. As I understand it, the unemployment rate that is typically reported excludes people that have given up looking for work.I don't know if this is correct, but let's say that you had an economy where there were no jobs available. Precisely none. Over the long term, the unemployment rate would have to drift down to almost zero, as more and more people realized that there were no jobs available and gave up looking for work.As regards the sentence you ask about, I think I am one of the people that does not look at his work as merely a job. Perhaps it's because I do try to distinguish between my work, my craft, my trade, from the other aspects of who happens to be paying my invoices.\n\nThoughts?",
+      "comments": [
+        "9053725"
+      ],
+      "id": "9053595",
+      "isDead": false,
+      "parent": "9053440",
+      "quality": 1,
+      "story": "9053255",
+      "submitted": "7 hours ago",
+      "submitter": "jes"
+    },
+    {
+      "body": "You're right that the official unemployment rate reported by the US Bureau of Labor Statistics (U3) excludes \"discouraged workers\" who have given up looking for work.However, the BLS also publishes a rate that includes discouraged workers (U4), as well as a rate that includes \"marginally attached workers\" who would like to work, but for whatever reason have not looked for work recently (U5).  All 3 of these have returned to normal levels [1].There's also the U6 rate, which includes workers who are part-time, but would like to work full-time. [2][1] http://research.stlouisfed.org/fred2/graph/?g=10Uy\n\n[2] http://research.stlouisfed.org/fred2/graph/?g=10UE",
+      "comments": [],
+      "id": "9053725",
+      "isDead": false,
+      "parent": "9053595",
+      "quality": 1,
+      "story": "9053255",
+      "submitted": "7 hours ago",
+      "submitter": "jonas21"
+    },
+    {
+      "body": "> Is it the \"the dynamism of Western capitalism\" that causes people to pretend to like their job, or is it the scarcity of good jobs, which forces workers to engage in an exaggerated pantomime of missionary zeal?\n\nWhere in your choices are the people who love their work?",
+      "comments": [
+        "9053695"
+      ],
+      "id": "9053571",
+      "isDead": false,
+      "parent": "9053440",
+      "quality": 1,
+      "story": "9053255",
+      "submitted": "7 hours ago",
+      "submitter": "ekanes"
+    },
+    {
+      "body": "Those aren't being forced to smile, which is the context here.",
+      "comments": [],
+      "id": "9053695",
+      "isDead": false,
+      "parent": "9053571",
+      "quality": 1,
+      "story": "9053255",
+      "submitted": "7 hours ago",
+      "submitter": "icebraining"
+    },
+    {
+      "body": "I think you'll find that those aren't the only two possibilities.",
+      "comments": [],
+      "id": "9053612",
+      "isDead": false,
+      "parent": "9053440",
+      "quality": 1,
+      "story": "9053255",
+      "submitted": "7 hours ago",
+      "submitter": "maw"
+    },
+    {
+      "body": "This Everything2 writeup explains way better than I can what's wrong with passionately loving your job: http://everything2.com/title/F%25C3%25BCr+sechs+Groschen%252...There are limits to duty, but there are no limits to passion, that's why your employer wants you to be passionate about him.  Especially in startuplandia.  Hint, grasshopper, he is not passionate about you, he views you as a resource to be strip-mined.  The personnel department is appropiately called \"Human Resources\" these days.\n\nIt's just this - why do employees internalize the \"passion meme\" without any trace of cynicism, and why do customers condone the state of affairs?",
+      "comments": [
+        "9054515",
+        "9054780"
+      ],
+      "id": "9053531",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9053255",
+      "submitted": "8 hours ago",
+      "submitter": "HarryHirsch"
+    },
+    {
+      "body": "The restaurant business, particular back-of-house, is particular bad in this respect.  Working conditions in most kitchens are horrible - long hours, uncomfortable environments, physical demanding, often dangerous and horribly underpaid with few benefits.But yet, people do it.  They know they are getting screwed over, they know they are often destroying their bodies, but they keep on doing it.  Because people who want to cook are truly passionate about it.  Cooking for someone is an incredible intimate and loving act; one that no amount of corporatism or job function abstraction can dispel.It is an act in which the symbolism and the functionalism are inseparable.  When you are serving food, you are literally nourishing people.  You are literally providing the substance they need to survive.  You are literally crafting, with your own hands, the matter that will become a literal part of another human being.\n\nSuch a primal act naturally stirs a lot of passion, but likewise, as you say, great opportunities for abuse.  Most kitchen employees don't make terribly much more than minimum wage.  In expensive cities like San Francisco or New York, it's almost impossible to make a living wage.  Even in high-end restaurants.",
+      "comments": [
+        "9054946"
+      ],
+      "id": "9054515",
+      "isDead": false,
+      "parent": "9053531",
+      "quality": 1,
+      "story": "9053255",
+      "submitted": "4 hours ago",
+      "submitter": "pimlottc"
+    },
+    {
+      "body": "Most of the back-of-house employees in restaurant sector have dependency issues, booze and drugs and management is always aware of it. Go in the back lot where they park and you will special plates on more then one car, in my state the plates are all yellow. If the restaurant industry ever drug tested like the drug store chains do they would easily lose sixty-percent of back of the house staff.",
+      "comments": [],
+      "id": "9054946",
+      "isDead": false,
+      "parent": "9054515",
+      "quality": 1,
+      "story": "9053255",
+      "submitted": "1 hour ago",
+      "submitter": "taivare"
+    },
+    {
+      "body": "The cynicism is utter, grasshopper. It's simply that everybody lies constantly. And when everybody is lying constantly, habitually, the consensus reality becomes seriously donked. Many of us start questioning our sanity.",
+      "comments": [],
+      "id": "9054780",
+      "isDead": false,
+      "parent": "9053531",
+      "quality": 1,
+      "story": "9053255",
+      "submitted": "2 hours ago",
+      "submitter": "swayvil"
+    },
+    {
+      "body": "I remember this director from a Big Company pitching that I join his team after I decided to maybe change jobs. His enthusiasm was insane and eventually I ended up accepting the offer (which was like 20% better than what I got in my old place) and on my 1st day I learned that the guy not only left but went with a bang, too. Having been raised in the Eastern Block I still can't help but wonder how Americans do it.",
+      "comments": [
+        "9054990"
+      ],
+      "id": "9053800",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9053255",
+      "submitted": "7 hours ago",
+      "submitter": "fishnchips"
+    },
+    {
+      "body": "Hi there, comrade. Perhaps Americans are using the same coping mechanism we were using to deal with the exuberant and completely inane \"party line\". As outsiders, and engineers on top of it, we just don't pick up the inanity cues that everybody else in the room understands instinctively. Kind of like everyone would sing the International at the beginning of the day, or read an omage to the party once a quarter, but think nothing of it other than being happy to be done with a slightly ridiculous but overall insignificant chore.",
+      "comments": [],
+      "id": "9054990",
+      "isDead": false,
+      "parent": "9053800",
+      "quality": 1,
+      "story": "9053255",
+      "submitted": "48 minutes ago",
+      "submitter": "pacala"
+    },
+    {
+      "body": "David Mitchell's customer service rant on QI is particularly on point here.\n\nhttp://youtu.be/_LiDTKEF1ek",
+      "comments": [],
+      "id": "9053537",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9053255",
+      "submitted": "8 hours ago",
+      "submitter": "ohazi"
+    },
+    {
+      "body": "Slight digression, but speaking of fake smiles...I'm reminded of a quiz on the BBC website called Spot the Fake Smile.There are 20 short clips of people smiling. Can you spot which ones are fake and which ones are genuine? (The test takes about 10 mins)\n\nhttp://www.bbc.co.uk/science/humanbody/mind/surveys/smiles/",
+      "comments": [
+        "9053690"
+      ],
+      "id": "9053659",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9053255",
+      "submitted": "7 hours ago",
+      "submitter": "chestnut-tree"
+    },
+    {
+      "body": "I tried to take the test—but the fifth time I pressed \"next\" it gave me a 404.\n\nThe key to faking a real smile is in wrinkling the eyes.",
+      "comments": [
+        "9053893"
+      ],
+      "id": "9053690",
+      "isDead": false,
+      "parent": "9053659",
+      "quality": 1,
+      "story": "9053255",
+      "submitted": "7 hours ago",
+      "submitter": "beaumartinez"
+    },
+    {
+      "body": "> The key to faking a real smile is in wrinkling the eyes.The wrinkling is not a very reliable indicator of fake smiles [1]. A real smile does indeed involve muscles around the eyes, but wrinkling could be caused by the cheek muscles pushing upward too.Some more indicators of a real smile are, IIRC - curling corners of the mouth - corners of the eye pushing inward - short duration - it starts and ends smoothly - symmetry\n\n[1] Source: Having recently read \"Telling Lies\" by Paul Ekman (and that was a HN recommendation too)",
+      "comments": [
+        "9054516"
+      ],
+      "id": "9053893",
+      "isDead": false,
+      "parent": "9053690",
+      "quality": 1,
+      "story": "9053255",
+      "submitted": "6 hours ago",
+      "submitter": "didsomeonesay"
+    },
+    {
+      "body": "Thank you! I'll keep an eye out for those.",
+      "comments": [],
+      "id": "9054516",
+      "isDead": false,
+      "parent": "9053893",
+      "quality": 1,
+      "story": "9053255",
+      "submitted": "4 hours ago",
+      "submitter": "beaumartinez"
+    },
+    {
+      "body": "I made the mistake of studying for and taking the Canadian Border Services exam, where you have to discriminate between fake and real smiles. I got perfect on that section. But now I can't un-see it. Fake smiles. Fake smiles everywhere.",
+      "comments": [
+        "9053933"
+      ],
+      "id": "9053835",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9053255",
+      "submitted": "6 hours ago",
+      "submitter": "elchief"
+    },
+    {
+      "body": "Interesting. Does this effect wear down?",
+      "comments": [
+        "9055093"
+      ],
+      "id": "9053933",
+      "isDead": false,
+      "parent": "9053835",
+      "quality": 1,
+      "story": "9053255",
+      "submitted": "6 hours ago",
+      "submitter": "sumitviii"
+    },
+    {
+      "body": "No",
+      "comments": [],
+      "id": "9055093",
+      "isDead": false,
+      "parent": "9053933",
+      "quality": 1,
+      "story": "9053255",
+      "submitted": "6 minutes ago",
+      "submitter": "elchief"
+    },
+    {
+      "body": "When I trained as an actor I learned the curious phenomena :\n\nHappiness leads to smiling and smiling leads to happiness.",
+      "comments": [
+        "9054655"
+      ],
+      "id": "9053888",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9053255",
+      "submitted": "6 hours ago",
+      "submitter": "SixSigma"
+    },
+    {
+      "body": "True! On the other hand, being forced to smile leads to unhappiness",
+      "comments": [],
+      "id": "9054655",
+      "isDead": false,
+      "parent": "9053888",
+      "quality": 1,
+      "story": "9053255",
+      "submitted": "3 hours ago",
+      "submitter": "rifung"
+    },
+    {
+      "body": "I live in Brazil, and I was born in a bad location in the country. My young ages have been a real pain and I learned not to smile. I started working as a programmer even before getting into college, because I needed money to actually pay the college, and so I have lived a very black and white life for ever. Today, I see that having a nice and beautiful past and present that makes it easy to smile everyday is a more valuable trait to get a job than actually having technical skills. I don't personally like the way it works but, hey, it's the real world.",
+      "comments": [
+        "9053774",
+        "9054014"
+      ],
+      "id": "9053528",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9053255",
+      "submitted": "8 hours ago",
+      "submitter": "lohengramm"
+    },
+    {
+      "body": "If you keep working hard and are good at your work employers and clients will hopefully see past your demeanour.\n\nSome of the most competent people I know come across as grumpy and aloof. They get respect because they know their stuff and care about their work, and that shines through.",
+      "comments": [],
+      "id": "9053774",
+      "isDead": false,
+      "parent": "9053528",
+      "quality": 1,
+      "story": "9053255",
+      "submitted": "7 hours ago",
+      "submitter": "ryan-allen"
+    },
+    {
+      "body": "Lots of people go through bad times. No matter how terrible your life may have been, there is likely someone who had it worse off and appears today as happy and smiles. I know it can be hard, but try to not focus on the great advantage others may have due to their roll of the dice and the situation to which they were born. Do the best you can do. Learn what you can. Don't worry about what you can't change. Take joy in small victories. Choose to be happy. Best of luck.",
+      "comments": [],
+      "id": "9054014",
+      "isDead": false,
+      "parent": "9053528",
+      "quality": 1,
+      "story": "9053255",
+      "submitted": "6 hours ago",
+      "submitter": "sethammons"
+    },
+    {
+      "body": "Just 13% of people feel passionate about their job (worldwide). In the US the figure is 30%.http://www.forbes.com/sites/susanadams/2013/10/10/unhappy-em...\n\nhttp://www.ryot.org/gallup-poll-70-americans-disengaged-jobs...",
+      "comments": [
+        "9053716"
+      ],
+      "id": "9053521",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9053255",
+      "submitted": "8 hours ago",
+      "submitter": "im2w1l"
+    },
+    {
+      "body": "The per country break down can be found here: http://www.gallup.com/poll/165269/worldwide-employees-engage...\n\nNotably, Syria is at the bottom of the list with 0% of their worker being \"actively engaged\" in their jobs.",
+      "comments": [],
+      "id": "9053716",
+      "isDead": false,
+      "parent": "9053521",
+      "quality": 1,
+      "story": "9053255",
+      "submitted": "7 hours ago",
+      "submitter": "desdiv"
+    },
+    {
+      "body": "I am a consultant. I help teams perform better. So I get to travel to a lot of places, work in a lot of organizations, and \"start over\" with each new gig.A few years ago I thought I would try something different. I decided that no matter how I felt each day, I was going to smile and be as friendly as possible to everybody I met. At times, walking through the hallways of the new job, I felt like an idiot. But I didn't care. I just smiled and tried to be friendly.I know that many times I probably smiled and said hello to the same people twice -- as if I had never seen them that day. I know that at times I must have appeared simple-minded. It was a horrible feeling that first week.Then something strange happened. People started smiling back. I would be working off to the side of a large room, and folks would come over and say hello. People -- I had no idea what their names were or what their jobs were -- would ask me how I was doing.So I kept the experiment going. After a month, I had some really bad personal news and I know I came in to work very downtrodden. At this point, all of that \"fake happiness\" I had put in the bank came back to me. The anonymous people I had smiled at? They now made an effort to cheer me up. No effort was required on my part. If I came in upset, within a couple of hours of having other people smile at me, I felt like smiling back at everybody else.This went on for a few months. It was one of the most enjoyable jobs I've ever had, and when I left, about a dozen people came over and told me that I had done a great job and they would miss me. (I just did my normal job)\n\nLesson? Smiles are very, very powerful social tools, even if they are forced. They cheer other people up, they cheer you up, and over time they provide some kind of weird social insurance that you can tap into when you're having a bad day. What blew my mind was that the fake part wasn't even important. Simply by trying you got all of the benefits.",
+      "comments": [],
+      "id": "9053793",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9053255",
+      "submitted": "7 hours ago",
+      "submitter": "DanielBMarkham"
+    },
+    {
+      "body": "I think Jim Carrey pointed one obvious thing about laughing in his hillarious way. https://www.youtube.com/watch?v=XRyYT62VZdY",
+      "comments": [],
+      "id": "9053585",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9053255",
+      "submitted": "7 hours ago",
+      "submitter": "phabian"
+    },
+    {
+      "body": "I have conducted a few hundred of interviews for software engineers and DBAs in the last three years. I do want to see the passions of the candidates at the professions. It is a big plus in my eyes.\n\nOn the other hand, I am not impressed by \"unequivocal statement\". For seniors positions, I don't ask questions with a fixed answer. I prefer to listen to the candidates's opinions, to analyze the pros and cons of an approach, etc. I consider it low intelligence by any \"unequivocal statement\" for these questions.",
+      "comments": [],
+      "id": "9053362",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9053255",
+      "submitted": "8 hours ago",
+      "submitter": "jamesli"
+    },
+    {
+      "body": "I think he brings up a few good points, but he muddles through the whole article and peppers it with irrelevant things --which make me wonder about his rigor.  I mean, what does his \"astrological sign\" have to do with anything?  It's absolutely silly.In addition, he comes to this from only an American experience.  This is not a symptom you only see in the US.  It's saccharine in many places.  That said, saccharine or not, it does have a purpose as much as any other line of questioning.  In other words, passion, love, whatever, while they may or may not be an indicator of how well someone will execute their job --the main purpose of such questions, in my mind, is to see how well prepared you are for something you can expect.In other words, it's not that they expect a sincere answer or they are trying to torture you and see how you wiggle yourself out, but it's rather to gauge how adept you are at preparation.  You know the questions is coming, yet, did you take the preparation to come up with a sensible answer.  That is the function of the question.On the other hand, if we were to take these questions literally, yes, then they are quite silly expectations.  I have had them at just about every professional job and they are absurd.  But we know it's all part of meta-communication.  Do I wish it were simpler and didn't recourse to this style of communication, yes, but I think I understand its function.On the other hand, I do enjoy people regarding their job as an act.  A role to fulfill. When we understand our jobs to be essentially a role to fulfill, it's liberating in a way.  It's no longer you, it's your job personae.  Compare service workers in Japan and Europe.  Which ones deal with their situation better?  I believe the Japanese worker has a better understanding of the situation.  They put on their persona and take it from there.  To see it any other way is to see an actor performing a dark character and feeling bad for the actor.  No, to the actor it makes no difference.  It's an act.\n\nThat said, I've come across very good service workers in Europe as well.  They very well understood their function and were happy to play it out.",
+      "comments": [
+        "9053738",
+        "9053575"
+      ],
+      "id": "9053559",
+      "isDead": false,
+      "parent": null,
+      "quality": 0.6470588235294118,
+      "story": "9053255",
+      "submitted": "8 hours ago",
+      "submitter": "mc32"
+    },
+    {
+      "body": "The fact that they led off with being a \"Libra of Libras\" immediately made me dismissive. Had to overcome a lot of bias right from the get-go.",
+      "comments": [],
+      "id": "9053738",
+      "isDead": false,
+      "parent": "9053559",
+      "quality": 1,
+      "story": "9053255",
+      "submitted": "7 hours ago",
+      "submitter": "acbart"
+    },
+    {
+      "body": "> I think she brings up a few good points, but she\n\nAlthough the article might feel like it could have been written by a woman, its author Paul Jaskunas is a man.",
+      "comments": [
+        "9053750",
+        "9053592"
+      ],
+      "id": "9053575",
+      "isDead": false,
+      "parent": "9053559",
+      "quality": 1,
+      "story": "9053255",
+      "submitted": "7 hours ago",
+      "submitter": "spcoll"
+    },
+    {
+      "body": "It's interesting to think why it feels like written by a woman, I had the same assumption the whole time.\n\nMaybe it's as simple as the opening sentence, \"I'm a Libra\", which has a grammatically feminine noun. I wonder if the feeling depends on the native language of the reader.",
+      "comments": [
+        "9053843"
+      ],
+      "id": "9053750",
+      "isDead": false,
+      "parent": "9053575",
+      "quality": 1,
+      "story": "9053255",
+      "submitted": "7 hours ago",
+      "submitter": "arnarbi"
+    },
+    {
+      "body": "I'm taking up some Italian, but I don't think it has anything to do with it.  He could have said Sagittarius of Sagittariuses.  No guy I know makes it a point to announce their \"astrological sign\" in any kind of conversation.  Your experience may be different, but that's mine.As an aside, I think writers should try to stick to their core competencies.  This looks like someone trying to write an article around an observation and came up with nebulous reasoning, hoping it would be a fun read for everyone and that people would chalk it up as a social commentary and move on, use it as conversational fodder. (ie.  \"I read in the NYTimes such and such, ha ha, don't you think it's funny...)\n\nUnfortunately, lots of these writers lack rigor and seem to go with their gut on things. It's the easy way out.  It's surely easier to meet deadlines that way, but the product leaves a bit to be desired.",
+      "comments": [],
+      "id": "9053843",
+      "isDead": false,
+      "parent": "9053750",
+      "quality": 1,
+      "story": "9053255",
+      "submitted": "6 hours ago",
+      "submitter": "mc32"
+    },
+    {
+      "body": "Thanks for the heads up, fixed.",
+      "comments": [],
+      "id": "9053592",
+      "isDead": false,
+      "parent": "9053575",
+      "quality": 1,
+      "story": "9053255",
+      "submitted": "7 hours ago",
+      "submitter": "mc32"
+    },
+    {
+      "body": "I will never succumb to forced indifference!",
+      "comments": [
+        "9053756"
+      ],
+      "id": "9053746",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9053255",
+      "submitted": "7 hours ago",
+      "submitter": "rosstex"
+    },
+    {
+      "body": "Give it a few years, you wont have to force anything!",
+      "comments": [],
+      "id": "9053756",
+      "isDead": false,
+      "parent": "9053746",
+      "quality": 1,
+      "story": "9053255",
+      "submitted": "7 hours ago",
+      "submitter": "ryan-allen"
+    },
+    {
+      "body": "In one of my sidelines, I'm a freelance musician. Over the years I've learned how to keep a smile on my face, under pretty much any circumstances. This has proven to be a valuable skill in my day job as well.The smile is more subtle in the workplace -- just a cheerful disposition -- but it's still there. And it helps that I am in fact a generally cheerful person.\n\nAs for knowing how to show an appropriate level of passion, I would expect this of a senior level person as well, because they will be interacting with colleagues, customers, etc.",
+      "comments": [
+        "9053587"
+      ],
+      "id": "9053435",
+      "isDead": false,
+      "parent": null,
+      "quality": 0.6470588235294118,
+      "story": "9053255",
+      "submitted": "8 hours ago",
+      "submitter": "analog31"
+    },
+    {
+      "body": "An artist friend of mine was mass-defriended on facebook after a vitrirolic angerpost about religion. Everybody there knew his opinion on religion I know for a fact many agreed with him, but they didn't want anger and unpleasantness thrown in their faces. This has undoubtedly affected his ability to get work in the future.",
+      "comments": [],
+      "id": "9053587",
+      "isDead": false,
+      "parent": "9053435",
+      "quality": 1,
+      "story": "9053255",
+      "submitted": "7 hours ago",
+      "submitter": "A_COMPUTER"
+    },
+    {
+      "body": "We're living in times of fakeness as our modus operandi - fake boobs, fake smiles, fake love skills (Viagra), fake friendliness, fake human rights, fake Eiffel tower (Vegas), fake everything. It's because people today lack class, are abusive materialists and consumerists, and lack any trace of philosophical thinking. And this will not end well!",
+      "comments": [],
+      "id": "9054559",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9053255",
+      "submitted": "3 hours ago",
+      "submitter": "kolev"
+    },
+    {
+      "body": "Perhaps the problem is less that it's asked that people love their jobs but more that the question is asked about jobs that it's difficult to see anyone honestly loving.\n\nDo I love my job? Sure. And I'd love any job analogous with it as well.... But I can't say that I've loved or even vaguely enjoyed all the jobs I've had, to do so would have made me a schmuck.",
+      "comments": [],
+      "id": "9053546",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9053255",
+      "submitted": "8 hours ago",
+      "submitter": "6d0debc071"
+    },
+    {
+      "body": "\"I am a Libra of Libras\" - I could have stopped reading there. \"...the interview was over and I was leaving the room. As I shut the door behind me, the committee erupted into laughter\" - of course they did. He probably had just told them that alignment of planets made him suitable for the job.\n\nRelevant SMBC: http://www.smbc-comics.com/?id=3634#comic",
+      "comments": [
+        "9054264",
+        "9053925"
+      ],
+      "id": "9053892",
+      "isDead": false,
+      "parent": null,
+      "quality": 0.5490196078431373,
+      "story": "9053255",
+      "submitted": "6 hours ago",
+      "submitter": "janethenew"
+    },
+    {
+      "body": "I have the suspect that \"libra of libras\" shouldn't be intended necessarily in its literal sense (of astrological sign), even if it were true. The symbol of the libra is a scale, so the author is just saying, as made clear in the next period, that he usually keeps his moods and opinions very balanced between the positive and the negative, in contrast with the fully optimistic attitude he sees in the Americans.",
+      "comments": [],
+      "id": "9054264",
+      "isDead": false,
+      "parent": "9053892",
+      "quality": 1,
+      "story": "9053255",
+      "submitted": "5 hours ago",
+      "submitter": "Udik"
+    },
+    {
+      "body": "In japan they ask you for your blood group on job applications",
+      "comments": [
+        "9054021"
+      ],
+      "id": "9053925",
+      "isDead": false,
+      "parent": "9053892",
+      "quality": 1,
+      "story": "9053255",
+      "submitted": "6 hours ago",
+      "submitter": "walshemj"
+    },
+    {
+      "body": "That's odd. At least, they don't ask about astrological signs. I hope that they don't. \"I am a Libra of Libras\" sounds like \"I'm a crackpot of crackpots\" to me.",
+      "comments": [
+        "9054334",
+        "9054060"
+      ],
+      "id": "9054021",
+      "isDead": false,
+      "parent": "9053925",
+      "quality": 1,
+      "story": "9053255",
+      "submitted": "6 hours ago",
+      "submitter": "janethenew"
+    },
+    {
+      "body": "That's odd. Your comments in this thread sound like \"I'm not intelligent enough to identify a metaphor\" to me. Strange how those things work, isn't it?",
+      "comments": [],
+      "id": "9054334",
+      "isDead": false,
+      "parent": "9054021",
+      "quality": 1,
+      "story": "9053255",
+      "submitted": "4 hours ago",
+      "submitter": "phaemon"
+    },
+    {
+      "body": "The blood type obsession thing is basically their version of astrological signs. Wikipedia has more about it:\n\nhttp://en.wikipedia.org/wiki/Blood_types_in_Japanese_culture",
+      "comments": [],
+      "id": "9054060",
+      "isDead": false,
+      "parent": "9054021",
+      "quality": 1,
+      "story": "9053255",
+      "submitted": "6 hours ago",
+      "submitter": "desdiv"
+    }
+  ],
   "story": {
     "body": null,
-    "comments": 66,
+    "comments": [
+      "9055083",
+      "9053605",
+      "9053665",
+      "9053440",
+      "9053531",
+      "9053800",
+      "9053537",
+      "9053659",
+      "9053835",
+      "9053888",
+      "9053528",
+      "9053521",
+      "9053793",
+      "9053585",
+      "9053362",
+      "9053559",
+      "9053746",
+      "9053435",
+      "9054559",
+      "9053546",
+      "9053892"
+    ],
+    "commentsCount": 66,
     "id": "9053255",
     "points": 141,
     "source": "nytimes.com",

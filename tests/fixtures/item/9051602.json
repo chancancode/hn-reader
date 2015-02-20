@@ -1,7 +1,59 @@
 {
+  "comments": [
+    {
+      "body": "http://floppydisk.com/ says they sell \"New and Used 3.5 inch floppy drives. Drives read and write 3.5 inch DS/HD 1.44 MB and DS/DD 720K disks\". They also sell 3.5 and 5.25 disks.",
+      "comments": [],
+      "id": "9051824",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9051602",
+      "submitted": "5 hours ago",
+      "submitter": "dalke"
+    },
+    {
+      "body": "This has been years, but I believe that I was able to format HD floppies as DSDD in some old Macintosh's. There's probably some risk, but I was able to copy files between computers.",
+      "comments": [],
+      "id": "9051753",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9051602",
+      "submitted": "5 hours ago",
+      "submitter": "tsomctl"
+    },
+    {
+      "body": "I know Newegg still sells 3.5\" drives. I think it would be tough, if not impossible, to find a 5.25 or 8 though that is new though.",
+      "comments": [],
+      "id": "9051747",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9051602",
+      "submitted": "5 hours ago",
+      "submitter": "jeffmould"
+    },
+    {
+      "body": "8\", 5.25\" or 3.5\"?\n\nFrom my experience 3.5\" DSDD disks are pretty hard to come by, HD overtook it very quickly",
+      "comments": [],
+      "id": "9051649",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9051602",
+      "submitted": "6 hours ago",
+      "submitter": "LarryMade2"
+    }
+  ],
   "story": {
     "body": null,
-    "comments": 4,
+    "comments": [
+      "9051824",
+      "9051753",
+      "9051747",
+      "9051649"
+    ],
+    "commentsCount": 4,
     "id": "9051602",
     "points": 3,
     "source": null,

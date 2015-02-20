@@ -1,7 +1,1658 @@
 {
+  "comments": [
+    {
+      "body": "\"We noticed the hot wallets dwindling but assuming it was members moving their funds off site during the DDOS, we loaded all the cold balances onto the site so that users would not have withdrawals interrupted during our periods of up time.This fatal mistake allowed Ambiorx to continue to drain the site.\" -- World's stupidest bitcoin exchange admins, or some of the ballsiest? Inside job?",
+      "comments": [
+        "9054369",
+        "9054897",
+        "9054180"
+      ],
+      "id": "9054065",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "6 hours ago",
+      "submitter": "x0n"
+    },
+    {
+      "body": "As I pointed out the previous three times this happened to a Bitcoin exchange, these operators seem to be totally clueless about basic bookkeeping and financial controls.  Consider a typical large supermarket. Cash, credit cards, coupons, and merchandise are being handled. There are multiple cashiers, usually more than one shift of staff, cash drawers, safes, cash pickups from an armored car service. That's a lot going on.If there's a $10 bill missing, it will noticed within hours.  Where it went will probably be figured out the same day.  If someone is stealing, management will usually find out  who, how much, and when.The Bitcoin crowd has a much simpler problem. They're all online, they don't have a staff of people handling money, and they don't have as many special cases as a supermarket does.  (Travelers checks, returns, check cashing, etc - Bitcoin exchanges don't have to deal with that.)  Most Bitcoin exchanges are doing a few transactions a minute. Bigger supermarkets do more than that. Yet the Bitcoin crowd consistently botches it.The Bitcoin crowd needs to get some people who have passed Internal Financial Controls 101 at a 2-year business college.[1]  This isn't rocket science.\n\n[1] http://www.georgiacenter.uga.edu/courses/governmental-traini...",
+      "comments": [
+        "9054666",
+        "9054438"
+      ],
+      "id": "9054369",
+      "isDead": false,
+      "parent": "9054065",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "4 hours ago",
+      "submitter": "Animats"
+    },
+    {
+      "body": "> The Bitcoin crowd needs to get some people who have passed Internal Financial Controls 101 at a 2-year business college. This isn't rocket science.To quote somebody who has forgotten more about cryptography and digital currencies than probably the entire population of Bitcoin startup founders put together will ever know, many Bitcoin founders take \"offense at the very notion that there might be something to be learned from several millenniums of financial services best practices.\"[1]What's really interesting for me is that VCs seem happy to invest in such startups. It's one thing when a small, bootstrapped exchange/wallet provider gets hacked. It'll be a different story when a major, VC-backed one gets done.\n\n1: http://lists.randombit.net/pipermail/cryptography/2014-Febru...",
+      "comments": [],
+      "id": "9054666",
+      "isDead": false,
+      "parent": "9054369",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "3 hours ago",
+      "submitter": "jackgavigan"
+    },
+    {
+      "body": "Agreed.  I could not care less what happens to these individual exchanges. But the long term damage to the industry as a whole is troublesome.\n\nWe can't keep arguing against regulation while allowing this to happen by not self regulating.",
+      "comments": [],
+      "id": "9054438",
+      "isDead": false,
+      "parent": "9054369",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "4 hours ago",
+      "submitter": "Johnie"
+    },
+    {
+      "body": "I wonder if any Excoin admins could explain why hot wallets and cold storage exist?\"World's stupidest bitcoin exchange admins, or some of the ballsiest? Inside job?\"\n\nThat's always the question, isn't it?",
+      "comments": [],
+      "id": "9054897",
+      "isDead": false,
+      "parent": "9054065",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "1 hour ago",
+      "submitter": "Lazare"
+    },
+    {
+      "body": "One person on the inside to convince the team too do these stupid moves seems reasonabke but some people are dumb, so who knows.",
+      "comments": [],
+      "id": "9054180",
+      "isDead": false,
+      "parent": "9054065",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "5 hours ago",
+      "submitter": "bhouston"
+    },
+    {
+      "body": "Of that IP set:       Host                ASN     CIDR     104.131.204.15      62567   104.131.192.0/19        104.131.213.10      62567   104.131.192.0/19        104.154.38.52       15169   104.154.0.0/15          107.170.150.138     62567   107.170.128.0/19        130.211.185.192     15169   130.211.0.0/16          146.148.40.57       15169   146.148.0.0/17          172.245.55.112      55286   172.245.48.0/21         184.172.15.235      36351   184.172.0.0/18          50.97.173.18        36351   50.97.128.0/18          5.255.253.51        13238   5.255.253.0/24          66.249.69.136       15169   66.249.69.0/24          66.249.69.88        15169   66.249.69.0/24          66.249.75.104       15169   66.249.75.0/24          66.249.75.184       15169   66.249.75.0/24          66.249.75.216       15169   66.249.75.0/24          66.249.75.88        15169   66.249.75.0/24          66.249.79.111       15169   66.249.79.0/24          66.249.79.119       15169   66.249.79.0/24          66.249.79.127       15169   66.249.79.0/24          66.249.79.135       15169   66.249.79.0/24          66.249.79.4         15169   66.249.79.0/24    Distinct ASNs:     14 15169 GOOGLE       3 62567 DIGITALOCEAN-ASN-NY2       2 36351 SOFTLAYER       1 13238 Yandex       1 55286 SERVER-MANIA  So ... yeah, these jokers got themselved \"DoS'd\" by a couple of search engines and couldn't even figure that out.But they might want to look at Digital Ocean, SoftLayer, and ServerMania.\n\nOr figure out where the traffic was actually coming from.",
+      "comments": [],
+      "id": "9054835",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "1 hour ago",
+      "submitter": "dredmorbius"
+    },
+    {
+      "body": "Seems like whoever writes financial code in the future should treat it more like NASA code than startup technical-debt code.",
+      "comments": [
+        "9053825",
+        "9054373",
+        "9054433",
+        "9053884"
+      ],
+      "id": "9053812",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "7 hours ago",
+      "submitter": "cordite"
+    },
+    {
+      "body": "This is true if you intend on running an exchange properly and not being a highway robber posing as a travelling dentist.",
+      "comments": [
+        "9053847",
+        "9054184"
+      ],
+      "id": "9053825",
+      "isDead": false,
+      "parent": "9053812",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "6 hours ago",
+      "submitter": "ryan-allen"
+    },
+    {
+      "body": "Exactly... From my perspective, their plan worked perfectly.\n\n1. Open an exchange. 2. Collect real money in exchange for fake money. 3. \"Get hacked\" losing all the fake money and keeping all the real money.",
+      "comments": [
+        "9053889"
+      ],
+      "id": "9053847",
+      "isDead": false,
+      "parent": "9053825",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "6 hours ago",
+      "submitter": "panhandlr"
+    },
+    {
+      "body": "Yeah, \"We noticed the hot wallets dwindling but assuming it was members moving their funds off site during the DDOS, we loaded all the cold balances onto the site\"\n\nsounds extremely suspicious.",
+      "comments": [
+        "9054070"
+      ],
+      "id": "9053889",
+      "isDead": false,
+      "parent": "9053847",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "6 hours ago",
+      "submitter": "im2w1l"
+    },
+    {
+      "body": "Possiblely, but in light of the protracted duration of the DDoS, it makes sense that people would be moving their holdings off-exchange when they could connect. If the withdrawal addresses were all different -- and from what Excoin posted on their site it looks like the party responsible used multiple BTC and NBT addresses to move the funds -- multiples of small to moderate amounts of coins being requested doesn't sound out of the question.\n\nIn retrospect, it was a horrible decision not to research these transactions in depth as they happened, but the Excoin team was fighting a \"bigger\" fire at the time with the DDoS.",
+      "comments": [],
+      "id": "9054070",
+      "isDead": false,
+      "parent": "9053889",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "5 hours ago",
+      "submitter": "Mtinie"
+    },
+    {
+      "body": "Sufficiently advanced criminality is indistinguishable from gross stupidity, apparently.",
+      "comments": [],
+      "id": "9054184",
+      "isDead": false,
+      "parent": "9053825",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "5 hours ago",
+      "submitter": "rodgerd"
+    },
+    {
+      "body": "When you build something that stores or transfers money, you will attract adversaries.These adversaries will have more skill, more time, and more tenacity than you do.\n\nKnowing this threat environment, what will you do differently from the dozens exchanges that have come before you and failed?",
+      "comments": [],
+      "id": "9054373",
+      "isDead": false,
+      "parent": "9053812",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "4 hours ago",
+      "submitter": "panarky"
+    },
+    {
+      "body": "NASA code than startup technical-debt codeI have a friend who ported then maintained critical software at NASA about almost decade ago. He said that introducing source control was viewed as \"a radical idea\" at the time. Also, management seemed to go with superstition and \"truthiness\" as far as making decisions. \"If it ain't broke, don't fix it\" was the management mantra.\n\n(I would reveal the piece of software he was working on, but that would easily reveal his identity.)",
+      "comments": [
+        "9054622"
+      ],
+      "id": "9054433",
+      "isDead": false,
+      "parent": "9053812",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "4 hours ago",
+      "submitter": "stcredzero"
+    },
+    {
+      "body": "I refer to modern but rigorous NASA development practices, from design to verification.",
+      "comments": [],
+      "id": "9054622",
+      "isDead": false,
+      "parent": "9054433",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "3 hours ago",
+      "submitter": "cordite"
+    },
+    {
+      "body": "But are the customers willing to pay a significant premium price for the development effort of NASA-ized exhange?If the answer is no (and I suspect it is), then incentives are aligned so that putting extra effort into security is something an exchange operator should definitely not do.\n\nAll of this is also assuming (on faith) that the business model is actually running an exchange, as opposed to a hack-blaming racket.",
+      "comments": [
+        "9053897",
+        "9053972"
+      ],
+      "id": "9053884",
+      "isDead": false,
+      "parent": "9053812",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "6 hours ago",
+      "submitter": "trupedo"
+    },
+    {
+      "body": "If you believe this, you shouldn't be handling people's money.\n\nIt's not just about losing the bitcoin, people running these exchanges may be personally liable.",
+      "comments": [
+        "9054052",
+        "9053984",
+        "9053928"
+      ],
+      "id": "9053897",
+      "isDead": false,
+      "parent": "9053884",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "6 hours ago",
+      "submitter": "Johnie"
+    },
+    {
+      "body": "> If you believe this, you shouldn't be handling people's money.That's true, but who's going to make that happen?In traditional society, there are laws about who can be a bank and how carefully you need to treat people's money (and often government programs to reimburse customers when good-faith banking efforts fail). Quite a fraction of Bitcoin users are in Bitcoin because, to first order, they want to move away from that model.\n\nSo the free market needs to not let their money be handled by people who believe that, and it's not yet clear they care. Probably they will, in a few years.",
+      "comments": [],
+      "id": "9054052",
+      "isDead": false,
+      "parent": "9053897",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "6 hours ago",
+      "submitter": "geofft"
+    },
+    {
+      "body": "Time is also a preference here. There are probably coding NASA-level bitcoin exchanges right now. Meanwhile, there exchanges coded with ruby on rails are here today. If you want to trade today, then you have to choose from the options we have today.",
+      "comments": [],
+      "id": "9053984",
+      "isDead": false,
+      "parent": "9053897",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "6 hours ago",
+      "submitter": "jerguismi"
+    },
+    {
+      "body": "> It's not just about losing the bitcoin, people running these exchanges may be personally liable.The law is still very murky here, and there are plenty of ways to deflect responsibility.\n\nI'm not saying any of this is right, I'm suggesting that the way our culture and infrastructure is laid out, running a shoddy (perhaps conspiratorial) business might actually be the optimal path -- and that's where we need a solution.",
+      "comments": [
+        "9054042"
+      ],
+      "id": "9053928",
+      "isDead": false,
+      "parent": "9053897",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "6 hours ago",
+      "submitter": "trupedo"
+    },
+    {
+      "body": "If you lose my money that I trusted in your startup, I would file a lawsuit. Whether or not the law is murky, you'll be tied up in legal issues for a long time. Even if the law says you're not legally liable (unlikely), your legal fees would put you in a world of hurt for a long time.\n\nWhen you're transacting in something of value (whether that be money, digital currency, or pokemon cards)  for your users, you better be sure to take it seriously.",
+      "comments": [
+        "9054198",
+        "9054067"
+      ],
+      "id": "9054042",
+      "isDead": false,
+      "parent": "9053928",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "6 hours ago",
+      "submitter": "Johnie"
+    },
+    {
+      "body": "If you lose my money that I trusted in your startup, I would file a lawsuit.I lost money to Mt. Gox, but filing a lawsuit won't get anyone anywhere.  Want to see a sad pdf?  https://www.mtgox.com/img/pdf/20150202_tibanne.pdfSad for the customers.  Not for Karpeles, the owner of Mt. Gox.  He's still a millionaire and still free, and might even have the customers' bitcoins.  No one will probably find out.\n\nI know you're talking about Bitcoin startups founded in the US or EU, but the same applies: If the startup goes bankrupt, the customers won't get anything back.  There's nothing to get back except empty coffers.",
+      "comments": [
+        "9054458"
+      ],
+      "id": "9054198",
+      "isDead": false,
+      "parent": "9054042",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "5 hours ago",
+      "submitter": "sillysaurus3"
+    },
+    {
+      "body": "It's not about getting my money back. It's to prevent you and others from making the same mistake in the future. It's also to prevent any fraudulent activity from happening (ie paying out to some creditors while not to others).\n\nWe have courts and bankruptcy laws for a reason.",
+      "comments": [
+        "9054927"
+      ],
+      "id": "9054458",
+      "isDead": false,
+      "parent": "9054198",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "4 hours ago",
+      "submitter": "Johnie"
+    },
+    {
+      "body": "How it works: set up an exchange. Attract users. When enough coins have been deposited into your exchange, steal them. Bitcoin makes this easy to do untraceably. Post a message saying you've been hacked and are shutting down.You're now a millionaire, and no one can ever take that way from you. No court matters. As long as the price of bitcoin doesn't go down by more than 10x, you'll still be very wealthy. And no one can prove a thing.This is business as usual in the bitcoin world. Bitcoin has made it very easy to separate people from their money, and courts have no power to do anything about it.Would you go to prison for a few years to be a millionaire? There is no shortage of people willing to risk this.\n\nAs you can see from the rest of the thread, people are willing to believe almost any cover story, no matter how implausible. Even that an exchange could be DDoSed by search engines.",
+      "comments": [],
+      "id": "9054927",
+      "isDead": false,
+      "parent": "9054458",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "1 hour ago",
+      "submitter": "sillysaurus3"
+    },
+    {
+      "body": "So, if providers were responding correctly to incentives in the Bitcoin exchange marketplace, they'd be both ignoring security, and making themselves difficult to find or identify.  Got it.",
+      "comments": [],
+      "id": "9054067",
+      "isDead": false,
+      "parent": "9054042",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "6 hours ago",
+      "submitter": "dogecoinbase"
+    },
+    {
+      "body": "Customers just paid an extreme price by choosing not to demand better practices and pay a premium for them.  (As did the exchange, assuming honesty: they lost their whole business.)This will undoubtedly have the effect that some number of them will stop using services like this until their confidence is restored -- this has undoubtedly been the case with previous attacks as well.  And it will prevent future customers who have heard about these types of attacks, or who hear less hype about bitcoin as a result of these types of attacks, from choosing to participate in exchanges until confidence is restored.\n\nUnfortunately it takes time and it takes people getting hurt.  And people do get fooled multiple times when there is \"get rich quick\" hype.  But eventually they stop getting fooled or run out of money.",
+      "comments": [],
+      "id": "9053972",
+      "isDead": false,
+      "parent": "9053884",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "6 hours ago",
+      "submitter": "furyofantares"
+    },
+    {
+      "body": "\"We noticed the hot wallets dwindling but assuming it was members moving their funds off site during the DDOS, we loaded all the cold balances onto the site\"I'm a bit shocked that their tracking of their transactions was so easily broken as to prevent them from seeing that all the funds were being pulled by so few users.\n\nAlso, the part at the bottom where they basically post a wall of IPs and addresses seems like a weird way to move forward. Do they not plan on there being an official investigation?",
+      "comments": [
+        "9053866",
+        "9053833"
+      ],
+      "id": "9053811",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "7 hours ago",
+      "submitter": "akerl_"
+    },
+    {
+      "body": "The last set of addresses under the DDoS part of the page resolves to Google's crawlers.",
+      "comments": [
+        "9054845",
+        "9054109"
+      ],
+      "id": "9053866",
+      "isDead": false,
+      "parent": "9053811",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "6 hours ago",
+      "submitter": "BRitterbeck"
+    },
+    {
+      "body": "Another set is Yandex, a Chinese [Edit: Nope, Russian, see below] web crawler.  I've done a basic \"what CIDRs and ASNs were involved\" in a top-level post.\n\nThese idiots can't tell Web crawler traffic from DDoS (though often there's little practical difference).",
+      "comments": [
+        "9054914"
+      ],
+      "id": "9054845",
+      "isDead": false,
+      "parent": "9053866",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "1 hour ago",
+      "submitter": "dredmorbius"
+    },
+    {
+      "body": "https://company.yandex.com/\n\nYanex is Russia's Google.",
+      "comments": [
+        "9055017"
+      ],
+      "id": "9054914",
+      "isDead": false,
+      "parent": "9054845",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "1 hour ago",
+      "submitter": "bx_"
+    },
+    {
+      "body": "Derp.  I was thinking of Baidu.  Knew it was search at least, from logs.",
+      "comments": [],
+      "id": "9055017",
+      "isDead": false,
+      "parent": "9054914",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "36 minutes ago",
+      "submitter": "dredmorbius"
+    },
+    {
+      "body": "Probably an amplification attack using Google, a clever way to increase the size of an attack without adding too much additional cost.",
+      "comments": [
+        "9054211"
+      ],
+      "id": "9054109",
+      "isDead": false,
+      "parent": "9053866",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "5 hours ago",
+      "submitter": "Shank"
+    },
+    {
+      "body": "An interesting example is creating 700 Mbps with a few google docs.\n\nhttp://chr13.com/2014/03/10/using-google-to-ddos-any-website...",
+      "comments": [],
+      "id": "9054211",
+      "isDead": false,
+      "parent": "9054109",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "5 hours ago",
+      "submitter": "Buge"
+    },
+    {
+      "body": "\"Do they not plan on there being an official investigation?\"How do you officially investigate someone stealing your monopoly money?Where is the FDIC insurance? Exactly what are they suppose to tell the police? The FBI? ... oh thats right, nothing, because they are not a bank, and the only thing \"stolen\" was some ones and zeroes off a hard-drive.\n\nSeriously though... where is the police report on this? Or any of the other hacked bitcoin exchanges for that matter?",
+      "comments": [
+        "9053840",
+        "9054928",
+        "9053848",
+        "9053963"
+      ],
+      "id": "9053833",
+      "isDead": false,
+      "parent": "9053811",
+      "quality": 0.4666666666666667,
+      "story": "9053621",
+      "submitted": "6 hours ago",
+      "submitter": "panhandlr"
+    },
+    {
+      "body": "It doesn't matter if you're storing bitcoins or roflcoins or pictures of kittens: in most places, maliciously accessing somebody else's computer system and stealing data is a crime.\n\nThe government investigates stolen \"ones and zeros\" all the time. The FDIC provides protection for users, but the lack of FDIC doesn't mean that no laws apply.",
+      "comments": [
+        "9053882"
+      ],
+      "id": "9053840",
+      "isDead": false,
+      "parent": "9053833",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "6 hours ago",
+      "submitter": "akerl_"
+    },
+    {
+      "body": "What about the laws the operators of the exchange broke by running un-audited code to handle financial transactions?",
+      "comments": [
+        "9053894"
+      ],
+      "id": "9053882",
+      "isDead": false,
+      "parent": "9053840",
+      "quality": 0.3176470588235294,
+      "story": "9053621",
+      "submitted": "6 hours ago",
+      "submitter": "panhandlr"
+    },
+    {
+      "body": "Assuming such laws apply to them, and assuming they broke them, \"so?\". Their guilt or innocence does not have any connection with any investigation of somebody hacking into their systems.",
+      "comments": [],
+      "id": "9053894",
+      "isDead": false,
+      "parent": "9053882",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "6 hours ago",
+      "submitter": "akerl_"
+    },
+    {
+      "body": "You have a valid point about FDIC.The rest of your comment is nonsnese.You think the FBI is never interested in ones and zeros on a hard drive?  How do you square that with the facts discussed here:  https://news.ycombinator.com/item?id=9044805You think there's never any police reports or official investigation?  How do you square that with the facts surrounding the collapse of Mt Gox?  A recent headline announced that the police are closing in on the fraudsters: http://www.welivesecurity.com/2015/01/02/bitcoin-fraud-mt-go...\n\nApparently police are quite capable of investigating the theft of \"monopoly money\", and understanding the issues involved.",
+      "comments": [],
+      "id": "9054928",
+      "isDead": false,
+      "parent": "9053833",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "1 hour ago",
+      "submitter": "Lazare"
+    },
+    {
+      "body": "> Where is the FDIC insurance? Exactly what are they suppose to tell the police? The FBI? ... oh thats right, nothing, because they are not a bank, and the only thing \"stolen\" was some ones and zeroes of a hard-drive.This is a slippery slope. How do you think the Federal Reserve pops money into existence before they go on a QE tear? The bits (\"ones and zeroes\") pop into existence in their account, and they start buying assets/mortgages/whatever.\n\nCurrency only has value because of the shared belief that is has value.",
+      "comments": [
+        "9054058"
+      ],
+      "id": "9053848",
+      "isDead": false,
+      "parent": "9053833",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "6 hours ago",
+      "submitter": "toomuchtodo"
+    },
+    {
+      "body": ">nothing, because they are not a bank,\n\nAre you implying that a bank would somehow be held accountable for breaking the law or ripping people off? Since when?",
+      "comments": [
+        "9054104",
+        "9054426"
+      ],
+      "id": "9054058",
+      "isDead": false,
+      "parent": "9053848",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "6 hours ago",
+      "submitter": "fnordfnordfnord"
+    },
+    {
+      "body": "My rebuttal to the post I replied to was that all currencies are ones and zeros now. The \"> \" was me quoting their post.",
+      "comments": [
+        "9054207"
+      ],
+      "id": "9054104",
+      "isDead": false,
+      "parent": "9054058",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "5 hours ago",
+      "submitter": "toomuchtodo"
+    },
+    {
+      "body": "My mistake. I'm on mobile. I rarely comment on mobile.",
+      "comments": [],
+      "id": "9054207",
+      "isDead": false,
+      "parent": "9054104",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "5 hours ago",
+      "submitter": "fnordfnordfnord"
+    },
+    {
+      "body": "It's possible with a small bank.",
+      "comments": [],
+      "id": "9054426",
+      "isDead": false,
+      "parent": "9054058",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "4 hours ago",
+      "submitter": "baddox"
+    },
+    {
+      "body": "I have no love for BTC, either, but whatever it is that was stolen -- be it a bunch of ones and zeros, some paint smeared on canvas or your rare comic books -- if it has market value (more than monopoly money, certainly) then valuable property was stolen. The higher the value, the more serious the crime. And if there was a theft of property, the FBI can certainly investigate.",
+      "comments": [],
+      "id": "9053963",
+      "isDead": false,
+      "parent": "9053833",
+      "quality": 0.6470588235294118,
+      "story": "9053621",
+      "submitted": "6 hours ago",
+      "submitter": "pron"
+    },
+    {
+      "body": "> Users are now able to withdraw their remaining funds from Exco.in with new deposits having been disabled. If you have any issues withdrawing, please contact support we will assist you as soon as possible.In case the administrators of exco.in happen to be reading this -\n\nYou fools, what the hell are you doing leaving automated withdrawals turned on after you know you've been hacked? That'll just lose you even more money. The first thing you need to do is get the coins, databases and log files into secure offline storage. The second thing you need to do is get qualified professionals to investigate. Only after the investigation is complete can you safely return funds.",
+      "comments": [
+        "9054004"
+      ],
+      "id": "9053990",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "6 hours ago",
+      "submitter": "jimrandomh"
+    },
+    {
+      "body": "> The first thing you need to do is get the coins, databases and log files into secure offline storage.\n\nAll logging and auditing data should be sent in real time to a write once medium, whether that's an S3 account with append (no overwrite/delete permissions) access, local DVD/Bluray, or even a dotmatrix printer if your volume is low enough.",
+      "comments": [],
+      "id": "9054004",
+      "isDead": false,
+      "parent": "9053990",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "6 hours ago",
+      "submitter": "toomuchtodo"
+    },
+    {
+      "body": "The tinfoil hat in me has to wonder if there's some reason all these exchanges are failing so extravagantly.",
+      "comments": [
+        "9053870",
+        "9054105",
+        "9053864",
+        "9053877"
+      ],
+      "id": "9053837",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "6 hours ago",
+      "submitter": "nickysielicki"
+    },
+    {
+      "body": "Yeah, people without experience writing secure financial code and not understanding financial risk management are opening bitcoin exchanges.Even the way they handled this breach is amateur hour. From the post, it doesn't look like they've involved any authorities or sought out legal counsel to protect themselves.\n\nImagine if your citibank or chase account doing this. People would be in an uproar.",
+      "comments": [],
+      "id": "9053870",
+      "isDead": false,
+      "parent": "9053837",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "6 hours ago",
+      "submitter": "Johnie"
+    },
+    {
+      "body": "I think it's a pretty open-and-shut case.Startup companies with no serious experience in information security, or finance, or financial information security are making large web applications that store and trade digital currency. That currency, if taken, cannot be recovered in any way unless law enforcement physically raids the perpetrator, just as if they stole physical cash.There are millions of unscrupulous fraudsters and black hats out there who realize they can effectively rob banks over the Internet, sometimes as easily as walking in through the side door and walking out with all their assets without anyone ever knowing they were there until they're long gone. Bitcoin banks and exchanges are the absolute most valuable target for cybercrime, due to the incredibly high potential for reward (6, 7, or 8 figures from one heist is not uncommon), the irrevocability of the currency, and the low chance of being found or caught.\n\nIt's a bank robber's perfect fantasy. It does take a lot of time to liquidate the treasure chest, but it's still pretty trivial to do securely.",
+      "comments": [
+        "9054197"
+      ],
+      "id": "9054105",
+      "isDead": false,
+      "parent": "9053837",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "5 hours ago",
+      "submitter": "meowface"
+    },
+    {
+      "body": "\"Startup companies with no serious experience in information security, or finance, or financial information security\"\n\nYou hit the nail on the head ... the BitCoin exchanges were created because someone saw it as the \"next big thing\" (tm).  I'm not sure I'd trust the Winkelvoss' BTC fund any more than the start-up exchanges until their code is audited by a cryptoanalyst and their audit systems are sophisticated enough to throw a dead-man's switch.",
+      "comments": [
+        "9054543"
+      ],
+      "id": "9054197",
+      "isDead": false,
+      "parent": "9054105",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "5 hours ago",
+      "submitter": "smoyer"
+    },
+    {
+      "body": "Exactly.\n\nCoinbase is the only company I trust in this space right now. They take security very seriously and have received several professional audits.",
+      "comments": [],
+      "id": "9054543",
+      "isDead": false,
+      "parent": "9054197",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "3 hours ago",
+      "submitter": "meowface"
+    },
+    {
+      "body": "No tinfoil needed for the explanation: they're pretty fat targets with code security at the level of normal startups.\n\nIt would be interesting to see how much they get targetted in comparison to startups that can at most spill some personal user info and cc numbers.",
+      "comments": [
+        "9053944"
+      ],
+      "id": "9053864",
+      "isDead": false,
+      "parent": "9053837",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "6 hours ago",
+      "submitter": "ent"
+    },
+    {
+      "body": "They even proudly announced that it was build \"Built on Golang from the ground up.\"\n\nhttp://www.reddit.com/r/Bitcoin/comments/2loray/a_new_bitcoi...",
+      "comments": [
+        "9054696"
+      ],
+      "id": "9053944",
+      "isDead": false,
+      "parent": "9053864",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "6 hours ago",
+      "submitter": "detaro"
+    },
+    {
+      "body": "Is Go a particularly safe language (moreso than, say Python or Java)?",
+      "comments": [],
+      "id": "9054696",
+      "isDead": false,
+      "parent": "9053944",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "2 hours ago",
+      "submitter": "juliangregorian"
+    },
+    {
+      "body": "a currency whose value is underpinned by drugs and money laundering may attract criminals you say",
+      "comments": [
+        "9053924",
+        "9054097"
+      ],
+      "id": "9053877",
+      "isDead": false,
+      "parent": "9053837",
+      "quality": 0.5490196078431373,
+      "story": "9053621",
+      "submitted": "6 hours ago",
+      "submitter": "nyolfen"
+    },
+    {
+      "body": "I know, it's crazy that the US government even allows anyone to possess paper money these days.",
+      "comments": [],
+      "id": "9053924",
+      "isDead": false,
+      "parent": "9053877",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "6 hours ago",
+      "submitter": "pavel_lishin"
+    },
+    {
+      "body": "Bitcoin is underpinned by drugs and money laundering, you say? That is funny considering \"the most powerful drug trafficking organization in the world\" just had 32 people arrested for running a multistate gold-for-cash scheme that laundered more than $100m in US profits.[0]\n\n[0]http://www.theguardian.com/us-news/2015/feb/12/gold-for-cash...",
+      "comments": [
+        "9054815"
+      ],
+      "id": "9054097",
+      "isDead": false,
+      "parent": "9053877",
+      "quality": 0.5490196078431373,
+      "story": "9053621",
+      "submitted": "5 hours ago",
+      "submitter": "grubles"
+    },
+    {
+      "body": "You're just bolstering the point with this argument.",
+      "comments": [
+        "9054930"
+      ],
+      "id": "9054815",
+      "isDead": false,
+      "parent": "9054097",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "2 hours ago",
+      "submitter": "ch"
+    },
+    {
+      "body": "How, exactly? The point is: drug and crime are currency-agnostic.",
+      "comments": [],
+      "id": "9054930",
+      "isDead": false,
+      "parent": "9054815",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "1 hour ago",
+      "submitter": "grubles"
+    },
+    {
+      "body": "I think a trustworthy Bitcoin exchange requires the software development capabilities/requirements similar to a real bank.The amount of money at stake is probably not he same, but the anonymity of Bitcoin makes up for attractiveness as a target.\n\nAFAIK most smaller banks use third party software/services. Maybe there is a need for a bitcoin exchange software provider that takes care of the critical parts and you build your interface/business on top.",
+      "comments": [],
+      "id": "9054308",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "4 hours ago",
+      "submitter": "sek"
+    },
+    {
+      "body": "I wonder if this is related to the loss at http://bter.com/ ?",
+      "comments": [
+        "9054113"
+      ],
+      "id": "9053874",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "6 hours ago",
+      "submitter": "jcfrei"
+    },
+    {
+      "body": "Different exchanges and principals, so it's unlikely. I don't know what BTER uses on the back-end, but unless it is written in Go, I find the likelihood of a connection to be very small (due to a common vulnerability). On the other hand, if there is a shared vulnerability, it may be in a commonly used library lower in the stack.There is one possible tangential relationship, however. As I've been researching the transactions, early indications point to a portion of the stolen BTC and NBT from Excoin being placed on BTER prior to BTER's announcement. If this is the case, the parties responsble for the Excoin theft may have inadvertently deposited their coins into an exchange that was subsequently pillaged...\n\n(Disclosure: I'm a member of the Nu development team, so Excoin's and BTER's exchange problems affect our community)",
+      "comments": [],
+      "id": "9054113",
+      "isDead": false,
+      "parent": "9053874",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "5 hours ago",
+      "submitter": "Mtinie"
+    },
+    {
+      "body": "\"...We fixed the caching issues with the trades and moved forward\"Caching trade info sound like a bad idea. Atomic and transactional operations directly to the ledger so integrity is easier to achieve sounds like the way to go. A caching layer gives basically speed at the cost of simplicity, not sure if I'd like that when running a btc exchange. Am i wrong?\n\nOf course we don't know the exact nature of those \"caching issues\" so my comment is highly especulative regarding the nature of that cache.",
+      "comments": [],
+      "id": "9053947",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "6 hours ago",
+      "submitter": "ogig"
+    },
+    {
+      "body": "From the announcement:\"during the DDOS two separate trades spiraled out of control either due to a bug or an exploit and transferred a very large number of small Bitcoin transactions to Ambiorx's account.\"Note \"either due to a bug or an exploit\". Then:\"Ambiorx used the fraudulently obtained Bitcoins...\"\n\nIf the cause was a bug in your own code, that's not fraudulent is it? Isn't that the exchange's fault? That line seems to assume exploitation, when they already said it was possible it was a bug.",
+      "comments": [
+        "9054530"
+      ],
+      "id": "9054400",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "4 hours ago",
+      "submitter": "AshleysBrain"
+    },
+    {
+      "body": "If tomorrow you wake up and find 10000000$ in your account and then go on a spending rampage what do you think will happen?The bank will notice it, revoke the funds and then at best you will end up with a pile of debt and at worse will be charged with some financial fraud or another.It's time that exchanges will develop the ability to reverse bitcoin transactions by extending the chain or by building their own transaction protocol on top of the current BTC chain. It's also about time that these establishments will get some private insurance if they want to play around as they were some private banks for oligarchs which are not tied directly to the central bank or insured by it.\n\nWith how BTC transactions work in general, and how exchanges seem to operate these days im amazed that people still use them.",
+      "comments": [
+        "9054667"
+      ],
+      "id": "9054530",
+      "isDead": false,
+      "parent": "9054400",
+      "quality": 0.6470588235294118,
+      "story": "9053621",
+      "submitted": "3 hours ago",
+      "submitter": "dogma1138"
+    },
+    {
+      "body": ">If tomorrow you wake up and find 10000000$ in your account and then go on a spending rampage what do you think will happen?Something pretty similar to this happened here in NZ in recent years. A couple who ran a BP franchise had applied to a bank for a $100k line of credit. They were accidentally given $10m instead. They decided to rapidly transfer the money offshore, where they then fled. The woman eventually returned voluntarily, the man was extradited. He received jail, she a home detention sentence and reparation.http://www.stuff.co.nz/national/crime/2428243/Couple-missing...\n\nSentencing: http://www.nzherald.co.nz/nz/news/article.cfm?c_id=1&objecti...",
+      "comments": [],
+      "id": "9054667",
+      "isDead": false,
+      "parent": "9054530",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "3 hours ago",
+      "submitter": "jamestnz"
+    },
+    {
+      "body": "I am now comparing the bitcoin holders to regular banks' online systems in my mind and I wonder why bitcoin systems are constantly getting hacked while regular banks' are functioning properly. I am not really sure which one of these reasons are true;- Code that is written for bitcoin banking is fairly new comparing the real banks' code which contains lots of vulnerabilities.- These guys hold huge amount of money from other people which becomes very tempting so that some insiders decide to take it and make it look like they are hacked- Law enforcements are not as high as comparing to stealing dollars to bitcoins which makes hackers to focus on bitcoin.\n\nNot really sure and i am really not an expert on bitcoin systems, i just wonder.",
+      "comments": [
+        "9054091",
+        "9054567",
+        "9054186",
+        "9054099",
+        "9054273",
+        "9054269",
+        "9054169",
+        "9054191"
+      ],
+      "id": "9054077",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "5 hours ago",
+      "submitter": "whizzkid"
+    },
+    {
+      "body": "http://www.nytimes.com/2015/02/15/world/bank-hackers-steal-m...",
+      "comments": [],
+      "id": "9054091",
+      "isDead": false,
+      "parent": "9054077",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "5 hours ago",
+      "submitter": "atmosx"
+    },
+    {
+      "body": "Banks are hacked very regularly, probably a lot more than you'd think.\n\nIt's just much more difficult to actually extract money from them. With Bitcoin, all you need to do is copy 32 bytes (the length of the ECDSA private key) over and over and suddenly you're a millionaire. It was a little more complicated in this scenario, since the attacker exploited an application flaw and appears not to have gained access to any private keys, but they still gained permanent control of the coins in a simple manner.",
+      "comments": [],
+      "id": "9054567",
+      "isDead": false,
+      "parent": "9054077",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "3 hours ago",
+      "submitter": "meowface"
+    },
+    {
+      "body": "When you put $100 in a bank it doesn't matter if that exact $100 bill is stolen by a bank robber, you still have $100 in the bank. Additionally bank accounts are federally insured.\n\nThat isn't the case with bitcoin.",
+      "comments": [
+        "9054340",
+        "9054266",
+        "9054255"
+      ],
+      "id": "9054186",
+      "isDead": false,
+      "parent": "9054077",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "5 hours ago",
+      "submitter": "kungfooguru"
+    },
+    {
+      "body": "> When you put $100 in a bank it doesn't matter if that exact $100 bill is stolen by a bank robber, you still have $100 in the bank.For the majority of digital currency exchanges that I've used, deposits may be sent to unique address to associate it with your user record, but the funds are then typically moved into a pool to facilitate trading. I don't know off-hand of any exchanges that atomically isolate user funds and utilize the block chain to handle internal transaction reconsiliation. There's an off-shoot of block chain tech that is attempting to do atomic, cross-chain trading using the block chain, but it's still very new and experimental[1].>  Additionally bank accounts are federally insured.Up to a certain amount. The standard insurance amount is $250,000 per depositor, per insured bank, for each account ownership category.[2]---[1] https://en.bitcoin.it/wiki/Atomic_cross-chain_trading\n\n[2] https://www.fdic.gov/deposit/deposits/",
+      "comments": [
+        "9054909"
+      ],
+      "id": "9054340",
+      "isDead": false,
+      "parent": "9054186",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "4 hours ago",
+      "submitter": "Mtinie"
+    },
+    {
+      "body": "Right, $250k, not really worth nothing every time since that is basically infinity to everyone in the US.",
+      "comments": [],
+      "id": "9054909",
+      "isDead": false,
+      "parent": "9054340",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "1 hour ago",
+      "submitter": "kungfooguru"
+    },
+    {
+      "body": "That's not exactly true. If someone uses your debit card number to spend your money there are some circumstances where you will not recoup all of your losses. http://www.consumer.ftc.gov/articles/0213-lost-or-stolen-cre...",
+      "comments": [
+        "9054421"
+      ],
+      "id": "9054266",
+      "isDead": false,
+      "parent": "9054186",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "5 hours ago",
+      "submitter": "fnordfnordfnord"
+    },
+    {
+      "body": "Which is why I only use credit cards.",
+      "comments": [],
+      "id": "9054421",
+      "isDead": false,
+      "parent": "9054266",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "4 hours ago",
+      "submitter": "woofyman"
+    },
+    {
+      "body": "What happens when you get robbed at gun-point and have your cash stolen? What will the bank do then?",
+      "comments": [
+        "9054324"
+      ],
+      "id": "9054255",
+      "isDead": false,
+      "parent": "9054186",
+      "quality": 0.5490196078431373,
+      "story": "9053621",
+      "submitted": "5 hours ago",
+      "submitter": "grubles"
+    },
+    {
+      "body": "What does that have to do with the bank?",
+      "comments": [],
+      "id": "9054324",
+      "isDead": false,
+      "parent": "9054255",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "4 hours ago",
+      "submitter": "zf00002"
+    },
+    {
+      "body": "Are banks functioning properly? Just today we heard that online attackers stole hundreds of millions of dollars from them.",
+      "comments": [
+        "9054923",
+        "9054121"
+      ],
+      "id": "9054099",
+      "isDead": false,
+      "parent": "9054077",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "5 hours ago",
+      "submitter": "icebraining"
+    },
+    {
+      "body": "But how many depositors lost money because of that? My guess is zero.",
+      "comments": [],
+      "id": "9054923",
+      "isDead": false,
+      "parent": "9054099",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "1 hour ago",
+      "submitter": "glesica"
+    },
+    {
+      "body": "That is true actually, I guess I meant i don't see for example HSBC(just an example) shutting whole company down because of they are getting hacked while bitcoin systems are are either on or off, isn't it?",
+      "comments": [
+        "9054218"
+      ],
+      "id": "9054121",
+      "isDead": false,
+      "parent": "9054099",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "5 hours ago",
+      "submitter": "whizzkid"
+    },
+    {
+      "body": "Most bank transactions are reversible. ATM withdrawals aren't, but they have limits. Lots of attacks use ATMs so it's not enough to shut down a bank.",
+      "comments": [],
+      "id": "9054218",
+      "isDead": false,
+      "parent": "9054121",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "5 hours ago",
+      "submitter": "skybrian"
+    },
+    {
+      "body": "its because bitcoin is irreversible. If a traditional bank gets hacked, they just rollback the database to before the attack. With bitcoin, there is no rolling back. All security lessons are learned the hard way.",
+      "comments": [],
+      "id": "9054273",
+      "isDead": false,
+      "parent": "9054077",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "5 hours ago",
+      "submitter": "freework"
+    },
+    {
+      "body": "It seems to me that if you hack a bank and get it to put money into an account that is not rightly yours, or get access to an account that is not rightly yours, you need to do something with the funds before the error is caught that can neither be reversed nor traced.  And there are lots of limits on activity that looks like you are doing this.  With Bitcoin you just transfer it to a new wallet and you buy yourself all the time in the world to do this.",
+      "comments": [],
+      "id": "9054269",
+      "isDead": false,
+      "parent": "9054077",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "5 hours ago",
+      "submitter": "furyofantares"
+    },
+    {
+      "body": "I wonder about this too. Banks were also basically unaffected by Heartbleed. Is this because they were very lucky, or because they were very cautious?\n\nBanks do get hacked, and there's probably more going on than we hear about, but even so it seems banks are better at keeping money/secrets safe than Bitcoin exchanges, and probably better than the top-tier internet sites too (Google, Facebook, PayPal, Apple, Amazon).",
+      "comments": [
+        "9054490"
+      ],
+      "id": "9054169",
+      "isDead": false,
+      "parent": "9054077",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "5 hours ago",
+      "submitter": "mjs"
+    },
+    {
+      "body": "One of the benefits to having between a few decades and a few centuries of security procedures and policies in place.\n\nI imagine that there are only a handful of digital currency exchanges that can boast about teams with deep experience in cryptography, block chain technologies, and extensive financial software security expertise.",
+      "comments": [],
+      "id": "9054490",
+      "isDead": false,
+      "parent": "9054169",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "4 hours ago",
+      "submitter": "Mtinie"
+    },
+    {
+      "body": "Banks also spend literally hundreds of millions of dollars annually to secure their systems.",
+      "comments": [],
+      "id": "9054191",
+      "isDead": false,
+      "parent": "9054077",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "5 hours ago",
+      "submitter": "NeutronBoy"
+    },
+    {
+      "body": "As long as centralised Bitcoin exchanges exist, this will happen.It's why I built CoinTouch, which finds friends of friends that trade Bitcoins (FB / G+). Post buy/sell orders, priced at a spread to market rates:\n\nhttps://www.cointouch.com/",
+      "comments": [],
+      "id": "9054505",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "4 hours ago",
+      "submitter": "cbeach"
+    },
+    {
+      "body": "\"I will be resigning from Blackwave Labs and looking for regular full time employment to help pay back the lost funds. I will also ask drunkonsound to help cover my loses with Blackwave Labs holdings as well.\"\n\nThey may not have been good at security but I still have to admire someone who is willing to take responsibility for their mistakes.  Where's Mark Karpeles?",
+      "comments": [
+        "9054357"
+      ],
+      "id": "9054287",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "5 hours ago",
+      "submitter": "smoyer"
+    },
+    {
+      "body": "This guy needs to get a lawyer immediately. He's extremely naive in thinking he can 'fix' this. In addition, he's exposing his personal asset and future liability to all of these creditors.\n\nAs I said, amateur hour.",
+      "comments": [
+        "9054715"
+      ],
+      "id": "9054357",
+      "isDead": false,
+      "parent": "9054287",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "4 hours ago",
+      "submitter": "Johnie"
+    },
+    {
+      "body": "It's a woman",
+      "comments": [],
+      "id": "9054715",
+      "isDead": false,
+      "parent": "9054357",
+      "quality": 0.6470588235294118,
+      "story": "9053621",
+      "submitted": "2 hours ago",
+      "submitter": "SuddsMcDuff"
+    },
+    {
+      "body": "Does anyone have an estimate of their volume, or how much was 'lost'?",
+      "comments": [],
+      "id": "9054464",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "4 hours ago",
+      "submitter": "photorized"
+    },
+    {
+      "body": "1. Create exchange2. Realize its not going anywhere3. Close citing a hack\n\n4. Profit! go laughing all the way to the bank with the \"stolen\" ahem ahem bitcoins",
+      "comments": [
+        "9054174"
+      ],
+      "id": "9053940",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "6 hours ago",
+      "submitter": "yc1010"
+    },
+    {
+      "body": "I was thinking of that old Slashdot trope too ... someone has finally filled in the step(s) before profit!",
+      "comments": [
+        "9054514",
+        "9054202"
+      ],
+      "id": "9054174",
+      "isDead": false,
+      "parent": "9053940",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "5 hours ago",
+      "submitter": "smoyer"
+    },
+    {
+      "body": "It's not a slashdot trope - it's from South Park - Underpants Gnomes1) Collect underpants 2) ... 3) Profit\n\nhttp://upload.wikimedia.org/wikipedia/en/d/dd/Gnomes_plan.pn...",
+      "comments": [],
+      "id": "9054514",
+      "isDead": false,
+      "parent": "9054174",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "4 hours ago",
+      "submitter": "letstryagain"
+    },
+    {
+      "body": "I must be onto something true since my earlier comment got downvoted to -2\n\nAs a bitcoiner who uses bitcoin daily its sad seeing this happen",
+      "comments": [],
+      "id": "9054202",
+      "isDead": false,
+      "parent": "9054174",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "5 hours ago",
+      "submitter": "yc1010"
+    },
+    {
+      "body": "\"Excoin is still under DDOS attack which makes it very difficult to investigate the causes of these issues.\"\n\nThis makes little sense to me.",
+      "comments": [
+        "9055091",
+        "9053863"
+      ],
+      "id": "9053775",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "7 hours ago",
+      "submitter": "th0br0"
+    },
+    {
+      "body": "I thought that sounded weird to me too, I could only guess that they're trying to keep their service online while they fix it - which is insane at this point.",
+      "comments": [],
+      "id": "9055091",
+      "isDead": false,
+      "parent": "9053775",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "5 minutes ago",
+      "submitter": "jakejake"
+    },
+    {
+      "body": "It sounds like they have no physical access to their infrastructure, and cannot remove it from the network.",
+      "comments": [
+        "9053998",
+        "9053895"
+      ],
+      "id": "9053863",
+      "isDead": false,
+      "parent": "9053775",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "6 hours ago",
+      "submitter": "dublinben"
+    },
+    {
+      "body": "You don't have to have physical access to do this. Just reconfigure your network infrastructure.\n\nBut yeah, they're probably using The Cloud, because that's web scale.",
+      "comments": [
+        "9054073"
+      ],
+      "id": "9053998",
+      "isDead": false,
+      "parent": "9053863",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "6 hours ago",
+      "submitter": "q3k"
+    },
+    {
+      "body": "Even in The Cloud, I'm struggling to see the problem. If it was running on, say, Digital Ocean, I'd just stop the instance, create a snapshot and then launch a new instance from that snapshot (and with a new IP). I'm sure other clouds have similar tools.",
+      "comments": [
+        "9054540"
+      ],
+      "id": "9054073",
+      "isDead": false,
+      "parent": "9053998",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "5 hours ago",
+      "submitter": "icebraining"
+    },
+    {
+      "body": "Not sure where they host, but they might host it in some shady datacentre which is located in a completely different region than they are with no OOB access to it other than the public IP interfaces which is bad to begin with, but not that uncommon.",
+      "comments": [],
+      "id": "9054540",
+      "isDead": false,
+      "parent": "9054073",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "3 hours ago",
+      "submitter": "dogma1138"
+    },
+    {
+      "body": "... running a financial institution on servers you don't have physical access to, What is the worse that could happen?\n\nIsn't physical access security like OpSec 101?",
+      "comments": [
+        "9053932",
+        "9053923"
+      ],
+      "id": "9053895",
+      "isDead": false,
+      "parent": "9053863",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "6 hours ago",
+      "submitter": "panhandlr"
+    },
+    {
+      "body": "Yeah, but mostly focused on keeping bad guys out, not making sure the good guys can get in. (E.g. hving your servers in someone elses data center is probably more secure than trying to secure them physically in a startups office, but means getting to them is harder for you as well)",
+      "comments": [
+        "9054773"
+      ],
+      "id": "9053932",
+      "isDead": false,
+      "parent": "9053895",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "6 hours ago",
+      "submitter": "detaro"
+    },
+    {
+      "body": "I could see an argument for colocating this type of enterprise in a secure data centre. There are places with 24/7 surveillance and 24/7 armed staff on site and they are going to do the security better than your average group of startup guys.",
+      "comments": [],
+      "id": "9054773",
+      "isDead": false,
+      "parent": "9053932",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "2 hours ago",
+      "submitter": "GoodIntentions"
+    },
+    {
+      "body": "Maybe it's all in the Cloud?",
+      "comments": [],
+      "id": "9053923",
+      "isDead": false,
+      "parent": "9053895",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "6 hours ago",
+      "submitter": "ExpiredLink"
+    },
+    {
+      "body": "I don't see the outrage over this. Bitcoins are just sequences of ones and zeros. How can anyone \"own\" information? And how do you \"steal\" a bitcoin? Doesn't the exchange still have its copy of the bits?",
+      "comments": [
+        "9053975",
+        "9054055",
+        "9054008",
+        "9053981",
+        "9053994",
+        "9054061",
+        "9054003",
+        "9054246",
+        "9054002",
+        "9054098",
+        "9053983"
+      ],
+      "id": "9053917",
+      "isDead": false,
+      "parent": null,
+      "quality": 0.6470588235294118,
+      "story": "9053621",
+      "submitted": "6 hours ago",
+      "submitter": "rayiner"
+    },
+    {
+      "body": "Bitcoins are not sequences of bits. There is a global blockchain that keeps track of transactions in the network. Each block contains transactions. Since a transaction is the fundamental unit, if you want to know the balance of a particular address, you have to look at every transaction since the beginning of time and add up all the ones that involve that address. You can't just edit the books to say that an address has more or less money. And to add a new transaction to the chain, whoever has the private key for the originating address has to sign the transaction, then the transaction is checked by a miner and added to the global chain.\n\nSo to get the money back, you would have to get the private key for the address where it all ended up. Our have the owners of the majority of mining power commit fraud on your behalf, that could work too.",
+      "comments": [
+        "9054086"
+      ],
+      "id": "9053975",
+      "isDead": false,
+      "parent": "9053917",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "6 hours ago",
+      "submitter": "sp332"
+    },
+    {
+      "body": "So what was stolen, exactly?",
+      "comments": [
+        "9054243",
+        "9054333"
+      ],
+      "id": "9054086",
+      "isDead": false,
+      "parent": "9053975",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "5 hours ago",
+      "submitter": "mlvljr"
+    },
+    {
+      "body": "Somebody managed to trick the exchange into signing a message saying \"move this amount of money from this address to this other address\" (signed by the private key associated with the first address, with the second address being owned by the attacker) and submitting it to be added to the blockchain by a miner.\n\nThe blockchain is the only record of who owns what money, and transactions on it can't be reverted. Therefore, the attacker stole money by causing a transaction that shouldn't have happened.",
+      "comments": [],
+      "id": "9054243",
+      "isDead": false,
+      "parent": "9054086",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "5 hours ago",
+      "submitter": "vertex-four"
+    },
+    {
+      "body": "This is more a case of fraud than burglary. The attackers tricked the exchange into sending then tons of money.",
+      "comments": [
+        "9054417"
+      ],
+      "id": "9054333",
+      "isDead": false,
+      "parent": "9054086",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "4 hours ago",
+      "submitter": "sp332"
+    },
+    {
+      "body": "Burglary traditional implies physical entry of a perpetrator into physical building or space. I assume it would not apply to \"breaking into\" a computer or network in most modern legal systems. Regardless, this would almost certainly be considered larceny, as well as computer fraud.",
+      "comments": [],
+      "id": "9054417",
+      "isDead": false,
+      "parent": "9054333",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "4 hours ago",
+      "submitter": "baddox"
+    },
+    {
+      "body": "> Bitcoins are just sequences of ones and zeros.   Not exactly, and that is what makes them interesting. The ones and zeros are part of what is essentially a digital 'tally stick' [1] where the account has a set of them and there is this globally shared data structure which has a matching set of them.There is some secret data the user has which allows them to \"unlock\" their ones and zeros and rewrite them so that they can rewrite them to say \"these are not my ones and zeros\". And that transaction is combined with another one of the form \"these ARE my ones and zeros\", and after a minimum number of copies of the global list has that information the transaction can be said to be complete.If the user were to attempt to reassert their ownership of the ones and zeros (they have all of the original data still) the global list which everyone else can see shows that have given up those ones and zeros in the past. And there is nothing the user can do to change the global list at that point. Its like the master tally stick was swapped out in the vault and their half no longer matches any part of it.\n\n[1] http://en.wikipedia.org/wiki/Tally_stick",
+      "comments": [
+        "9054120"
+      ],
+      "id": "9054055",
+      "isDead": false,
+      "parent": "9053917",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "6 hours ago",
+      "submitter": "ChuckMcM"
+    },
+    {
+      "body": "I think he's parodying the arguments that people generally make for digital piracy.",
+      "comments": [],
+      "id": "9054120",
+      "isDead": false,
+      "parent": "9054055",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "5 hours ago",
+      "submitter": "s73v3r"
+    },
+    {
+      "body": "Bank money is also just a sequence of ones and zeroes when it is stored on the computers.\"Stealing\" happens when the ownership of the money gets transferred to a third party without consent of the lawful owner.\n\nThis is what happens when bitcoins get stolen. They get transferred to somebody else and the global blockchain takes note of this. Yes you still have \"your bits\" but they are now worthless because nobody will accept them anymore.",
+      "comments": [],
+      "id": "9054008",
+      "isDead": false,
+      "parent": "9053917",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "6 hours ago",
+      "submitter": "std_throwaway"
+    },
+    {
+      "body": "Bitcoin and copyrighted digital media may initially seem like an apt comparison, but not when you note that bitcoins are scarce while digital media is not. The argument against copyright protection for digital media isn't literally that they are just sequences of ones and zeroes. Scarcity is the crux of that argument.",
+      "comments": [
+        "9054178"
+      ],
+      "id": "9053981",
+      "isDead": false,
+      "parent": "9053917",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "6 hours ago",
+      "submitter": "baddox"
+    },
+    {
+      "body": "Bitcoin aren't any more scarce than digital works. Mining bitcoins is work, but so is making movies. Once found, they can be copied cost-free, and the only thing that prevents you from doing so is external rules.",
+      "comments": [
+        "9054262",
+        "9054830",
+        "9054392",
+        "9054397"
+      ],
+      "id": "9054178",
+      "isDead": false,
+      "parent": "9053981",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "5 hours ago",
+      "submitter": "rayiner"
+    },
+    {
+      "body": "(I didn't downvote.  There's far too much of that on HN.)Bitcoin is an agreement by the worldwide blockchain that you personally control the fate of anywhere from 0 to 21 million bitcoins.  You can hoard them, send them to someone else, or throw away your access to them.  But you can control no more than 21 million coins, because there will never be more than 21 million bitcoins.  See http://bitcoin.stackexchange.com/questions/161/how-many-bitc...I'm trying to figure out what you're saying.  It seems like if your arguments apply to Bitcoin, then they would also apply to any other kind of good with limited supply, such as gold.  Why would anyone be outraged when gold is stolen?  Because people believe gold has value.  The reason gold is valuable is due to its scarcity, not because gold is inherently valuable.  People rarely use gold for its unique conductivity properties, whereas they usually use it for its scarcity.  Same with Bitcoin.So if your arguments apply to Bitcoin and gold, then what is being said?  I'm curious to know your position on this.  Not because I'm trying to defend or prove anything, but because your ideas tend to be interesting.\n\nI think maybe people here are just talking past each other, so maybe it would help to articulate in detail?",
+      "comments": [],
+      "id": "9054262",
+      "isDead": false,
+      "parent": "9054178",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "5 hours ago",
+      "submitter": "sillysaurus3"
+    },
+    {
+      "body": "If I copy your movie, you still have the movie. If I take your bitcoin (adding a transaction to the global block chain moving it to my wallet), you no longer have that bitcoin (the world does not accept your authority to spend it).",
+      "comments": [],
+      "id": "9054830",
+      "isDead": false,
+      "parent": "9054178",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "1 hour ago",
+      "submitter": "prodigal_erik"
+    },
+    {
+      "body": "Perhaps you're confusing the private key of a wallet for an actual bitcoin. The private key of a wallet is just a sequence of bits which can be copied essentially cost-free, but the bitcoins the wallet contains are scarce, and cannot be copied at all (assuming the soundness of the crypto Bitcoin uses). Apart from new coins created from mining, each Bitcoin transaction is a zero-sum transaction.\n\nAnyone with a copy of the private key of a wallet can transfer all the bitcoins from that wallet to a different wallet, i.e. a wallet that only they control.",
+      "comments": [
+        "9054942"
+      ],
+      "id": "9054392",
+      "isDead": false,
+      "parent": "9054178",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "4 hours ago",
+      "submitter": "baddox"
+    },
+    {
+      "body": "The block chain is a sequence of bits, yes? And it's immutable, yes? So nobody is \"stealing\" any bits. The bits are all still there. What they're doing is co-opting a potential commercial transaction involving those bits.\n\nThe analogy is imperfect sure. Copying a movie doesn't keep you from selling that movie to someone else. But the only thing that keeps you from double-speding a bitcoin is the external confirmation process. Bitcoins aren't inherently scarce--the protocol makes them that way, just like copyright makes digital works artificially scarce.",
+      "comments": [],
+      "id": "9054942",
+      "isDead": false,
+      "parent": "9054392",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "1 hour ago",
+      "submitter": "rayiner"
+    },
+    {
+      "body": "After seeing two of your posts I genuinely can't tell if you are joking or don't understand crypto-currencies.",
+      "comments": [],
+      "id": "9054397",
+      "isDead": false,
+      "parent": "9054178",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "4 hours ago",
+      "submitter": "CyberDildonics"
+    },
+    {
+      "body": "The same can be said for the database entries for your bank account.",
+      "comments": [],
+      "id": "9053994",
+      "isDead": false,
+      "parent": "9053917",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "6 hours ago",
+      "submitter": "joshu"
+    },
+    {
+      "body": "I think you may have been too subtle. :)",
+      "comments": [],
+      "id": "9054061",
+      "isDead": false,
+      "parent": "9053917",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "6 hours ago",
+      "submitter": "geofft"
+    },
+    {
+      "body": "Nobody stole any information here; they misused a server (which is in fact owned by someone else).",
+      "comments": [],
+      "id": "9054003",
+      "isDead": false,
+      "parent": "9053917",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "6 hours ago",
+      "submitter": "icebraining"
+    },
+    {
+      "body": "Intellectual property is a non-rivalrous good, unlike cryptocurrency.",
+      "comments": [],
+      "id": "9054246",
+      "isDead": false,
+      "parent": "9053917",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "5 hours ago",
+      "submitter": "foobarqux"
+    },
+    {
+      "body": "What do you think money is?",
+      "comments": [],
+      "id": "9054002",
+      "isDead": false,
+      "parent": "9053917",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "6 hours ago",
+      "submitter": "Johnie"
+    },
+    {
+      "body": "You guys are missing the joke. Rainer is just being smug.",
+      "comments": [],
+      "id": "9054098",
+      "isDead": false,
+      "parent": "9053917",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "5 hours ago",
+      "submitter": "fnordfnordfnord"
+    },
+    {
+      "body": "Computers can verify, instantly and exactly, the monetary damage of \"stolen\" bitcoins.Nobody has veified (or posssibly can verify) the damage of a \"stolen' movie. For all we know piracy promotes purchase.\n\nEither way, you can't \"steal\" information by copying it, but therein lies the difference in how the word might apply here but not in copyright discussions.",
+      "comments": [],
+      "id": "9053983",
+      "isDead": false,
+      "parent": "9053917",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "6 hours ago",
+      "submitter": "trupedo"
+    },
+    {
+      "body": "I swear Dick Cheney could run for President right now and have more credibility than any Bitcoin exchange.I know there are a lot of BTC champions here, but as a former investor, the writing is on the wall: BTC is dead.The coin will die, the concept will live on.\n\nWhich was Bitcoin's true power anyway.",
+      "comments": [
+        "9054814",
+        "9054238",
+        "9054029"
+      ],
+      "id": "9054013",
+      "isDead": false,
+      "parent": null,
+      "quality": 0.38823529411764707,
+      "story": "9053621",
+      "submitted": "6 hours ago",
+      "submitter": "puranjay"
+    },
+    {
+      "body": "It's not dead, but it does show the reasons why we have centralized banks: User trust and security through regulation.\n\nBefore we had this, banks were robbed all the time..just like the Bitcoin exchanges.  The only reason the government hasn't completely regulated it yet, is because the average person it's investing in it.",
+      "comments": [],
+      "id": "9054814",
+      "isDead": false,
+      "parent": "9054013",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "2 hours ago",
+      "submitter": "paulhauggis"
+    },
+    {
+      "body": "People can whine all day long about exchanges being hacked but until there is a significant vulnerability within bitcoin itself, it isn't dead. If you were around when everyone was excited about the technology of bitcoin and not excited about making \"mad profitz\", this would be clear.",
+      "comments": [],
+      "id": "9054238",
+      "isDead": false,
+      "parent": "9054013",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "5 hours ago",
+      "submitter": "grubles"
+    },
+    {
+      "body": "What other predictions do you have about the financial world? I bet you could make a mint!",
+      "comments": [],
+      "id": "9054029",
+      "isDead": false,
+      "parent": "9054013",
+      "quality": 1,
+      "story": "9053621",
+      "submitted": "6 hours ago",
+      "submitter": "kleer001"
+    }
+  ],
   "story": {
     "body": null,
-    "comments": 132,
+    "comments": [
+      "9054065",
+      "9054835",
+      "9053812",
+      "9053811",
+      "9053990",
+      "9053837",
+      "9054308",
+      "9053874",
+      "9053947",
+      "9054400",
+      "9054077",
+      "9054505",
+      "9054287",
+      "9054464",
+      "9053940",
+      "9053775",
+      "9053917",
+      "9054013"
+    ],
+    "commentsCount": 132,
     "id": "9053621",
     "points": 114,
     "source": "exco.in",

@@ -7,15 +7,16 @@ export default DS.Model.extend({
   source:    DS.attr('string'),
   body:      DS.attr('string'),
   points:    DS.attr('number'),
-  comments:  DS.attr('number'),
   submitted: DS.attr('string'),
   submitter: DS.attr('string'),
+  comments:  DS.hasMany('comment'),
+  commentsCount: DS.attr('number'),
 
-  hasPoints: function() {
+  votable: function() {
     return this.get('points') !== null;
   }.property('points'),
 
-  hasComments: function() {
-    return this.get('comments') !== null;
-  }.property('comments')
+  commentable: function() {
+    return this.get('commentsCount') !== null;
+  }.property('commentsCount')
 });

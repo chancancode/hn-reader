@@ -5,7 +5,8 @@
   "stories": [
     {
       "body": null,
-      "comments": 81,
+      "comments": null,
+      "commentsCount": 81,
       "id": "9050970",
       "points": 311,
       "source": "websocketd.com",
@@ -17,7 +18,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9052206",
       "points": 3,
       "source": "currencytransfer.com",
@@ -29,7 +31,8 @@
     },
     {
       "body": null,
-      "comments": 9,
+      "comments": null,
+      "commentsCount": 9,
       "id": "9050379",
       "points": 64,
       "source": "desmos.com",
@@ -41,7 +44,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9051189",
       "points": 6,
       "source": "writemom.net",
@@ -53,7 +57,8 @@
     },
     {
       "body": null,
-      "comments": 67,
+      "comments": null,
+      "commentsCount": 67,
       "id": "9047086",
       "points": 178,
       "source": "cabmaddux.com",
@@ -65,7 +70,8 @@
     },
     {
       "body": null,
-      "comments": 90,
+      "comments": null,
+      "commentsCount": 90,
       "id": "9040841",
       "points": 340,
       "source": "sdelements.github.io",
@@ -77,7 +83,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9050731",
       "points": 5,
       "source": "gettwototango.com",
@@ -89,7 +96,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9050533",
       "points": 2,
       "source": "github.com",
@@ -101,7 +109,8 @@
     },
     {
       "body": null,
-      "comments": 47,
+      "comments": null,
+      "commentsCount": 47,
       "id": "9040423",
       "points": 85,
       "source": "portalplatform.net",
@@ -113,7 +122,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9050045",
       "points": 2,
       "source": "github.com",
@@ -125,7 +135,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9050721",
       "points": 3,
       "source": "twitter.com",
@@ -137,7 +148,8 @@
     },
     {
       "body": null,
-      "comments": 1,
+      "comments": null,
+      "commentsCount": 1,
       "id": "9048332",
       "points": 9,
       "source": "pixelbox.com",
@@ -149,7 +161,8 @@
     },
     {
       "body": null,
-      "comments": 2,
+      "comments": null,
+      "commentsCount": 2,
       "id": "9049619",
       "points": 2,
       "source": null,
@@ -161,7 +174,8 @@
     },
     {
       "body": null,
-      "comments": 4,
+      "comments": null,
+      "commentsCount": 4,
       "id": "9048516",
       "points": 7,
       "source": "igg.me",
@@ -173,7 +187,8 @@
     },
     {
       "body": null,
-      "comments": 3,
+      "comments": null,
+      "commentsCount": 3,
       "id": "9045780",
       "points": 15,
       "source": "workshape.io",
@@ -185,7 +200,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9049933",
       "points": 2,
       "source": "steppinout.in",
@@ -197,7 +213,8 @@
     },
     {
       "body": null,
-      "comments": 3,
+      "comments": null,
+      "commentsCount": 3,
       "id": "9047801",
       "points": 4,
       "source": "github.com",
@@ -209,7 +226,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9044940",
       "points": 9,
       "source": "digitalocean.com",
@@ -221,7 +239,8 @@
     },
     {
       "body": null,
-      "comments": 9,
+      "comments": null,
+      "commentsCount": 9,
       "id": "9048185",
       "points": 3,
       "source": "glitchi.me",
@@ -233,7 +252,8 @@
     },
     {
       "body": null,
-      "comments": 1,
+      "comments": null,
+      "commentsCount": 1,
       "id": "9047945",
       "points": 2,
       "source": "github.com",
@@ -245,7 +265,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9046296",
       "points": 5,
       "source": "reviewsapp.in",
@@ -257,7 +278,8 @@
     },
     {
       "body": null,
-      "comments": 3,
+      "comments": null,
+      "commentsCount": 3,
       "id": "9039600",
       "points": 5,
       "source": "blockify.co",
@@ -269,7 +291,8 @@
     },
     {
       "body": null,
-      "comments": 28,
+      "comments": null,
+      "commentsCount": 28,
       "id": "9005724",
       "points": 112,
       "source": "pushpin.org",
@@ -281,7 +304,8 @@
     },
     {
       "body": null,
-      "comments": 66,
+      "comments": null,
+      "commentsCount": 66,
       "id": "9005641",
       "points": 93,
       "source": "justwatch.com",
@@ -293,7 +317,8 @@
     },
     {
       "body": null,
-      "comments": 43,
+      "comments": null,
+      "commentsCount": 43,
       "id": "9018930",
       "points": 371,
       "source": "github.com",
@@ -305,7 +330,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9046880",
       "points": 2,
       "source": "github.com",
@@ -317,7 +343,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9045482",
       "points": 5,
       "source": "github.com",
@@ -329,7 +356,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9044680",
       "points": 7,
       "source": "medium.com",
@@ -341,7 +369,8 @@
     },
     {
       "body": null,
-      "comments": 1,
+      "comments": null,
+      "commentsCount": 1,
       "id": "9043287",
       "points": 4,
       "source": "howwelluknow.me",
@@ -353,7 +382,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9045536",
       "points": 15,
       "source": "odrive.com",

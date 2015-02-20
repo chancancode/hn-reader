@@ -1,7 +1,60 @@
 {
+  "comments": [
+    {
+      "body": "See if you can talk to the people in your company who hired the contractor. They might at least be able to give you a high-level description of what the software is supposed to do and how it's supposed to work. They might even have specs that they prepared for the contractor or other design documentation.If the contractor's software has no tests or is poorly written, it's going to be hard to add features to it or refactor it. You might want to read Working Effectively with Legacy Code[1] by Michael Feathers, which describes how you can get a handle on large bodies of legacy software.\n\n[1] http://www.amazon.com/Working-Effectively-Legacy-Michael-Fea...",
+      "comments": [],
+      "id": "9050576",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9050431",
+      "submitted": "14 hours ago",
+      "submitter": "greenyoda"
+    },
+    {
+      "body": "I would try to talk to the contractors. As a contractor myself, the only reason I would drop a client is if they stopped paying me. There might be a reason they jumped ship....",
+      "comments": [],
+      "id": "9050973",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9050431",
+      "submitted": "11 hours ago",
+      "submitter": "chrisbennet"
+    },
+    {
+      "body": "Unprofessional company, unprofessional contractor.",
+      "comments": [
+        "9050579"
+      ],
+      "id": "9050486",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9050431",
+      "submitted": "14 hours ago",
+      "submitter": "ExpiredLink"
+    },
+    {
+      "body": "Yes, unilaterally deciding to walk away from a development effort in the middle sounds like it could be a breach of contract (assuming that there was a reasonably written contract).",
+      "comments": [],
+      "id": "9050579",
+      "isDead": false,
+      "parent": "9050486",
+      "quality": 1,
+      "story": "9050431",
+      "submitted": "14 hours ago",
+      "submitter": "greenyoda"
+    }
+  ],
   "story": {
     "body": "I was brought in to a company to build their own internal development team. They have a few projects in active development with a couple of contracting firms. The plan was to slowly wean the projects away from the outside firms to internal development.\n\nOne of the firms has decided to immediately abandon the project they’ve been working on. We have the source and the app runs on our own servers, but that is about it. No documentation or architectural artifacts of any sort.\n\nThe business has been happy with the product so far. The contractor is “focusing their business on their larger clients”.\n\nWhat has worked best for HN reader’s when taking over a project with little to no documentation/design documents?",
-    "comments": 4,
+    "comments": [
+      "9050576",
+      "9050973",
+      "9050486"
+    ],
+    "commentsCount": 4,
     "id": "9050431",
     "points": 3,
     "source": null,

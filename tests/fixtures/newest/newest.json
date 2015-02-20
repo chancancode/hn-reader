@@ -5,7 +5,8 @@
   "stories": [
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9052215",
       "points": 1,
       "source": "gutscheinflagge.de",
@@ -17,7 +18,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9052206",
       "points": 2,
       "source": "currencytransfer.com",
@@ -29,7 +31,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9052190",
       "points": 2,
       "source": "wikipedia.org",
@@ -41,7 +44,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9052189",
       "points": 1,
       "source": "artofmanliness.com",
@@ -53,7 +57,8 @@
     },
     {
       "body": null,
-      "comments": 1,
+      "comments": null,
+      "commentsCount": 1,
       "id": "9052188",
       "points": 4,
       "source": "sitepoint.com",
@@ -65,7 +70,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9052187",
       "points": 5,
       "source": "caltech.edu",
@@ -77,7 +83,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9052183",
       "points": 1,
       "source": "hockeyapp.net",
@@ -89,7 +96,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9052177",
       "points": 1,
       "source": "youtube.com",
@@ -101,7 +109,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9052173",
       "points": 3,
       "source": "medium.com",
@@ -113,7 +122,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9052172",
       "points": 1,
       "source": "yati-sagade.github.io",
@@ -125,7 +135,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9052168",
       "points": 2,
       "source": "doomworld.com",
@@ -137,7 +148,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9052167",
       "points": 1,
       "source": "pindropmusic.co",
@@ -149,7 +161,8 @@
     },
     {
       "body": null,
-      "comments": 1,
+      "comments": null,
+      "commentsCount": 1,
       "id": "9052164",
       "points": 4,
       "source": "xach.com",
@@ -161,7 +174,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9052163",
       "points": 2,
       "source": "newyorker.com",
@@ -173,7 +187,8 @@
     },
     {
       "body": null,
-      "comments": 1,
+      "comments": null,
+      "commentsCount": 1,
       "id": "9052160",
       "points": 8,
       "source": "theguardian.com",
@@ -185,7 +200,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9052149",
       "points": 2,
       "source": "apple.com",
@@ -197,7 +213,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9052147",
       "points": 3,
       "source": "resobscura.blogspot.com",
@@ -209,7 +226,8 @@
     },
     {
       "body": null,
-      "comments": 1,
+      "comments": null,
+      "commentsCount": 1,
       "id": "9052129",
       "points": 36,
       "source": "haskell.org",
@@ -221,7 +239,8 @@
     },
     {
       "body": null,
-      "comments": 7,
+      "comments": null,
+      "commentsCount": 7,
       "id": "9052128",
       "points": 27,
       "source": null,
@@ -233,7 +252,8 @@
     },
     {
       "body": null,
-      "comments": 1,
+      "comments": null,
+      "commentsCount": 1,
       "id": "9051942",
       "points": 1,
       "source": "benguild.com",
@@ -245,7 +265,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9051924",
       "points": 2,
       "source": "jonathanfields.com",
@@ -257,7 +278,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9051895",
       "points": 1,
       "source": "nytimes.com",
@@ -269,7 +291,8 @@
     },
     {
       "body": null,
-      "comments": 5,
+      "comments": null,
+      "commentsCount": 5,
       "id": "9051888",
       "points": 2,
       "source": null,
@@ -281,7 +304,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9051886",
       "points": 2,
       "source": "businessinsider.in",
@@ -293,7 +317,8 @@
     },
     {
       "body": null,
-      "comments": 2,
+      "comments": null,
+      "commentsCount": 2,
       "id": "9051870",
       "points": 7,
       "source": "artofmanliness.com",
@@ -305,7 +330,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9051866",
       "points": 2,
       "source": "github.com",
@@ -317,7 +343,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9051861",
       "points": 5,
       "source": "jsfiddle.net",
@@ -329,7 +356,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9051852",
       "points": 1,
       "source": "bbc.co.uk",
@@ -341,7 +369,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9051845",
       "points": 1,
       "source": "rongarret.info",
@@ -353,7 +382,8 @@
     },
     {
       "body": null,
-      "comments": 1,
+      "comments": null,
+      "commentsCount": 1,
       "id": "9051844",
       "points": 2,
       "source": null,

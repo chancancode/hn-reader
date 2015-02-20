@@ -5,7 +5,8 @@
   "stories": [
     {
       "body": null,
-      "comments": 6,
+      "comments": null,
+      "commentsCount": 6,
       "id": "9049597",
       "points": 59,
       "source": "arxiv.org",
@@ -17,7 +18,8 @@
     },
     {
       "body": null,
-      "comments": 26,
+      "comments": null,
+      "commentsCount": 26,
       "id": "9049907",
       "points": 60,
       "source": "technoquarter.blogspot.com",
@@ -29,7 +31,8 @@
     },
     {
       "body": null,
-      "comments": 6,
+      "comments": null,
+      "commentsCount": 6,
       "id": "9049945",
       "points": 64,
       "source": "marc.info",
@@ -41,7 +44,8 @@
     },
     {
       "body": null,
-      "comments": 14,
+      "comments": null,
+      "commentsCount": 14,
       "id": "9049348",
       "points": 69,
       "source": "stupidpythonideas.blogspot.com",
@@ -53,7 +57,8 @@
     },
     {
       "body": null,
-      "comments": 43,
+      "comments": null,
+      "commentsCount": 43,
       "id": "9050316",
       "points": 69,
       "source": "34cross.in",
@@ -65,7 +70,8 @@
     },
     {
       "body": null,
-      "comments": 5,
+      "comments": null,
+      "commentsCount": 5,
       "id": "9050468",
       "points": 19,
       "source": "hmarco.org",
@@ -77,7 +83,8 @@
     },
     {
       "body": null,
-      "comments": 4,
+      "comments": null,
+      "commentsCount": 4,
       "id": "9050595",
       "points": 15,
       "source": "wsj.com",
@@ -89,7 +96,8 @@
     },
     {
       "body": null,
-      "comments": 175,
+      "comments": null,
+      "commentsCount": 175,
       "id": "9048772",
       "points": 331,
       "source": "theguardian.com",
@@ -101,7 +109,8 @@
     },
     {
       "body": null,
-      "comments": 19,
+      "comments": null,
+      "commentsCount": 19,
       "id": "9049317",
       "points": 67,
       "source": "aphyr.com",
@@ -113,7 +122,8 @@
     },
     {
       "body": null,
-      "comments": 11,
+      "comments": null,
+      "commentsCount": 11,
       "id": "9050009",
       "points": 41,
       "source": "topazruby.com",
@@ -125,7 +135,8 @@
     },
     {
       "body": null,
-      "comments": 192,
+      "comments": null,
+      "commentsCount": 192,
       "id": "9049208",
       "points": 675,
       "source": null,
@@ -137,7 +148,8 @@
     },
     {
       "body": null,
-      "comments": 17,
+      "comments": null,
+      "commentsCount": 17,
       "id": "9050008",
       "points": 29,
       "source": "cidercraftmag.com",
@@ -149,7 +161,8 @@
     },
     {
       "body": null,
-      "comments": 22,
+      "comments": null,
+      "commentsCount": 22,
       "id": "9050372",
       "points": 49,
       "source": "bloomberg.com",
@@ -161,7 +174,8 @@
     },
     {
       "body": null,
-      "comments": 8,
+      "comments": null,
+      "commentsCount": 8,
       "id": "9049289",
       "points": 30,
       "source": "meetingcpp.com",
@@ -173,7 +187,8 @@
     },
     {
       "body": null,
-      "comments": 15,
+      "comments": null,
+      "commentsCount": 15,
       "id": "9049113",
       "points": 155,
       "source": "ramtin-amin.fr",
@@ -185,7 +200,8 @@
     },
     {
       "body": null,
-      "comments": 6,
+      "comments": null,
+      "commentsCount": 6,
       "id": "9049917",
       "points": 25,
       "source": "ethereum.org",
@@ -197,7 +213,8 @@
     },
     {
       "body": null,
-      "comments": 6,
+      "comments": null,
+      "commentsCount": 6,
       "id": "9050452",
       "points": 19,
       "source": "guigarage.com",
@@ -210,6 +227,7 @@
     {
       "body": null,
       "comments": null,
+      "commentsCount": null,
       "id": "job-0",
       "points": null,
       "source": "segment.com",
@@ -221,7 +239,8 @@
     },
     {
       "body": null,
-      "comments": 80,
+      "comments": null,
+      "commentsCount": 80,
       "id": "9049186",
       "points": 134,
       "source": "agileupgrade.com",
@@ -233,7 +252,8 @@
     },
     {
       "body": null,
-      "comments": 4,
+      "comments": null,
+      "commentsCount": 4,
       "id": "9049737",
       "points": 23,
       "source": "wornandwound.com",
@@ -245,7 +265,8 @@
     },
     {
       "body": null,
-      "comments": 121,
+      "comments": null,
+      "commentsCount": 121,
       "id": "9046526",
       "points": 355,
       "source": "rust-lang.org",
@@ -257,7 +278,8 @@
     },
     {
       "body": null,
-      "comments": 197,
+      "comments": null,
+      "commentsCount": 197,
       "id": "9044805",
       "points": 379,
       "source": "bloomberg.com",
@@ -269,7 +291,8 @@
     },
     {
       "body": null,
-      "comments": 11,
+      "comments": null,
+      "commentsCount": 11,
       "id": "9051540",
       "points": 71,
       "source": "businessinsider.in",
@@ -281,7 +304,8 @@
     },
     {
       "body": null,
-      "comments": 7,
+      "comments": null,
+      "commentsCount": 7,
       "id": "9051271",
       "points": 32,
       "source": "bbc.co.uk",
@@ -293,7 +317,8 @@
     },
     {
       "body": null,
-      "comments": 72,
+      "comments": null,
+      "commentsCount": 72,
       "id": "9049698",
       "points": 136,
       "source": "github.com",
@@ -305,7 +330,8 @@
     },
     {
       "body": null,
-      "comments": 34,
+      "comments": null,
+      "commentsCount": 34,
       "id": "9049200",
       "points": 109,
       "source": "kaspars.net",
@@ -317,7 +343,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9049690",
       "points": 16,
       "source": "spitalfieldslife.com",
@@ -329,7 +356,8 @@
     },
     {
       "body": null,
-      "comments": 46,
+      "comments": null,
+      "commentsCount": 46,
       "id": "9050343",
       "points": 166,
       "source": null,
@@ -341,7 +369,8 @@
     },
     {
       "body": null,
-      "comments": 0,
+      "comments": null,
+      "commentsCount": 0,
       "id": "9051189",
       "points": 6,
       "source": "writemom.net",
@@ -353,7 +382,8 @@
     },
     {
       "body": null,
-      "comments": 120,
+      "comments": null,
+      "commentsCount": 120,
       "id": "9044719",
       "points": 298,
       "source": "broadbandnow.com",

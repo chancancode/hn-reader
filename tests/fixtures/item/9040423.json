@@ -1,7 +1,601 @@
 {
+  "comments": [
+    {
+      "body": "Sandstorm and portals are awesome. If you add integration with something like OpenStack and deploy the system behind corporate firewalls. I bet it would reduce the hurdles to enterprise sales. (If corporate teams can just one click install new services because they are are hosted internally)",
+      "comments": [
+        "9041476"
+      ],
+      "id": "9041447",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9040423",
+      "submitted": "2 days ago",
+      "submitter": "sida"
+    },
+    {
+      "body": "Thank you! Portal already supports booting VMs by emulating OpenStack's metadata service, that's how we're supporting CloudInit with Ubuntu and CentOS.\n\nBusinesses are an easy sell, but we want regular people on the internet to run their own stuff too :-)",
+      "comments": [],
+      "id": "9041476",
+      "isDead": false,
+      "parent": "9041447",
+      "quality": 1,
+      "story": "9040423",
+      "submitted": "2 days ago",
+      "submitter": "staunch"
+    },
+    {
+      "body": "This is awesome! I just signed up. A couple of questions:- If I want add my own app, will there be docs/examples on how to do that? I'd love to have my own app to deploy something like Jenkins.\n\n- What are the backup options? If I want to grab a snapshot locally (just b/c), is that possible?",
+      "comments": [
+        "9045224"
+      ],
+      "id": "9045199",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9040423",
+      "submitted": "1 day ago",
+      "submitter": "fmitchell0"
+    },
+    {
+      "body": "Thank you very much!1. There will be (basic) developer docs very soon. We'll make sure to send a link to everyone who has signed up.\n\n2. Yes, you can download snapshots of your data at any time. You can't upload them yet, but that's coming.",
+      "comments": [],
+      "id": "9045224",
+      "isDead": false,
+      "parent": "9045199",
+      "quality": 1,
+      "story": "9040423",
+      "submitted": "1 day ago",
+      "submitter": "staunch"
+    },
+    {
+      "body": "Very cool! A few questions:1. Is the hardware infrastructure in house or built on another cloud provider? I ask because you offer several server locations. Am I afforded the same up-times I'd find with AWS or Azure?2. How do you deal with having multiple apps on the same port? Could Wordpress and another web server exist at the same time? Can I SSH to multiple machines?3. Do you have stronger specs on compute power? \"Standard\" doesn't really mean much to me.\n\n4. Great domain name.",
+      "comments": [
+        "9041274"
+      ],
+      "id": "9041191",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9040423",
+      "submitted": "2 days ago",
+      "submitter": "nharada"
+    },
+    {
+      "body": "1. We're using all of our own hardware, co-located in good datacenters with high quality internet providers. I've been building and deploying servers around the world for over a decade, so I have some strong opinions on this. We may also use rented dedicated servers in similar facilities during the public beta, but that's temporary. Uptimes will be comparable.2. You can forward different external ports to the same internal ports on apps (e.g. port 31245 -> port 22 on your Ubuntu app). You can also launch VPN server and then ssh to your servers from inside your virtual LAN :-)Web traffic is handled by the Portal system, so port 80 and 443 are \"intercepted\" by default. They proxy HTTP traffic to your apps based on the paths that you specify. You can forward /blog to one WordPress instance and /otherblog to another WordPress instance.3. The compute power levels are meant to be relative to standard usage, but benchmarks are probably better for hackers, so we'll do that.4. Thank you!\n\nGreat feedback, thank you!",
+      "comments": [
+        "9042626"
+      ],
+      "id": "9041274",
+      "isDead": false,
+      "parent": "9041191",
+      "quality": 1,
+      "story": "9040423",
+      "submitted": "2 days ago",
+      "submitter": "staunch"
+    },
+    {
+      "body": "For (2) can we add different domains to be used? It seems to be like it (from the screenshot, there's a select box for the domains) though I'm not sure. Thanks",
+      "comments": [
+        "9042635"
+      ],
+      "id": "9042626",
+      "isDead": false,
+      "parent": "9041274",
+      "quality": 1,
+      "story": "9040423",
+      "submitted": "2 days ago",
+      "submitter": "sudent"
+    },
+    {
+      "body": "Yes, you can have multiple domains per account and map paths on them to different apps. Thanks for the questions!",
+      "comments": [],
+      "id": "9042635",
+      "isDead": false,
+      "parent": "9042626",
+      "quality": 1,
+      "story": "9040423",
+      "submitted": "2 days ago",
+      "submitter": "staunch"
+    },
+    {
+      "body": "One question: Your basic package says 1GB of RAM. Is that 1GB available to me or is the OS using some of that to. The reason I am asking is I have been considering something like this to run a Minecraft server for my kids and their friends. Ever since I changed providers their port forwarding is broken and I can't serve it from home. However to run efficiently a Minecraft server needs 1GB to itself so if the OS is using some of that RAM getting the basic service is out and so are the other options since they are not affordable for me.",
+      "comments": [
+        "9044911"
+      ],
+      "id": "9044342",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9040423",
+      "submitted": "1 day ago",
+      "submitter": "markbernard"
+    },
+    {
+      "body": "If it doesn't work on a 1GB VPS, it probably won't work on the Standard plan. But it might, if you can allocate a bit less RAM for Minecraft's java process and/or use some swap.\n\nI'm adding this to the list of things to test during the public beta, because we do want people to be able to run Minecraft on the Standard server. Java is just such a memory hog!",
+      "comments": [],
+      "id": "9044911",
+      "isDead": false,
+      "parent": "9044342",
+      "quality": 1,
+      "story": "9040423",
+      "submitted": "1 day ago",
+      "submitter": "staunch"
+    },
+    {
+      "body": "I would love to see an open source architecture with a common underling storage and social capabilities on which we could build apps and interface with others in some kind of decentralized network.Maybe something like app.net but without a central server with multiple apps. I could install it on my server, dump my photos in there, share with other people, be able to manipulate those images with another app for filters or something. Does that makes any sense? Is there anything like it already?\n\nSandstorm and portal are cool projects but every app that you install uses it's own infrastructure, it's own database, it's own architecture, and that makes interoperability hard.",
+      "comments": [
+        "9043573",
+        "9042634",
+        "9043355"
+      ],
+      "id": "9042585",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9040423",
+      "submitted": "2 days ago",
+      "submitter": "eberfreitas"
+    },
+    {
+      "body": "It's possible but I don't know of anything open source that exists yet. The stack I'm working on deals with the underlying issues you describe, including storage and identity/connectivity (which is the basis of the social network aspect you mention) [1]. I commented a few days ago on how such a system might work for the example of photos [2].[1] http://nymote.org/ (which uses MirageOS unikernels http://mirage.io)\n\n[2] https://news.ycombinator.com/item?id=9026778",
+      "comments": [],
+      "id": "9043573",
+      "isDead": false,
+      "parent": "9042585",
+      "quality": 1,
+      "story": "9040423",
+      "submitted": "2 days ago",
+      "submitter": "amirmc"
+    },
+    {
+      "body": "It should be possible to run an entirely open source set of apps on Portal or Sandstorm and move between services freely.With Portal, we're experimenting with things like Camlistore[1] running as apps that advertise their storage capabilities generically to other apps through a simple API. We won't have that for the first version, but it is coming. The complexity is mostly on developers modifying their apps, which is why we're avoiding initially.\n\n1. http://camlistore.org/",
+      "comments": [],
+      "id": "9042634",
+      "isDead": false,
+      "parent": "9042585",
+      "quality": 1,
+      "story": "9040423",
+      "submitted": "2 days ago",
+      "submitter": "staunch"
+    },
+    {
+      "body": "Maybe you'd be interested in the sovereign project?https://github.com/al3x/sovereign.gitSovereign is a set of Ansible playbooks that you can use to build and maintain your own personal cloud (I know I know). It’s based entirely on open source software, so you’re in control.\n\nIt seems to be a pretty active and prosperous project at the moment .. I'm part-way through getting my own rPi-based cloud infrastructure set up, and I'm finding it quite enlightening to be using Sovereign as the base.",
+      "comments": [],
+      "id": "9043355",
+      "isDead": false,
+      "parent": "9042585",
+      "quality": 1,
+      "story": "9040423",
+      "submitted": "2 days ago",
+      "submitter": "fit2rule"
+    },
+    {
+      "body": "Domain registration and ssl cert are included? How are sites/services backed up? Is it easy to download all apps and data locally for backup?",
+      "comments": [
+        "9050742"
+      ],
+      "id": "9049705",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9040423",
+      "submitted": "19 hours ago",
+      "submitter": "owly"
+    },
+    {
+      "body": "1. Portal does support domain registration and SSL certificate creation. You pay for those annually, separate from the cost of your server.2. Apps and data are backed up, encrypted, and stored off-site.3. Your data is always easy to download. Open source apps are always easy to download. If you choose to use proprietary apps, you may only be able to run those on other supported services. But importing your data from a proprietary app to a non-propritary app should always be possible.\n\nThanks for the questions!",
+      "comments": [],
+      "id": "9050742",
+      "isDead": false,
+      "parent": "9049705",
+      "quality": 1,
+      "story": "9040423",
+      "submitted": "13 hours ago",
+      "submitter": "staunch"
+    },
+    {
+      "body": "This looks great and I'm always please to see products that make it easier for people run their own infrastructure without having to become sysadmins [1].  I especially like the demo video that describes how apps can be added.However, one of the things I care about is the ability to self-host if I want to (even though I'm personally unlikely to). I can do this with Sandstorm but doesn't look like I can with Portal.  Are there plans to make this possible?\n\n[1] I work on a project with similar aims but takes a clean-slate approach, based on unikernels - http://amirchaudhry.com/brewing-miso-to-serve-nymote/",
+      "comments": [
+        "9041725"
+      ],
+      "id": "9041684",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9040423",
+      "submitted": "2 days ago",
+      "submitter": "amirmc"
+    },
+    {
+      "body": "We want people to use Portal because it's the best way to run their stuff, not because of any kind of lock in. Making it easy to move away from Portal will be a core feature. If there aren't good alternatives, we may make it possible to download and run the Portal system on your own machine. Making it easy to export data might be easy enough.Ultimately though, there's no way to have a server in the cloud without relying on someone, so we're trying to build the ideal service for people who want privacy, performance, security, and freedom.\n\nWe hope other people will build similar services, so users have choice, and we will cooperate with anyone who has an open platform.",
+      "comments": [],
+      "id": "9041725",
+      "isDead": false,
+      "parent": "9041684",
+      "quality": 1,
+      "story": "9040423",
+      "submitted": "2 days ago",
+      "submitter": "staunch"
+    },
+    {
+      "body": "Looks cool but anyone know what the hardware specs (CPU/RAID/SSD model/etc...) are?",
+      "comments": [
+        "9040786"
+      ],
+      "id": "9040734",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9040423",
+      "submitted": "2 days ago",
+      "submitter": "jaequery"
+    },
+    {
+      "body": "Thanks! Performance should be on par with high quality VPS providers like EC2 using SSD instances. We're using all modern Intel CPUs and Samsung SSDs with Linux software RAID, currently.",
+      "comments": [
+        "9041481"
+      ],
+      "id": "9040786",
+      "isDead": false,
+      "parent": "9040734",
+      "quality": 1,
+      "story": "9040423",
+      "submitted": "2 days ago",
+      "submitter": "staunch"
+    },
+    {
+      "body": "What's the CPU to be exact? If it's something like an sandy/ivy-bridge I was thinking of giving you guys a try. We are not too happy with EC2's specs and looking for something faster.",
+      "comments": [
+        "9041541"
+      ],
+      "id": "9041481",
+      "isDead": false,
+      "parent": "9040786",
+      "quality": 1,
+      "story": "9040423",
+      "submitted": "2 days ago",
+      "submitter": "jaequery"
+    },
+    {
+      "body": "Yes and it should be faster, but I don't want to promise anything until we see what real world usage and performance is like during the beta. Thanks for the feedback, again.",
+      "comments": [],
+      "id": "9041541",
+      "isDead": false,
+      "parent": "9041481",
+      "quality": 1,
+      "story": "9040423",
+      "submitted": "2 days ago",
+      "submitter": "staunch"
+    },
+    {
+      "body": "What's the difference between this and Sandstorm?",
+      "comments": [
+        "9041183",
+        "9041147"
+      ],
+      "id": "9041116",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9040423",
+      "submitted": "2 days ago",
+      "submitter": "fiatjaf"
+    },
+    {
+      "body": "It's an alternative to Sandstorm. We've made some different choices, like using full KVM VMs instead of Linux containers for apps. Portal also doesn't require that apps know much about Portal itself to be run as apps. They can use their own authentication or the single sign on system.An unmodified Ubuntu cloud image is a valid (though basic) Portal app and can boot using CloudInit. Real world apps store data on the separate \"user data\" drive that is attached to all app VMs, which makes them upgradeable. And they almost always have a web interface for the user to interact with.They can also use the Portal metadata service to interact with the system. But for the most part apps just receive raw TCP/IP traffic or proxied HTTP traffic and work normally.We began working on Portal before Sandstorm was public, but I can tell you this is the first time I've been happy to see other people working on the same idea as myself. Decentralizing the internet is more of a mission than a competition.\n\nAlso, we expect to be able to run Sandstorm as a Portal app, so you could run many Sandstorm apps inside one VM, assuming they're okay with that.",
+      "comments": [
+        "9042406",
+        "9041979"
+      ],
+      "id": "9041183",
+      "isDead": false,
+      "parent": "9041116",
+      "quality": 1,
+      "story": "9040423",
+      "submitted": "2 days ago",
+      "submitter": "staunch"
+    },
+    {
+      "body": "> Also, we expect to be able to run Sandstorm as a Portal app, so you could run many Sandstorm apps inside one VM, assuming they're okay with that.\n\nI'm definitely OK with that. :)",
+      "comments": [
+        "9042472"
+      ],
+      "id": "9042406",
+      "isDead": false,
+      "parent": "9041183",
+      "quality": 1,
+      "story": "9040423",
+      "submitted": "2 days ago",
+      "submitter": "kentonv"
+    },
+    {
+      "body": "Awesome to hear that. You guys seem to have the same motivations, so I'm sure we can make everything play nicely together.\n\nI love your LAN house, btw. We're also insanely hardcore PC gamers who think LAN parties are the most fun thing in the world :-)",
+      "comments": [],
+      "id": "9042472",
+      "isDead": false,
+      "parent": "9042406",
+      "quality": 1,
+      "story": "9040423",
+      "submitted": "2 days ago",
+      "submitter": "staunch"
+    },
+    {
+      "body": "What I like about the VM-centric design you've adopted is that 'apps' are long-running by default. Sandstorm in its current form is not great for hosting internet-facing sites.",
+      "comments": [
+        "9042434",
+        "9042084"
+      ],
+      "id": "9041979",
+      "isDead": false,
+      "parent": "9041183",
+      "quality": 1,
+      "story": "9040423",
+      "submitted": "2 days ago",
+      "submitter": "rdrey"
+    },
+    {
+      "body": "Sandstorm tries to encourage web publishing apps to work in a way that significantly reduces resource usage and improves security. The platform will let an app publish a static web site which does not require starting up the app to serve. The platform also lets an app expose an API which starts up the app on-demand. So the app can publish a bunch of static content which includes Javascript that invokes the API when needed (e.g. when a comment is posted), which then wakes up the app to update the static content.\n\nBut, yeah, for a fully-dynamic web site served to a large number of users, Sandstorm currently isn't well-suited. It'll get there eventually, but given that other platforms (like Portal) already cover this use case pretty well, we wanted to focus on the interesting things we can do with fine-grained containers.",
+      "comments": [],
+      "id": "9042434",
+      "isDead": false,
+      "parent": "9041979",
+      "quality": 1,
+      "story": "9040423",
+      "submitted": "2 days ago",
+      "submitter": "kentonv"
+    },
+    {
+      "body": "What is that?",
+      "comments": [],
+      "id": "9042084",
+      "isDead": false,
+      "parent": "9041979",
+      "quality": 1,
+      "story": "9040423",
+      "submitted": "2 days ago",
+      "submitter": "general_failure"
+    },
+    {
+      "body": "This runs VMs, Sandstorm runs OS containers. Apps for Sandstorm might need a little work to integrate with Sandstorm's model for users and permissions, but apps in Portal won't have a built-in mechanism for sharing documents/data and will each have individual authentication, I assume.",
+      "comments": [
+        "9041229"
+      ],
+      "id": "9041147",
+      "isDead": false,
+      "parent": "9041116",
+      "quality": 1,
+      "story": "9040423",
+      "submitted": "2 days ago",
+      "submitter": "rdrey"
+    },
+    {
+      "body": "Portal will have a method for sharing data between apps, but it's not there yet. For authentication, apps can run an HTTP server on a special port, which will be proxied to the user pre-authenticated. That might change before launch, but it's fairly simple.\n\nIn the case of apps that publish public URLs (like WordPress) they can choose to use Portal's single sign on or not.",
+      "comments": [
+        "9041961"
+      ],
+      "id": "9041229",
+      "isDead": false,
+      "parent": "9041147",
+      "quality": 1,
+      "story": "9040423",
+      "submitted": "2 days ago",
+      "submitter": "staunch"
+    },
+    {
+      "body": "Cool, thanks for the clarification. Glad you're building a single sign on feature!",
+      "comments": [],
+      "id": "9041961",
+      "isDead": false,
+      "parent": "9041229",
+      "quality": 1,
+      "story": "9040423",
+      "submitted": "2 days ago",
+      "submitter": "rdrey"
+    },
+    {
+      "body": "First of all I think this is awesome!  But my question is, the system looks ready...If I pay now, why do I have to wait till April?",
+      "comments": [
+        "9040535"
+      ],
+      "id": "9040514",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9040423",
+      "submitted": "2 days ago",
+      "submitter": "dETAIL"
+    },
+    {
+      "body": "There's a bit more to do before it's ready. Your card won't be charged until you start the beta, so signing up just reserves your spot as a founding user. Thanks!",
+      "comments": [
+        "9041714"
+      ],
+      "id": "9040535",
+      "isDead": false,
+      "parent": "9040514",
+      "quality": 1,
+      "story": "9040423",
+      "submitted": "2 days ago",
+      "submitter": "staunch"
+    },
+    {
+      "body": "Signed up!",
+      "comments": [],
+      "id": "9041714",
+      "isDead": false,
+      "parent": "9040535",
+      "quality": 1,
+      "story": "9040423",
+      "submitted": "2 days ago",
+      "submitter": "dETAIL"
+    },
+    {
+      "body": "I'm very interested in managed email.  But what happens when something goes wrong - for example the database that manages email crashing?  Is this supported as a service?",
+      "comments": [
+        "9044943"
+      ],
+      "id": "9043674",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9040423",
+      "submitted": "1 day ago",
+      "submitter": "zhte415"
+    },
+    {
+      "body": "Yes, we'll help in almost any case like that. In many cases app developers should be able to help as well. We may not be able to fix a buggy email app, but the author could upload a fixed version and have you upgrade, for example.",
+      "comments": [],
+      "id": "9044943",
+      "isDead": false,
+      "parent": "9043674",
+      "quality": 1,
+      "story": "9040423",
+      "submitted": "1 day ago",
+      "submitter": "staunch"
+    },
+    {
+      "body": "I'm trying to figure out from the site, but there seems to be no info on that. Is it possible for me to host my own Portal (similar to Sandstorm)?",
+      "comments": [
+        "9044971"
+      ],
+      "id": "9043667",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9040423",
+      "submitted": "1 day ago",
+      "submitter": "NhanH"
+    },
+    {
+      "body": "Not yet, because we don't think regular people can do that. And it's still a huge pain for technical people.But it is very possible that we'll release a version of Portal that you can run yourself.\n\nDo you want it as a backup plan? Or because you already have your own server hardware?",
+      "comments": [
+        "9048088"
+      ],
+      "id": "9044971",
+      "isDead": false,
+      "parent": "9043667",
+      "quality": 1,
+      "story": "9040423",
+      "submitted": "1 day ago",
+      "submitter": "staunch"
+    },
+    {
+      "body": "I'm already running my own server hardware for personal stuffs, so I'm just hesitant to have another one (the proposition is very appealing, but I'm too lazy to maintain both at once).",
+      "comments": [],
+      "id": "9048088",
+      "isDead": false,
+      "parent": "9044971",
+      "quality": 1,
+      "story": "9040423",
+      "submitted": "1 day ago",
+      "submitter": "NhanH"
+    },
+    {
+      "body": "This is awesome: exactly the kind of simplicity the personal server market needs. I dropped you an email; really interested in making Known work with the platform.",
+      "comments": [
+        "9041906"
+      ],
+      "id": "9041882",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9040423",
+      "submitted": "2 days ago",
+      "submitter": "benwerd"
+    },
+    {
+      "body": "Awesome, thank you. I'll reply to your email, but the answer is definitely yes!I've created a number of SaaS services over the years and the pain of building a scaleable service shouldn't have to be repeated by every single app developer. It's a huge distraction from building a great app.\n\nIt shouldn't take much work to get Known running as a one-click auto-upgrading app, but I look forward to your feedback on the process. Thanks!",
+      "comments": [],
+      "id": "9041906",
+      "isDead": false,
+      "parent": "9041882",
+      "quality": 1,
+      "story": "9040423",
+      "submitted": "2 days ago",
+      "submitter": "staunch"
+    },
+    {
+      "body": "I'm interested for managed email. Signed up!",
+      "comments": [
+        "9042864",
+        "9041555"
+      ],
+      "id": "9041544",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9040423",
+      "submitted": "2 days ago",
+      "submitter": "askedrelic"
+    },
+    {
+      "body": "Same here.",
+      "comments": [],
+      "id": "9042864",
+      "isDead": false,
+      "parent": "9041544",
+      "quality": 1,
+      "story": "9040423",
+      "submitted": "2 days ago",
+      "submitter": "leesalminen"
+    },
+    {
+      "body": "Thank you!",
+      "comments": [],
+      "id": "9041555",
+      "isDead": false,
+      "parent": "9041544",
+      "quality": 1,
+      "story": "9040423",
+      "submitted": "2 days ago",
+      "submitter": "staunch"
+    },
+    {
+      "body": "Your website says:> Portal is designed to help create a world in which users are not locked in by proprietary technology. Portal users should be able to switch to alternative hosting companies and back again, with little effort.\n\nCould you elaborate on that a bit? Because from the website I get the sense that your Portal software itself is proprietary, not open source, but I could be mistaken.",
+      "comments": [
+        "9042901"
+      ],
+      "id": "9042868",
+      "isDead": false,
+      "parent": null,
+      "quality": 1,
+      "story": "9040423",
+      "submitted": "2 days ago",
+      "submitter": "itistoday2"
+    },
+    {
+      "body": "We may end up releasing standalone version of Portal as open source that lets technical users run everything themselves. But that doesn't help regular people and it doesn't solve the problem of renting a server from a trustworthy host.The biggest issue is lock in, not proprietary vs open source. It's okay that Facebook is proprietary, but we don't think it's right that you can't switch from Facebook to a new social network, without losing most of your data. They create intentionally broken data exporting systems to keep people locked in. They can only do this because they hold all of the data we've given them.With Portal users control all of the data themselves, so they can give it to any new app they want to use. And they can even export their entire Portal environment and take it to another provider entirely.\n\nThanks for the feedback!",
+      "comments": [],
+      "id": "9042901",
+      "isDead": false,
+      "parent": "9042868",
+      "quality": 1,
+      "story": "9040423",
+      "submitted": "2 days ago",
+      "submitter": "staunch"
+    }
+  ],
   "story": {
     "body": null,
-    "comments": 47,
+    "comments": [
+      "9041447",
+      "9045199",
+      "9041191",
+      "9044342",
+      "9042585",
+      "9049705",
+      "9041684",
+      "9040734",
+      "9041116",
+      "9040514",
+      "9043674",
+      "9043667",
+      "9041882",
+      "9041544",
+      "9042868"
+    ],
+    "commentsCount": 47,
     "id": "9040423",
     "points": 85,
     "source": "portalplatform.net",
