@@ -16,6 +16,6 @@
     "pretender": "0.1.0",
     "bourbon": "~4.1.1",
     "neat": "~1.7.1",
-    "elusive-iconfont": "chancancode/elusive-iconfont#sass-variable-default"
+    "elusive-iconfont": "reduxframework/elusive-iconfont"
   }
 }
