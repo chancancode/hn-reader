@@ -13,7 +13,7 @@ export default DS.Adapter.extend({
 
       var xhr = new XMLHttpRequest();
 
-      xhr.open("GET", `/item?id=${id}`, true);
+      xhr.open("GET", this.buildUrl(`item?id=${id}`), true);
       xhr.responseType = "document";
 
       xhr.onload = () => {
