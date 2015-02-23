@@ -20,7 +20,8 @@ $orange: #F07530;
 $faded: #F6F6EF;
 $dark-gray: #333;
 $medium-gray: #828282;
-$light-gray: #aaa;
+$light-gray: #AAA;
+$ultra-light-gray: #DFDFDF;
 
 // Font Colors
 $base-background-color: $faded;
@@ -38,5 +39,10 @@ $form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($action-color, $l
 // App bar
 $app-bar-height: 50px;
 
+// Gutter
+$gutter-width: 70px;
+$gutter-full-width: 320px;
+
 // Sidebar
 $sidebar-width: 400px;
+$sidebar-narrow-width: 320px;

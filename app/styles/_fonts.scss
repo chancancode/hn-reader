@@ -1,2 +1,7 @@
-$elusiveWebfontPath: "/fonts/";
-@import "elusive-webfont";
+$entypoPlusWebfontPath: "/fonts/";
+
+@import "entypo-plus";
+
+[class^="icon-"], [class*=" icon-"] {
+  font-size: 85%;
+}

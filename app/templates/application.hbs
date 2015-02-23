@@ -1,33 +1,38 @@
 <div class="app-bar">
-  <div class="left">
-    {{#nav-menu}}
-      {{#link-to "stories" (query-params filter="front-page")}}
-        Front Page
-      {{/link-to}}
-
-      {{#link-to "stories" (query-params filter="latest")}}
-        Latest Submissions
-      {{/link-to}}
-
-      {{#link-to "stories" (query-params filter="active")}}
-        Active
-      {{/link-to}}
-
-      {{#link-to "stories" (query-params filter="show-hn")}}
-        Show HN
-      {{/link-to}}
-
-      {{#link-to "stories" (query-params filter="ask-hn")}}
-        Ask HN
-      {{/link-to}}
-
-      {{#link-to "stories" (query-params filter="jobs")}}
-        Jobs
-      {{/link-to}}
-    {{/nav-menu}}
+  <div class="gutter" {{action "toggleNavBar"}}>
+    <i {{bind-attr class=":icon-menu showingNavBar:rotate-cw"}}></i>
   </div>
+  Hacker News
 </div>
 
-<div class="app-content">
+<div class="app-bar-shadow"></div>
+
+<nav class="app-nav app-panel">
+  {{#link-to "stories" (query-params filter="front-page") title="Front Page"}}
+    <div class="gutter"><i class="icon-news"></i></div> Front Page
+  {{/link-to}}
+
+  {{#link-to "stories" (query-params filter="latest") title="Latest Submissions"}}
+    <div class="gutter"><i class="icon-hour-glass"></i></div> Latest Submissions
+  {{/link-to}}
+
+  {{#link-to "stories" (query-params filter="active") title="Active"}}
+    <div class="gutter"><i class="icon-thermometer"></i></div> Active
+  {{/link-to}}
+
+  {{#link-to "stories" (query-params filter="show-hn") title="Show HN"}}
+    <div class="gutter"><i class="icon-modern-mic"></i></div> Show HN
+  {{/link-to}}
+
+  {{#link-to "stories" (query-params filter="ask-hn") title="Ask HN"}}
+    <div class="gutter"><i class="icon-help"></i></div> Ask HN
+  {{/link-to}}
+
+  {{#link-to "stories" (query-params filter="jobs") title="Jobs"}}
+    <div class="gutter"><i class="icon-suitcase"></i></div> Jobs
+  {{/link-to}}
+</nav>
+
+<div {{bind-attr class=":app-main showingNavBar:slide-out"}}>
   {{outlet}}
 </div>

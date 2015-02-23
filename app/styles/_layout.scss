@@ -1,77 +1,185 @@
-.app-bar {
-  @include position(absolute, 0px 0px null 0px);
-  height: $app-bar-height;
-
-  background-color: $orange;
-  color: white;
-
-  font-size: em(20);
-  line-height: $app-bar-height;
-
-  z-index: 2;
-
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
-
-  .left {
-    width: $sidebar-width;
-    padding: 0px em(14);
-  }
-
-  a {
-    color: white;
-  }
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
 }
 
-.app-content {
-  @include position(absolute, $app-bar-height 0px 0px 0px);
-
+.app-container {
+  width: 100%;
+  height: 100%;
   overflow: hidden;
 }
 
-.sidebar {
-  @include position(absolute, 0px 0px 0px 0px);
+.app-bar {
+  @include position(absolute, 0px 0px null 0px);
+  height: $app-bar-height;
+  background: $orange;
+
+  &, a {
+    color: white;
+  }
+
+  font-size: 1.25em;
+  font-weight: 500;
+  line-height: $app-bar-height;
+
+  z-index: 3;
+
+  padding: 0px 0.5em;
+
+  .gutter {
+    margin-left: -0.5em;
+    cursor: pointer;
+
+    i {
+      display: inline-block;
+      @include transition(transform 0.25s ease);
+    }
+  }
+}
+
+.app-bar-shadow {
+  @include position(absolute, 0px 0px null 0px);
+  height: $app-bar-height;
+
+  z-index: 2;
+
+  box-shadow: -1px 0px $app-bar-height/4 rgba(0, 0, 0, 0.4);
+}
+
+.app-panel {
+  @include position(absolute, $app-bar-height 0px 0px 0px);
+  overflow: hidden;
+  z-index: 1;
+}
+
+.app-nav {
+  background: darken($orange, 30%);
+  z-index: 0;
 
   overflow-x: hidden;
   overflow-y: auto;
   overflow: scroll;
   -webkit-overflow-scrolling: touch;
 
-  background: darken($faded, 5%);
+  a {
+    display: block;
+    height: $app-bar-height;
+    line-height: $app-bar-height;
 
-  @include media(max-width $large-screen) {
-    z-index: 0;
+    font-size: 1.25em;
+
+    margin: 1em 0px;
+
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.75);
   }
 
-  @include media($large-screen) {
-    width: $sidebar-width;
+  a.active, a:hover {
+    color: white;
   }
 }
 
-.main {
-  @include position(absolute, 0px 0px 0px 105%);
+.gutter {
+  display: inline-block;
+  width: $gutter-width;
+  text-align: center;
 
+  i {
+    font-size: 150%;
+    vertical-align: middle;
+  }
+}
+
+.app-main {
+  @include position(absolute, 0px 0px 0px $gutter-width);
   background: $faded;
   overflow: hidden;
 
-  @include media(max-width $large-screen) {
-    @include transition(left 0.5s ease);
+  box-shadow: 0px -1px $gutter-width/2 rgba(0, 0, 0, 0.4);
 
-    z-index: 1;
-    box-shadow: -3px 0px 2px rgba(0, 0, 0, 0.1);
+  @include transition(left 0.5s ease, right 0.5s ease);
 
-    &.active {
-      left: 0;
+  &.slide-out {
+    left: $gutter-full-width;
+    right: -$gutter-full-width + $gutter-width;
+  }
+
+  @include media(max-width $small-screen) {
+    left: 0;
+
+    > .app-bar {
+      left: $gutter-width - $gutter-width / 4;
     }
   }
 
-  @include media($large-screen) {
-    z-index: 0;
-    box-shadow: -1px 0px 2px rgba(0, 0, 0, 0.1);
-    left: $sidebar-width;
+  @include media(min-width $medium-screen max-width $large-screen) {
+    left: 0;
+
+    > .app-bar {
+      left: $gutter-width - $gutter-width / 4;
+    }
   }
+}
+
+.app-sidebar {
+  right: auto;
+  width: $sidebar-width;
+
+  overflow-x: hidden;
+  overflow-y: auto;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+
+  border-right: 1px solid $ultra-light-gray;
+  box-shadow: 0px 1px $gutter-width/8 rgba(0, 0, 0, 0.1);
+
+  @include media(max-width $medium-screen) {
+    width: 100%;
+  }
+
+  @include media(min-width $medium-screen max-width $large-screen) {
+    width: $sidebar-narrow-width;
+  }
+}
+
+.app-content {
+  @include position(absolute, 0px 0px 0px $sidebar-width);
+  background-color: $faded;
+
+  overflow-x: hidden;
+  overflow-y: auto;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
 
   .hn-logo {
     color: rgba($light-gray, 0.5);
     border-color: rgba($light-gray, 0.5);
+  }
+
+  @include media(max-width $medium-screen) {
+    @include transition(left 0.25s ease);
+
+    z-index: 4;
+    left: 100%;
+    width: 100%;
+    right: auto;
+
+    &.active {
+      left: 0;
+    }
+
+    .app-bar {
+      font-size: 1em;
+
+      .gutter {
+        width: auto;
+        padding: 0em 0.5em;
+      }
+    }
+  }
+
+  @include media(min-width $medium-screen max-width $large-screen) {
+    left: $sidebar-narrow-width;
   }
 }

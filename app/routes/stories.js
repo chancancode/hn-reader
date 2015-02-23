@@ -5,7 +5,7 @@ export default Ember.Route.extend({
     filter: { refreshModel: true }
   },
 
-  model: function(params) {
+  model(params) {
     return this.store.find('story', params);
   }
 });

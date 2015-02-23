@@ -1,4 +1,8 @@
-<div class="sidebar">
+<div class="app-bar">
+  {{filterName}}
+</div>
+
+<div class="app-sidebar app-panel">
   <ol class="stories">
     {{#each story in controller}}
       {{story-card tagName="li" story=story}}
@@ -6,6 +10,6 @@
   </ol>
 </div>
 
-<div class="main">
+<div {{bind-attr class=":app-content hasContent:active"}}>
   {{outlet}}
 </div>

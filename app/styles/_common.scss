@@ -1,3 +1,7 @@
+body {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
 .flush {
   width: 100%;
   height: 100%;
@@ -17,5 +21,29 @@
   .hn-logo {
     color: rgba($light-gray, 0.5);
     border-color: rgba($light-gray, 0.5);
+  }
+}
+
+.rotate-cw {
+  @include transform(rotate(90deg));
+}
+
+.small-screen-only {
+  display: none;
+}
+
+@include media(max-width $small-screen) {
+  .small-screen-only {
+    display: block;
+  }
+}
+
+.medium-screen-only {
+  display: none;
+}
+
+@include media(max-width $medium-screen) {
+  .medium-screen-only {
+    display: block;
   }
 }
