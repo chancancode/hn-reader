@@ -178,7 +178,7 @@ function extractComments(story, rows) {
 
   var nesting = [ [0, null, null] ];
 
-  for (let row of toArray(rows)) {
+  toArray(rows).forEach( (row) => {
     let comment = extractComment(story, row);
 
     let level, parentComment, lastSibling;
@@ -208,7 +208,7 @@ function extractComments(story, rows) {
     }
 
     delete comment.level;
-  }
+  });
 
   return comments;
 }
