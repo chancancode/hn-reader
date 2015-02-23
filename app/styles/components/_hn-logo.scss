@@ -1,32 +1,28 @@
 .hn-logo {
-  display: block;
+  display: inline-block;
 
-  @include size(120px 120px);
+  font-size: 6em;
+  font-family: "Fjalla One", sans-serif;
+  font-style: normal;
+  line-height: 1.4em;
 
-  border: 8px solid white;
+  @include size(1.5em 1.5em);
+
+  border: 0.1em solid white;
   color: white;
   text-align: center;
+  white-space: nowrap;
 
-  margin: 10px auto;
   overflow: hidden;
 
   @include user-select(none);
 
   .h {
-    @include position(relative, null null null 4px);
-    content: "H";
+    @include position(relative, null null null 0.025em);
   }
 
   .n {
-    @include position(relative, null 4px null null);
-    content: "N";
-  }
-
-  .h, .n {
-    font-family: "Fjalla One", sans-serif;
-    font-style: normal;
-    font-size: 80px;
-    line-height: 112px;
+    @include position(relative, null 0.025em null null);
   }
 
   &.animated {
@@ -36,7 +32,7 @@
 }
 
 @include keyframes(bounce) {
-  0%, 10%, 25%, 40%, 50% { transform: translateY(0); }
-  20% { transform: translateY(-60px); }
-  30% { transform: translateY(-30px); }
+  0%, 10%, 25%, 40%, 50% { @include transform(translateY(0)); }
+  20% { @include transform(translateY(-0.75em)); }
+  30% { @include transform(translateY(-0.375em)); }
 }

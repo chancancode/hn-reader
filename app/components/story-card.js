@@ -1,12 +1,11 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
-  tagName: 'div',
   classNames: ['story-card'],
   classNameBindings: ['isActive:active'],
 
   click(e) {
-    if (e.target.tagName !== 'A') {
+    if (e.target.tagName !== 'A' && !this.get('isActive')) {
       var link = this.$('.story-link');
 
       if (e.metaKey) {

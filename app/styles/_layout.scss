@@ -24,7 +24,7 @@ html, body {
   font-weight: 500;
   line-height: $app-bar-height;
 
-  z-index: 3;
+  z-index: 20;
 
   padding: 0px 0.5em;
 
@@ -43,7 +43,7 @@ html, body {
   @include position(absolute, 0px 0px null 0px);
   height: $app-bar-height;
 
-  z-index: 2;
+  z-index: 19;
 
   box-shadow: -1px 0px $app-bar-height/4 rgba(0, 0, 0, 0.4);
 }
@@ -58,9 +58,9 @@ html, body {
   background: darken($orange, 30%);
   z-index: 0;
 
+  overflow: scroll;
   overflow-x: hidden;
   overflow-y: auto;
-  overflow: scroll;
   -webkit-overflow-scrolling: touch;
 
   a {
@@ -125,10 +125,11 @@ html, body {
 .app-sidebar {
   right: auto;
   width: $sidebar-width;
+  z-index: 10;
 
+  overflow: scroll;
   overflow-x: hidden;
   overflow-y: auto;
-  overflow: scroll;
   -webkit-overflow-scrolling: touch;
 
   border-right: 1px solid $ultra-light-gray;
@@ -145,11 +146,11 @@ html, body {
 
 .app-content {
   @include position(absolute, 0px 0px 0px $sidebar-width);
-  background-color: $faded;
+  background-color: lighten($faded, 2.5%);
 
+  overflow: scroll;
   overflow-x: hidden;
   overflow-y: auto;
-  overflow: scroll;
   -webkit-overflow-scrolling: touch;
 
   .hn-logo {
@@ -160,7 +161,7 @@ html, body {
   @include media(max-width $medium-screen) {
     @include transition(left 0.25s ease);
 
-    z-index: 4;
+    z-index: 30;
     left: 100%;
     width: 100%;
     right: auto;

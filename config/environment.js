@@ -25,7 +25,7 @@ module.exports = function(environment) {
 
     contentSecurityPolicy: {
       "font-src":  "'self' http://fonts.gstatic.com http://i.icomoon.io",
-      "style-src": "'self' http://fonts.googleapis.com http://i.icomoon.io"
+      "style-src": "'self' 'unsafe-inline' http://fonts.googleapis.com http://i.icomoon.io"
     }
   };
 

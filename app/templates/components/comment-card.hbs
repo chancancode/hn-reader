@@ -1,0 +1,32 @@
+<div class="metadata">
+  <span class="submitter">{{comment.submitter}}</span> |
+  <span class="submitted">{{comment.submitted}}</span>
+</div>
+
+<div class="body" {{bind-attr style=bodyStyle}}>{{comment.body}}</div>
+
+{{#if comment.comments}}
+
+  <div class="toggle-replies" {{action "toggleReplies"}}>
+    <i class="icon-chevron-right"></i>
+
+    {{#if isExpanded}}
+      {{pluralize comment.comments.length "reply"}}
+    {{else}}
+
+      {{#if comment.nestedCommentsCount}}
+        Show {{pluralize comment.comments.length "reply"}} and {{pluralize comment.nestedCommentsCount "nested comment"}}...
+      {{else}}
+        Show {{pluralize comment.comments.length "reply"}}...
+      {{/if}}
+
+    {{/if}}
+  </div>
+
+  <div class="replies">
+    {{#each reply in comment.comments}}
+      {{comment-card comment=reply}}
+    {{/each}}
+  </div>
+
+{{/if}}

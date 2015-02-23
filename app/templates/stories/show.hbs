@@ -6,6 +6,17 @@
 
 <div class="app-bar-shadow small-screen-only medium-screen-only"></div>
 
-<div class="app-panel">
-  {{title}}
+<div class="app-panel story-reader">
+  <div class="story-reader-header">
+    {{story-card story=model}}
+
+    {{#tabbed-links}}
+      {{link-to "Article"  "stories.show.preview"  model replace=true}}
+      {{link-to "Comments" "stories.show.comments" model replace=true}}
+    {{/tabbed-links}}
+  </div>
+
+  <div class="story-reader-content">
+    {{outlet}}
+  </div>
 </div>

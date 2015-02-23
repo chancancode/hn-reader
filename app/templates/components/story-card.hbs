@@ -1,4 +1,4 @@
-<h3>{{link-to story.title "stories.show" story class="story-link"}}</h3>
+<h3>{{link-to story.title "stories.show" story.id class="story-link"}}</h3>
 
 {{#if story.source}}
   <div class="source">
@@ -30,7 +30,7 @@
     {{/if}}
 
     {{#if story.commentable}}
-      <span class="comments">{{#link-to "stories.show.comments" story}}{{story.commentsCount}} comments{{/link-to}}</span>
+      <span class="comments">{{#link-to "stories.show.comments" story.id}}{{story.commentsCount}} comments{{/link-to}}</span>
     {{/if}}
   </span>
 </div>

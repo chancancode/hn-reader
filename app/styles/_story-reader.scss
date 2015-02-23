@@ -1,0 +1,51 @@
+.story-reader {
+
+  overflow: scroll;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+
+  .story-reader-header > *, .story-reader-content > * {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .story-reader-header {
+    padding: 1.5em 1em 0em;
+    background: white;
+    border-bottom: 1px solid $ultra-light-gray;
+  }
+
+  .story-reader-content {
+    padding: 2em 1em;
+  }
+
+  .story-card {
+    padding: 0px;
+    border-left: none;
+    outline: none;
+
+    h3 {
+      font-size: 1.2em;
+      margin: 0.5em 0em;
+    }
+
+    .submitted:before {
+      content: "Submitted "
+    }
+
+    @include media(min-width $medium-screen max-width $large-screen) {
+      h3 {
+        font-size: 1.4em;
+      }
+    }
+
+    @include media(min-width $large-screen) {
+      h3 {
+        font-size: 1.6em;
+      }
+    }
+  }
+
+}

@@ -1,0 +1,28 @@
+.tabbed-links {
+  margin-top: 1em;
+  text-align: center;
+
+  a {
+    display: inline-block;
+    padding: 0.5em 1em;
+
+    font-size: 0.8em;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    border-bottom: 4px solid transparent;
+  }
+
+  a {
+    color: $medium-gray;
+  }
+
+  a.active, a:hover {
+    color: $orange;
+  }
+
+  a.active {
+    border-bottom-color: $orange;
+  }
+}
