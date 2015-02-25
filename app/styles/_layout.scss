@@ -17,12 +17,19 @@ html, body {
   background: $orange;
 
   &, a {
+    font-size: 1.25em;
     color: white;
   }
 
-  font-size: 1.25em;
-  font-weight: 500;
-  line-height: $app-bar-height;
+  &, a, h1, h2 {
+    font-weight: 500;
+    line-height: $app-bar-height;
+  }
+
+  h1, h2 {
+    display: inline;
+    font-size: 1em;
+  }
 
   z-index: 20;
 
@@ -58,25 +65,36 @@ html, body {
   background: darken($orange, 30%);
   z-index: 0;
 
+  display: flex;
+  flex-direction: column;
+
   overflow: scroll;
   overflow-x: hidden;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
 
+  padding: 0.5em 0px;
+
   a {
     display: block;
     height: $app-bar-height;
+    min-height: $app-bar-height;
+    max-height: $app-bar-height;
     line-height: $app-bar-height;
 
     font-size: 1.25em;
 
-    margin: 1em 0px;
+    margin: 0.25em 0px;
 
     text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.75);
   }
 
   a.active, a:hover {
     color: white;
+  }
+
+  .spacer {
+    flex: 9999;
   }
 }
 

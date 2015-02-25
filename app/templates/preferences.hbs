@@ -1,0 +1,32 @@
+<div class="app-bar">
+  <h2>Preferences</h2>
+</div>
+
+<div class="preferences app-panel">
+
+  <div class="preference-panel">
+    <h3>Display Preferences</h3>
+
+    <div class="row">
+      <h4>Automatic Comments Folding</h4>
+
+      <label>
+        {{input type="checkbox" checked=preferences.autoFold}}
+        Fold deeply nested comments by default.
+      </label>
+    </div>
+
+    <div {{bind-attr class=":row preferences.autoFold::hidden"}}>
+      <h5>Folding Threshold</h5>
+
+      {{#if topLevelOnly}}
+        <p>Show top-level comments only.</p>
+      {{else}}
+        <p>Hide comments nested more than {{pluralize preferences.autoFoldDepth "level"}} deep.</p>
+      {{/if}}
+
+      {{input type="range" value=preferences.autoFoldDepth min=0 max=9}}
+    </div>
+  </div>
+
+</div>

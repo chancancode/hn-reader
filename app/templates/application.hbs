@@ -2,7 +2,7 @@
   <div class="gutter" {{action "toggleNavBar"}}>
     <i {{bind-attr class=":icon-menu showingNavBar:rotate-cw"}}></i>
   </div>
-  Hacker News
+  <h1>Hacker News</h1>
 </div>
 
 <div class="app-bar-shadow"></div>
@@ -30,6 +30,12 @@
 
   {{#link-to "stories" (query-params filter="jobs") title="Jobs"}}
     <div class="gutter"><i class="icon-suitcase"></i></div> Jobs
+  {{/link-to}}
+
+  <div class="spacer"></div>
+
+  {{#link-to "preferences" title="Preferences"}}
+    <div class="gutter"><i class="icon-tools"></i></div> Preferences
   {{/link-to}}
 </nav>
 

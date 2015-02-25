@@ -38,8 +38,12 @@ const CommentCard = Ember.Component.extend({
   }.property('parentView'),
 
   isExpanded: function() {
-    return this.get('level') !== 2;
-  }.property('level'),
+    if ( this.get('preferences.autoFold') ) {
+      return this.get('level') < this.get('preferences.autoFoldDepth');
+    } else {
+      return true;
+    }
+  }.property('level', 'preferences.autoFold', 'preferences.autoFoldDepth'),
 
   expandAll: function() {
     this.set('isExpanded', true);
