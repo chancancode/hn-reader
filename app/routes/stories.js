@@ -7,5 +7,9 @@ export default Ember.Route.extend({
 
   model(params) {
     return this.store.find('story', params);
+  },
+
+  afterModel() {
+    Ember.run.schedule('afterRender', () => Ember.$('.app-sidebar').scrollTop(0) );
   }
 });
