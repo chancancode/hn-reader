@@ -7,7 +7,7 @@
   .comment-card, &:last-child {
     border-bottom: none;
     padding-bottom: 0px;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
   }
 
   &:last-child {
@@ -23,8 +23,8 @@
   }
 
   .body {
-    margin: 1em 0em;
-    line-height: 1.6;
+    margin: 0.5em 0em;
+    line-height: 1.4;
     white-space: pre-wrap;
   }
 

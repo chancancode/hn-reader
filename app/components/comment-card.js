@@ -25,7 +25,7 @@ const CommentCard = Ember.Component.extend({
   }.property('comment.quality'),
 
   level: function() {
-    var level = 0;
+    var level = this.get('comment.isInternal') ? -1 : 0;
 
     var parent = this.get('parentView');
 

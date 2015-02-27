@@ -21,6 +21,10 @@
     padding: 2em;
   }
 
+  .story-reader-content.internal > .comment-card > .metadata {
+    display: none;
+  }
+
   .story-card {
     margin-bottom: 2em;
     padding: 0px;
