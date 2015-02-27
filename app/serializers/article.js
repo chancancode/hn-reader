@@ -16,7 +16,9 @@ function removeElement(el) {
 function cleanElement(el) {
   switch (el.tagName) {
     case 'A':
+      /* jshint scripturl: true */
       if (el.hasAttribute('src') && el.getAttribute('src').indexOf('javascript:')) {
+      /* jshint scripturl: false */
         removeElement(el);
         return;
       } else {

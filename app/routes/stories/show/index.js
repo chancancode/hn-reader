@@ -7,7 +7,7 @@ export default Ember.Route.extend({
     if (story.get('isInternal')) {
       this.replaceWith('stories.show.comments', story);
     } else {
-      this.replaceWith('stories.show.article', story)
+      this.replaceWith('stories.show.article', story);
     }
   }
 });

@@ -28,7 +28,7 @@ export default Ember.Route.extend({
   afterModel(story) {
     if (!story.get('isInternal') && this.get('preferences.readibilityParserToken')) {
       // Pre-fetch the article here so it stays on the same "loading" screen
-      return this.store.find( 'article', story.get('url') )
+      return this.store.find( 'article', story.get('url') );
     }
   },
 
