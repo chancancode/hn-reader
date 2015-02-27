@@ -9,7 +9,7 @@ Router.map(function() {
 
   this.resource("stories", function() {
     this.resource("stories.show", { path: "/:story_id" }, function () {
-      this.route("preview");
+      this.route("article");
       this.route("comments");
     });
   });

@@ -40,6 +40,10 @@ a {
   }
 }
 
+strong, b {
+  font-weight: 500;
+}
+
 hr {
   border-bottom: $base-border;
   border-left: none;

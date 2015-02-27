@@ -10,13 +10,15 @@
   <div class="story-reader-header">
     {{story-card story=model}}
 
-    {{#tabbed-links}}
-      {{link-to "Article"  "stories.show.preview"  model replace=true}}
-      {{link-to "Comments" "stories.show.comments" model replace=true}}
-    {{/tabbed-links}}
+    {{#unless model.isInternal}}
+      {{#tabbed-links}}
+        {{link-to "Article"  "stories.show.article"  model replace=true}}
+        {{link-to "Comments" "stories.show.comments" model replace=true}}
+      {{/tabbed-links}}
+    {{/unless}}
   </div>
 
-  <div class="story-reader-content">
+  <div {{bind-attr class=":story-reader-content isInternal:internal"}}>
     {{outlet}}
   </div>
 </div>

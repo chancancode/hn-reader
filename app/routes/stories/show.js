@@ -3,7 +3,7 @@ import Ember from 'ember';
 export default Ember.Route.extend({
   actions: {
     willTransition: function(transition) {
-      if ( this.shouldAnimate(transition) ) { 
+      if ( this.shouldAnimate(transition) ) {
         // Defer the transition until the view is slid outside of the viewport
         transition.abort();
 
@@ -17,8 +17,19 @@ export default Ember.Route.extend({
     }
   },
 
-  model: function(params) {
+  beforeModel() {
+    this.controllerFor('stories').set('hasContent', true);
+  },
+
+  model(params) {
     return this.store.fetch('story', params.story_id);
+  },
+
+  afterModel(story) {
+    if (!story.get('isInternal') && this.get('preferences.readibilityParserToken')) {
+      // Pre-fetch the article here so it stays on the same "loading" screen
+      return this.store.find( 'article', story.get('url') )
+    }
   },
 
   activate() {

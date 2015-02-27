@@ -102,12 +102,12 @@ export default DS.Adapter.extend({
   buildUrl(path) {
     var parts = [];
 
-    if (this.proxy) {
-      parts.push( this.proxy.replace(/\/$/, "") );
+    if (this.get("proxy")) {
+      parts.push( this.get("proxy").replace(/\/$/, "") );
     }
 
-    if (this.host) {
-      parts.push( this.host.replace(/\/$/, "") );
+    if (this.get("host")) {
+      parts.push( this.get("host").replace(/\/$/, "") );
     }
 
     if (!parts.length) {

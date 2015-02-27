@@ -132,6 +132,7 @@ export function initialize(container, application) {
   application.inject('route', 'preferences', 'preferences:main');
   application.inject('controller', 'preferences', 'preferences:main');
   application.inject('component', 'preferences', 'preferences:main');
+  application.inject('adapter', 'preferences', 'preferences:main');
 
 }
 

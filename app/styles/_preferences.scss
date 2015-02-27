@@ -1,12 +1,20 @@
 .preferences {
-  max-width: 500px;
+
+  overflow: scroll;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+
   padding: 2em 1em;
-  margin-left: auto;
-  margin-right: auto;
 
   .preference-panel {
-    background: white;
+    max-width: 500px;
     padding: 2em 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+
+    background: white;
     box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
 
     .row {
@@ -41,6 +49,14 @@
 
     label {
       font-weight: normal;
+    }
+
+    input[type=text] {
+      background: #FDFDFD;
+    }
+
+    input[type=text]:focus {
+      box-shadow: none;
     }
 
     input[type=range] {

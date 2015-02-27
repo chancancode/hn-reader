@@ -29,4 +29,28 @@
     </div>
   </div>
 
+  <div class="preference-panel">
+    <h3>Integrations</h3>
+
+    <div class="row">
+      <h4>Readibility</h4>
+
+      <p>
+        The article previews are powered by the <a href="https://www.readability.com/developers/api/parser" target="_blank">Readibility Parser API</a>.
+        You can get an API token <a href="https://www.readability.com/settings/account#api" target="_blank">here</a>.
+      </p>
+
+      {{input value=preferences.readibilityParserToken placeholder="Enter your Readibility Parser API token"}}
+
+      <p>
+        <small>
+          <strong>Warning:</strong> this token will be passed through a CORS
+          proxy. The Parser API token does not grant access to your Readibility
+          account nor the ability to read/write to your reading lists. If you
+          are worried about this, you could always create a seperate account.
+        </small>
+      </p>
+    </div>
+  </div>
+
 </div>

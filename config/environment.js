@@ -41,8 +41,9 @@ module.exports = function(environment) {
     } else {
       ENV.APP.CORS_PROXY      = 'https://cors-anywhere.herokuapp.com';
       ENV.APP.HACKERNEWS_HOST = 'https://news.ycombinator.com';
+      ENV.APP.READIBILITY_PARSER_HOST = 'https://readability.com/api/content/v1/parser';
 
-      ENV.contentSecurityPolicy['connect-src'] = "'self' https://cors-anywhere.herokuapp.com";
+      ENV.contentSecurityPolicy['connect-src'] = "'self' https://cors-anywhere.herokuapp.com https://readability.com";
     }
   }
 

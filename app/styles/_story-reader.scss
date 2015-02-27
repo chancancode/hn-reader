@@ -12,16 +12,17 @@
   }
 
   .story-reader-header {
-    padding: 1.5em 1em 0em;
+    padding: 1.5em 2em 0em;
     background: white;
     border-bottom: 1px solid $ultra-light-gray;
   }
 
   .story-reader-content {
-    padding: 2em 1em;
+    padding: 2em;
   }
 
   .story-card {
+    margin-bottom: 2em;
     padding: 0px;
     border-left: none;
     outline: none;
@@ -45,6 +46,61 @@
       h3 {
         font-size: 1.6em;
       }
+    }
+  }
+
+  .tabbed-links {
+    margin-top: -1em;
+  }
+
+  .error {
+    margin: 100px auto;
+    text-align: center;
+
+    h3 {
+      font-size: 1.1em;
+    }
+
+    p {
+      font-size: 0.9em;
+    }
+  }
+
+  article {
+    margin: 1.5em auto;
+    line-height: 1.6;
+
+    h1, h2, h3, h4, h5, h6 {
+      font-family: "Roboto Slab";
+      font-weight: 700;
+      margin-bottom: 1.5em;
+    }
+
+    h1 {
+      font-size: 2em;
+      margin-bottom: 1em;
+    }
+
+    h2 {
+      font-size: 1.2em;
+    }
+
+    h3 {
+      font-size: 1em;
+    }
+
+    p, div > img {
+      margin-bottom: 1.5em;
+    }
+
+    .author {
+      margin: -1em 0 2.5em;
+      font-size: 0.9em;
+      font-style: italic;
+    }
+
+    pre {
+      overflow-x: scroll;
     }
   }
 

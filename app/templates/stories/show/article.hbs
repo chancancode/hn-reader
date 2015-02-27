@@ -1,0 +1,28 @@
+{{#if error}}
+  <div class="error">
+    <h3>Sorry, we could not extract a preview for this article.</h3>
+
+    {{#if message}}
+      <p><code>{{message}}</code></p>
+    {{/if}}
+
+    {{#if noToken}}
+      <p>
+        Setup {{#link-to "preferences"}}Readibility integration{{/link-to}}
+        to enable article previews.
+      </p>
+    {{/if}}
+
+    <p><a {{bind-attr href=id}} target="_blank">View original</a></p>
+  <div>
+{{else}}
+  <article>
+    <h1>{{ model.title }}</h1>
+
+    {{#if model.author }}
+      <p class="author">{{ model.author }}</p>
+    {{/if}}
+
+    <div class="content">{{{ model.body }}}</div>
+  </article>
+{{/if}}
