@@ -31,6 +31,14 @@
     border-left: none;
     outline: none;
 
+    a {
+      cursor: default;
+    }
+
+    .source a {
+      cursor: pointer;
+    }
+
     h3 {
       font-size: 1.2em;
       margin: 0.5em 0em;

@@ -7,7 +7,7 @@ export default Ember.Route.extend({
     if (this.get('preferences.readibilityParserToken')) {
       return this.store.find( 'article', story.get('url') );
     } else {
-      return { error: true, noToken: true };
+      return { url: story.get('url'), error: true, noToken: true };
     }
   }
 });
