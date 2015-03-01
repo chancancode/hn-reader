@@ -2,16 +2,16 @@ import Ember from 'ember';
 
 export default Ember.Route.extend({
   model: function() {
-    var story = this.modelFor('stories.show');
+    var story = this.modelFor('stories.show'), url = story.get('url');
 
     if (this.get('preferences.readibilityParserToken')) {
-      return this.store.find( 'article', story.get('url') )
+      return this.store.find( 'article', url )
         .catch( (reason) => {
           reason.url = url;
           return reason;
         });
     } else {
-      return { url: story.get('url'), error: true, noToken: true };
+      return { url, error: true, noToken: true };
     }
   }
 });

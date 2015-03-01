@@ -1,6 +1,12 @@
 import Ember from 'ember';
 
 export default Ember.Route.extend({
+  queryParams: {
+    highlight: {
+      replace: true
+    }
+  },
+
   model: function() {
     var story = this.modelFor('stories.show');
 

@@ -26,7 +26,12 @@ export default Ember.Route.extend({
   },
 
   afterModel(story) {
-    if (!story.get('isInternal') && this.get('preferences.readibilityParserToken')) {
+    var requestedStoryID = this.paramsFor('stories.show').story_id;
+
+    if (requestedStoryID && story.get('id') !== requestedStoryID) {
+      // We were given an ID to a child comment
+      this.replaceWith('stories.show.comments', story, { queryParams: { highlight: requestedStoryID } });
+    } else if (!story.get('isInternal') && this.get('preferences.readibilityParserToken')) {
       // Pre-fetch the article here so it stays on the same "loading" screen
       return this.store.find( 'article', story.get('url') );
     }

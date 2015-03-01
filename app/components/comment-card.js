@@ -2,7 +2,7 @@ import Ember from 'ember';
 
 const CommentCard = Ember.Component.extend({
   classNames: ['comment-card'],
-  classNameBindings: ['isExpanded:expanded'],
+  classNameBindings: ['isExpanded:expanded', 'isHighlighted:highlighted'],
 
   actions: {
     toggleReplies: function() {
@@ -45,10 +45,35 @@ const CommentCard = Ember.Component.extend({
     }
   }.property('level', 'preferences.autoFold', 'preferences.autoFoldDepth'),
 
+  isHighlighted: function() {
+    return this.get('highlight') === this.get('comment.id');
+  }.property('highlight', 'comment'),
+
+  _onHighlighted: function() {
+    if (this.get('isHighlighted')) {
+      var parent = this.get('parentView');
+
+      while (parent instanceof CommentCard) {
+        parent.set('isExpanded', true);
+        parent = parent.get('parentView');
+      }
+
+      Ember.run.scheduleOnce('afterRender', this, () => {
+        var $body = this.$('> .body');
+        var scrollBy = $body.position().top - Ember.$(window).height() / 4;
+        var $container = $body.closest('.app-panel');
+
+        $container.animate({
+          scrollTop: $container.scrollTop() + scrollBy
+        }, 500);
+      });
+    }
+  }.observes('isHighlighted').on('init'),
+
   expandAll: function() {
     this.set('isExpanded', true);
     this.get('childViews').forEach( (child) => (child instanceof CommentCard) && child.expandAll() );
-  }
+  },
 
 });
 

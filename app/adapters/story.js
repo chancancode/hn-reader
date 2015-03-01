@@ -1,7 +1,7 @@
 import Ember from 'ember';
 import DS from 'ember-data';
 import config from 'hn-reader/config/environment';
-import { isError } from 'hn-reader/extractors/story';
+import { isError, parentID } from 'hn-reader/extractors/story';
 
 export default DS.Adapter.extend({
 
@@ -16,9 +16,13 @@ export default DS.Adapter.extend({
       xhr.open("GET", this.buildUrl(`item?id=${id}`), true);
       xhr.responseType = "document";
 
+      var parent;
+
       xhr.onload = () => {
         if (isError(xhr.response)) {
           Ember.run(null, reject, "Not found");
+        } else if(parent = parentID(xhr.response)) {
+          Ember.run(null, resolve, this.find(store, type, parent));
         } else {
           Ember.run(null, resolve, xhr.response);
         }

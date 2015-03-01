@@ -12,7 +12,7 @@
 
     {{#unless model.isInternal}}
       {{#tabbed-links}}
-        {{link-to "Article"  "stories.show.article"  model replace=true}}
+        {{link-to "Article"  "stories.show.article"  model (query-params highlight=null) replace=true}}
         {{link-to "Comments" "stories.show.comments" model replace=true}}
       {{/tabbed-links}}
     {{/unless}}

@@ -1,6 +1,6 @@
 <div class="metadata">
   <span class="submitter">{{comment.submitter}}</span> |
-  <span class="submitted">{{comment.submitted}}</span>
+  <span class="submitted">{{link-to comment.submitted (query-params highlight=comment.id)}}</span>
 </div>
 
 <div class="body" {{bind-attr style=bodyStyle}}>{{comment.body}}</div>
@@ -25,7 +25,7 @@
 
   <div class="replies">
     {{#each reply in comment.comments}}
-      {{comment-card comment=reply}}
+      {{comment-card comment=reply highlight=highlight}}
     {{/each}}
   </div>
 

@@ -373,3 +373,7 @@ export function extractArray(doc) {
 export function isError(doc) {
   return $("#hnmain table:eq(1) tr", doc).length === 0;
 }
+
+export function parentID(doc) {
+  return extractID( $("#hnmain table:eq(1) tr .comhead a:contains(parent)", doc).attr("href") );
+}

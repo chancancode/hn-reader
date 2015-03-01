@@ -22,7 +22,12 @@
     color: $light-gray;
   }
 
+  .metadata a {
+    color: inherit;
+  }
+
   .body {
+    @include transition(background 0.25 ease);
     margin: 0.5em 0em;
     line-height: 1.4;
     white-space: pre-wrap;
@@ -50,6 +55,11 @@
     & > i.icon-chevron-right:before {
       @include transform(rotate(90deg));
     }
+  }
+
+  &.highlighted > .body {
+    background: rgba(yellow, 0.1);
+    outline: 0.5em solid rgba(yellow, 0.1);
   }
 
   .replies {
