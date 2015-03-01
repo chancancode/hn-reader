@@ -4,7 +4,7 @@ import config from 'hn-reader/config/environment';
 
 export default DS.Adapter.extend({
 
-  proxy: config.APP.CORS_PROXY,
+  proxy: config.APP.READIBILITY_PARSER_CORS_PROXY,
   host: config.APP.READIBILITY_PARSER_HOST,
   token: Ember.computed.alias('preferences.readibilityParserToken'),
 

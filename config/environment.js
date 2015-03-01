@@ -5,7 +5,7 @@ module.exports = function(environment) {
     modulePrefix: 'hn-reader',
     environment: environment,
     baseURL: '/',
-    locationType: 'mapped',
+    locationType: 'auto',
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
@@ -39,8 +39,9 @@ module.exports = function(environment) {
     if (process.env.OFFLINE) {
       ENV.APP.USE_FIXTURES_SERVER = true;
     } else {
-      ENV.APP.CORS_PROXY      = 'https://cors-anywhere.herokuapp.com';
+      ENV.APP.HACKERNEWS_CORS_PROXY = 'https://cors-anywhere.herokuapp.com';
       ENV.APP.HACKERNEWS_HOST = 'https://news.ycombinator.com';
+      ENV.APP.READIBILITY_PARSER_CORS_PROXY = 'https://cors-anywhere.herokuapp.com';
       ENV.APP.READIBILITY_PARSER_HOST = 'https://readability.com/api/content/v1/parser';
 
       ENV.contentSecurityPolicy['connect-src'] = "'self' https://cors-anywhere.herokuapp.com https://readability.com";
@@ -60,7 +61,16 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
+    ENV.locationType = 'mapped';
 
+    // FIXME when CLI supports custom env
+    if (!process.env.CHROME) {
+      ENV.APP.HACKERNEWS_CORS_PROXY = 'https://cors-anywhere.herokuapp.com';
+    }
+
+    ENV.APP.HACKERNEWS_HOST = 'https://news.ycombinator.com';
+    ENV.APP.READIBILITY_PARSER_CORS_PROXY = 'https://cors-anywhere.herokuapp.com';
+    ENV.APP.READIBILITY_PARSER_HOST = 'https://readability.com/api/content/v1/parser';
   }
 
   return ENV;

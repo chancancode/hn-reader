@@ -1,0 +1,36 @@
+{
+  "name": "HN Reader",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "An ambitious Hacker News reader, built with Ember.js",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://news.ycombinator.com/",
+        "https://news.ycombinator.com/?*",
+        "https://news.ycombinator.com/item*",
+        "https://news.ycombinator.com/news*",
+        "https://news.ycombinator.com/newest*",
+        "https://news.ycombinator.com/active*",
+        "https://news.ycombinator.com/show*",
+        "https://news.ycombinator.com/ask*",
+        "https://news.ycombinator.com/jobs*"
+      ],
+      "js": ["bootstrap.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "page_action": {},
+  "permissions": [
+    "tabs",
+    "https://news.ycombinator.com/*"
+  ],
+  "web_accessible_resources": [
+    "index.html",
+    "assets/*",
+    "fonts/*"
+  ]
+}

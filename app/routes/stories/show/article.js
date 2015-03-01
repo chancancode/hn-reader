@@ -5,7 +5,11 @@ export default Ember.Route.extend({
     var story = this.modelFor('stories.show');
 
     if (this.get('preferences.readibilityParserToken')) {
-      return this.store.find( 'article', story.get('url') );
+      return this.store.find( 'article', story.get('url') )
+        .catch( (reason) => {
+          reason.url = url;
+          return reason;
+        });
     } else {
       return { url: story.get('url'), error: true, noToken: true };
     }

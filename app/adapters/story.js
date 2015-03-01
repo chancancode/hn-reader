@@ -5,7 +5,7 @@ import { isError } from 'hn-reader/extractors/story';
 
 export default DS.Adapter.extend({
 
-  proxy: config.APP.CORS_PROXY,
+  proxy: config.APP.HACKERNEWS_CORS_PROXY,
   host: config.APP.HACKERNEWS_HOST,
 
   find(store, type, id) {
