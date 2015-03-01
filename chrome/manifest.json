@@ -1,8 +1,15 @@
 {
   "name": "HN Reader",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "manifest_version": 2,
-  "description": "An ambitious Hacker News reader, built with Ember.js",
+  "description": "An embitious Hacker News reader, built with Ember.js",
+  "icons": {
+    "16": "icon16.png",
+    "19": "icon19.png",
+    "38": "icon38.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
   "background": {
     "scripts": ["background.js"]
   },
