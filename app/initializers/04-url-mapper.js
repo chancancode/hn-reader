@@ -35,6 +35,10 @@ function toLogicalPath(realPath) {
     return '/preferences';
   }
 
+  if ( realPath.indexOf('?about') >= 0 ) {
+    return '/about';
+  }
+
   return realPath;
 }
 
@@ -82,6 +86,10 @@ function fromLogicalPath(logicalPath) {
 
   if (logicalPath.indexOf('/preferences') === 0 ) {
     return '/?preferences';
+  }
+
+  if (logicalPath.indexOf('/about') === 0 ) {
+    return '/?about';
   }
 
   return '/';

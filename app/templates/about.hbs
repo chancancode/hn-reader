@@ -1,0 +1,170 @@
+<div class="app-bar">
+  <h2>About HN Reader</h2>
+</div>
+
+<div class="about app-panel">
+  <div class="box">
+    {{hn-logo}}
+
+    <h1 class="brand"><a href="https://github.com/chancancode/hn-reader" target="_blank">HN Reader</a></h1>
+
+    <h2 class="tagline">
+      A <a href="https://twitter.com/tef/status/565327710579597312" target="_blank"><del>modern</del></a>
+      <em>embitious</em> <a href="https://news.ycombinator.com/?hn-reader=0" target="_blank">Hacker News</a>
+      reader built with <a href="http://emberjs.com/" target="_blank">Ember.js</a>
+    </h2>
+  </div>
+
+  <div class="box">
+    <h3 id="screenshots">Screenshot</h3>
+
+    <p><img src="assets/screenshot-1.png" alt="Screenshot of HN Reader runnign in Chrome"></p>
+
+    <p><img src="assets/screenshot-2.png" alt="Screenshot of HN Reader runnign in Chrome"></p>
+
+    <p><img src="assets/screenshot-3.png" alt="Screenshot of HN Reader runnign in Chrome"></p>
+
+    <p><img src="assets/screenshot-4.png" alt="Screenshot of HN Reader runnign in Chrome"></p>
+  </div>
+
+  <div class="box">
+    <h3 id="usage">Usage</h3>
+
+    <h4>Browser Extensions</h4>
+
+    <p>
+      This app is designed to be used as a browser extension. When you visit
+      Hacker News, it will seamlessly take over to enhance your reading
+      experience.
+    </p>
+
+    <p>
+      The browser extension maintains 100% URL-compatibility with the original
+      Hacker News site, so when you post a link into your company chat or visit
+      a HN link from Twitter, everything would Just Work™.
+    </p>
+
+    <h4>Web App</h4>
+
+    <p>
+      This app can also be used as a <a href="https://hn-reader.github.io" target="_blank">stand-alone web app</a>.
+      In fact, you are probably <em>inside</em> said app right now! Head over to
+      the {{link-to "front page" "stories"}} and start reading!
+    </p>
+
+    <p>
+      The app is fully responsive, so it is great for reading HN on your phone
+      and tablets too.
+    </p>
+
+    <p>
+      (Note: not all features are available on the web version)
+    </p>
+  </div>
+
+  <div class="box">
+    <h3 id="faq">Frequently Asked Questions</h3>
+
+    <h4>Who made this?</h4>
+
+    <p>
+      This app is hand-crafted by @chancancode
+      (<a href="https://twitter.com/chancancode" target="_blank" title="Follow me on Twitter"><i class="icon-twitter"></i></a>
+      <a href="https://github.com/chancancode" target="_blank" title="Follow me on Github"><i class="icon-github"></i></a>)
+      with love.
+    </p>
+
+    <h4>Why another Hacker News reader?</h4>
+
+    <p>
+      For the most part, it's because I enjoyed building it. I also wanted to
+      build an open-source app to showcase how awesome Ember is, something I can
+      point people to when I talk to them about the framework.
+    </p>
+
+    <p>
+      It was also a vehicle for me to test out a few Ember hacks I had in mind
+      for a while. See <a href="http://emberconf.com/speakers.html#gchan" target="_blank">my talk at EmberConf</a>
+      for details (video available soon).
+    </p>
+
+    <h4>Are you stealing my data?</h4>
+
+    <p>
+      No. In fact, I didn't build or run any backend components for this app
+      myself. The app communicates with Hacker News directly without involving
+      any extenral API – it parses the markup locally within your browser. (The
+      web version uses a <a href="https://cors-anywhere.herokuapp.com/" target="_blank">CORS proxy</a>
+      due to browser restrictions, but it can only access public data.)
+    </p>
+
+    <h4>Where is the extension for browser X?</h4>
+
+    <p>
+      Currently, the browser extension is only available for Chrome. However, it
+      should be trivial to port it to another browser, I just haven't had a
+      chance to investigate it yet. (The core app itself is not Chrome-specific,
+      so only <a href="https://github.com/chancancode/hn-reader/tree/master/chrome" target="_blank">a very small wrapper</a>
+      needs to be ported.) If you figured out how package it for your favourite
+      browser, please <a href="https://github.com/chancancode/hn-reader/pulls" target="_blank">send a pull request</a>!
+    </p>
+
+    <h4>How do I disable the browser extension?</h4>
+
+    <p>
+      You can toggle the extension on a per-tab basis by clicking the orange "H"
+      icon in the address bar. Alternatively, you can append <code>?hn-reader=0</code>
+      to any URL to temporarily supress the extension.
+    </p>
+  </div>
+
+  <div class="box">
+    <h3 id="credits">Credits</h3>
+
+    <h4>The Data</h4>
+
+    <p>
+      All the data in this app comes from <a href="https://news.ycombinator.com/?hn-reader=0" target="_blank">Hacker News</a>.
+    </p>
+
+    <h4>The Code</h4>
+
+    <p>
+      This app is made possible by the <a href="http://emberjs.com" target="_blank">Ember.js</a>
+      team and community. Thank you for the wonderful framework, Ember Data and
+      <a href="http://www.ember-cli.com/" target="_blank">Ember CLI</a>!
+    </p>
+
+    <h4>The Design</h4>
+
+    <p>
+      The design is heavily influenced by
+      <a href="http://www.google.com/design/spec/material-design/introduction.html" target="_blank">Google's material design guidelines</a>
+      and the new <a href="https://play.google.com/store/apps/details?id=com.google.android.gm&hl=en" target="_blank">Gmail app for Andriod</a>.
+    </p>
+
+    <h4>The Logo</h4>
+
+    <p>
+      The logo is <del>inspired</del> stolen from a <a href="https://dribbble.com/shots/797096-Hacker-News-logo-concept" target="_blank">similar design</a>
+      by <a href="https://dribbble.com/jag" target="_blank">Joel Glovierapp</a>.
+    </p>
+
+    <h4>The Icons</h4>
+
+    <p>
+      The gergious icons used in the app is part of <a href="http://www.entypo.com/" target="_blank">Entypo+</a>
+      designed by <a href="http://www.danielbruce.se/" target="_blank">Daniel Bruce</a>,
+      made available to the world under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a>.
+    </p>
+
+    <h4>Hosting</h4>
+
+    <p>
+      The web version is hosted by <a href="https://pages.github.com/" target="_blank">Github Pages</a>.
+      The <a href="https://cors-anywhere.herokuapp.com/" target="_blank">CORS proxy</a>
+      is developed by <a href="https://robwu.nl/" target="_blank">Rob Wu</a> and hosted on
+      <a href="https://www.heroku.com" target="_blank">Heroku</a>.
+    </p>
+  </div>
+</div>

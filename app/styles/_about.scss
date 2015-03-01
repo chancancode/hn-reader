@@ -1,0 +1,49 @@
+.about {
+
+  overflow: scroll;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+
+  padding: 2em 1em;
+
+  .box {
+    max-width: 960px;
+  }
+
+  .hn-logo {
+    display: block;
+    margin: 0.25em auto 0.5em;
+    border-color: $ultra-light-gray;
+    color: $ultra-light-gray;
+  }
+
+  .brand {
+    font-family: "Roboto Slab";
+    font-size: 2.5em;
+    text-align: center;
+
+    a {
+      color: inherit;
+    }
+  }
+
+  .tagline {
+    font-family: "Roboto Slab";
+    font-size: 1.05em;
+    color: $light-gray;
+    text-align: center;
+
+    a {
+      color: darken($light-gray, 5%);
+    }
+  }
+
+  .icon-twitter, .icon-github {
+    vertical-align: middle;
+
+    &:before {
+      color: $medium-gray;
+    }
+  }
+}

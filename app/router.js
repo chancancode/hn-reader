@@ -18,6 +18,8 @@ Router.map(function() {
 
   this.route("preferences");
 
+  this.route("about");
+
 });
 
 export default Router;

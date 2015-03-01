@@ -202,3 +202,70 @@ html, body {
     left: $sidebar-narrow-width;
   }
 }
+
+.box {
+  max-width: 500px;
+  padding: 2em 1.5em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+
+  background: white;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
+
+  .row {
+    @include transition(max-height 0.25s ease);
+    max-height: 999px;
+    overflow: hidden;
+  }
+
+  .row.hidden {
+    max-height: 0px;
+  }
+
+  h3 {
+    color: $orange;
+    font-size: 1.25em;
+    margin-bottom: 0px;
+  }
+
+  h4 {
+    font-size: 1.1em;
+    margin: 1.5em 0px 1em;
+  }
+
+  h5 {
+    font-size: 1em;
+    margin: 1.5em 0px 1em;
+  }
+
+  p {
+    margin: 1em 0px;
+  }
+}
+
+footer {
+  a {
+    position: fixed;
+    z-index: 9999;
+    bottom: 0;
+    right: 2em;
+    padding: 0.2em 0.75em;
+    border-radius: 2px 2px 0px 0px;
+    background: white;
+    font-size: 0.75em;
+
+    &, &:hover, &:active, &:visited {
+      color: $light-gray;
+    }
+
+    i {
+      font-size: 0.75em;
+      vertical-align: middle;
+    }
+  }
+
+  a.active {
+    display: none;
+  }
+}

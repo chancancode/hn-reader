@@ -11,6 +11,15 @@
     document.write( html() );
     document.close();
 
+    // Fix broken images
+    document.addEventListener("error", function (event) {
+      var el = event.target, src = el.getAttribute("src");
+
+      if (el.tagName === "IMG" && src && src.indexOf(chrome.extension.getURL("/")) < 0) {
+        el.setAttribute("src", chrome.extension.getURL(src));
+      }
+    }, true);
+
     chrome.runtime.onMessage.addListener(
       function(request, sender) {
         if (request === "toggle" && !sender.tab) {
