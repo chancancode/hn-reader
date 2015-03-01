@@ -41,6 +41,10 @@ function toLogicalPath(realPath) {
 function fromLogicalPath(logicalPath) {
   var match;
 
+  if ( match = /\/user\/(.+)/.exec(logicalPath) ) {
+    return `/user?id=${ match[1] }`;
+  }
+
   if ( match = /\/stories\/.+highlight=(\d+)/.exec(logicalPath) ) {
     return `/item?id=${ match[1] }`;
   }

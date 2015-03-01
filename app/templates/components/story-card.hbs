@@ -19,7 +19,7 @@
     <span class="submitted">{{story.submitted}}</span>
 
     {{#if story.submitter}}
-      <span class="submitter"> by {{story.submitter}}</span>
+      <span class="submitter"> by {{link-to story.submitter "user" story.submitter}}</span>
     {{/if}}
   </span>
 

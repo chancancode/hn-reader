@@ -14,6 +14,8 @@ Router.map(function() {
     });
   });
 
+  this.route("user", { path: "user/:user_id" });
+
   this.route("preferences");
 
 });
