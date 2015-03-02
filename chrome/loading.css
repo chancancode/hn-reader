@@ -1,3 +1,8 @@
-body.loading {
+body {
   display: none;
 }
+
+body.ember-application, body.hn-reader-disabled {
+  display: block;
+}
+

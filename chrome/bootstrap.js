@@ -34,6 +34,8 @@
 
     chrome.runtime.sendMessage("enabled");
   } else {
+    document.body.classList.add("hn-reader-disabled");
+
     chrome.runtime.onMessage.addListener(
       function(request, sender) {
         if (request === "toggle" && !sender.tab) {
