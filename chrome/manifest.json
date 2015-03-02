@@ -1,6 +1,6 @@
 {
   "name": "HN Reader",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "manifest_version": 2,
   "description": "An embitious Hacker News reader, built with Ember.js",
   "homepage_url": "https://chancancode.github.io/hn-reader/about",
