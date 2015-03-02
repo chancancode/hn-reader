@@ -64,7 +64,9 @@ module.exports = function(environment) {
     ENV.locationType = 'mapped';
 
     // FIXME when CLI supports custom env
-    if (!process.env.CHROME) {
+    if (process.env.CHROME) {
+      ENV.APP.USE_SAFE_URLS = true;
+    } else {
       ENV.baseURL = '/hn-reader/';
       ENV.APP.HACKERNEWS_CORS_PROXY = 'https://cors-anywhere.herokuapp.com';
     }
