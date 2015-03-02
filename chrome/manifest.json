@@ -28,7 +28,8 @@
         "https://news.ycombinator.com/jobs*"
       ],
       "js": ["bootstrap.js"],
-      "run_at": "document_start"
+      "css": ["loading.css"],
+      "run_at": "document_end"
     }
   ],
   "page_action": {},
