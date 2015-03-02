@@ -65,6 +65,7 @@ module.exports = function(environment) {
 
     // FIXME when CLI supports custom env
     if (!process.env.CHROME) {
+      ENV.baseURL = '/hn-reader/';
       ENV.APP.HACKERNEWS_CORS_PROXY = 'https://cors-anywhere.herokuapp.com';
     }
 

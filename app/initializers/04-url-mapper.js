@@ -1,4 +1,5 @@
 import Ember from 'ember';
+import config from 'hn-reader/config/environment';
 
 function toLogicalPath(realPath) {
   var match;
@@ -31,12 +32,14 @@ function toLogicalPath(realPath) {
     return `/stories/${ match[1] }`;
   }
 
-  if ( realPath.indexOf('?preferences') >= 0 ) {
-    return '/preferences';
-  }
+  if (config.APP.USE_SAFE_URLS) {
+    if ( realPath.indexOf('?preferences') >= 0 ) {
+      return '/preferences';
+    }
 
-  if ( realPath.indexOf('?about') >= 0 ) {
-    return '/about';
+    if ( realPath.indexOf('?about') >= 0 ) {
+      return '/about';
+    }
   }
 
   return realPath;
@@ -85,11 +88,11 @@ function fromLogicalPath(logicalPath) {
   }
 
   if (logicalPath.indexOf('/preferences') === 0 ) {
-    return '/?preferences';
+    return config.APP.USE_SAFE_URLS ? '/?preferences' : '/preferences';
   }
 
   if (logicalPath.indexOf('/about') === 0 ) {
-    return '/?about';
+    return config.APP.USE_SAFE_URLS ? '/?about' : '/about';
   }
 
   return '/';
