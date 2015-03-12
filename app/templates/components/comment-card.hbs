@@ -3,7 +3,7 @@
   <span class="submitted">{{link-to comment.submitted (query-params highlight=comment.id)}}</span>
 </div>
 
-<div class="body" {{bind-attr style=bodyStyle}}>{{comment.body}}</div>
+<div class="body" style="{{bodyStyle}}">{{comment.body}}</div>
 
 {{#if comment.comments}}
 

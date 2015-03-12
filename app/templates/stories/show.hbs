@@ -18,7 +18,7 @@
     {{/unless}}
   </div>
 
-  <div {{bind-attr class=":story-reader-content isInternal:internal"}}>
+  <div class="story-reader-content {{if isInternal "internal"}}">
     {{outlet}}
   </div>
 </div>

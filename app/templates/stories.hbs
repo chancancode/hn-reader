@@ -10,6 +10,6 @@
   </ol>
 </div>
 
-<div {{bind-attr class=":app-content hasContent:active"}}>
+<div class="app-content {{if hasContent "active"}}">
   {{outlet}}
 </div>
