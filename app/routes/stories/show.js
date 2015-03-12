@@ -22,7 +22,7 @@ export default Ember.Route.extend({
   },
 
   model(params) {
-    return this.store.fetch('story', params.story_id);
+    return this.store.fetchById('story', params.story_id);
   },
 
   afterModel(story) {
