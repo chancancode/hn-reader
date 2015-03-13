@@ -1,6 +1,6 @@
 <div class="app-bar">
   <div class="gutter" {{action "toggleNavBar"}}>
-    <i {{bind-attr class=":icon-menu showingNavBar:rotate-cw"}}></i>
+    <i class="icon-menu {{if showingNavBar "rotate-cw"}}"></i>
   </div>
   <h1>Hacker News</h1>
 </div>
@@ -39,7 +39,7 @@
   {{/link-to}}
 </nav>
 
-<div {{bind-attr class=":app-main showingNavBar:slide-out"}}>
+<div class="app-main {{if showingNavBar "slide-out"}}">
   {{outlet}}
 </div>
 

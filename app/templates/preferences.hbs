@@ -16,7 +16,7 @@
       </label>
     </div>
 
-    <div {{bind-attr class=":row preferences.autoFold::hidden"}}>
+    <div class="row {{unless preferences.autoFold "hidden"}}">
       <h5>Folding Threshold</h5>
 
       {{#if topLevelOnly}}
