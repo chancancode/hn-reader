@@ -17,7 +17,7 @@ function cleanElement(el) {
   switch (el.tagName) {
     case 'A':
       /* jshint scripturl: true */
-      if (el.hasAttribute('src') && el.getAttribute('src').indexOf('javascript:')) {
+      if (el.hasAttribute('href') && el.getAttribute('href').indexOf('javascript:')) {
       /* jshint scripturl: false */
         removeElement(el);
         return;
